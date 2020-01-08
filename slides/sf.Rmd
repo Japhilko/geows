@@ -1,0 +1,16 @@
+---
+title: "The R-package `sf`"
+author: "Jan-Philipp Kolb"
+date: "22 Juni 2018"
+output: beamer_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## 
+
+- [Read simple features or layers from file or database](https://r-spatial.github.io/sf/reference/st_read.html)
+
+- [Vignette `sf` package](https://cran.r-project.org/web/packages/osmdata/vignettes/osm-sf-translation.html)

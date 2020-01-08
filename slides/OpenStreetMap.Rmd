@@ -1,0 +1,60 @@
+---
+title: "The R-package OpenStreetMap"
+author: "Jan-Philipp Kolb"
+date: "20 Juni 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## The R-package `OpenStreetMap`
+
+```{r,eval=F}
+install.packages("OpenStreetMap")
+```
+
+
+```{r}
+library("OpenStreetMap")
+map <- openmap(c(52.278174,4.729242),
+               c(52.431064,5.079162),
+               type="osm")
+plot(map)
+```
+
+## This is the result
+
+```{r,eval=F,echo=F}
+pdf("figure/Ams_osm.pdf")
+  plot(map)
+dev.off()
+```
+
+![](figure/Ams_osm.pdf)
+
+## Another map
+
+
+
+```{r}
+library(OpenStreetMap)
+map <- openmap(c(70,-179),
+	c(-70,179),zoom=1,type='bing')
+plot(map)
+```
+
+## The `openproj` function
+
+```{r}
+?OpenStreetMap::openproj
+```
+
+```{r}
+library(maps)
+map_longlat <- openproj(map)
+plot(map_longlat)
+map("world",col="red",add=TRUE)
+```
+

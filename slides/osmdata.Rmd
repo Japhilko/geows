@@ -1,0 +1,280 @@
+---
+title: "The package osmdata"
+author: "Jan-Philipp Kolb"
+date: "18 Juni 2018"
+output: beamer_presentation
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = T,cache=T,eval=T)
+```
+
+## [The `osmdata` package](https://github.com/ropensci/osmdata)
+
+![](figure/osmdatatitle.png)
+
+## The `osmdata` package
+
+```{r,eval=F}
+install.packages("osmdata")
+```
+
+
+```{r}
+library(osmdata)
+citation("osmdata")
+```
+
+## Getting data within a bounding box
+
+
+```{r opq,eval=F}
+q <- opq(bbox = c(51.1, 0.1, 51.2, 0.2))
+```
+
+
+
+## Getting data for place of interest
+
+```{r,eval=F}
+bb <- getbb('Greater London, U.K.')
+q <- opq(bbox = bb)
+```
+
+
+## The boundary for Mannheim
+
+```{r}
+bb_poly <- getbb(place_name = "Mannheim", 
+                 format_out = "polygon")
+plot(bb_poly)
+```
+
+
+## Amenity points in Mannheim Seckenheim
+
+- any named objects
+- you can find most of them here:
+
+https://wiki.openstreetmap.org/wiki/Map_Features
+
+
+```{r,eval=F}
+q <- opq (bbox = 'Mannheim, Seckenheim')
+q <- add_osm_feature (q, key = 'amenity')
+osmdata_xml (q, 'data/Mannheim_se.osm')
+```
+
+
+## See what`s behind
+
+```{r,eval=F}
+dat <- sf::st_read ('data/Mannheim_se.osm', 
+                    layer = 'points', 
+                    quiet = TRUE)
+```
+
+
+```{r,eval=F}
+nrow(dat)
+names(dat)
+```
+
+## Bar`s in Mannheim
+
+```{r,eval=F}
+?add_osm_feature
+```
+
+```{r,eval=F}
+q <- opq (bbox = 'Mannheim')
+q <- add_osm_feature (q, key ="amenity",value = 'bar') 
+osmdata_xml (q, 'data/Mannheim_bar.osm')
+```
+
+```{r}
+dat_bar <- sf::st_read ('../data/Mannheim_bar.osm', 
+                        layer = 'points', quiet = TRUE)
+```
+
+## Bus stations in Amsterdam
+
+```{r,eval=F}
+q <- opq (bbox = 'Amsterdam')
+q <- add_osm_feature (q, key ="amenity",
+                      value = 'bus_station') 
+osmdata_xml (q, 'data/Amsterdam_bus_station.osm')
+```
+
+```{r}
+dat_bus <- sf::st_read ('../data/Amsterdam_bus_station.osm', 
+                        layer = 'points', quiet = TRUE)
+nrow(dat_bus)
+```
+
+```{r,eval=F}
+?sf::st_read
+```
+
+
+## An alternative
+
+- [Main vignette `osmdata`](https://github.com/ropensci/osmdata/blob/master/vignettes/osmdata.Rmd)
+- [OpenStreetMap Data Structure](https://cran.r-project.org/web/packages/osmdata/vignettes/osm-sf-translation.html)
+
+```{r,eval=F}
+q <- opq (bbox = 'Amsterdam')
+q <- add_osm_feature (q, key ="public_transport",
+                      value = 'station') 
+osmdata_xml (q, '../data/Amsterdam_bus_pubtrans.osm')
+```
+
+```{r}
+dat_bus <- sf::st_read ('../data/Amsterdam_bus_pubtrans.osm', 
+                        layer = 'points', quiet = TRUE)
+nrow(dat_bus)
+```
+
+<!--
+als layer getestet: area, polygon
+-->
+
+## Further information about public transport
+
+### Stop area
+
+```{r,eval=F,echo=F}
+q <- add_osm_feature (q, key ="public_transport",
+                      value = 'stop_area') 
+osmdata_xml (q, '../data/Amsterdam_pubtrans_stoparea.osm')
+```
+
+
+```{r,eval=F,echo=F}
+q <- add_osm_feature (q, key ="railway",value = 'tram_stop') 
+osmdata_xml (q, '../data/Amsterdam_railway_tram_stop.osm')
+dat_points <- sf::st_read('../data/Amsterdam_railway_tram_stop.osm', 
+                          layer = 'points', quiet = TRUE)
+nrow(dat_points)
+```
+
+
+<!--
+dat_stoparea <- sf::st_read('data/Amsterdam_pubtrans_stoparea.osm', layer = 'points', quiet = TRUE)
+-->
+
+
+```{r  amsterdamtramstop,eval=F}
+dat3 <- opq(bbox = 'Amsterdam') %>%
+    add_osm_feature(key = 'railway', 
+                    value = 'tram_stop') %>%
+    osmdata_sf ()
+```
+
+```{r,eval=F,echo=F}
+save(dat3,file="../data/osf_Amsterdam_tramstop.RData")
+```
+
+```{r,echo=F}
+load("../data/osf_Amsterdam_tramstop.RData")
+```
+
+
+```{r,echo=F}
+library(knitr)
+# head(dat3$osm_points)
+# nrow(dat3$osm_points)
+# names(dat3$osm_points)
+```
+
+```{r}
+dat3$osm_points$geometry
+```
+
+## Plotting the result
+
+```{r,echo=F}
+library(ggmap)
+  # Amsterdam: 
+AMmap <- qmap("Rotterdam")
+# geocode failed with status OVER_QUERY_LIMIT, location = "Amsterdam"
+```
+
+```{r,echo=F,eval=F}
+load("D:/Daten/Daten/GeoDaten/osmplotr_amsterdam_hw.RData")
+```
+
+```{r,eval=F}
+# install.packages("osmplotr")
+library("osmplotr")
+bbox <- getbb("Amsterdam")
+dat_pa <- extract_osm_objects(key='highway', 
+                              value="primary",
+                              bbox=bbox)
+dat_sa <- extract_osm_objects(key='highway', 
+                              value="secondary",
+                              bbox=bbox)
+dat_ta <- extract_osm_objects(key='highway', 
+                              value="tertiary",
+                              bbox=bbox)
+```
+
+```{r,eval=F,echo=F}
+save(dat_pa,dat_sa,dat_ta,file="../data/highways_adam.RData")
+```
+
+```{r,eval=F,echo=F}
+load("../data/highways_adam.RData")
+```
+
+
+```{r,eval=F,echo=F}
+dat_ra <- extract_osm_objects(key='railway', 
+                              value="tram",
+                              bbox=bbox)
+```
+
+
+```{r,eval=F}
+map <- osm_basemap(bbox = bbox, bg = c("#F5F5DC"))
+map <- add_osm_objects(map, dat_pa, col = c("#00008B"))
+map <- add_osm_objects(map, dat_sa, col = "green")
+map <- add_osm_objects(map, dat_ta, col = "lightblue")
+map <- add_osm_objects(map, dat3$osm_points, col = c("red"))
+print_osm_map(map)
+```
+
+![](figure/tramhighway_amsterdam.pdf)
+
+## Get an overview of the available features
+
+```{r}
+features <- available_features()
+head(features,n=20)
+```
+
+
+
+## [Changing the API](https://github.com/ropensci/osmdata/issues/126)
+
+
+```{r}
+api_list <- c('http://overpass-api.de/api/interpreter',
+              'https://lz4.overpass-api.de/api/interpreter',
+              'https://z.overpass-api.de/api/interpreter',
+              'https://overpass.kumi.systems/api/interpreter')
+
+api_to_use <- sample(1:length(api_list), 1)
+
+set_overpass_url(api_list[api_to_use]) 
+```
+
+
+```{r,eval=F,echo=F}
+install.packages("colourpicker")
+```
+
+## Links
+
+- [Github repo of the `osmdata` package](https://github.com/ropensci/osmdata)
+- [Vignette for the package `osmdata`](https://cran.r-project.org/web/packages/osmdata/vignettes/osmdata.html) on [github](https://github.com/ropensci/osmdata/blob/master/vignettes/osmdata.Rmd)

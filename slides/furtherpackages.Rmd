@@ -1,0 +1,17 @@
+---
+title: "Further packages"
+author: "Jan-Philipp Kolb"
+date: "22 Juni 2018"
+output: beamer_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## [The R-package `mapsapi`](https://cran.rstudio.com/web/packages/mapsapi/vignettes/intro.html)
+
+```{r,eval=F}
+install.packages("mapsapi")
+```
+

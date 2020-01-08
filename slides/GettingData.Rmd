@@ -1,0 +1,16 @@
+---
+title: "Getting data"
+author: "Jan-Philipp Kolb"
+date: "22 Juni 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Links
+
+- [Getting OSM Data](http://learnosm.org/en/osm-data/getting-data/)
+
+- [Open Street Map: loading, analysing and visualising free maps with R and QGIS](https://rstudio-pubs-static.s3.amazonaws.com/12696_9fd49fb7055c40ff9b3a3ea740e13ab3.html)

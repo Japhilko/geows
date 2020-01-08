@@ -1,0 +1,34 @@
+---
+title: "mapview package"
+author: "Jan-Philipp Kolb"
+date: "13 Juni 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 
+
+Intro to [`mapview` package](https://r-spatial.github.io/mapview/)
+
+```{r,eval=F}
+install.packages("mapview")
+```
+
+```{r}
+require("mapview")
+```
+
+
+## [Example breweries](https://r-spatial.github.io/mapview/articles/articles/mapview_01-basics.html)
+
+```{r}
+mapview(breweries)
+```
+
+
+## Links
+
+- [Problems with loading `mapview`](https://github.com/r-spatial/mapview/issues/63)

@@ -1,0 +1,82 @@
+---
+title: "The mapmisc package"
+author: "Jan-Philipp Kolb"
+date: "13 Juni 2018"
+output: beamer_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,cache=T)
+```
+
+## Example for the Netherlands
+
+
+```{r}
+library(mapmisc)
+```
+
+```{r}
+data('netherlands')
+```
+
+- [vignette of the `mapmisc` package](https://cran.r-project.org/web/packages/mapmisc/vignettes/mapmisc.pdf)
+
+
+## A first map with `mapmisc`
+
+```{r}
+library('sp')
+data('meuse')
+map.new(meuse)
+plot(nldTiles, add=TRUE)
+points(meuse,col="red", cex=0.3)
+```
+
+
+## A closer look
+
+```{r}
+nldTiles
+```
+
+
+```{r}
+plot(nldTiles)
+```
+
+
+## Hello Europe
+
+```{r europemap}
+world <- openmap(
+extent(-10,30,40,60),
+path="osm-no-labels")
+```
+
+## A map for Mannheim
+
+```{r geoc_ma}
+library(ggmap)
+geoc_ma <- geocode("Mannheim")
+geoc_ma
+```
+
+
+## Eine Karte für die Region Mannheim
+
+```{r regionma}
+Mannheim <- openmap(
+extent(8.4,8.6,49,50),
+path="osm-no-labels")
+plot(Mannheim)
+```
+
+
+
+
+
+
+<!--
+
+-->

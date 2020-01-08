@@ -1,0 +1,49 @@
+---
+title: "The R-package gosmd"
+author: "Jan-Philipp Kolb"
+date: "19 Juni 2018"
+output: beamer_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## The R-package `gosmd`
+
+
+```{r}
+library("gosmd")
+bs_am <- get_osm_nodes(object="public_transport=station","Amsterdam")
+```
+
+```{r,eval=F,echo=F}
+# setwd("D:/gitlab/rspatial/")
+save(bs_am,file="data/gosmd_bs_am.RData")
+```
+
+```{r}
+info <- extract_osm_nodes(OSM.Data=bs_am,value="bus_station")
+nrow(info)
+```
+
+## An alternative, to get the bus stations
+
+```{r}
+bs_am <- get_osm_nodes(object="amenity=bus_station","Amsterdam")
+info <- extract_osm_nodes(OSM.Data=bs_am,value="bus_station")
+nrow(info)
+```
+
+## Tram stops in Amsterdam 
+
+```{r}
+points_am <- get_osm_nodes(object="railway=tram_stop","Amsterdam")
+info <- extract_osm_nodes(OSM.Data=points_am,value="tram_stop")
+nrow(info)
+```
+
+```{r,echo=F,eval=F}
+save(info,file="data/Amsterdam_railway_tram_stop")
+```
+

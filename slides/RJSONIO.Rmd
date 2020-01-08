@@ -1,0 +1,26 @@
+---
+title: "The package RJSONIO"
+author: "Jan-Philipp Kolb"
+date: "16 Juni 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## [Using R to download and parse JSON](http://zevross.com/blog/2015/02/12/using-r-to-download-and-parse-json-an-example-using-data-from-an-open-data-portal/)
+
+```{r}
+library(RJSONIO)
+
+dat <- fromJSON("https://data.ny.gov/api/views/9a8c-vfzj/")
+```
+
+```{r}
+d ata[["data"]]
+```
+
+## Links
+
+- [Using R to download and parse JSON](http://zevross.com/blog/2015/02/12/using-r-to-download-and-parse-json-an-example-using-data-from-an-open-data-portal/)
