@@ -22,7 +22,7 @@ src <- osmsource_api(url = "http://api.openstreetmap.org/api/0.6/")
 ```
 
 
-```{r mannheimnode}
+```{r mannheimnode,eval=F}
 mannheim <- get_osm(node(240060919))
 ```
 

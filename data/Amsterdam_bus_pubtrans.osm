@@ -1,0 +1,1141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.55.3 9da5e7ae">
+  <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+  <meta osm_base="2018-06-18T20:19:02Z"/>
+  <node id="46122858" lat="52.3095230" lon="4.7621813">
+    <tag k="addr:country" v="NL"/>
+    <tag k="name" v="Schiphol Airport"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="railway:ref" v="Shl"/>
+    <tag k="toilets:wheelchair" v="yes"/>
+    <tag k="uic_ref" v="8400561"/>
+    <tag k="website" v="http://www.ns.nl/stationsinformatie/schiphol.html"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="wikidata" v="Q801410"/>
+    <tag k="wikipedia" v="nl:Station Schiphol Airport"/>
+    <tag k="zone" v="5733"/>
+  </node>
+  <node id="46199966" lat="52.3302613" lon="4.9560598">
+    <tag k="addr:country" v="NL"/>
+    <tag k="name" v="Diemen Zuid"/>
+    <tag k="network" v="Amsterdam Metro, NS"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="railway:ref" v="Dmnz"/>
+    <tag k="source" v="AND"/>
+    <tag k="station" v="subway"/>
+    <tag k="zone" v="5715"/>
+  </node>
+  <node id="250222266" lat="52.3384028" lon="4.8575769">
+    <tag k="name" v="Amstelveenseweg"/>
+    <tag k="network" v="Amsterdam Metro"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="station" v="subway"/>
+    <tag k="subway" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="wikidata" v="Q1846380"/>
+    <tag k="wikipedia" v="nl:Amstelveenseweg (metrostation)"/>
+    <tag k="zone" v="5714"/>
+  </node>
+  <node id="250224485" lat="52.3726582" lon="4.8352937">
+    <tag k="name" v="Jan van Galenstraat"/>
+    <tag k="network" v="Amsterdam Metro"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="station" v="subway"/>
+    <tag k="subway" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="wikidata" v="Q3273303"/>
+    <tag k="zone" v="5713"/>
+  </node>
+  <node id="250233810" lat="52.2979886" lon="4.9601712">
+    <tag k="addr:country" v="NL"/>
+    <tag k="name" v="Holendrecht"/>
+    <tag k="network" v="Amsterdam Metro, NS"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="railway:ref" v="Ashd"/>
+    <tag k="start_date" v="12-12-2008"/>
+    <tag k="station" v="subway"/>
+    <tag k="subway" v="yes"/>
+    <tag k="train" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="wikidata" v="Q800381"/>
+    <tag k="zone" v="5725"/>
+  </node>
+  <node id="280555108" lat="52.3022975" lon="4.8573326"/>
+  <node id="280555382" lat="52.3021362" lon="4.8579982"/>
+  <node id="289445435" lat="52.3294483" lon="4.9305189">
+    <tag k="name" v="Van der Madeweg"/>
+    <tag k="network" v="Amsterdam Metro"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="station" v="subway"/>
+    <tag k="subway" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="wikidata" v="Q7913863"/>
+    <tag k="wikipedia" v="nl:Van der Madeweg (metrostation)"/>
+    <tag k="zone" v="5715"/>
+  </node>
+  <node id="362617479" lat="52.3797411" lon="4.9006943">
+    <tag k="amenity" v="bus_station"/>
+    <tag k="bus" v="yes"/>
+    <tag k="name" v="CS IJzijde"/>
+    <tag k="name:he" v="תחנה מרכזית"/>
+    <tag k="name:nl" v="CS IJzijde"/>
+    <tag k="operator" v="GVB; Connexxion; EBS"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="zone" v="5700"/>
+  </node>
+  <node id="427565080" lat="52.3317318" lon="4.9176266">
+    <tag k="layer" v="1"/>
+    <tag k="name" v="Overamstel"/>
+    <tag k="network" v="Amsterdam Metro"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="station" v="subway"/>
+    <tag k="subway" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="wikidata" v="Q3371836"/>
+    <tag k="wikipedia" v="nl:Overamstel (metrostation)"/>
+    <tag k="zone" v="5715"/>
+  </node>
+  <node id="605447455" lat="52.3028716" lon="4.8577063"/>
+  <node id="2237721918" lat="52.3796134" lon="4.8382223">
+    <tag k="name" v="De Vlugtlaan"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="station" v="subway"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="wikidata" v="Q2117320"/>
+  </node>
+  <node id="2724002705" lat="52.3699695" lon="4.8927250"/>
+  <node id="2724002727" lat="52.3700049" lon="4.8923003"/>
+  <node id="2724002774" lat="52.3701176" lon="4.8927543"/>
+  <node id="2724002843" lat="52.3703135" lon="4.8923689"/>
+  <node id="2724002849" lat="52.3703290" lon="4.8928081"/>
+  <node id="2724002903" lat="52.3703890" lon="4.8928495"/>
+  <node id="2724002928" lat="52.3704196" lon="4.8924667"/>
+  <node id="2724003266" lat="52.3706376" lon="4.8929049"/>
+  <node id="2724003394" lat="52.3706862" lon="4.8928876"/>
+  <node id="2724003678" lat="52.3709938" lon="4.8929524"/>
+  <node id="2724003682" lat="52.3710056" lon="4.8925970"/>
+  <node id="2724003695" lat="52.3710605" lon="4.8929725"/>
+  <node id="2724003791" lat="52.3711524" lon="4.8929861"/>
+  <node id="2724003803" lat="52.3711734" lon="4.8926132"/>
+  <node id="2725756618" lat="52.3700991" lon="4.9005431"/>
+  <node id="2725756704" lat="52.3701214" lon="4.9002718"/>
+  <node id="2725756800" lat="52.3701952" lon="4.9007774"/>
+  <node id="2725756809" lat="52.3702006" lon="4.9008857"/>
+  <node id="2725756811" lat="52.3702010" lon="4.9007148"/>
+  <node id="2725756812" lat="52.3702013" lon="4.9002922"/>
+  <node id="2725756819" lat="52.3702041" lon="4.9007762"/>
+  <node id="2725756840" lat="52.3702258" lon="4.9005782"/>
+  <node id="2725756852" lat="52.3702387" lon="4.9001095"/>
+  <node id="2725757064" lat="52.3703767" lon="4.9008610"/>
+  <node id="2725757067" lat="52.3703770" lon="4.9008668"/>
+  <node id="2725757236" lat="52.3704300" lon="4.9002140"/>
+  <node id="2725757246" lat="52.3704331" lon="4.9002605"/>
+  <node id="2725757259" lat="52.3704375" lon="4.9002388"/>
+  <node id="2725757338" lat="52.3704598" lon="4.9006660"/>
+  <node id="2725757379" lat="52.3704692" lon="4.9008538"/>
+  <node id="2725757509" lat="52.3705222" lon="4.9004052"/>
+  <node id="2725757605" lat="52.3705417" lon="4.9007055"/>
+  <node id="2725757626" lat="52.3705458" lon="4.9003221"/>
+  <node id="2725757950" lat="52.3705851" lon="4.9004355"/>
+  <node id="2725760505" lat="52.3718720" lon="4.9014326"/>
+  <node id="2725760534" lat="52.3719286" lon="4.9011554"/>
+  <node id="2725760597" lat="52.3720758" lon="4.9009903"/>
+  <node id="2725760598" lat="52.3720776" lon="4.9016537"/>
+  <node id="2725760601" lat="52.3720802" lon="4.9010379"/>
+  <node id="2725760603" lat="52.3720808" lon="4.9010393"/>
+  <node id="2725760605" lat="52.3720810" lon="4.9010391"/>
+  <node id="2725760608" lat="52.3720840" lon="4.9018059"/>
+  <node id="2725760610" lat="52.3720865" lon="4.9008910"/>
+  <node id="2725760611" lat="52.3720894" lon="4.9009135"/>
+  <node id="2725760612" lat="52.3720899" lon="4.9008307"/>
+  <node id="2725760613" lat="52.3720901" lon="4.9011703"/>
+  <node id="2725760615" lat="52.3720907" lon="4.9010263"/>
+  <node id="2725760618" lat="52.3720925" lon="4.9009124"/>
+  <node id="2725760621" lat="52.3720959" lon="4.9015850"/>
+  <node id="2725760623" lat="52.3720979" lon="4.9010206"/>
+  <node id="2725760626" lat="52.3720991" lon="4.9009644"/>
+  <node id="2725760637" lat="52.3721045" lon="4.9012826"/>
+  <node id="2725760642" lat="52.3721061" lon="4.9010397"/>
+  <node id="2725760643" lat="52.3721104" lon="4.9011634"/>
+  <node id="2725760644" lat="52.3721117" lon="4.9011174"/>
+  <node id="2725760645" lat="52.3721131" lon="4.9011158"/>
+  <node id="2725760646" lat="52.3721131" lon="4.9017096"/>
+  <node id="2725760647" lat="52.3721133" lon="4.9011253"/>
+  <node id="2725760648" lat="52.3721144" lon="4.9011241"/>
+  <node id="2725760650" lat="52.3721161" lon="4.9011230"/>
+  <node id="2725760651" lat="52.3721166" lon="4.9011512"/>
+  <node id="2725760652" lat="52.3721176" lon="4.9018336"/>
+  <node id="2725760653" lat="52.3721186" lon="4.9010257"/>
+  <node id="2725760669" lat="52.3721406" lon="4.9010781"/>
+  <node id="2725760670" lat="52.3721464" lon="4.9008121"/>
+  <node id="2725760676" lat="52.3721598" lon="4.9009835"/>
+  <node id="2725760678" lat="52.3721615" lon="4.9009965"/>
+  <node id="2725760679" lat="52.3721680" lon="4.9009807"/>
+  <node id="2725760691" lat="52.3721860" lon="4.9017538"/>
+  <node id="2725760692" lat="52.3721870" lon="4.9010540"/>
+  <node id="2725760695" lat="52.3721944" lon="4.9011117"/>
+  <node id="2725760697" lat="52.3721959" lon="4.9011165"/>
+  <node id="2725760700" lat="52.3721978" lon="4.9011316"/>
+  <node id="2725760734" lat="52.3722673" lon="4.9011779"/>
+  <node id="2725760737" lat="52.3722694" lon="4.9018230"/>
+  <node id="2725760740" lat="52.3722720" lon="4.9018145"/>
+  <node id="2725760785" lat="52.3723297" lon="4.9018624"/>
+  <node id="2725760795" lat="52.3723493" lon="4.9013592"/>
+  <node id="2725760802" lat="52.3723563" lon="4.9014966"/>
+  <node id="2725760810" lat="52.3723639" lon="4.9017958"/>
+  <node id="2725760880" lat="52.3724433" lon="4.9018616"/>
+  <node id="2725760940" lat="52.3725106" lon="4.9016528"/>
+  <node id="2741068312" lat="52.3670121" lon="4.9024932"/>
+  <node id="2741068324" lat="52.3670201" lon="4.9028383"/>
+  <node id="2741068383" lat="52.3670512" lon="4.9024132"/>
+  <node id="2741068392" lat="52.3670755" lon="4.9024451"/>
+  <node id="2741068396" lat="52.3670889" lon="4.9024171"/>
+  <node id="2741068405" lat="52.3671132" lon="4.9024490"/>
+  <node id="2741068406" lat="52.3671136" lon="4.9026250"/>
+  <node id="2741068410" lat="52.3671224" lon="4.9024296"/>
+  <node id="2741068412" lat="52.3671244" lon="4.9026022"/>
+  <node id="2741068425" lat="52.3671366" lon="4.9030094"/>
+  <node id="2741068427" lat="52.3671394" lon="4.9026208"/>
+  <node id="2741068464" lat="52.3671935" lon="4.9025221"/>
+  <node id="2741068528" lat="52.3672527" lon="4.9027952"/>
+  <node id="2741068535" lat="52.3672749" lon="4.9020476"/>
+  <node id="2741068546" lat="52.3673230" lon="4.9019305"/>
+  <node id="2741068574" lat="52.3673745" lon="4.9019869"/>
+  <node id="2741068580" lat="52.3673867" lon="4.9021700"/>
+  <node id="2741068589" lat="52.3674007" lon="4.9019232"/>
+  <node id="2741068607" lat="52.3674533" lon="4.9020408"/>
+  <node id="2741068626" lat="52.3674765" lon="4.9020061"/>
+  <node id="2741068649" lat="52.3675111" lon="4.9023227"/>
+  <node id="2741068651" lat="52.3675222" lon="4.9023703"/>
+  <node id="2741068654" lat="52.3675322" lon="4.9023460"/>
+  <node id="2741068657" lat="52.3675858" lon="4.9021860"/>
+  <node id="2741068658" lat="52.3675992" lon="4.9022590"/>
+  <node id="2741068660" lat="52.3676138" lon="4.9021348"/>
+  <node id="2741068664" lat="52.3676345" lon="4.9021611"/>
+  <node id="2741068665" lat="52.3676488" lon="4.9023134"/>
+  <node id="2741068671" lat="52.3676902" lon="4.9023589"/>
+  <node id="2741068673" lat="52.3677123" lon="4.9025795"/>
+  <node id="2741068678" lat="52.3677546" lon="4.9024296"/>
+  <node id="2741068680" lat="52.3677680" lon="4.9024444"/>
+  <node id="2742813460" lat="52.3606746" lon="4.9081688"/>
+  <node id="2742813471" lat="52.3606925" lon="4.9079932"/>
+  <node id="2742813501" lat="52.3607262" lon="4.9081364"/>
+  <node id="2742813506" lat="52.3607276" lon="4.9084057"/>
+  <node id="2742813508" lat="52.3607282" lon="4.9079215"/>
+  <node id="2742813509" lat="52.3607382" lon="4.9079659"/>
+  <node id="2742813517" lat="52.3607600" lon="4.9079027"/>
+  <node id="2742813526" lat="52.3607820" lon="4.9083716"/>
+  <node id="2742813537" lat="52.3608035" lon="4.9080878"/>
+  <node id="2742813538" lat="52.3608037" lon="4.9080548"/>
+  <node id="2742813545" lat="52.3608106" lon="4.9080833"/>
+  <node id="2742813574" lat="52.3608419" lon="4.9086250"/>
+  <node id="2742813602" lat="52.3608596" lon="4.9083229"/>
+  <node id="2742813608" lat="52.3608643" lon="4.9083200"/>
+  <node id="2742813620" lat="52.3608709" lon="4.9083464"/>
+  <node id="2742813672" lat="52.3609173" lon="4.9085664"/>
+  <node id="2742813673" lat="52.3609175" lon="4.9085773"/>
+  <node id="2742813678" lat="52.3609195" lon="4.9085858"/>
+  <node id="2742813681" lat="52.3609214" lon="4.9085827"/>
+  <node id="2742813727" lat="52.3609730" lon="4.9083002"/>
+  <node id="2742813765" lat="52.3610093" lon="4.9084560"/>
+  <node id="2742813775" lat="52.3610224" lon="4.9084481"/>
+  <node id="2742813777" lat="52.3610244" lon="4.9085228"/>
+  <node id="2742813779" lat="52.3610259" lon="4.9085272"/>
+  <node id="2742813782" lat="52.3610287" lon="4.9085392"/>
+  <node id="2742813791" lat="52.3610366" lon="4.9082394"/>
+  <node id="2742813792" lat="52.3610375" lon="4.9085149"/>
+  <node id="2742813796" lat="52.3610408" lon="4.9082591"/>
+  <node id="2742813814" lat="52.3610596" lon="4.9077808"/>
+  <node id="2742813843" lat="52.3610817" lon="4.9078784"/>
+  <node id="2742813885" lat="52.3610956" lon="4.9082013"/>
+  <node id="2742813911" lat="52.3611112" lon="4.9075052"/>
+  <node id="2742813925" lat="52.3611222" lon="4.9083126"/>
+  <node id="2742813933" lat="52.3611279" lon="4.9075856"/>
+  <node id="2742813936" lat="52.3611292" lon="4.9075894"/>
+  <node id="2742813941" lat="52.3611309" lon="4.9075929"/>
+  <node id="2742813945" lat="52.3611330" lon="4.9075957"/>
+  <node id="2742813950" lat="52.3611354" lon="4.9075978"/>
+  <node id="2742813954" lat="52.3611373" lon="4.9083697"/>
+  <node id="2742813956" lat="52.3611380" lon="4.9075991"/>
+  <node id="2742813957" lat="52.3611383" lon="4.9074903"/>
+  <node id="2742813961" lat="52.3611407" lon="4.9075996"/>
+  <node id="2742813965" lat="52.3611434" lon="4.9075993"/>
+  <node id="2742813969" lat="52.3611454" lon="4.9075985"/>
+  <node id="2742813975" lat="52.3611490" lon="4.9075421"/>
+  <node id="2742813976" lat="52.3611501" lon="4.9081662"/>
+  <node id="2742813977" lat="52.3611505" lon="4.9075461"/>
+  <node id="2742813981" lat="52.3611520" lon="4.9075480"/>
+  <node id="2742813983" lat="52.3611546" lon="4.9075494"/>
+  <node id="2742813989" lat="52.3611565" lon="4.9075493"/>
+  <node id="2742813991" lat="52.3611590" lon="4.9084607"/>
+  <node id="2742814005" lat="52.3611640" lon="4.9083550"/>
+  <node id="2742814073" lat="52.3611749" lon="4.9082664"/>
+  <node id="2742814079" lat="52.3611764" lon="4.9083615"/>
+  <node id="2742814128" lat="52.3611856" lon="4.9083969"/>
+  <node id="2742814184" lat="52.3611991" lon="4.9075687"/>
+  <node id="2742814202" lat="52.3612014" lon="4.9075685"/>
+  <node id="2742814210" lat="52.3612024" lon="4.9082700"/>
+  <node id="2742814222" lat="52.3612037" lon="4.9075690"/>
+  <node id="2742814232" lat="52.3612058" lon="4.9075220"/>
+  <node id="2742814235" lat="52.3612058" lon="4.9075704"/>
+  <node id="2742814241" lat="52.3612077" lon="4.9075725"/>
+  <node id="2742814244" lat="52.3612096" lon="4.9075760"/>
+  <node id="2742814247" lat="52.3612103" lon="4.9075792"/>
+  <node id="2742814253" lat="52.3612105" lon="4.9075945"/>
+  <node id="2742814262" lat="52.3612113" lon="4.9076046"/>
+  <node id="2742814268" lat="52.3612125" lon="4.9075232"/>
+  <node id="2742814290" lat="52.3612171" lon="4.9075249"/>
+  <node id="2742814308" lat="52.3612217" lon="4.9075275"/>
+  <node id="2742814310" lat="52.3612255" lon="4.9083757"/>
+  <node id="2742814315" lat="52.3612280" lon="4.9076742"/>
+  <node id="2742814321" lat="52.3612296" lon="4.9075335"/>
+  <node id="2742814324" lat="52.3612337" lon="4.9075356"/>
+  <node id="2742814332" lat="52.3612380" lon="4.9075368"/>
+  <node id="2742814338" lat="52.3612445" lon="4.9075368"/>
+  <node id="2742814540" lat="52.3613436" lon="4.9073455"/>
+  <node id="2742814629" lat="52.3613633" lon="4.9074706"/>
+  <node id="2742814640" lat="52.3613655" lon="4.9074683"/>
+  <node id="2742814993" lat="52.3613669" lon="4.9074649"/>
+  <node id="2742814997" lat="52.3613671" lon="4.9074579"/>
+  <node id="2742815001" lat="52.3613674" lon="4.9074608"/>
+  <node id="2742815082" lat="52.3613829" lon="4.9073239"/>
+  <node id="2742815177" lat="52.3613990" lon="4.9074034"/>
+  <node id="2742815411" lat="52.3614734" lon="4.9073618"/>
+  <node id="2742815421" lat="52.3614751" lon="4.9073702"/>
+  <node id="2742815426" lat="52.3614763" lon="4.9073741"/>
+  <node id="2742815434" lat="52.3614777" lon="4.9073768"/>
+  <node id="2742815439" lat="52.3614786" lon="4.9073779"/>
+  <node id="2742815443" lat="52.3614795" lon="4.9073789"/>
+  <node id="2742815455" lat="52.3614814" lon="4.9073802"/>
+  <node id="2742815479" lat="52.3614835" lon="4.9073808"/>
+  <node id="2742815488" lat="52.3614857" lon="4.9073806"/>
+  <node id="2742815531" lat="52.3614972" lon="4.9073744"/>
+  <node id="2742815564" lat="52.3615047" lon="4.9074116"/>
+  <node id="2742815583" lat="52.3615067" lon="4.9074515"/>
+  <node id="2742815587" lat="52.3615067" lon="4.9074562"/>
+  <node id="2742815591" lat="52.3615074" lon="4.9074485"/>
+  <node id="2742815610" lat="52.3615093" lon="4.9074450"/>
+  <node id="2742815618" lat="52.3615111" lon="4.9074435"/>
+  <node id="2742815627" lat="52.3615139" lon="4.9080504"/>
+  <node id="2742815661" lat="52.3615256" lon="4.9080521"/>
+  <node id="2742815680" lat="52.3615374" lon="4.9075869"/>
+  <node id="2742815748" lat="52.3615642" lon="4.9080221"/>
+  <node id="2742815750" lat="52.3615657" lon="4.9080296"/>
+  <node id="2742815816" lat="52.3615818" lon="4.9080120"/>
+  <node id="2742815845" lat="52.3615879" lon="4.9080425"/>
+  <node id="2742816181" lat="52.3616002" lon="4.9078815"/>
+  <node id="2742816225" lat="52.3616094" lon="4.9080289"/>
+  <node id="2742816228" lat="52.3616102" lon="4.9080330"/>
+  <node id="2742816312" lat="52.3616257" lon="4.9075310"/>
+  <node id="2742816349" lat="52.3616322" lon="4.9080236"/>
+  <node id="2742816574" lat="52.3616949" lon="4.9078216"/>
+  <node id="2742829575" lat="52.3660266" lon="4.9047778"/>
+  <node id="2742829582" lat="52.3660310" lon="4.9048020"/>
+  <node id="2742829597" lat="52.3660443" lon="4.9047088"/>
+  <node id="2742829622" lat="52.3660551" lon="4.9047634"/>
+  <node id="2742829635" lat="52.3660594" lon="4.9047870"/>
+  <node id="2742829667" lat="52.3660944" lon="4.9046259"/>
+  <node id="2742829671" lat="52.3660991" lon="4.9049930"/>
+  <node id="2742829686" lat="52.3661302" lon="4.9046836"/>
+  <node id="2742829709" lat="52.3661669" lon="4.9046222"/>
+  <node id="2742829713" lat="52.3661695" lon="4.9046366"/>
+  <node id="2742829715" lat="52.3661717" lon="4.9049552"/>
+  <node id="2742829722" lat="52.3661818" lon="4.9047039"/>
+  <node id="2742829732" lat="52.3661952" lon="4.9046840"/>
+  <node id="2742829740" lat="52.3662030" lon="4.9046190"/>
+  <node id="2742829747" lat="52.3662108" lon="4.9051586"/>
+  <node id="2742829749" lat="52.3662138" lon="4.9046747"/>
+  <node id="2742829772" lat="52.3662606" lon="4.9051326"/>
+  <node id="2742829775" lat="52.3662637" lon="4.9051494"/>
+  <node id="2742829776" lat="52.3662671" lon="4.9051468"/>
+  <node id="2742829777" lat="52.3662675" lon="4.9051465"/>
+  <node id="2807417608" lat="52.3026290" lon="4.8583188"/>
+  <node id="2807417901" lat="52.3027971" lon="4.8582892"/>
+  <node id="2807417908" lat="52.3028121" lon="4.8582282"/>
+  <node id="2807417909" lat="52.3028139" lon="4.8582294"/>
+  <node id="2807417911" lat="52.3028199" lon="4.8581900"/>
+  <node id="2807417912" lat="52.3028200" lon="4.8581872"/>
+  <node id="2807417913" lat="52.3028202" lon="4.8581916"/>
+  <node id="2807417915" lat="52.3028207" lon="4.8581851"/>
+  <node id="2807417916" lat="52.3028211" lon="4.8581937"/>
+  <node id="2807417917" lat="52.3028214" lon="4.8581839"/>
+  <node id="2807417918" lat="52.3028223" lon="4.8581831"/>
+  <node id="2807417919" lat="52.3028223" lon="4.8581950"/>
+  <node id="2807417920" lat="52.3028235" lon="4.8581826"/>
+  <node id="2807417922" lat="52.3028252" lon="4.8581830"/>
+  <node id="2807417923" lat="52.3028267" lon="4.8583135"/>
+  <node id="2807417924" lat="52.3028267" lon="4.8583152"/>
+  <node id="2807417925" lat="52.3028268" lon="4.8583175"/>
+  <node id="2807417927" lat="52.3028273" lon="4.8583086"/>
+  <node id="2807417928" lat="52.3028274" lon="4.8583215"/>
+  <node id="2807417930" lat="52.3028285" lon="4.8583254"/>
+  <node id="2807417933" lat="52.3028310" lon="4.8583303"/>
+  <node id="2807417938" lat="52.3028319" lon="4.8584505"/>
+  <node id="2807417940" lat="52.3028329" lon="4.8583325"/>
+  <node id="2807417941" lat="52.3028338" lon="4.8583333"/>
+  <node id="2807417944" lat="52.3028360" lon="4.8583347"/>
+  <node id="2807417946" lat="52.3028375" lon="4.8583352"/>
+  <node id="2807417948" lat="52.3028385" lon="4.8583354"/>
+  <node id="2807417949" lat="52.3028398" lon="4.8583355"/>
+  <node id="2807417953" lat="52.3028422" lon="4.8583350"/>
+  <node id="2807417954" lat="52.3028436" lon="4.8583344"/>
+  <node id="2807417956" lat="52.3028459" lon="4.8583327"/>
+  <node id="2807417957" lat="52.3028483" lon="4.8583298"/>
+  <node id="2807417958" lat="52.3028497" lon="4.8583272"/>
+  <node id="2807417960" lat="52.3028509" lon="4.8583240"/>
+  <node id="2807417962" lat="52.3028571" lon="4.8580428"/>
+  <node id="2807417963" lat="52.3028585" lon="4.8580383"/>
+  <node id="2807417965" lat="52.3028590" lon="4.8580386"/>
+  <node id="2807417966" lat="52.3028592" lon="4.8580442"/>
+  <node id="2807417973" lat="52.3028726" lon="4.8579694"/>
+  <node id="2807417974" lat="52.3028729" lon="4.8579720"/>
+  <node id="2807417975" lat="52.3028730" lon="4.8579671"/>
+  <node id="2807417976" lat="52.3028733" lon="4.8579661"/>
+  <node id="2807417978" lat="52.3028737" lon="4.8582274"/>
+  <node id="2807417979" lat="52.3028745" lon="4.8579643"/>
+  <node id="2807417980" lat="52.3028745" lon="4.8579753"/>
+  <node id="2807417981" lat="52.3028759" lon="4.8579634"/>
+  <node id="2807417983" lat="52.3028774" lon="4.8579635"/>
+  <node id="2807417990" lat="52.3028871" lon="4.8582361"/>
+  <node id="2807418317" lat="52.3029258" lon="4.8577504"/>
+  <node id="2807418318" lat="52.3029258" lon="4.8577518"/>
+  <node id="2807418319" lat="52.3029261" lon="4.8577485"/>
+  <node id="2807418320" lat="52.3029261" lon="4.8577536"/>
+  <node id="2807418321" lat="52.3029267" lon="4.8577552"/>
+  <node id="2807418322" lat="52.3029268" lon="4.8577468"/>
+  <node id="2807418323" lat="52.3029279" lon="4.8577568"/>
+  <node id="2807418324" lat="52.3029280" lon="4.8577453"/>
+  <node id="2807418325" lat="52.3029295" lon="4.8577446"/>
+  <node id="2807418326" lat="52.3029309" lon="4.8577449"/>
+  <node id="3175421565" lat="52.3776374" lon="4.9005262"/>
+  <node id="3175727634" lat="52.3780642" lon="4.9005407"/>
+  <node id="3175727635" lat="52.3784265" lon="4.8995541"/>
+  <node id="3175727636" lat="52.3779137" lon="4.8994251"/>
+  <node id="3175768535" lat="52.3782655" lon="4.8995438"/>
+  <node id="3175768536" lat="52.3779380" lon="4.8993694"/>
+  <node id="3175768547" lat="52.3783433" lon="4.8994660"/>
+  <node id="3175768548" lat="52.3780627" lon="4.8995036"/>
+  <node id="3175768553" lat="52.3779842" lon="4.9004575"/>
+  <node id="3175768554" lat="52.3779922" lon="4.9003192"/>
+  <node id="3175768555" lat="52.3778033" lon="4.8997001"/>
+  <node id="3189158208" lat="52.3779546" lon="4.9001555"/>
+  <node id="3189158209" lat="52.3776880" lon="4.9005869"/>
+  <node id="3189158210" lat="52.3778183" lon="4.8998028"/>
+  <node id="3189158211" lat="52.3775875" lon="4.9004655"/>
+  <node id="3920338489" lat="52.3025723" lon="4.8582819"/>
+  <node id="3938547498" lat="52.3890317" lon="4.8381062">
+    <tag k="name" v="Amsterdam Sloterdijk"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="railway:ref" v="Ass"/>
+  </node>
+  <node id="4005961975" lat="52.3122513" lon="4.9470196">
+    <tag k="addr:country" v="NL"/>
+    <tag k="name" v="Amsterdam Bijlmer ArenA"/>
+    <tag k="network" v="Amsterdam Metro"/>
+    <tag k="old_name" v="Amsterdam Bijlmer"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="railway:ref" v="Asb"/>
+    <tag k="source" v="AND"/>
+    <tag k="station" v="subway"/>
+    <tag k="subway" v="station"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="wikidata" v="Q50723"/>
+    <tag k="zone" v="5725"/>
+  </node>
+  <node id="4040491812" lat="52.3464656" lon="4.9175567">
+    <tag k="name" v="Amsterdam Amstel"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="railway:ref" v="Asa"/>
+    <tag k="subway" v="yes"/>
+    <tag k="train" v="yes"/>
+  </node>
+  <node id="4041640589" lat="52.2963380" lon="4.9890129">
+    <tag k="name" v="Gein"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="station" v="subway"/>
+    <tag k="wikidata" v="Q2331863"/>
+  </node>
+  <node id="4041640590" lat="52.2956478" lon="4.9744218">
+    <tag k="name" v="Reigersbos"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="station" v="subway"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="wikidata" v="Q1941199"/>
+  </node>
+  <node id="4041642874" lat="52.3113175" lon="4.9843223">
+    <tag k="amenity" v="bus_station"/>
+    <tag k="name" v="Gaasperplas"/>
+    <tag k="network" v="Amsterdam Metro"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="station" v="subway"/>
+    <tag k="wikidata" v="Q2187835"/>
+    <tag k="zone" v="5725"/>
+  </node>
+  <node id="4041662264" lat="52.3230792" lon="4.9735502">
+    <tag k="name" v="Ganzenhoef"/>
+    <tag k="network" v="Amsterdam Metro"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="station" v="subway"/>
+    <tag k="subway" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="wikidata" v="Q2534934"/>
+    <tag k="zone" v="5725"/>
+  </node>
+  <node id="4041662265" lat="52.3170313" lon="4.9791233">
+    <tag k="name" v="Kraaiennest"/>
+    <tag k="network" v="Amsterdam Metro"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="station" v="subway"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="wikidata" v="Q3241211"/>
+    <tag k="zone" v="5725"/>
+  </node>
+  <node id="4041664287" lat="52.3267669" lon="4.9463398">
+    <tag k="name" v="Venserpolder"/>
+    <tag k="network" v="Amsterdam Metro"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="station" v="subway"/>
+    <tag k="wikidata" v="Q3184721"/>
+    <tag k="zone" v="5715"/>
+  </node>
+  <node id="4041666291" lat="52.3235282" lon="4.9364854">
+    <tag k="name" v="Duivendrecht"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="railway:ref" v="Dvd"/>
+    <tag k="subway" v="yes"/>
+    <tag k="train" v="yes"/>
+    <tag k="zone" v="5715"/>
+  </node>
+  <node id="4046383465" lat="52.3185355" lon="4.9413557">
+    <tag k="name" v="Strandvliet"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="station" v="subway"/>
+    <tag k="wikidata" v="Q2181403"/>
+  </node>
+  <node id="4046388677" lat="52.3066107" lon="4.9522364">
+    <tag k="name" v="Bullewijk"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="station" v="subway"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="wikidata" v="Q1986388"/>
+  </node>
+  <node id="4053335995" lat="52.3524713" lon="4.8343026">
+    <tag k="name" v="Heemstedestraat"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="station" v="subway"/>
+    <tag k="wikidata" v="Q2287739"/>
+  </node>
+  <node id="4064153245" lat="52.3289390" lon="4.9662522">
+    <tag k="name" v="Verrijn Stuartweg"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="station" v="subway"/>
+    <tag k="subway" v="yes"/>
+  </node>
+  <node id="4073693626" lat="52.3399595" lon="4.9210115">
+    <tag k="name" v="Spaklerweg"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="station" v="subway"/>
+    <tag k="wikidata" v="Q3364889"/>
+  </node>
+  <node id="4073693628" lat="52.3544624" lon="4.9120253">
+    <tag k="name" v="Wibautstraat"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="station" v="subway"/>
+    <tag k="wikidata" v="Q3186873"/>
+  </node>
+  <node id="4073743506" lat="52.3713176" lon="4.9008788">
+    <tag k="name" v="Nieuwmarkt"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="subway" v="yes"/>
+    <tag k="wikidata" v="Q1913095"/>
+  </node>
+  <node id="4076017504" lat="52.3578369" lon="4.8340268">
+    <tag k="addr:country" v="NL"/>
+    <tag k="name" v="Amsterdam Lelylaan"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="railway:ref" v="Asdl"/>
+    <tag k="station" v="subway"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="wikidata" v="Q50722"/>
+    <tag k="wikipedia" v="nl:Station Amsterdam Lelylaan"/>
+    <tag k="zone" v="5713"/>
+  </node>
+  <node id="4077313759" lat="52.3951598" lon="4.8507911">
+    <tag k="name" v="Isolatorweg"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="station" v="subway"/>
+    <tag k="wikidata" v="Q2146949"/>
+  </node>
+  <node id="4077313763" lat="52.3642921" lon="4.8339612">
+    <tag k="alt_name" v="Metrostation Postjesweg"/>
+    <tag k="name" v="Postjesweg"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="station" v="subway"/>
+    <tag k="wikipedia" v="nl:Postjesweg (metrostation)"/>
+  </node>
+  <node id="4103567968" lat="52.3308842" lon="4.8687764"/>
+  <node id="4103567969" lat="52.3308853" lon="4.8689438"/>
+  <node id="4103567974" lat="52.3318774" lon="4.8687766"/>
+  <node id="4103567975" lat="52.3318787" lon="4.8689229"/>
+  <node id="4290854847" lat="52.3789010" lon="4.9005805">
+    <tag k="name" v="Amsterdam Centraal"/>
+    <tag k="name:de" v="Amsterdamer Hauptbahnhof"/>
+    <tag k="name:es" v="Estación Central de Ámsterdam"/>
+    <tag k="name:ko" v="암스테르담 중앙역"/>
+    <tag k="name:nl" v="Amsterdam Centraal"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="railway:ref" v="Asd"/>
+    <tag k="railway:ref:DB" v="XNAC"/>
+    <tag k="railway:ref:NMBS/SNCB" v="XNASD"/>
+    <tag k="uic_ref" v="8400058"/>
+    <tag k="wikidata" v="Q50719"/>
+    <tag k="wikipedia" v="nl:Station Amsterdam Centraal"/>
+    <tag k="zone" v="5700"/>
+  </node>
+  <node id="4552593795" lat="52.3021625" lon="4.8578896"/>
+  <node id="4552593797" lat="52.3028527" lon="4.8583697"/>
+  <node id="4569248239" lat="52.3308840" lon="4.8687486"/>
+  <node id="4569248240" lat="52.3318790" lon="4.8689602"/>
+  <node id="4569248241" lat="52.3318772" lon="4.8687452"/>
+  <node id="4569248242" lat="52.3308855" lon="4.8689732"/>
+  <node id="5267675296" lat="52.3890161" lon="4.8388770">
+    <tag k="name" v="Amsterdam Sloterdijk"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="station" v="subway"/>
+  </node>
+  <node id="5360384018" lat="52.3377124" lon="4.8893261">
+    <tag k="name" v="Station RAI"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="station" v="subway"/>
+    <tag k="subway" v="yes"/>
+  </node>
+  <node id="5424713348" lat="52.3774316" lon="4.9009578">
+    <tag k="name" v="Centraal Station"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="station" v="subway"/>
+    <tag k="toilets:wheelchair" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="5470994017" lat="52.3224551" lon="4.7929163">
+    <tag k="name" v="Knooppunt Schiphol Noord"/>
+    <tag k="public_transport" v="station"/>
+  </node>
+  <node id="5579120492" lat="52.3740304" lon="4.8840667">
+    <tag k="bus" v="yes"/>
+    <tag k="cxx:code" v="57002570"/>
+    <tag k="cxx:id" v="31845"/>
+    <tag k="name" v="Westermarkt"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="tram_stop"/>
+    <tag k="source" v="AND;CXX"/>
+    <tag k="tram" v="yes"/>
+    <tag k="zone" v="5700"/>
+  </node>
+  <node id="5579136840" lat="52.3626237" lon="4.8748076">
+    <tag k="name" v="Eerste Constantijn Huygensstraat"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="tram_stop"/>
+    <tag k="tram" v="yes"/>
+    <tag k="wheelchair" v="limited"/>
+  </node>
+  <node id="5658931350" lat="52.3850132" lon="4.8835796">
+    <tag k="bus" v="yes"/>
+    <tag k="name" v="Haarlemmerplein"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="tram_stop"/>
+    <tag k="tram" v="yes"/>
+  </node>
+  <node id="5699391273" lat="52.3694934" lon="4.8921719">
+    <tag k="bus" v="yes"/>
+    <tag k="layer" v="-1"/>
+    <tag k="name" v="Spui"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="halt"/>
+    <tag k="tram" v="yes"/>
+  </node>
+  <way id="25728982">
+    <nd ref="2807417608"/>
+    <nd ref="3920338489"/>
+    <nd ref="280555382"/>
+    <nd ref="4552593795"/>
+    <nd ref="280555108"/>
+    <nd ref="605447455"/>
+    <nd ref="2807418326"/>
+    <nd ref="2807418325"/>
+    <nd ref="2807418324"/>
+    <nd ref="2807418322"/>
+    <nd ref="2807418319"/>
+    <nd ref="2807418317"/>
+    <nd ref="2807418318"/>
+    <nd ref="2807418320"/>
+    <nd ref="2807418321"/>
+    <nd ref="2807418323"/>
+    <nd ref="2807417983"/>
+    <nd ref="2807417981"/>
+    <nd ref="2807417979"/>
+    <nd ref="2807417976"/>
+    <nd ref="2807417975"/>
+    <nd ref="2807417973"/>
+    <nd ref="2807417974"/>
+    <nd ref="2807417980"/>
+    <nd ref="2807417965"/>
+    <nd ref="2807417963"/>
+    <nd ref="2807417962"/>
+    <nd ref="2807417966"/>
+    <nd ref="2807417922"/>
+    <nd ref="2807417920"/>
+    <nd ref="2807417918"/>
+    <nd ref="2807417917"/>
+    <nd ref="2807417915"/>
+    <nd ref="2807417912"/>
+    <nd ref="2807417911"/>
+    <nd ref="2807417913"/>
+    <nd ref="2807417916"/>
+    <nd ref="2807417919"/>
+    <nd ref="2807417909"/>
+    <nd ref="2807417908"/>
+    <nd ref="2807417901"/>
+    <nd ref="2807417927"/>
+    <nd ref="2807417923"/>
+    <nd ref="2807417924"/>
+    <nd ref="2807417925"/>
+    <nd ref="2807417928"/>
+    <nd ref="2807417930"/>
+    <nd ref="2807417933"/>
+    <nd ref="2807417940"/>
+    <nd ref="2807417941"/>
+    <nd ref="2807417944"/>
+    <nd ref="2807417946"/>
+    <nd ref="2807417948"/>
+    <nd ref="2807417949"/>
+    <nd ref="2807417953"/>
+    <nd ref="2807417954"/>
+    <nd ref="2807417956"/>
+    <nd ref="2807417957"/>
+    <nd ref="2807417958"/>
+    <nd ref="2807417960"/>
+    <nd ref="2807417978"/>
+    <nd ref="2807417990"/>
+    <nd ref="4552593797"/>
+    <nd ref="2807417938"/>
+    <nd ref="2807417608"/>
+    <tag k="addr:city" v="Amstelveen"/>
+    <tag k="addr:country" v="NL"/>
+    <tag k="amenity" v="bus_station"/>
+    <tag k="building" v="yes"/>
+    <tag k="layer" v="1"/>
+    <tag k="lit" v="yes"/>
+    <tag k="live_display" v="yes"/>
+    <tag k="name" v="Busstation Amstelveen"/>
+    <tag k="operator" v="Connexxion"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="ref:bag" v="362100001111445"/>
+    <tag k="shelter" v="yes"/>
+    <tag k="source" v="BAG"/>
+    <tag k="source:date" v="2014-03-24"/>
+    <tag k="start_date" v="1996"/>
+  </way>
+  <way id="139016081">
+    <nd ref="3175727636"/>
+    <nd ref="3175768555"/>
+    <nd ref="3189158210"/>
+    <nd ref="3189158211"/>
+    <nd ref="3175421565"/>
+    <nd ref="3189158209"/>
+    <nd ref="3189158208"/>
+    <nd ref="3175768554"/>
+    <nd ref="3175768553"/>
+    <nd ref="3175727634"/>
+    <nd ref="3175727635"/>
+    <nd ref="3175768547"/>
+    <nd ref="3175768535"/>
+    <nd ref="3175768548"/>
+    <nd ref="3175768536"/>
+    <nd ref="3175727636"/>
+    <tag k="alt_name" v="Metrostation CS"/>
+    <tag k="area" v="yes"/>
+    <tag k="layer" v="-1"/>
+    <tag k="level" v="-1"/>
+    <tag k="location" v="underground"/>
+    <tag k="name" v="Centraal Station"/>
+    <tag k="name:ko" v="센트랄 역"/>
+    <tag k="name:nl" v="Centraal Station"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="toilets:wheelchair" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+  </way>
+  <way id="266903864">
+    <nd ref="2724002705"/>
+    <nd ref="2724002727"/>
+    <nd ref="2724002843"/>
+    <nd ref="2724002928"/>
+    <nd ref="2724003682"/>
+    <nd ref="2724003803"/>
+    <nd ref="2724003791"/>
+    <nd ref="2724003695"/>
+    <nd ref="2724003678"/>
+    <nd ref="2724003394"/>
+    <nd ref="2724003266"/>
+    <nd ref="2724002903"/>
+    <nd ref="2724002849"/>
+    <nd ref="2724002774"/>
+    <nd ref="2724002705"/>
+    <tag k="area" v="yes"/>
+    <tag k="building" v="yes"/>
+    <tag k="layer" v="-3"/>
+    <tag k="location" v="underground"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="ref:bag" v="363100012240257"/>
+    <tag k="source" v="BAG"/>
+    <tag k="source:date" v="2014-02-11"/>
+    <tag k="start_date" v="2001"/>
+  </way>
+  <way id="267104000">
+    <nd ref="2725757064"/>
+    <nd ref="2725756809"/>
+    <nd ref="2725756800"/>
+    <nd ref="2725756819"/>
+    <nd ref="2725756811"/>
+    <nd ref="2725756840"/>
+    <nd ref="2725756618"/>
+    <nd ref="2725756704"/>
+    <nd ref="2725756812"/>
+    <nd ref="2725756852"/>
+    <nd ref="2725757236"/>
+    <nd ref="2725757259"/>
+    <nd ref="2725757246"/>
+    <nd ref="2725757626"/>
+    <nd ref="2725757509"/>
+    <nd ref="2725757950"/>
+    <nd ref="2725757605"/>
+    <nd ref="2725757338"/>
+    <nd ref="2725757379"/>
+    <nd ref="2725757067"/>
+    <nd ref="2725757064"/>
+    <tag k="area" v="yes"/>
+    <tag k="layer" v="-1"/>
+    <tag k="location" v="underground"/>
+    <tag k="name" v="Nieuwmarkt"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="ref:bag" v="363100012186097"/>
+    <tag k="source" v="BAG"/>
+    <tag k="source:date" v="2014-02-11"/>
+    <tag k="start_date" v="1005"/>
+    <tag k="station" v="subway"/>
+  </way>
+  <way id="267104004">
+    <nd ref="2725760644"/>
+    <nd ref="2725760645"/>
+    <nd ref="2725760650"/>
+    <nd ref="2725760669"/>
+    <nd ref="2725760653"/>
+    <nd ref="2725760642"/>
+    <nd ref="2725760623"/>
+    <nd ref="2725760605"/>
+    <nd ref="2725760603"/>
+    <nd ref="2725760601"/>
+    <nd ref="2725760615"/>
+    <nd ref="2725760597"/>
+    <nd ref="2725760626"/>
+    <nd ref="2725760618"/>
+    <nd ref="2725760611"/>
+    <nd ref="2725760610"/>
+    <nd ref="2725760612"/>
+    <nd ref="2725760670"/>
+    <nd ref="2725760679"/>
+    <nd ref="2725760676"/>
+    <nd ref="2725760678"/>
+    <nd ref="2725760692"/>
+    <nd ref="2725760695"/>
+    <nd ref="2725760697"/>
+    <nd ref="2725760700"/>
+    <nd ref="2725760734"/>
+    <nd ref="2725760795"/>
+    <nd ref="2725760802"/>
+    <nd ref="2725760940"/>
+    <nd ref="2725760880"/>
+    <nd ref="2725760810"/>
+    <nd ref="2725760785"/>
+    <nd ref="2725760740"/>
+    <nd ref="2725760737"/>
+    <nd ref="2725760691"/>
+    <nd ref="2725760652"/>
+    <nd ref="2725760608"/>
+    <nd ref="2725760646"/>
+    <nd ref="2725760598"/>
+    <nd ref="2725760621"/>
+    <nd ref="2725760505"/>
+    <nd ref="2725760534"/>
+    <nd ref="2725760637"/>
+    <nd ref="2725760613"/>
+    <nd ref="2725760643"/>
+    <nd ref="2725760651"/>
+    <nd ref="2725760647"/>
+    <nd ref="2725760648"/>
+    <nd ref="2725760644"/>
+    <tag k="alt_name" v="Metrostation Nieuwmarkt"/>
+    <tag k="area" v="yes"/>
+    <tag k="location" v="underground"/>
+    <tag k="name" v="Nieuwmarkt"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="ref:bag" v="363100012186096"/>
+    <tag k="source" v="BAG"/>
+    <tag k="source:date" v="2014-02-11"/>
+    <tag k="start_date" v="1900"/>
+    <tag k="station" v="subway"/>
+  </way>
+  <way id="268782305">
+    <nd ref="2741068589"/>
+    <nd ref="2741068626"/>
+    <nd ref="2741068607"/>
+    <nd ref="2741068657"/>
+    <nd ref="2741068660"/>
+    <nd ref="2741068664"/>
+    <nd ref="2741068658"/>
+    <nd ref="2741068665"/>
+    <nd ref="2741068671"/>
+    <nd ref="2741068678"/>
+    <nd ref="2741068680"/>
+    <nd ref="2741068673"/>
+    <nd ref="2741068651"/>
+    <nd ref="2741068654"/>
+    <nd ref="2741068649"/>
+    <nd ref="2741068528"/>
+    <nd ref="2741068425"/>
+    <nd ref="2741068324"/>
+    <nd ref="2741068427"/>
+    <nd ref="2741068412"/>
+    <nd ref="2741068406"/>
+    <nd ref="2741068312"/>
+    <nd ref="2741068383"/>
+    <nd ref="2741068392"/>
+    <nd ref="2741068396"/>
+    <nd ref="2741068405"/>
+    <nd ref="2741068410"/>
+    <nd ref="2741068464"/>
+    <nd ref="2741068580"/>
+    <nd ref="2741068535"/>
+    <nd ref="2741068546"/>
+    <nd ref="2741068574"/>
+    <nd ref="2741068589"/>
+    <tag k="layer" v="-1"/>
+    <tag k="name" v="Waterlooplein"/>
+    <tag k="operator" v="GVB"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="ref:bag" v="363100012164935"/>
+    <tag k="source" v="BAG"/>
+    <tag k="source:date" v="2014-03-24"/>
+    <tag k="start_date" v="1985"/>
+    <tag k="station" v="subway"/>
+    <tag k="wikipedia" v="nl:Waterlooplein (metrostation)"/>
+  </way>
+  <way id="268998785">
+    <nd ref="2742814540"/>
+    <nd ref="2742815082"/>
+    <nd ref="2742815177"/>
+    <nd ref="2742815411"/>
+    <nd ref="2742815421"/>
+    <nd ref="2742815426"/>
+    <nd ref="2742815434"/>
+    <nd ref="2742815439"/>
+    <nd ref="2742815443"/>
+    <nd ref="2742815455"/>
+    <nd ref="2742815479"/>
+    <nd ref="2742815488"/>
+    <nd ref="2742815531"/>
+    <nd ref="2742815564"/>
+    <nd ref="2742815618"/>
+    <nd ref="2742815610"/>
+    <nd ref="2742815591"/>
+    <nd ref="2742815583"/>
+    <nd ref="2742815587"/>
+    <nd ref="2742815680"/>
+    <nd ref="2742816312"/>
+    <nd ref="2742816574"/>
+    <nd ref="2742816181"/>
+    <nd ref="2742816349"/>
+    <nd ref="2742816228"/>
+    <nd ref="2742816225"/>
+    <nd ref="2742815845"/>
+    <nd ref="2742815816"/>
+    <nd ref="2742815748"/>
+    <nd ref="2742815750"/>
+    <nd ref="2742815661"/>
+    <nd ref="2742815627"/>
+    <nd ref="2742814073"/>
+    <nd ref="2742813976"/>
+    <nd ref="2742813885"/>
+    <nd ref="2742813925"/>
+    <nd ref="2742814210"/>
+    <nd ref="2742814310"/>
+    <nd ref="2742814128"/>
+    <nd ref="2742814079"/>
+    <nd ref="2742814005"/>
+    <nd ref="2742813954"/>
+    <nd ref="2742813991"/>
+    <nd ref="2742813782"/>
+    <nd ref="2742813779"/>
+    <nd ref="2742813777"/>
+    <nd ref="2742813792"/>
+    <nd ref="2742813775"/>
+    <nd ref="2742813765"/>
+    <nd ref="2742813727"/>
+    <nd ref="2742813796"/>
+    <nd ref="2742813791"/>
+    <nd ref="2742813620"/>
+    <nd ref="2742813608"/>
+    <nd ref="2742813602"/>
+    <nd ref="2742813672"/>
+    <nd ref="2742813681"/>
+    <nd ref="2742813678"/>
+    <nd ref="2742813673"/>
+    <nd ref="2742813574"/>
+    <nd ref="2742813526"/>
+    <nd ref="2742813506"/>
+    <nd ref="2742813460"/>
+    <nd ref="2742813501"/>
+    <nd ref="2742813471"/>
+    <nd ref="2742813509"/>
+    <nd ref="2742813508"/>
+    <nd ref="2742813517"/>
+    <nd ref="2742813537"/>
+    <nd ref="2742813545"/>
+    <nd ref="2742813538"/>
+    <nd ref="2742813843"/>
+    <nd ref="2742813814"/>
+    <nd ref="2742814315"/>
+    <nd ref="2742814262"/>
+    <nd ref="2742814253"/>
+    <nd ref="2742814247"/>
+    <nd ref="2742814244"/>
+    <nd ref="2742814241"/>
+    <nd ref="2742814235"/>
+    <nd ref="2742814222"/>
+    <nd ref="2742814202"/>
+    <nd ref="2742814184"/>
+    <nd ref="2742813969"/>
+    <nd ref="2742813965"/>
+    <nd ref="2742813961"/>
+    <nd ref="2742813956"/>
+    <nd ref="2742813950"/>
+    <nd ref="2742813945"/>
+    <nd ref="2742813941"/>
+    <nd ref="2742813936"/>
+    <nd ref="2742813933"/>
+    <nd ref="2742813911"/>
+    <nd ref="2742813957"/>
+    <nd ref="2742813975"/>
+    <nd ref="2742813977"/>
+    <nd ref="2742813981"/>
+    <nd ref="2742813983"/>
+    <nd ref="2742813989"/>
+    <nd ref="2742814232"/>
+    <nd ref="2742814268"/>
+    <nd ref="2742814290"/>
+    <nd ref="2742814308"/>
+    <nd ref="2742814321"/>
+    <nd ref="2742814324"/>
+    <nd ref="2742814332"/>
+    <nd ref="2742814338"/>
+    <nd ref="2742814629"/>
+    <nd ref="2742814640"/>
+    <nd ref="2742814993"/>
+    <nd ref="2742815001"/>
+    <nd ref="2742814997"/>
+    <nd ref="2742814540"/>
+    <tag k="building" v="yes"/>
+    <tag k="image" v="File:Weesperplein amsterdam.jpg"/>
+    <tag k="layer" v="-1"/>
+    <tag k="location" v="underground"/>
+    <tag k="name" v="Weesperplein"/>
+    <tag k="operator" v="GVB"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="ref:bag" v="363100012186191"/>
+    <tag k="source" v="BAG"/>
+    <tag k="source:date" v="2014-03-24"/>
+    <tag k="start_date" v="1972"/>
+    <tag k="station" v="subway"/>
+    <tag k="wikipedia" v="nl:Weesperplein (metrostation)"/>
+  </way>
+  <way id="268999073">
+    <nd ref="2742829776"/>
+    <nd ref="2742829775"/>
+    <nd ref="2742829772"/>
+    <nd ref="2742829747"/>
+    <nd ref="2742829715"/>
+    <nd ref="2742829671"/>
+    <nd ref="2742829635"/>
+    <nd ref="2742829582"/>
+    <nd ref="2742829575"/>
+    <nd ref="2742829622"/>
+    <nd ref="2742829597"/>
+    <nd ref="2742829667"/>
+    <nd ref="2742829686"/>
+    <nd ref="2742829709"/>
+    <nd ref="2742829713"/>
+    <nd ref="2742829740"/>
+    <nd ref="2742829749"/>
+    <nd ref="2742829732"/>
+    <nd ref="2742829722"/>
+    <nd ref="2742829777"/>
+    <nd ref="2742829776"/>
+    <tag k="building" v="yes"/>
+    <tag k="layer" v="-1"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="ref:bag" v="363100012186190"/>
+    <tag k="source" v="BAG"/>
+    <tag k="source:date" v="2014-03-24"/>
+    <tag k="start_date" v="1005"/>
+  </way>
+  <way id="461430718">
+    <nd ref="4569248242"/>
+    <nd ref="4569248240"/>
+    <nd ref="4103567975"/>
+    <nd ref="4103567974"/>
+    <nd ref="4569248241"/>
+    <nd ref="4569248239"/>
+    <nd ref="4103567968"/>
+    <nd ref="4103567969"/>
+    <nd ref="4569248242"/>
+    <tag k="area" v="yes"/>
+    <tag k="name" v="A.J. Ernststraat"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="wikidata" v="Q2313853"/>
+    <tag k="wikipedia" v="nl:A.J. Ernststraat (sneltramhalte)"/>
+  </way>
+</osm>

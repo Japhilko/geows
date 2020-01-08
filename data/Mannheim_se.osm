@@ -1,0 +1,4132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.55.3 9da5e7ae">
+  <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+  <meta osm_base="2018-06-18T19:30:02Z"/>
+  <node id="20979353" lat="49.4716383" lon="8.5212935"/>
+  <node id="267966470" lat="49.4739324" lon="8.5682379"/>
+  <node id="267966532" lat="49.4727493" lon="8.5666132"/>
+  <node id="267966533" lat="49.4720943" lon="8.5676778"/>
+  <node id="267966540" lat="49.4733794" lon="8.5693106"/>
+  <node id="285961787" lat="49.4530860" lon="8.5872117">
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Independent"/>
+    <tag k="name" v="Freie Tankstelle"/>
+  </node>
+  <node id="319151084" lat="49.4692703" lon="8.5194193"/>
+  <node id="319151085" lat="49.4687379" lon="8.5166419"/>
+  <node id="319151086" lat="49.4720694" lon="8.5088111"/>
+  <node id="322725097" lat="49.4745845" lon="8.5369348">
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Independent"/>
+    <tag k="name" v="EDEKA"/>
+    <tag k="operator" v="Edeka"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="353033639" lat="49.4662152" lon="8.5208972"/>
+  <node id="353033640" lat="49.4662914" lon="8.5207818"/>
+  <node id="353033641" lat="49.4663388" lon="8.5204449"/>
+  <node id="353033642" lat="49.4662010" lon="8.5197935"/>
+  <node id="353033644" lat="49.4659403" lon="8.5195917"/>
+  <node id="353033772" lat="49.4659537" lon="8.5199826"/>
+  <node id="353033773" lat="49.4658539" lon="8.5202689"/>
+  <node id="353033774" lat="49.4658248" lon="8.5203670"/>
+  <node id="353033776" lat="49.4659102" lon="8.5207901"/>
+  <node id="353033777" lat="49.4659569" lon="8.5208230"/>
+  <node id="353033778" lat="49.4660031" lon="8.5209041"/>
+  <node id="360822805" lat="49.4630248" lon="8.5159457"/>
+  <node id="360822807" lat="49.4621030" lon="8.5163814"/>
+  <node id="360822808" lat="49.4618885" lon="8.5169473"/>
+  <node id="360822809" lat="49.4616566" lon="8.5172018"/>
+  <node id="360822811" lat="49.4623033" lon="8.5174872"/>
+  <node id="360822813" lat="49.4623546" lon="8.5174941"/>
+  <node id="360822815" lat="49.4623884" lon="8.5174819"/>
+  <node id="360822816" lat="49.4624211" lon="8.5174569"/>
+  <node id="360822817" lat="49.4624908" lon="8.5173566"/>
+  <node id="360824819" lat="49.4618242" lon="8.5170174"/>
+  <node id="360835010" lat="49.4629043" lon="8.5159996"/>
+  <node id="370695652" lat="49.4759907" lon="8.5591098"/>
+  <node id="370695653" lat="49.4753196" lon="8.5598949"/>
+  <node id="370695654" lat="49.4759927" lon="8.5612399"/>
+  <node id="370695655" lat="49.4765591" lon="8.5604004"/>
+  <node id="403187886" lat="49.4657276" lon="8.5653139"/>
+  <node id="403187887" lat="49.4659746" lon="8.5656418"/>
+  <node id="403187890" lat="49.4659279" lon="8.5658953"/>
+  <node id="403187892" lat="49.4655802" lon="8.5655956"/>
+  <node id="416628965" lat="49.4546905" lon="8.5368257"/>
+  <node id="416628966" lat="49.4549824" lon="8.5370816"/>
+  <node id="416628967" lat="49.4551445" lon="8.5366293"/>
+  <node id="416628968" lat="49.4548565" lon="8.5363714"/>
+  <node id="416628969" lat="49.4550098" lon="8.5359441"/>
+  <node id="416628970" lat="49.4558411" lon="8.5366886"/>
+  <node id="416628971" lat="49.4562665" lon="8.5355533"/>
+  <node id="416628972" lat="49.4554191" lon="8.5348688"/>
+  <node id="463174273" lat="49.4586451" lon="8.5580361">
+    <tag k="addr:housenumber" v="2"/>
+    <tag k="addr:postcode" v="68239"/>
+    <tag k="addr:street" v="Riedweg"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="greek"/>
+    <tag k="name" v="Griechische Taverne"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="wheelchair" v="limited"/>
+  </node>
+  <node id="474164759" lat="49.4497661" lon="8.5279657">
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:postcode" v="68219"/>
+    <tag k="addr:street" v="Mallaustraße"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="greek"/>
+    <tag k="name" v="Restaurant Zum Kostas"/>
+  </node>
+  <node id="513569084" lat="49.4616816" lon="8.5166013"/>
+  <node id="513569086" lat="49.4604116" lon="8.5154781"/>
+  <node id="513569089" lat="49.4602306" lon="8.5159999"/>
+  <node id="513569096" lat="49.4615788" lon="8.5172819"/>
+  <node id="557034135" lat="49.4602985" lon="8.5158761"/>
+  <node id="557034137" lat="49.4602261" lon="8.5160822"/>
+  <node id="564717179" lat="49.4620863" lon="8.5173905"/>
+  <node id="568729200" lat="49.4540831" lon="8.5875348"/>
+  <node id="568729203" lat="49.4541171" lon="8.5874506"/>
+  <node id="568729206" lat="49.4540532" lon="8.5873895"/>
+  <node id="568729208" lat="49.4540608" lon="8.5873708"/>
+  <node id="568729210" lat="49.4538642" lon="8.5872320"/>
+  <node id="568729212" lat="49.4538370" lon="8.5872994"/>
+  <node id="588796591" lat="49.4637132" lon="8.5544285">
+    <tag k="amenity" v="pharmacy"/>
+    <tag k="dispensing" v="yes"/>
+    <tag k="name" v="Seckenheimer Apotheke"/>
+    <tag k="phone" v="+49 621 4842730"/>
+  </node>
+  <node id="613101784" lat="49.4610669" lon="8.5697541"/>
+  <node id="613101793" lat="49.4610045" lon="8.5697141"/>
+  <node id="613101815" lat="49.4608972" lon="8.5699320"/>
+  <node id="650787144" lat="49.4768288" lon="8.5599890"/>
+  <node id="650787155" lat="49.4767700" lon="8.5598474"/>
+  <node id="650787167" lat="49.4767593" lon="8.5598578"/>
+  <node id="650787173" lat="49.4766627" lon="8.5596249"/>
+  <node id="650787182" lat="49.4765066" lon="8.5597784"/>
+  <node id="650787191" lat="49.4766030" lon="8.5600106"/>
+  <node id="650787196" lat="49.4765920" lon="8.5600215"/>
+  <node id="650787204" lat="49.4766411" lon="8.5601399"/>
+  <node id="650787211" lat="49.4766792" lon="8.5601024"/>
+  <node id="650787219" lat="49.4766949" lon="8.5601403"/>
+  <node id="650787223" lat="49.4767232" lon="8.5601125"/>
+  <node id="650787230" lat="49.4767075" lon="8.5600746"/>
+  <node id="650787237" lat="49.4767490" lon="8.5600338"/>
+  <node id="650787244" lat="49.4767589" lon="8.5600577"/>
+  <node id="667125085" lat="49.4682552" lon="8.5705150">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Clubhaus Gaststätte"/>
+    <tag k="opening_hours" v="Tu-Fr 16:00-24:00; Sa 13:00-24:00; Su 10:00-24:00"/>
+    <tag k="operator" v="H. Yücel"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+49 621 30732046"/>
+  </node>
+  <node id="1012592886" lat="49.4690846" lon="8.5150958"/>
+  <node id="1012592922" lat="49.4689876" lon="8.5176501"/>
+  <node id="1081099440" lat="49.4714455" lon="8.5091218"/>
+  <node id="1082814913" lat="49.4688062" lon="8.5160096"/>
+  <node id="1082814958" lat="49.4688680" lon="8.5157608"/>
+  <node id="1082815065" lat="49.4715965" lon="8.5090972"/>
+  <node id="1082815077" lat="49.4716668" lon="8.5088465"/>
+  <node id="1082815079" lat="49.4706484" lon="8.5106555"/>
+  <node id="1082815108" lat="49.4715088" lon="8.5092514"/>
+  <node id="1082815136" lat="49.4688034" lon="8.5170275"/>
+  <node id="1082815234" lat="49.4713398" lon="8.5090546"/>
+  <node id="1082815287" lat="49.4688992" lon="8.5173942"/>
+  <node id="1082815323" lat="49.4712573" lon="8.5091159"/>
+  <node id="1082815325" lat="49.4691028" lon="8.5150376"/>
+  <node id="1082815343" lat="49.4717846" lon="8.5088301"/>
+  <node id="1082815349" lat="49.4687444" lon="8.5162842"/>
+  <node id="1082815415" lat="49.4690936" lon="8.5186148"/>
+  <node id="1082815460" lat="49.4689194" lon="8.5156048"/>
+  <node id="1082815491" lat="49.4692468" lon="8.5144877"/>
+  <node id="1082815560" lat="49.4704598" lon="8.5204604"/>
+  <node id="1082815609" lat="49.4695305" lon="8.5197371"/>
+  <node id="1082815662" lat="49.4691527" lon="8.5190059"/>
+  <node id="1082815909" lat="49.4690303" lon="8.5179634"/>
+  <node id="1122644912" lat="49.4726042" lon="8.5683716"/>
+  <node id="1122645053" lat="49.4727363" lon="8.5685145"/>
+  <node id="1186349773" lat="49.4674863" lon="8.5610221"/>
+  <node id="1186349774" lat="49.4675666" lon="8.5609453"/>
+  <node id="1186349778" lat="49.4675087" lon="8.5610507"/>
+  <node id="1186349783" lat="49.4677887" lon="8.5612650"/>
+  <node id="1186349785" lat="49.4676993" lon="8.5614138"/>
+  <node id="1186349787" lat="49.4675088" lon="8.5609110"/>
+  <node id="1186349789" lat="49.4678292" lon="8.5611914"/>
+  <node id="1186349790" lat="49.4677430" lon="8.5613385"/>
+  <node id="1186349791" lat="49.4674838" lon="8.5609500"/>
+  <node id="1213826164" lat="49.4681437" lon="8.5231961"/>
+  <node id="1213826870" lat="49.4688430" lon="8.5233583"/>
+  <node id="1213827652" lat="49.4687125" lon="8.5246915"/>
+  <node id="1213828810" lat="49.4680131" lon="8.5245293"/>
+  <node id="1264989493" lat="49.4764167" lon="8.5133013"/>
+  <node id="1264989494" lat="49.4772296" lon="8.5121999"/>
+  <node id="1264989495" lat="49.4769800" lon="8.5124799"/>
+  <node id="1264989496" lat="49.4773200" lon="8.5131381"/>
+  <node id="1264989497" lat="49.4764490" lon="8.5124330"/>
+  <node id="1264989498" lat="49.4773370" lon="8.5122045"/>
+  <node id="1264989500" lat="49.4772126" lon="8.5131334"/>
+  <node id="1264989502" lat="49.4769477" lon="8.5133481"/>
+  <node id="1265073719" lat="49.4776314" lon="8.5073942"/>
+  <node id="1265073726" lat="49.4757937" lon="8.5083330"/>
+  <node id="1265073730" lat="49.4775368" lon="8.5135250"/>
+  <node id="1265073736" lat="49.4775776" lon="8.5099943"/>
+  <node id="1279191386" lat="49.4675643" lon="8.5636321"/>
+  <node id="1319643232" lat="49.4709725" lon="8.5573613"/>
+  <node id="1319643248" lat="49.4709629" lon="8.5575512"/>
+  <node id="1319643251" lat="49.4708727" lon="8.5575090"/>
+  <node id="1319643264" lat="49.4712892" lon="8.5556280"/>
+  <node id="1319643268" lat="49.4714928" lon="8.5553561"/>
+  <node id="1319643277" lat="49.4708631" lon="8.5574895"/>
+  <node id="1319643285" lat="49.4710226" lon="8.5574626"/>
+  <node id="1319643300" lat="49.4706944" lon="8.5612601"/>
+  <node id="1319643312" lat="49.4712806" lon="8.5553567"/>
+  <node id="1319643325" lat="49.4708748" lon="8.5576544"/>
+  <node id="1319643326" lat="49.4708285" lon="8.5575608"/>
+  <node id="1319643350" lat="49.4713070" lon="8.5552635"/>
+  <node id="1319643351" lat="49.4705821" lon="8.5613700"/>
+  <node id="1319643355" lat="49.4709570" lon="8.5575394"/>
+  <node id="1319643357" lat="49.4712241" lon="8.5556712"/>
+  <node id="1319643360" lat="49.4706516" lon="8.5611564"/>
+  <node id="1319643363" lat="49.4713524" lon="8.5554048"/>
+  <node id="1319643365" lat="49.4712448" lon="8.5555982"/>
+  <node id="1319643377" lat="49.4705392" lon="8.5612662"/>
+  <node id="1330734073" lat="49.4762652" lon="8.5608013">
+    <tag k="barrier" v="gate"/>
+  </node>
+  <node id="1330734099" lat="49.4760985" lon="8.5603500">
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="name" v="Friedshofskapelle"/>
+    <tag k="religion" v="christian"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="1330737037" lat="49.4762569" lon="8.5608440"/>
+  <node id="1330737038" lat="49.4762988" lon="8.5607864"/>
+  <node id="1330737054" lat="49.4762758" lon="8.5607845"/>
+  <node id="1330737056" lat="49.4762534" lon="8.5608176"/>
+  <node id="1332812044" lat="49.4648009" lon="8.5667275"/>
+  <node id="1332812045" lat="49.4647263" lon="8.5668169"/>
+  <node id="1332812046" lat="49.4647904" lon="8.5669435"/>
+  <node id="1332812048" lat="49.4648650" lon="8.5668541"/>
+  <node id="1366561341" lat="49.4430792" lon="8.5338893"/>
+  <node id="1366561442" lat="49.4426434" lon="8.5335953"/>
+  <node id="1366561471" lat="49.4429476" lon="8.5342006"/>
+  <node id="1366561616" lat="49.4425811" lon="8.5339046"/>
+  <node id="1384953189" lat="49.4717848" lon="8.5169902"/>
+  <node id="1384953266" lat="49.4717250" lon="8.5088312"/>
+  <node id="1384953305" lat="49.4717873" lon="8.5168734"/>
+  <node id="1384953338" lat="49.4720066" lon="8.5105122"/>
+  <node id="1384953344" lat="49.4720108" lon="8.5103118"/>
+  <node id="1411022989" lat="49.4432643" lon="8.5307015"/>
+  <node id="1411022992" lat="49.4429784" lon="8.5314529"/>
+  <node id="1411022995" lat="49.4427559" lon="8.5315677"/>
+  <node id="1411022997" lat="49.4434649" lon="8.5309137"/>
+  <node id="1411023000" lat="49.4428972" lon="8.5316847"/>
+  <node id="1411023005" lat="49.4432109" lon="8.5306256"/>
+  <node id="1411023006" lat="49.4433151" lon="8.5309841"/>
+  <node id="1411023010" lat="49.4432729" lon="8.5308263"/>
+  <node id="1411023012" lat="49.4428371" lon="8.5313359"/>
+  <node id="1411023017" lat="49.4431556" lon="8.5307984"/>
+  <node id="1411023019" lat="49.4431293" lon="8.5307785"/>
+  <node id="1411023028" lat="49.4431997" lon="8.5313449"/>
+  <node id="1411023030" lat="49.4433797" lon="8.5308492"/>
+  <node id="1411023034" lat="49.4433582" lon="8.5310255"/>
+  <node id="1411023036" lat="49.4430833" lon="8.5309221"/>
+  <node id="1411023041" lat="49.4433034" lon="8.5307310"/>
+  <node id="1411023043" lat="49.4432734" lon="8.5306730"/>
+  <node id="1411023053" lat="49.4434153" lon="8.5310687"/>
+  <node id="1411023058" lat="49.4433648" lon="8.5308959"/>
+  <node id="1411023060" lat="49.4433008" lon="8.5314213"/>
+  <node id="1413226368" lat="49.4603605" lon="8.5686288"/>
+  <node id="1413226370" lat="49.4604743" lon="8.5684967"/>
+  <node id="1413226376" lat="49.4605564" lon="8.5694406"/>
+  <node id="1413226377" lat="49.4602932" lon="8.5691305"/>
+  <node id="1413226378" lat="49.4604707" lon="8.5688754"/>
+  <node id="1413226411" lat="49.4606765" lon="8.5692861"/>
+  <node id="1413226412" lat="49.4607866" lon="8.5691647"/>
+  <node id="1415440919" lat="49.4635972" lon="8.5672109"/>
+  <node id="1415440939" lat="49.4638187" lon="8.5671181"/>
+  <node id="1415440983" lat="49.4636598" lon="8.5673248"/>
+  <node id="1415441012" lat="49.4637561" lon="8.5670042"/>
+  <node id="1415448620" lat="49.4676126" lon="8.5634790"/>
+  <node id="1431304497" lat="49.4650901" lon="8.5172989"/>
+  <node id="1431304540" lat="49.4642820" lon="8.5168389"/>
+  <node id="1431304567" lat="49.4648649" lon="8.5176190"/>
+  <node id="1431304627" lat="49.4655019" lon="8.5191939"/>
+  <node id="1431304652" lat="49.4647569" lon="8.5172730"/>
+  <node id="1431304653" lat="49.4648189" lon="8.5173860"/>
+  <node id="1431304660" lat="49.4648633" lon="8.5175453"/>
+  <node id="1431324505" lat="49.4681758" lon="8.5263494">
+    <tag k="amenity" v="toilets"/>
+    <tag k="name" v="WC 3"/>
+  </node>
+  <node id="1431324508" lat="49.4698073" lon="8.5267196">
+    <tag k="amenity" v="toilets"/>
+    <tag k="name" v="WC 5"/>
+  </node>
+  <node id="1431324519" lat="49.4699695" lon="8.5251181">
+    <tag k="amenity" v="toilets"/>
+    <tag k="name" v="WC 6"/>
+  </node>
+  <node id="1433744180" lat="49.4603466" lon="8.5692205"/>
+  <node id="1433744181" lat="49.4603884" lon="8.5691686"/>
+  <node id="1433744182" lat="49.4607088" lon="8.5689610"/>
+  <node id="1433744183" lat="49.4604571" lon="8.5692863"/>
+  <node id="1433744184" lat="49.4604212" lon="8.5693306"/>
+  <node id="1433744185" lat="49.4605121" lon="8.5694730"/>
+  <node id="1433744186" lat="49.4606849" lon="8.5689792"/>
+  <node id="1433744187" lat="49.4606040" lon="8.5690869"/>
+  <node id="1433744188" lat="49.4604140" lon="8.5691326"/>
+  <node id="1433744196" lat="49.4605291" lon="8.5689651"/>
+  <node id="1433744202" lat="49.4605449" lon="8.5694195"/>
+  <node id="1433744243" lat="49.4604244" lon="8.5689419"/>
+  <node id="1433744250" lat="49.4604889" lon="8.5692545"/>
+  <node id="1534474108" lat="49.4648978" lon="8.5667252">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="email" v="info@schloss-seckenheim.de"/>
+    <tag k="fax" v="+49 621 7621056"/>
+    <tag k="name" v="Schloss Gasthaus am Neckar"/>
+    <tag k="opening_hours" v="Mo-Fr 12:00-14:00,17:30-22:00;Sa 17:30-22:00;Su 12:00-22:00"/>
+    <tag k="phone" v="+49 621 7621055"/>
+    <tag k="website" v="http://www.schloss-seckenheim.de"/>
+  </node>
+  <node id="1534538204" lat="49.4661194" lon="8.5586011">
+    <tag k="amenity" v="pharmacy"/>
+    <tag k="image" v="https://commons.wikimedia.org/wiki/File:Z%C3%A4hringerApotheke_Mannheim-Seckenheim.jpg"/>
+    <tag k="name" v="ZähringerApotheke"/>
+    <tag k="opening_hours" v="Mo-Fr 08:30-13:00,14:30-18:30;Sa 08:30-12:30"/>
+    <tag k="phone" v="+49 621 475023"/>
+    <tag k="source" v="LGL, www.lgl-bw.de"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="1534539188" lat="49.4658169" lon="8.5589256">
+    <tag k="amenity" v="bank"/>
+    <tag k="fax" v="+49 621 298 4444"/>
+    <tag k="image" v="https://commons.wikimedia.org/wiki/File:Sparkasse_Mannheim-Seckenheim.jpg"/>
+    <tag k="name" v="Sparkasse Filiale Seckenheim"/>
+    <tag k="opening_hours" v="Mo-Fr 8:30-12:30;Mo-We,Fr 14:00-16:00;Th 14:00-18:00"/>
+    <tag k="operator" v="Sparkasse Rhein Neckar Nord"/>
+    <tag k="phone" v="+49 621 298 0"/>
+    <tag k="website" v="https://www.sparkasse-rhein-neckar-nord.de/module/ihre_sparkasse/filialfinder/index.php?n=%2Fmodule%2Fihre_sparkasse%2Ffilialfinder%2F#details/15123"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="1534555542" lat="49.4678621" lon="8.5569579">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="greek"/>
+    <tag k="image" v="https://commons.wikimedia.org/wiki/File:Gasthaus_Egardia_im_Vereinshaus_Mannheim-Seckenheim.jpg"/>
+    <tag k="name" v="Gasthaus Egardia im Vereinshaus"/>
+    <tag k="old_name" v="Vereinsgaststätte SV 98/07"/>
+    <tag k="opening_hours" v="Tu-Sa 17:00-24:00;Su 11:30-14:30,17:00-23:00"/>
+    <tag k="phone" v="+49 621 43 75 85 07"/>
+    <tag k="tourism" v="guest_house"/>
+    <tag k="website" v="http://www.gasthaus-egardia.de/"/>
+    <tag k="wheelchair" v="limited"/>
+  </node>
+  <node id="1582645901" lat="49.4680867" lon="8.5599028">
+    <tag k="amenity" v="doctors"/>
+    <tag k="healthcare:speciality" v="ophthalmology"/>
+    <tag k="name" v="Dr. Roland Glück &amp; Sandra Chr. Keller"/>
+    <tag k="phone" v="+49 621 474950"/>
+  </node>
+  <node id="1582734568" lat="49.4659346" lon="8.5637690">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="pizza"/>
+    <tag k="delivery" v="yes"/>
+    <tag k="name" v="Bella Pizza"/>
+    <tag k="opening_hours" v="11:00-24:00;Tu off"/>
+    <tag k="phone" v="+49 621 47 94 73"/>
+    <tag k="takeaway" v="yes"/>
+    <tag k="website" v="http://www.bellapizzaseckenheim.de/"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="1582734571" lat="49.4659803" lon="8.5638916">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="chinese"/>
+    <tag k="name" v="China Imbiss Thanh Thanh"/>
+  </node>
+  <node id="1582791687" lat="49.4659262" lon="8.5644181">
+    <tag k="amenity" v="dentist"/>
+    <tag k="name" v="Dr. Reiser"/>
+    <tag k="phone" v="+49 621 4814980"/>
+  </node>
+  <node id="1582791689" lat="49.4658451" lon="8.5644906">
+    <tag k="addr:postcode" v="68239"/>
+    <tag k="amenity" v="doctors"/>
+    <tag k="contact:email" v="info@ortho-sh.de"/>
+    <tag k="contact:fax" v="+49-621-48459-20"/>
+    <tag k="contact:phone" v="+49-621-48459-0"/>
+    <tag k="contact:website" v="http://www.ortho-seckenheim.de/"/>
+    <tag k="healthcare:speciality" v="orthopaedics"/>
+    <tag k="name" v="Doktoren Pape - Mühling - Steigleder"/>
+    <tag k="name:de" v="Doktoren Pape - Mühling - Steigleder"/>
+    <tag k="name:en" v="Doctors Pape - Mühling - Steigleder"/>
+  </node>
+  <node id="1582874672" lat="49.4657141" lon="8.5658117"/>
+  <node id="1582874674" lat="49.4657301" lon="8.5657812"/>
+  <node id="1582874677" lat="49.4658880" lon="8.5659716"/>
+  <node id="1582874679" lat="49.4658736" lon="8.5655171"/>
+  <node id="1582874683" lat="49.4658917" lon="8.5654825"/>
+  <node id="1582874687" lat="49.4659383" lon="8.5659082"/>
+  <node id="1582874690" lat="49.4660286" lon="8.5657086"/>
+  <node id="1582874693" lat="49.4659926" lon="8.5656074"/>
+  <node id="1583207160" lat="49.4666760" lon="8.5642724">
+    <tag k="amenity" v="doctors"/>
+    <tag k="healthcare:speciality" v="otolaryngology"/>
+    <tag k="name" v="Dr. Gerhard Hein"/>
+  </node>
+  <node id="1583207162" lat="49.4666472" lon="8.5642194">
+    <tag k="amenity" v="dentist"/>
+    <tag k="name" v="Praxisgemeinschaft Schweizer-Henning-Gropp"/>
+  </node>
+  <node id="1583254487" lat="49.4708995" lon="8.5536461"/>
+  <node id="1583254490" lat="49.4709638" lon="8.5534134"/>
+  <node id="1583254505" lat="49.4714131" lon="8.5539820"/>
+  <node id="1583254506" lat="49.4714774" lon="8.5537493"/>
+  <node id="1584052627" lat="49.4682628" lon="8.5612117">
+    <tag k="amenity" v="theatre"/>
+    <tag k="name" v="Das Palü"/>
+    <tag k="website" v="http://www.palue-mannheim.de"/>
+  </node>
+  <node id="1584052629" lat="49.4681129" lon="8.5612453">
+    <tag k="amenity" v="doctors"/>
+    <tag k="email" v="kontakt@dr-wieland-christner.de"/>
+    <tag k="fax" v="+49 621 4815216"/>
+    <tag k="healthcare:speciality" v="gynaecology"/>
+    <tag k="name" v="Dr. Wieland Christner"/>
+    <tag k="opening_hours" v="Mo 8:00-12:00,14:30-18:00;Tu 8:00-12:00,14:30-18:00;We 8:00-12:00;Th 10:00-12:00,14:30-18:00;Fr 8:00-12:00,14:30-17:00"/>
+    <tag k="phone" v="+49 621 476111"/>
+    <tag k="website" v="http://www.dr-wieland-christner.de/"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="1587146070" lat="49.4714367" lon="8.5664623">
+    <tag k="amenity" v="doctors"/>
+    <tag k="email" v="info@dr-krakow.de"/>
+    <tag k="healthcare:speciality" v="internal"/>
+    <tag k="name" v="Dr. Bern Krakow"/>
+    <tag k="opening_hours" v="Mo,Tu,Th,Fr 9:00-11:00;Tu 16:30-18:00;Th 16:00-17:00"/>
+    <tag k="phone" v="+49 621 494636"/>
+    <tag k="website" v="http://www.dr-krakow.de/"/>
+    <tag k="wheelchair" v="limited"/>
+  </node>
+  <node id="1587146080" lat="49.4714478" lon="8.5664746">
+    <tag k="amenity" v="dentist"/>
+    <tag k="email" v="praxis@zahnaerzte-strauss-matusik.de"/>
+    <tag k="fax" v="+49 621 492058"/>
+    <tag k="name" v="Gemeinschaftspraxis Strauß-Matusik/Matusik"/>
+    <tag k="phone" v="+49 621 492057"/>
+    <tag k="website" v="www.zahnaerzte-strauss-matusik.de"/>
+    <tag k="wheelchair" v="limited"/>
+  </node>
+  <node id="1587146219" lat="49.4712022" lon="8.5663333"/>
+  <node id="1587146246" lat="49.4712489" lon="8.5658947"/>
+  <node id="1587146256" lat="49.4712827" lon="8.5664452"/>
+  <node id="1587146291" lat="49.4713551" lon="8.5663216"/>
+  <node id="1587146293" lat="49.4713964" lon="8.5663780"/>
+  <node id="1587146306" lat="49.4714040" lon="8.5666095"/>
+  <node id="1587146312" lat="49.4714134" lon="8.5663485"/>
+  <node id="1587146315" lat="49.4714331" lon="8.5664247"/>
+  <node id="1587146320" lat="49.4714490" lon="8.5663971"/>
+  <node id="1587146323" lat="49.4714814" lon="8.5664906"/>
+  <node id="1587146444" lat="49.4720281" lon="8.5667333"/>
+  <node id="1587146459" lat="49.4722186" lon="8.5667488"/>
+  <node id="1587146464" lat="49.4721373" lon="8.5664273"/>
+  <node id="1587146476" lat="49.4721902" lon="8.5669924"/>
+  <node id="1587146478" lat="49.4721893" lon="8.5663538"/>
+  <node id="1587146485" lat="49.4722410" lon="8.5667221"/>
+  <node id="1587146487" lat="49.4722584" lon="8.5667590"/>
+  <node id="1587146488" lat="49.4722868" lon="8.5668396"/>
+  <node id="1587146498" lat="49.4723539" lon="8.5666102"/>
+  <node id="1587248799" lat="49.4715390" lon="8.5667237">
+    <tag k="amenity" v="doctors"/>
+    <tag k="healthcare:speciality" v="internal"/>
+    <tag k="name" v="Dr. Christine Busch-Mauz"/>
+    <tag k="opening_hours" v="Mo, Tu, Th 08:00-12:00, 16:00-18:00; We 08:00-12:00; Fr 08:00-12:00, 15:00-17:00"/>
+    <tag k="phone" v="+49 621 493300"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="1587248880" lat="49.4708398" lon="8.5657510"/>
+  <node id="1587248885" lat="49.4708943" lon="8.5656465"/>
+  <node id="1587248892" lat="49.4709713" lon="8.5659318"/>
+  <node id="1587248897" lat="49.4710314" lon="8.5658293"/>
+  <node id="1608012577" lat="49.4531091" lon="8.5888447">
+    <tag k="addr:postcode" v="68535"/>
+    <tag k="amenity" v="pharmacy"/>
+    <tag k="contact:fax" v="+49 621 473087"/>
+    <tag k="contact:phone" v="+49 621 473088"/>
+    <tag k="dispensing" v="yes"/>
+    <tag k="name" v="Apotheke im real,-"/>
+    <tag k="opening_hours" v="Mo-Fr 09:00-19:00; Sa 09:00-18:00"/>
+    <tag k="operator" v="Roland Hübsch"/>
+    <tag k="website" v="http://www.apo-im-real-app.de/"/>
+  </node>
+  <node id="1615563381" lat="49.4748816" lon="8.5221091">
+    <tag k="amenity" v="fire_station"/>
+    <tag k="name" v="Flughafenfeuerwehr"/>
+  </node>
+  <node id="1681213097" lat="49.4440363" lon="8.5248895"/>
+  <node id="1681213110" lat="49.4441012" lon="8.5246675"/>
+  <node id="1681213144" lat="49.4443507" lon="8.5251938"/>
+  <node id="1681213149" lat="49.4443718" lon="8.5251215"/>
+  <node id="1681213170" lat="49.4444489" lon="8.5252617"/>
+  <node id="1681213181" lat="49.4444700" lon="8.5251895"/>
+  <node id="1681213246" lat="49.4448160" lon="8.5254288"/>
+  <node id="1681213257" lat="49.4448793" lon="8.5252216"/>
+  <node id="1685572002" lat="49.4517485" lon="8.5686189"/>
+  <node id="1685572003" lat="49.4517905" lon="8.5687990"/>
+  <node id="1685572004" lat="49.4518429" lon="8.5685669"/>
+  <node id="1685572005" lat="49.4518849" lon="8.5687470"/>
+  <node id="1686758141" lat="49.4526459" lon="8.5666536"/>
+  <node id="1686758155" lat="49.4526987" lon="8.5666265"/>
+  <node id="1686758164" lat="49.4527071" lon="8.5669472"/>
+  <node id="1686758170" lat="49.4527182" lon="8.5667149"/>
+  <node id="1686758190" lat="49.4527497" lon="8.5668503"/>
+  <node id="1686758198" lat="49.4527682" lon="8.5669172"/>
+  <node id="1686758335" lat="49.4528782" lon="8.5668205"/>
+  <node id="1686758354" lat="49.4529173" lon="8.5670013"/>
+  <node id="1686758377" lat="49.4529664" lon="8.5665282"/>
+  <node id="1686758385" lat="49.4530007" lon="8.5669529"/>
+  <node id="1686758387" lat="49.4530128" lon="8.5669956"/>
+  <node id="1686758390" lat="49.4530331" lon="8.5667847"/>
+  <node id="1686758394" lat="49.4530665" lon="8.5669671"/>
+  <node id="1691630987" lat="49.4621512" lon="8.5645369"/>
+  <node id="1691630991" lat="49.4622056" lon="8.5646569"/>
+  <node id="1691630993" lat="49.4622166" lon="8.5644668"/>
+  <node id="1691630994" lat="49.4622251" lon="8.5644856"/>
+  <node id="1691630999" lat="49.4623224" lon="8.5643812"/>
+  <node id="1691631001" lat="49.4623682" lon="8.5644824"/>
+  <node id="1691729084" lat="49.4682037" lon="8.5605668">
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:housenumber" v="143"/>
+    <tag k="addr:postcode" v="68239"/>
+    <tag k="addr:street" v="Seckenheimer Hauptstraße"/>
+    <tag k="addr:suburb" v="Seckenheim"/>
+    <tag k="amenity" v="pharmacy"/>
+    <tag k="dispensing" v="yes"/>
+    <tag k="fax" v="+49 621 481108"/>
+    <tag k="name" v="Brücken Apotheke"/>
+    <tag k="opening_hours" v="Mo-Fr 08:30-13:00, Mo,Tu,Th,Fr 14:00-18:30; Sa 09:00-12:30"/>
+    <tag k="operator" v="Frank Nemetschek"/>
+    <tag k="phone" v="+49 621 471994"/>
+    <tag k="website" v="www.apotheke-seckenheim.de"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="1692945989" lat="49.4683453" lon="8.5630814">
+    <tag k="amenity" v="doctors"/>
+    <tag k="healthcare:speciality" v="internal"/>
+    <tag k="healthcare:speciality_1" v="general"/>
+    <tag k="name" v="Dr. Gerhard Deck"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="1692946160" lat="49.4693657" lon="8.5622136"/>
+  <node id="1692946176" lat="49.4694119" lon="8.5623002"/>
+  <node id="1692946195" lat="49.4694855" lon="8.5620622"/>
+  <node id="1692946213" lat="49.4695318" lon="8.5621488"/>
+  <node id="1692946351" lat="49.4683175" lon="8.5631176">
+    <tag k="amenity" v="dentist"/>
+    <tag k="name" v="Zahnarztpraxis Dr. Elke Seitz"/>
+    <tag k="website" v="www.dr-elke-seitz.de/"/>
+    <tag k="wheelchair" v="limited"/>
+  </node>
+  <node id="1694159157" lat="49.4674893" lon="8.5635827"/>
+  <node id="1694159171" lat="49.4675565" lon="8.5637103"/>
+  <node id="1694159176" lat="49.4675956" lon="8.5634327">
+    <tag k="barrier" v="entrance"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="foot" v="yes"/>
+  </node>
+  <node id="1694159359" lat="49.4672438" lon="8.5629423">
+    <tag k="amenity" v="library"/>
+    <tag k="name" v="Stadtteilbibliothek"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="1695084800" lat="49.4639176" lon="8.5642528">
+    <tag k="amenity" v="doctors"/>
+    <tag k="healthcare" v="alternative"/>
+    <tag k="healthcare:speciality" v="homeopathy"/>
+    <tag k="name" v="Dr. Bettina Balke-Schmitte"/>
+  </node>
+  <node id="1701413288" lat="49.4587255" lon="8.5641494"/>
+  <node id="1701413364" lat="49.4588355" lon="8.5642552"/>
+  <node id="1701413369" lat="49.4587784" lon="8.5639003"/>
+  <node id="1701413431" lat="49.4589080" lon="8.5641783"/>
+  <node id="1701414067" lat="49.4595843" lon="8.5632477"/>
+  <node id="1701414082" lat="49.4596218" lon="8.5634088"/>
+  <node id="1701414102" lat="49.4596381" lon="8.5633675"/>
+  <node id="1701414122" lat="49.4596695" lon="8.5635149"/>
+  <node id="1701414142" lat="49.4597338" lon="8.5632657"/>
+  <node id="1701414144" lat="49.4597369" lon="8.5630854"/>
+  <node id="1701414148" lat="49.4597411" lon="8.5632819"/>
+  <node id="1701414155" lat="49.4597586" lon="8.5631337"/>
+  <node id="1701414173" lat="49.4597914" lon="8.5630848"/>
+  <node id="1701414175" lat="49.4597956" lon="8.5630944"/>
+  <node id="1701414177" lat="49.4598164" lon="8.5633597"/>
+  <node id="1701414183" lat="49.4598535" lon="8.5631921"/>
+  <node id="1701414185" lat="49.4598588" lon="8.5632040"/>
+  <node id="1701414195" lat="49.4598852" lon="8.5632949"/>
+  <node id="1701414200" lat="49.4599006" lon="8.5633256"/>
+  <node id="1701414204" lat="49.4600011" lon="8.5628618"/>
+  <node id="1701414213" lat="49.4600248" lon="8.5630274"/>
+  <node id="1701414218" lat="49.4600538" lon="8.5629791"/>
+  <node id="1701414220" lat="49.4600753" lon="8.5631398"/>
+  <node id="1701414596" lat="49.4659569" lon="8.5511271"/>
+  <node id="1701414610" lat="49.4660092" lon="8.5511043"/>
+  <node id="1701414615" lat="49.4660825" lon="8.5512435"/>
+  <node id="1701414619" lat="49.4661288" lon="8.5511318"/>
+  <node id="1740825069" lat="49.4752564" lon="8.5133638"/>
+  <node id="1740825070" lat="49.4752970" lon="8.5139701"/>
+  <node id="1740825071" lat="49.4754103" lon="8.5098286"/>
+  <node id="1740864084" lat="49.4764188" lon="8.5132435"/>
+  <node id="1740867127" lat="49.4752266" lon="8.5167242"/>
+  <node id="1740867129" lat="49.4767486" lon="8.5171408"/>
+  <node id="1740867130" lat="49.4767548" lon="8.5168216"/>
+  <node id="1740867131" lat="49.4775291" lon="8.5140824"/>
+  <node id="1740867132" lat="49.4775379" lon="8.5172336"/>
+  <node id="1740874711" lat="49.4764340" lon="8.5140158"/>
+  <node id="1740874714" lat="49.4764295" lon="8.5134741"/>
+  <node id="1746427915" lat="49.4624597" lon="8.5174107"/>
+  <node id="1746427975" lat="49.4642421" lon="8.5195247"/>
+  <node id="1746427984" lat="49.4643827" lon="8.5191558"/>
+  <node id="1746427987" lat="49.4645637" lon="8.5170879"/>
+  <node id="1746427993" lat="49.4646246" lon="8.5170351"/>
+  <node id="1746428001" lat="49.4647655" lon="8.5169152"/>
+  <node id="1746428003" lat="49.4647835" lon="8.5169653"/>
+  <node id="1746428004" lat="49.4648033" lon="8.5169485"/>
+  <node id="1746428005" lat="49.4648207" lon="8.5169969"/>
+  <node id="1746428006" lat="49.4648531" lon="8.5174786"/>
+  <node id="1746428010" lat="49.4648407" lon="8.5169798"/>
+  <node id="1746428012" lat="49.4648579" lon="8.5170277"/>
+  <node id="1746428014" lat="49.4648777" lon="8.5170108"/>
+  <node id="1746428016" lat="49.4648896" lon="8.5178252"/>
+  <node id="1746428018" lat="49.4648935" lon="8.5176079"/>
+  <node id="1746428019" lat="49.4648948" lon="8.5170584"/>
+  <node id="1746428020" lat="49.4649150" lon="8.5170412"/>
+  <node id="1746428021" lat="49.4649326" lon="8.5170901"/>
+  <node id="1746428022" lat="49.4649528" lon="8.5170729"/>
+  <node id="1746428023" lat="49.4649583" lon="8.5173832"/>
+  <node id="1746428024" lat="49.4649664" lon="8.5174342"/>
+  <node id="1746428025" lat="49.4649700" lon="8.5171209"/>
+  <node id="1746428026" lat="49.4649708" lon="8.5174870"/>
+  <node id="1746428027" lat="49.4649743" lon="8.5174275"/>
+  <node id="1746428028" lat="49.4649820" lon="8.5174774"/>
+  <node id="1746428029" lat="49.4649859" lon="8.5175289"/>
+  <node id="1746428030" lat="49.4649905" lon="8.5171034"/>
+  <node id="1746428036" lat="49.4650080" lon="8.5171520"/>
+  <node id="1746428040" lat="49.4650282" lon="8.5171349"/>
+  <node id="1746428043" lat="49.4650454" lon="8.5171828"/>
+  <node id="1746428044" lat="49.4650666" lon="8.5171649"/>
+  <node id="1746428045" lat="49.4650830" lon="8.5172106"/>
+  <node id="1746428046" lat="49.4651031" lon="8.5171936"/>
+  <node id="1746428047" lat="49.4651213" lon="8.5172443"/>
+  <node id="1746428048" lat="49.4651266" lon="8.5173318"/>
+  <node id="1746428049" lat="49.4651493" lon="8.5172723"/>
+  <node id="1746428058" lat="49.4653479" lon="8.5174868"/>
+  <node id="1746428060" lat="49.4653579" lon="8.5174605"/>
+  <node id="1746428061" lat="49.4653587" lon="8.5205128"/>
+  <node id="1746428068" lat="49.4654315" lon="8.5175961"/>
+  <node id="1746428069" lat="49.4654411" lon="8.5175709"/>
+  <node id="1746428070" lat="49.4654430" lon="8.5176925"/>
+  <node id="1746428071" lat="49.4654473" lon="8.5193335"/>
+  <node id="1746428073" lat="49.4654674" lon="8.5176285"/>
+  <node id="1746428074" lat="49.4654694" lon="8.5184057"/>
+  <node id="1746428075" lat="49.4654713" lon="8.5202116"/>
+  <node id="1746428076" lat="49.4654832" lon="8.5193654"/>
+  <node id="1746428079" lat="49.4655038" lon="8.5193836"/>
+  <node id="1746428080" lat="49.4655094" lon="8.5202452"/>
+  <node id="1746428081" lat="49.4655122" lon="8.5179539"/>
+  <node id="1746428085" lat="49.4655147" lon="8.5178311"/>
+  <node id="1746428086" lat="49.4655149" lon="8.5182863"/>
+  <node id="1746428091" lat="49.4655357" lon="8.5177761"/>
+  <node id="1746428092" lat="49.4655476" lon="8.5178609"/>
+  <node id="1746428094" lat="49.4655602" lon="8.5185267"/>
+  <node id="1746428098" lat="49.4655713" lon="8.5184976"/>
+  <node id="1746428104" lat="49.4655887" lon="8.5186701"/>
+  <node id="1746428107" lat="49.4656085" lon="8.5180408"/>
+  <node id="1746428109" lat="49.4656221" lon="8.5185825"/>
+  <node id="1746428117" lat="49.4656762" lon="8.5187487"/>
+  <node id="1746428128" lat="49.4657500" lon="8.5196015"/>
+  <node id="1746428709" lat="49.4659855" lon="8.5196262"/>
+  <node id="1746428712" lat="49.4659974" lon="8.5198643"/>
+  <node id="1746428717" lat="49.4660447" lon="8.5209494"/>
+  <node id="1746428721" lat="49.4660795" lon="8.5197040"/>
+  <node id="1746428725" lat="49.4660915" lon="8.5209794"/>
+  <node id="1746428729" lat="49.4661438" lon="8.5209844"/>
+  <node id="1746428733" lat="49.4661681" lon="8.5209831"/>
+  <node id="1746428737" lat="49.4662454" lon="8.5208512"/>
+  <node id="1746428741" lat="49.4663153" lon="8.5205152"/>
+  <node id="1746428743" lat="49.4663220" lon="8.5206780"/>
+  <node id="1746428745" lat="49.4663232" lon="8.5205891"/>
+  <node id="1746463422" lat="49.4602777" lon="8.5159865"/>
+  <node id="1746463425" lat="49.4603219" lon="8.5159357"/>
+  <node id="1746463427" lat="49.4603421" lon="8.5158301"/>
+  <node id="1746463435" lat="49.4603733" lon="8.5157950"/>
+  <node id="1746463436" lat="49.4603762" lon="8.5157144"/>
+  <node id="1746463437" lat="49.4603812" lon="8.5156776"/>
+  <node id="1746463446" lat="49.4604101" lon="8.5155553"/>
+  <node id="1746463449" lat="49.4604233" lon="8.5156308"/>
+  <node id="1746463462" lat="49.4615268" lon="8.5170397"/>
+  <node id="1746463463" lat="49.4615445" lon="8.5170208"/>
+  <node id="1746463469" lat="49.4615829" lon="8.5171963"/>
+  <node id="1746463471" lat="49.4615886" lon="8.5170149"/>
+  <node id="1746463474" lat="49.4616293" lon="8.5169754"/>
+  <node id="1746463479" lat="49.4616408" lon="8.5169216"/>
+  <node id="1746463480" lat="49.4616447" lon="8.5168377"/>
+  <node id="1746463484" lat="49.4616700" lon="8.5168165"/>
+  <node id="1746463486" lat="49.4616761" lon="8.5166800"/>
+  <node id="1746463488" lat="49.4617145" lon="8.5167733"/>
+  <node id="1746463510" lat="49.4643707" lon="8.5196392"/>
+  <node id="1746463511" lat="49.4643823" lon="8.5196496"/>
+  <node id="1746463513" lat="49.4644296" lon="8.5190327"/>
+  <node id="1746463520" lat="49.4644948" lon="8.5197483"/>
+  <node id="1746463523" lat="49.4645060" lon="8.5197582"/>
+  <node id="1746463543" lat="49.4646165" lon="8.5185421"/>
+  <node id="1746463545" lat="49.4646229" lon="8.5198617"/>
+  <node id="1746463548" lat="49.4646365" lon="8.5198737"/>
+  <node id="1746463561" lat="49.4646829" lon="8.5183678"/>
+  <node id="1746463562" lat="49.4646888" lon="8.5183522"/>
+  <node id="1746463577" lat="49.4647538" lon="8.5199775"/>
+  <node id="1746463579" lat="49.4647642" lon="8.5199867"/>
+  <node id="1746463605" lat="49.4648825" lon="8.5200914"/>
+  <node id="1746463607" lat="49.4648930" lon="8.5201007"/>
+  <node id="1746463641" lat="49.4650106" lon="8.5202047"/>
+  <node id="1746463644" lat="49.4650197" lon="8.5202128"/>
+  <node id="1746463688" lat="49.4651381" lon="8.5203176"/>
+  <node id="1746463691" lat="49.4651479" lon="8.5203263"/>
+  <node id="1746463722" lat="49.4652299" lon="8.5173451"/>
+  <node id="1746463727" lat="49.4652405" lon="8.5173546"/>
+  <node id="1746463739" lat="49.4652670" lon="8.5204316"/>
+  <node id="1746463741" lat="49.4652773" lon="8.5204407"/>
+  <node id="1746463763" lat="49.4653588" lon="8.5174967"/>
+  <node id="1746463799" lat="49.4654539" lon="8.5177024"/>
+  <node id="1746463812" lat="49.4655034" lon="8.5184364"/>
+  <node id="1746463813" lat="49.4655139" lon="8.5184459"/>
+  <node id="1746463814" lat="49.4655248" lon="8.5179653"/>
+  <node id="1746463816" lat="49.4655482" lon="8.5184768"/>
+  <node id="1746463819" lat="49.4655859" lon="8.5185499"/>
+  <node id="1746463822" lat="49.4655985" lon="8.5186790"/>
+  <node id="1746463826" lat="49.4656209" lon="8.5194873"/>
+  <node id="1746463827" lat="49.4656331" lon="8.5194980"/>
+  <node id="1746463828" lat="49.4656469" lon="8.5187227"/>
+  <node id="1746463833" lat="49.4659807" lon="8.5208713"/>
+  <node id="1746475347" lat="49.4640576" lon="8.5224468"/>
+  <node id="1746475349" lat="49.4641052" lon="8.5224517"/>
+  <node id="1746475370" lat="49.4643509" lon="8.5216669"/>
+  <node id="1746475372" lat="49.4644135" lon="8.5216773"/>
+  <node id="1746475376" lat="49.4644965" lon="8.5217443"/>
+  <node id="1746475377" lat="49.4645037" lon="8.5217213"/>
+  <node id="1746475380" lat="49.4645368" lon="8.5227907"/>
+  <node id="1746475382" lat="49.4645908" lon="8.5227963"/>
+  <node id="1746475384" lat="49.4647912" lon="8.5209567"/>
+  <node id="1746475385" lat="49.4648075" lon="8.5229826"/>
+  <node id="1746475387" lat="49.4648338" lon="8.5230475"/>
+  <node id="1746475400" lat="49.4648401" lon="8.5209588"/>
+  <node id="1746475419" lat="49.4650618" lon="8.5214171"/>
+  <node id="1746475422" lat="49.4651122" lon="8.5214199"/>
+  <node id="1746475452" lat="49.4654023" lon="8.5214164"/>
+  <node id="1746475455" lat="49.4654291" lon="8.5214806"/>
+  <node id="1746475460" lat="49.4655230" lon="8.5236188"/>
+  <node id="1746475463" lat="49.4655529" lon="8.5236879"/>
+  <node id="1746475478" lat="49.4656921" lon="8.5233195"/>
+  <node id="1746475485" lat="49.4657193" lon="8.5226463"/>
+  <node id="1746475489" lat="49.4657519" lon="8.5227007"/>
+  <node id="1746475509" lat="49.4659918" lon="8.5220687"/>
+  <node id="1749584867" lat="49.4664090" lon="8.5588148">
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:housenumber" v="66"/>
+    <tag k="addr:postcode" v="68239"/>
+    <tag k="addr:street" v="Zähringer Straße"/>
+    <tag k="amenity" v="school"/>
+    <tag k="name" v="Seckenheim-Grundschule"/>
+    <tag k="phone" v="+49 621 48028990"/>
+    <tag k="website" v="http://www.grundschule-seckenheim.de/"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="1749584868" lat="49.4670073" lon="8.5593424">
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="66"/>
+    <tag k="addr:postcode" v="68239"/>
+    <tag k="addr:street" v="Zähringer Straße"/>
+    <tag k="amenity" v="school"/>
+    <tag k="contact:phone" v="+49 621 48025380"/>
+    <tag k="name" v="Seckenheimschule Werkreal- und Realschule"/>
+    <tag k="website" v="http://www.seckenheimschule.de"/>
+  </node>
+  <node id="1756478204" lat="49.4760533" lon="8.5225283"/>
+  <node id="1756478206" lat="49.4760669" lon="8.5219712"/>
+  <node id="1756478208" lat="49.4763384" lon="8.5225448"/>
+  <node id="1756478210" lat="49.4763520" lon="8.5219878"/>
+  <node id="1756479306" lat="49.4761120" lon="8.5225317"/>
+  <node id="1756533925" lat="49.4769771" lon="8.5224517">
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:housenumber" v="170"/>
+    <tag k="addr:postcode" v="68163"/>
+    <tag k="addr:street" v="Seckenheimer Landstraße"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="fax" v="+49 621 414689"/>
+    <tag k="name" v="Lindbergh"/>
+    <tag k="opening_hours" v="Tu,We,Th,Su 09:00-01:00, Mo,Fr,Sa 09:00-02:00"/>
+    <tag k="phone" v="+49 621 412465"/>
+    <tag k="toilets:wheelchair" v="yes"/>
+    <tag k="website" v="http://www.restaurant-lindbergh.de"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="wheelchair:description" v="barrierefreier Zugang und Behindertentoilette vorhanden"/>
+  </node>
+  <node id="1756534096" lat="49.4761338" lon="8.5225329"/>
+  <node id="1780538187" lat="49.4425966" lon="8.5337666"/>
+  <node id="1780538189" lat="49.4426224" lon="8.5337843"/>
+  <node id="1780538191" lat="49.4426224" lon="8.5345551"/>
+  <node id="1780538196" lat="49.4427216" lon="8.5342606"/>
+  <node id="1780538199" lat="49.4428812" lon="8.5343922"/>
+  <node id="1780538201" lat="49.4429708" lon="8.5344559"/>
+  <node id="1780538203" lat="49.4430238" lon="8.5342909"/>
+  <node id="1780538205" lat="49.4430890" lon="8.5343117"/>
+  <node id="1780538207" lat="49.4431338" lon="8.5342971"/>
+  <node id="1780538208" lat="49.4431698" lon="8.5339796"/>
+  <node id="1780538210" lat="49.4431847" lon="8.5342282"/>
+  <node id="1780538212" lat="49.4432010" lon="8.5340580"/>
+  <node id="1780538214" lat="49.4432044" lon="8.5341540"/>
+  <node id="1780538217" lat="49.4432798" lon="8.5351452"/>
+  <node id="1780538219" lat="49.4432947" lon="8.5350982"/>
+  <node id="1780538221" lat="49.4433579" lon="8.5347765"/>
+  <node id="1780538223" lat="49.4433898" lon="8.5352298"/>
+  <node id="1780538225" lat="49.4433980" lon="8.5346898"/>
+  <node id="1780538231" lat="49.4434733" lon="8.5349050"/>
+  <node id="1780538235" lat="49.4434944" lon="8.5349227"/>
+  <node id="1780538240" lat="49.4435120" lon="8.5347880"/>
+  <node id="1809855139" lat="49.4640965" lon="8.5224732"/>
+  <node id="1809855140" lat="49.4640986" lon="8.5224995"/>
+  <node id="1809855144" lat="49.4641143" lon="8.5225293"/>
+  <node id="1809855239" lat="49.4645367" lon="8.5227964"/>
+  <node id="1809855240" lat="49.4645367" lon="8.5228071"/>
+  <node id="1809855242" lat="49.4645404" lon="8.5228224"/>
+  <node id="1809855244" lat="49.4645499" lon="8.5229170"/>
+  <node id="1809855251" lat="49.4646009" lon="8.5228765"/>
+  <node id="1809855253" lat="49.4646156" lon="8.5228805"/>
+  <node id="1809855257" lat="49.4646255" lon="8.5228731"/>
+  <node id="1809855261" lat="49.4646438" lon="8.5228500"/>
+  <node id="1809855273" lat="49.4646761" lon="8.5227676"/>
+  <node id="1809855279" lat="49.4646861" lon="8.5171861"/>
+  <node id="1809855283" lat="49.4646933" lon="8.5227016"/>
+  <node id="1809855295" lat="49.4647325" lon="8.5226080"/>
+  <node id="1809855296" lat="49.4647424" lon="8.5225877"/>
+  <node id="1809855297" lat="49.4647434" lon="8.5229619"/>
+  <node id="1809855298" lat="49.4647435" lon="8.5224799"/>
+  <node id="1809855299" lat="49.4647464" lon="8.5229867"/>
+  <node id="1809855301" lat="49.4647498" lon="8.5229330"/>
+  <node id="1809855303" lat="49.4647585" lon="8.5230093"/>
+  <node id="1809855306" lat="49.4647806" lon="8.5223733"/>
+  <node id="1809855308" lat="49.4647838" lon="8.5228530"/>
+  <node id="1809855309" lat="49.4647878" lon="8.5223570"/>
+  <node id="1809855313" lat="49.4648094" lon="8.5230623"/>
+  <node id="1809855314" lat="49.4648263" lon="8.5230601"/>
+  <node id="1809855316" lat="49.4648325" lon="8.5230544"/>
+  <node id="1809855319" lat="49.4648421" lon="8.5226860"/>
+  <node id="1809855324" lat="49.4648645" lon="8.5209118"/>
+  <node id="1809855326" lat="49.4648739" lon="8.5208942"/>
+  <node id="1809855329" lat="49.4648842" lon="8.5208870"/>
+  <node id="1809855330" lat="49.4648842" lon="8.5226279"/>
+  <node id="1809855339" lat="49.4648972" lon="8.5208878"/>
+  <node id="1809855343" lat="49.4649029" lon="8.5226070"/>
+  <node id="1809855347" lat="49.4649275" lon="8.5224914"/>
+  <node id="1809855348" lat="49.4649279" lon="8.5225365"/>
+  <node id="1809855349" lat="49.4649304" lon="8.5224833"/>
+  <node id="1809855417" lat="49.4651502" lon="8.5210354"/>
+  <node id="1809855419" lat="49.4651534" lon="8.5211659"/>
+  <node id="1809855426" lat="49.4651715" lon="8.5210634"/>
+  <node id="1809855427" lat="49.4651731" lon="8.5211120"/>
+  <node id="1809855431" lat="49.4651772" lon="8.5210729"/>
+  <node id="1809855432" lat="49.4651782" lon="8.5210937"/>
+  <node id="1809855565" lat="49.4654411" lon="8.5237055"/>
+  <node id="1809855580" lat="49.4654848" lon="8.5213286"/>
+  <node id="1809855585" lat="49.4655007" lon="8.5212895"/>
+  <node id="1809855589" lat="49.4655101" lon="8.5236847"/>
+  <node id="1809855591" lat="49.4655117" lon="8.5212816"/>
+  <node id="1809855592" lat="49.4655127" lon="8.5236576"/>
+  <node id="1809855593" lat="49.4655137" lon="8.5237007"/>
+  <node id="1809855599" lat="49.4655271" lon="8.5212793"/>
+  <node id="1809855601" lat="49.4655288" lon="8.5237175"/>
+  <node id="1809855606" lat="49.4655397" lon="8.5237949"/>
+  <node id="1809855611" lat="49.4655589" lon="8.5237438"/>
+  <node id="1809855618" lat="49.4655755" lon="8.5213087"/>
+  <node id="1809855638" lat="49.4656665" lon="8.5232523"/>
+  <node id="1809855640" lat="49.4656709" lon="8.5232419"/>
+  <node id="1809855646" lat="49.4656911" lon="8.5232563"/>
+  <node id="1809855652" lat="49.4657191" lon="8.5226802"/>
+  <node id="1809855654" lat="49.4657248" lon="8.5230935"/>
+  <node id="1809855655" lat="49.4657258" lon="8.5227169"/>
+  <node id="1809855660" lat="49.4657450" lon="8.5231119"/>
+  <node id="1809855674" lat="49.4657668" lon="8.5228095"/>
+  <node id="1809855676" lat="49.4657699" lon="8.5229706"/>
+  <node id="1809855679" lat="49.4657808" lon="8.5228478"/>
+  <node id="1809855681" lat="49.4657855" lon="8.5229252"/>
+  <node id="1809855682" lat="49.4657865" lon="8.5228757"/>
+  <node id="1809855740" lat="49.4659297" lon="8.5215231"/>
+  <node id="1809855749" lat="49.4659646" lon="8.5219988"/>
+  <node id="1809855771" lat="49.4660847" lon="8.5216198"/>
+  <node id="1809855772" lat="49.4660888" lon="8.5216757"/>
+  <node id="1809855773" lat="49.4660914" lon="8.5216374"/>
+  <node id="1809855775" lat="49.4660929" lon="8.5216597"/>
+  <node id="1809855842" lat="49.4662789" lon="8.5208007"/>
+  <node id="1809964832" lat="49.4717851" lon="8.5169342">
+    <tag k="barrier" v="gate"/>
+  </node>
+  <node id="1809964839" lat="49.4720082" lon="8.5104043">
+    <tag k="barrier" v="gate"/>
+  </node>
+  <node id="1810054285" lat="49.4693324" lon="8.5143414"/>
+  <node id="1810054309" lat="49.4694212" lon="8.5142224"/>
+  <node id="1810054318" lat="49.4695114" lon="8.5140469"/>
+  <node id="1810054322" lat="49.4695497" lon="8.5137590"/>
+  <node id="1810054324" lat="49.4695647" lon="8.5137691"/>
+  <node id="1810054325" lat="49.4695807" lon="8.5137647"/>
+  <node id="1810054326" lat="49.4696124" lon="8.5137542"/>
+  <node id="1810054334" lat="49.4696163" lon="8.5138051"/>
+  <node id="1810054335" lat="49.4696240" lon="8.5137516"/>
+  <node id="1810054337" lat="49.4696263" lon="8.5137639"/>
+  <node id="1810054338" lat="49.4696293" lon="8.5137843"/>
+  <node id="1810054343" lat="49.4696964" lon="8.5134076"/>
+  <node id="1810054348" lat="49.4697786" lon="8.5131668"/>
+  <node id="1810054354" lat="49.4699563" lon="8.5126301"/>
+  <node id="1810071751" lat="49.4702987" lon="8.5116347"/>
+  <node id="1810071753" lat="49.4705022" lon="8.5110359"/>
+  <node id="1810071758" lat="49.4709663" lon="8.5098628"/>
+  <node id="1810071761" lat="49.4711087" lon="8.5094874"/>
+  <node id="1810071767" lat="49.4712044" lon="8.5092587"/>
+  <node id="1810071772" lat="49.4712583" lon="8.5091613"/>
+  <node id="1810071773" lat="49.4712602" lon="8.5091268"/>
+  <node id="1810071774" lat="49.4712615" lon="8.5091467"/>
+  <node id="1810071786" lat="49.4713866" lon="8.5090735"/>
+  <node id="1810071805" lat="49.4714190" lon="8.5090894"/>
+  <node id="1810071822" lat="49.4716238" lon="8.5090818"/>
+  <node id="1810071824" lat="49.4716557" lon="8.5090356"/>
+  <node id="1810071827" lat="49.4716402" lon="8.5090608"/>
+  <node id="1810071829" lat="49.4716576" lon="8.5089649"/>
+  <node id="1810071834" lat="49.4717085" lon="8.5192597">
+    <tag k="barrier" v="gate"/>
+  </node>
+  <node id="1810071872" lat="49.4718550" lon="8.5149361"/>
+  <node id="1810086469" lat="49.4688514" lon="8.5172106"/>
+  <node id="1810086472" lat="49.4691886" lon="8.5191499"/>
+  <node id="1810086474" lat="49.4692284" lon="8.5192933"/>
+  <node id="1810086476" lat="49.4693829" lon="8.5195682"/>
+  <node id="1810098678" lat="49.4717080" lon="8.5192737"/>
+  <node id="1810098680" lat="49.4717091" lon="8.5192416"/>
+  <node id="1810249437" lat="49.4618692" lon="8.5169683"/>
+  <node id="1810249442" lat="49.4618733" lon="8.5169639"/>
+  <node id="1810249991" lat="49.4628675" lon="8.5160176"/>
+  <node id="1810250111" lat="49.4629432" lon="8.5159826"/>
+  <node id="1810250116" lat="49.4629486" lon="8.5159801"/>
+  <node id="1810250143" lat="49.4629866" lon="8.5159630"/>
+  <node id="1810250777" lat="49.4642335" lon="8.5168021"/>
+  <node id="1810250779" lat="49.4642344" lon="8.5167361"/>
+  <node id="1810250782" lat="49.4642379" lon="8.5164661"/>
+  <node id="1810250787" lat="49.4642752" lon="8.5164987"/>
+  <node id="1810250789" lat="49.4642753" lon="8.5165189"/>
+  <node id="1810250793" lat="49.4642965" lon="8.5165187"/>
+  <node id="1810250794" lat="49.4643105" lon="8.5165309"/>
+  <node id="1810250795" lat="49.4643106" lon="8.5165485"/>
+  <node id="1810250796" lat="49.4643305" lon="8.5165483"/>
+  <node id="1810250799" lat="49.4643461" lon="8.5165619"/>
+  <node id="1810250800" lat="49.4643461" lon="8.5165766"/>
+  <node id="1810250802" lat="49.4643519" lon="8.5169077"/>
+  <node id="1810250818" lat="49.4643694" lon="8.5165764"/>
+  <node id="1810250821" lat="49.4643702" lon="8.5168583"/>
+  <node id="1810250823" lat="49.4643810" lon="8.5165939"/>
+  <node id="1810250826" lat="49.4643819" lon="8.5168266"/>
+  <node id="1810250849" lat="49.4645945" lon="8.5170612"/>
+  <node id="1825708515" lat="49.4747566" lon="8.5275028"/>
+  <node id="1825708518" lat="49.4747811" lon="8.5272434"/>
+  <node id="1825708520" lat="49.4748718" lon="8.5275285"/>
+  <node id="1825708522" lat="49.4748962" lon="8.5272691"/>
+  <node id="1835657551" lat="49.4461673" lon="8.5821239">
+    <tag k="amenity" v="car_wash"/>
+    <tag k="name" v="Express SB-Wasch"/>
+  </node>
+  <node id="1835658187" lat="49.4467191" lon="8.5795046"/>
+  <node id="1835658196" lat="49.4467716" lon="8.5793637"/>
+  <node id="1835658204" lat="49.4468047" lon="8.5795802"/>
+  <node id="1835658215" lat="49.4468573" lon="8.5794393"/>
+  <node id="1835676522" lat="49.4532832" lon="8.5882667">
+    <tag k="amenity" v="post_office"/>
+    <tag k="name" v="empire;Adler"/>
+    <tag k="shop" v="video;clothes"/>
+  </node>
+  <node id="1836461332" lat="49.4474616" lon="8.5834697"/>
+  <node id="1836461337" lat="49.4475259" lon="8.5833231"/>
+  <node id="1836461338" lat="49.4475473" lon="8.5835453"/>
+  <node id="1836461343" lat="49.4476044" lon="8.5833924"/>
+  <node id="1836885242" lat="49.4450615" lon="8.5743195">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="name" v="Gözde Oase Food &amp; More"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="website" v="http://www.gozde-oase.de/"/>
+    <tag k="wheelchair" v="limited"/>
+  </node>
+  <node id="1836885340" lat="49.4521888" lon="8.5611391"/>
+  <node id="1836885342" lat="49.4522287" lon="8.5610188"/>
+  <node id="1836885344" lat="49.4522345" lon="8.5611749"/>
+  <node id="1836885346" lat="49.4522743" lon="8.5610546"/>
+  <node id="1837377052" lat="49.4428739" lon="8.5725101">
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="30"/>
+    <tag k="addr:postcode" v="68229"/>
+    <tag k="addr:street" v="Saarburger Ring"/>
+    <tag k="addr:suburb" v="Friedrichsfeld"/>
+    <tag k="amenity" v="dentist"/>
+    <tag k="email" v="info@zahnarzt-laufer.de"/>
+    <tag k="fax" v="+49 621 430 253 50"/>
+    <tag k="name" v="Stefanie Laufer"/>
+    <tag k="phone" v="+49 621 430 330 46"/>
+    <tag k="website" v="www.zahnarzt-laufer.de"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="1843728249" lat="49.4444872" lon="8.5811954">
+    <tag k="amenity" v="doctors"/>
+    <tag k="healthcare:speciality" v="general"/>
+    <tag k="name" v="Dr. Rainer Schmidt"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="1844357113" lat="49.4437791" lon="8.5772145"/>
+  <node id="1844357134" lat="49.4438390" lon="8.5773415"/>
+  <node id="1844357139" lat="49.4438610" lon="8.5771230"/>
+  <node id="1844357140" lat="49.4438695" lon="8.5773075"/>
+  <node id="1844357147" lat="49.4439210" lon="8.5772500"/>
+  <node id="1844357154" lat="49.4439782" lon="8.5775379"/>
+  <node id="1844357163" lat="49.4440297" lon="8.5774805"/>
+  <node id="1844357172" lat="49.4441277" lon="8.5774736"/>
+  <node id="1844357177" lat="49.4441437" lon="8.5772900"/>
+  <node id="1844357179" lat="49.4441838" lon="8.5773266"/>
+  <node id="1844357181" lat="49.4441824" lon="8.5771894"/>
+  <node id="1844357182" lat="49.4441976" lon="8.5772032"/>
+  <node id="1844357186" lat="49.4442009" lon="8.5776229"/>
+  <node id="1844357188" lat="49.4442464" lon="8.5770765"/>
+  <node id="1844357200" lat="49.4443074" lon="8.5772845"/>
+  <node id="1844357205" lat="49.4443243" lon="8.5772998"/>
+  <node id="1844357212" lat="49.4443509" lon="8.5771718"/>
+  <node id="1892005390" lat="49.4712450" lon="8.5662602"/>
+  <node id="1892005393" lat="49.4712476" lon="8.5661389"/>
+  <node id="1892005399" lat="49.4712674" lon="8.5651040"/>
+  <node id="1892005430" lat="49.4713238" lon="8.5651808"/>
+  <node id="1892005431" lat="49.4713545" lon="8.5649535"/>
+  <node id="1892005432" lat="49.4713751" lon="8.5650915"/>
+  <node id="1892005435" lat="49.4713853" lon="8.5651257"/>
+  <node id="1892005438" lat="49.4713919" lon="8.5651143"/>
+  <node id="1892005446" lat="49.4713964" lon="8.5652715"/>
+  <node id="1892005467" lat="49.4714385" lon="8.5651981"/>
+  <node id="1892005474" lat="49.4714658" lon="8.5653658"/>
+  <node id="1892005499" lat="49.4715580" lon="8.5652084"/>
+  <node id="1893369247" lat="49.4738644" lon="8.5629501"/>
+  <node id="1893369248" lat="49.4738673" lon="8.5629540"/>
+  <node id="1893369255" lat="49.4739066" lon="8.5628739"/>
+  <node id="1893369263" lat="49.4739374" lon="8.5630460"/>
+  <node id="1893369282" lat="49.4739797" lon="8.5629699"/>
+  <node id="1894898106" lat="49.4730224" lon="8.5634258"/>
+  <node id="1894898111" lat="49.4731895" lon="8.5631213"/>
+  <node id="1894898113" lat="49.4731391" lon="8.5635427"/>
+  <node id="1894898127" lat="49.4732425" lon="8.5633541"/>
+  <node id="1895852425" lat="49.4735717" lon="8.5675959"/>
+  <node id="1895852444" lat="49.4736571" lon="8.5677039"/>
+  <node id="1895852461" lat="49.4737725" lon="8.5672200"/>
+  <node id="1895852462" lat="49.4738190" lon="8.5674677"/>
+  <node id="1895852475" lat="49.4738214" lon="8.5673964"/>
+  <node id="1895852479" lat="49.4738579" lon="8.5673280"/>
+  <node id="1895852508" lat="49.4739960" lon="8.5677478"/>
+  <node id="1895852520" lat="49.4740490" lon="8.5676487"/>
+  <node id="1895852731" lat="49.4748369" lon="8.5627313"/>
+  <node id="1895852750" lat="49.4748875" lon="8.5626402"/>
+  <node id="1895852763" lat="49.4749023" lon="8.5628172"/>
+  <node id="1895852790" lat="49.4749528" lon="8.5627261"/>
+  <node id="1897836013" lat="49.4775901" lon="8.5633152">
+    <tag k="amenity" v="doctors"/>
+    <tag k="email" v="info@praxis-oliverwolf.de"/>
+    <tag k="fax" v="+49 621 4824730"/>
+    <tag k="healthcare:speciality" v="general"/>
+    <tag k="name" v="Privatpraxis Oliver Wolf"/>
+    <tag k="phone" v="+49 621 4824730"/>
+    <tag k="website" v="http://www.praxis-oliverwolf.de"/>
+  </node>
+  <node id="1897837030" lat="49.4775308" lon="8.5597455"/>
+  <node id="1897837083" lat="49.4776101" lon="8.5599403"/>
+  <node id="1897837094" lat="49.4776114" lon="8.5596678"/>
+  <node id="1897837164" lat="49.4776907" lon="8.5598626"/>
+  <node id="1924112728" lat="49.4708241" lon="8.5478323"/>
+  <node id="1924112732" lat="49.4708619" lon="8.5474479"/>
+  <node id="1924112739" lat="49.4709658" lon="8.5478654"/>
+  <node id="1924112744" lat="49.4710037" lon="8.5474810"/>
+  <node id="1924864330" lat="49.4661047" lon="8.5490883">
+    <tag k="amenity" v="school"/>
+    <tag k="email" v="kontakt@nylas-orient.de"/>
+    <tag k="name" v="Nylas Orient: Bauchtanzstudio"/>
+    <tag k="operator" v="Olga Reiter"/>
+    <tag k="phone" v="+49 621 43747935"/>
+    <tag k="website" v="www.nylas-orient.de/"/>
+  </node>
+  <node id="1930276731" lat="49.4678897" lon="8.5580956">
+    <tag k="amenity" v="doctors"/>
+    <tag k="healthcare:speciality" v="psychiatry"/>
+    <tag k="name" v="Dr. Gabriele Nicola"/>
+    <tag k="phone" v="+49 621 48024176"/>
+  </node>
+  <node id="1930276737" lat="49.4679021" lon="8.5580741">
+    <tag k="amenity" v="doctors"/>
+    <tag k="healthcare:speciality" v="psychiatry"/>
+    <tag k="name" v="Dr. Martina Berlinghof"/>
+    <tag k="phone" v="+49 621 4802560"/>
+  </node>
+  <node id="1930276741" lat="49.4678635" lon="8.5581255">
+    <tag k="amenity" v="doctors"/>
+    <tag k="healthcare:speciality" v="anaesthetics, naturopathy"/>
+    <tag k="name" v="Dr. Ute Riedel"/>
+    <tag k="opening_hours" v="Mo, Tu, Th 09:00-12:00, 15:0-18:00; Fr 09:00-14:00"/>
+    <tag k="phone" v="+49 621 471081"/>
+  </node>
+  <node id="1930276753" lat="49.4678761" lon="8.5581071">
+    <tag k="amenity" v="doctors"/>
+    <tag k="healthcare:speciality" v="child_psychiatry"/>
+    <tag k="name" v="Hans Raimund Hirsch"/>
+    <tag k="phone" v="+49 621 4816594"/>
+  </node>
+  <node id="1930276819" lat="49.4641576" lon="8.5565161"/>
+  <node id="1930276826" lat="49.4641772" lon="8.5561368"/>
+  <node id="1930276836" lat="49.4642420" lon="8.5565265"/>
+  <node id="1930276861" lat="49.4643431" lon="8.5563710"/>
+  <node id="1930276862" lat="49.4643512" lon="8.5565399"/>
+  <node id="1930276863" lat="49.4643542" lon="8.5561585"/>
+  <node id="1930276878" lat="49.4643898" lon="8.5565446"/>
+  <node id="1930276880" lat="49.4643984" lon="8.5563778"/>
+  <node id="1930277841" lat="49.4692776" lon="8.5535524"/>
+  <node id="1930277847" lat="49.4693083" lon="8.5534347"/>
+  <node id="1930277854" lat="49.4693735" lon="8.5536116"/>
+  <node id="1930277857" lat="49.4694042" lon="8.5534939"/>
+  <node id="1931881378" lat="49.4688055" lon="8.5555840">
+    <tag k="amenity" v="doctors"/>
+    <tag k="healthcare:speciality" v="ophthalmology"/>
+    <tag k="name" v="Dr. Iris Imhof"/>
+    <tag k="opening_hours" v="Mo, We, Th, Fr 09:00-11:00; Tu 15:00-16:00"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="1931881379" lat="49.4687503" lon="8.5555694">
+    <tag k="amenity" v="doctors"/>
+    <tag k="healthcare:speciality" v="internal"/>
+    <tag k="healthcare:speciality_1" v="general"/>
+    <tag k="name" v="Dr. Wolfgang Imhof"/>
+    <tag k="opening_hours" v="Mo, We, Fr 09:00-11:00, 17:00-18:00; Tu, Th 09:00-11:00"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="1931881384" lat="49.4689602" lon="8.5567808">
+    <tag k="amenity" v="doctors"/>
+    <tag k="email" v="info@praxis-schreier.de"/>
+    <tag k="healthcare:speciality" v="general, homeopathy"/>
+    <tag k="name" v="Privatpraxis Dr. Thomas Schreier"/>
+    <tag k="phone" v="+49 621 4842409"/>
+    <tag k="website" v="http://www.praxis-schreier.de"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="1947143487" lat="49.4637641" lon="8.5544215">
+    <tag k="amenity" v="dentist"/>
+    <tag k="name" v="Dr. Claus-Peter Gerber"/>
+    <tag k="phone" v="+49 621 4814008"/>
+  </node>
+  <node id="1947143488" lat="49.4638873" lon="8.5545088">
+    <tag k="amenity" v="doctors"/>
+    <tag k="healthcare:speciality" v="otolaryngology"/>
+    <tag k="name" v="Dr. Gerhard Schindlbeck"/>
+    <tag k="phone" v="+49 621 49602700"/>
+  </node>
+  <node id="1947143490" lat="49.4635953" lon="8.5545608">
+    <tag k="amenity" v="veterinary"/>
+    <tag k="name" v="Hamm Susanne Kleintierpraxis"/>
+    <tag k="phone" v="+49 621 4804947"/>
+  </node>
+  <node id="1947143605" lat="49.4638406" lon="8.5545236">
+    <tag k="amenity" v="doctors"/>
+    <tag k="healthcare:speciality" v="general, chiropractic"/>
+    <tag k="name" v="Ursula Kutzner"/>
+    <tag k="phone" v="+49 621 4815202"/>
+  </node>
+  <node id="1947498085" lat="49.4631019" lon="8.5534828">
+    <tag k="amenity" v="kindergarten"/>
+    <tag k="fax" v="+49 621 48993"/>
+    <tag k="name" v="Kinderhaus Seckenheim"/>
+    <tag k="phone" v="+49 621 48993"/>
+  </node>
+  <node id="2071307302" lat="49.4720531" lon="8.5675158">
+    <tag k="amenity" v="post_office"/>
+    <tag k="name" v="Kritz Schreibwaren und Postagentur"/>
+    <tag k="opening_hours" v="Mo-Sa 06:30-12:30; Mo-Fr 14:30-18:00"/>
+    <tag k="phone" v="+49 621 43736530"/>
+    <tag k="shop" v="stationery"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="2168743742" lat="49.4730256" lon="8.5352995">
+    <tag k="amenity" v="library"/>
+    <tag k="name" v="Bibliothek der DHBW-Mannheim"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="2203520097" lat="49.4628115" lon="8.5558195">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="greek"/>
+    <tag k="name" v="Gaststätte Zur Kapelle"/>
+    <tag k="operator" v="D. NIKOLAIDIS"/>
+    <tag k="phone" v="+49 621 473638"/>
+  </node>
+  <node id="2203731049" lat="49.4611731" lon="8.5702475">
+    <tag k="amenity" v="veterinary"/>
+    <tag k="fax" v="+49 621 481029"/>
+    <tag k="name" v="Kleintierpraxis Dr. Agnes Friebe"/>
+    <tag k="opening_hours" v="Mo-Sa 9:00-11:00;Mo,Tu,Th,Fr 16:00-18:00"/>
+    <tag k="phone" v="+49 621 472635"/>
+    <tag k="website" v="www.kleintierpraxis-friebe.de/"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="2203731081" lat="49.4647685" lon="8.5663922">
+    <tag k="amenity" v="townhall"/>
+    <tag k="email" v="buergerdienst.seckenheim@mannheim.de"/>
+    <tag k="fax" v="+49 621 293-6575"/>
+    <tag k="name" v="Stadt Mannheim Bürgerdienst Seckenheim"/>
+    <tag k="opening_hours" v="Mo, Th 08:00-16:00; Tu 15:00-18:00; We, Fr 08:00-12:00"/>
+    <tag k="phone" v="+49 621 293-6566"/>
+    <tag k="toilets:wheelchair" v="no"/>
+    <tag k="website" v="http://www.mannheim.de/buerger-sein/buergerdienst-seckenheim"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="2226066895" lat="49.4437219" lon="8.5329140"/>
+  <node id="2226066941" lat="49.4437795" lon="8.5327430"/>
+  <node id="2226066960" lat="49.4438138" lon="8.5329872"/>
+  <node id="2226066988" lat="49.4439201" lon="8.5328570"/>
+  <node id="2226068148" lat="49.4463906" lon="8.5322616"/>
+  <node id="2226068161" lat="49.4464045" lon="8.5324126"/>
+  <node id="2226068163" lat="49.4464013" lon="8.5321295">
+    <tag k="entrance" v="yes"/>
+  </node>
+  <node id="2226068180" lat="49.4464561" lon="8.5324283"/>
+  <node id="2226068182" lat="49.4464327" lon="8.5320049"/>
+  <node id="2226068189" lat="49.4464877" lon="8.5318880"/>
+  <node id="2226068199" lat="49.4465658" lon="8.5324079"/>
+  <node id="2226068207" lat="49.4465714" lon="8.5324250"/>
+  <node id="2226068216" lat="49.4466042" lon="8.5320542"/>
+  <node id="2226068219" lat="49.4466453" lon="8.5322845"/>
+  <node id="2226068225" lat="49.4466383" lon="8.5320097"/>
+  <node id="2226068228" lat="49.4466610" lon="8.5322003"/>
+  <node id="2226068230" lat="49.4466613" lon="8.5320992"/>
+  <node id="2228127365" lat="49.4444103" lon="8.5328424">
+    <tag k="amenity" v="dentist"/>
+    <tag k="name" v="Dr. Gerd H. Thomer"/>
+    <tag k="phone" v="+49 621 874455"/>
+  </node>
+  <node id="2228127366" lat="49.4443444" lon="8.5327952">
+    <tag k="amenity" v="doctors"/>
+    <tag k="healthcare:speciality" v="general"/>
+    <tag k="name" v="Dr. Joachim Fischer, Dr. Sabine Würthwein-Fischer"/>
+  </node>
+  <node id="2228127369" lat="49.4442524" lon="8.5316358">
+    <tag k="amenity" v="post_office"/>
+    <tag k="name" v="Magin Landbäckerei"/>
+    <tag k="shop" v="bakery"/>
+  </node>
+  <node id="2228127621" lat="49.4451568" lon="8.5323445">
+    <tag k="amenity" v="bank"/>
+    <tag k="name" v="VR Bank Rhein-Neckar"/>
+  </node>
+  <node id="2228280862" lat="49.4438211" lon="8.5329584"/>
+  <node id="2228280864" lat="49.4438698" lon="8.5329992"/>
+  <node id="2228405926" lat="49.4431541" lon="8.5310021"/>
+  <node id="2228405927" lat="49.4431609" lon="8.5309807"/>
+  <node id="2228405931" lat="49.4432512" lon="8.5310755"/>
+  <node id="2228405932" lat="49.4432872" lon="8.5309630"/>
+  <node id="2228405933" lat="49.4432918" lon="8.5312330"/>
+  <node id="2228405934" lat="49.4433475" lon="8.5312752"/>
+  <node id="2261910022" lat="49.4717942" lon="8.5665525">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="name" v="New York Pizza und Döner"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="2261910093" lat="49.4713074" lon="8.5668522">
+    <tag k="amenity" v="pharmacy"/>
+    <tag k="fax" v="+49 621 495252"/>
+    <tag k="name" v="Schloß-Apotheke"/>
+    <tag k="opening_hours" v="Mo-Fr 08:00-13:00, 14:00-18:30; Sa 08:00-13:00"/>
+    <tag k="operator" v="Dr. Stephan Weibel"/>
+    <tag k="phone" v="+49 621 492626"/>
+    <tag k="website" v="www.schloss-apotheke-ilvesheim.de/"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="2266100284" lat="49.4699280" lon="8.5659705">
+    <tag k="amenity" v="cafe"/>
+    <tag k="cuisine" v="ice_cream"/>
+    <tag k="email" v="info@eisleone.de"/>
+    <tag k="name" v="Eis Café Leone"/>
+    <tag k="website" v="www.eisleone.de"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="2284147531" lat="49.4682508" lon="8.5287957">
+    <tag k="amenity" v="toilets"/>
+    <tag k="name" v="WC 4"/>
+  </node>
+  <node id="2284615208" lat="49.4680383" lon="8.5245351"/>
+  <node id="2284615215" lat="49.4686134" lon="8.5246685"/>
+  <node id="2284615233" lat="49.4686297" lon="8.5249297">
+    <tag k="amenity" v="toilets"/>
+    <tag k="name" v="WC 2"/>
+    <tag k="toilets:wheelchair" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="wheelchair:description" v="Mit EURO - Schlüssel zugänglich während Veranstaltungen."/>
+  </node>
+  <node id="2284615236" lat="49.4698297" lon="8.5232053">
+    <tag k="amenity" v="toilets"/>
+    <tag k="name" v="WC 7"/>
+  </node>
+  <node id="2302126286" lat="49.4759207" lon="8.5067175"/>
+  <node id="2302126287" lat="49.4766216" lon="8.5064634"/>
+  <node id="2302126288" lat="49.4772573" lon="8.5073369"/>
+  <node id="2302126289" lat="49.4765416" lon="8.5071978"/>
+  <node id="2335305541" lat="49.4688741" lon="8.5540284">
+    <tag k="amenity" v="car_sharing"/>
+    <tag k="name" v="stadtmobil CarSharing-Station"/>
+  </node>
+  <node id="2374533414" lat="49.4469452" lon="8.5217732">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Intermezzo"/>
+    <tag k="note" v="Eröffnung August 2013"/>
+  </node>
+  <node id="2374533527" lat="49.4460469" lon="8.5228851">
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:housenumber" v="14"/>
+    <tag k="addr:postcode" v="68219"/>
+    <tag k="addr:street" v="Stolzeneckstraße"/>
+    <tag k="amenity" v="bank"/>
+    <tag k="fax" v="+49 621 1282-12820"/>
+    <tag k="image" v="https://commons.wikimedia.org/wiki/File:VR-Bank_Mannheim-Casterfeld.jpg"/>
+    <tag k="name" v="VR Bank Filiale Sporwörth"/>
+    <tag k="opening_hours" v="Mo-Fr 08:30-12:30;Tu,Th 14:00-18:00;Mo,Fr 14:00-16:30"/>
+    <tag k="operator" v="VR Bank Rhein-Neckar eG"/>
+    <tag k="phone" v="+49 621 1282-18065"/>
+    <tag k="website" v="https://www.vrbank.de/wir-fuer-sie/filialen-ansprechpartner/filialen/uebersicht-filialen-ma/Filiale-Sporwoerth.html"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="2374588028" lat="49.4478161" lon="8.5193023">
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:housenumber" v="56"/>
+    <tag k="addr:postcode" v="68219"/>
+    <tag k="addr:street" v="Sandrain"/>
+    <tag k="amenity" v="doctors"/>
+    <tag k="healthcare:speciality" v="general"/>
+    <tag k="name" v="Dr. med. Richard Heil"/>
+    <tag k="phone" v="+49 621 873329"/>
+  </node>
+  <node id="2374799542" lat="49.4430244" lon="8.5185773">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="italian"/>
+    <tag k="image" v="https://commons.wikimedia.org/wiki/File:Ristorante_Da_Toni_Mannheim-Casterfeld.jpg"/>
+    <tag k="name" v="Ristorante Da Toni"/>
+    <tag k="opening_hours" v="Mo-Fr 11:00-14:00,17:00-24:00;Su 11:00-14:00,17:00-24:00"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="2397665602" lat="49.4765721" lon="8.5227755"/>
+  <node id="2397665605" lat="49.4766871" lon="8.5229920"/>
+  <node id="2397665607" lat="49.4767264" lon="8.5225814"/>
+  <node id="2397665610" lat="49.4768434" lon="8.5228017"/>
+  <node id="2405885934" lat="49.4775963" lon="8.5092594"/>
+  <node id="2405887682" lat="49.4758742" lon="8.5071342">
+    <tag k="barrier" v="gate"/>
+  </node>
+  <node id="2423436215" lat="49.4651639" lon="8.5594776">
+    <tag k="amenity" v="kindergarten"/>
+    <tag k="fax" v="+49 621 4810571"/>
+    <tag k="image" v="https://commons.wikimedia.org/wiki/File:Rasselbande_Mannheim-Seckenheim.jpg"/>
+    <tag k="name" v="ev. Kindertagesstätte"/>
+    <tag k="phone" v="+49 621 474724"/>
+    <tag k="website" v="http://www.kitas-mannheim.de/?seite=8&amp;kitaid=53"/>
+  </node>
+  <node id="2532214713" lat="49.4587680" lon="8.5642513"/>
+  <node id="2532214714" lat="49.4586342" lon="8.5643860"/>
+  <node id="2532214715" lat="49.4586767" lon="8.5641398"/>
+  <node id="2532214717" lat="49.4585705" lon="8.5642417"/>
+  <node id="2571356057" lat="49.4554933" lon="8.5348604"/>
+  <node id="2571356059" lat="49.4554543" lon="8.5348417"/>
+  <node id="2824061766" lat="49.4664092" lon="8.5509542">
+    <tag k="amenity" v="doctors"/>
+    <tag k="healthcare:speciality" v="general"/>
+    <tag k="name" v="Dr. Hedwig Podstawski"/>
+    <tag k="opening_hours" v="Mo,Tu 07:00-11:00,14:00-18:00; We,Fr 08:00-11:00; Th 08:00-11:00,17:00-20:00"/>
+    <tag k="phone" v="+49 621 841314"/>
+  </node>
+  <node id="2824061773" lat="49.4659770" lon="8.5512858"/>
+  <node id="2824061774" lat="49.4659816" lon="8.5512839"/>
+  <node id="2824061775" lat="49.4659917" lon="8.5509533"/>
+  <node id="2824061777" lat="49.4660959" lon="8.5509160"/>
+  <node id="2824120867" lat="49.4668394" lon="8.5646071">
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="82"/>
+    <tag k="addr:postcode" v="68239"/>
+    <tag k="addr:street" v="Seckenheimer Hauptstraße"/>
+    <tag k="amenity" v="pub"/>
+    <tag k="name" v="Cafe Bistro Ariston"/>
+  </node>
+  <node id="2824120868" lat="49.4668572" lon="8.5639246">
+    <tag k="amenity" v="doctors"/>
+    <tag k="email" v="praxis@frauenaerzte-mannheim.net"/>
+    <tag k="fax" v="+49 621 473999"/>
+    <tag k="healthcare:speciality" v="haematology"/>
+    <tag k="name" v="Dr. Oberniedermayer/Dr. Piotrowski"/>
+    <tag k="opening_hours" v="Mo, We 08:00-18:00; Tu 07:00-18:00; Th 08:00-19:00; Fr 08:00-13:00"/>
+    <tag k="phone" v="+49 621 476464"/>
+    <tag k="website" v="frauenärzte-mannheim.de/"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="2824120869" lat="49.4670001" lon="8.5637546">
+    <tag k="amenity" v="cafe"/>
+    <tag k="cuisine" v="regional"/>
+    <tag k="name" v="Bäckerei/Cafe Zorn"/>
+    <tag k="outdoor_seating" v="no"/>
+    <tag k="shop" v="bakery"/>
+    <tag k="smoking" v="no"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="2824121822" lat="49.4674320" lon="8.5638604"/>
+  <node id="2824121823" lat="49.4674779" lon="8.5639436"/>
+  <node id="2824121824" lat="49.4689583" lon="8.5596624">
+    <tag k="amenity" v="theatre"/>
+    <tag k="name" v="Puppentheater Kleine Puppenschachtel"/>
+    <tag k="phone" v="+49 621 476425"/>
+  </node>
+  <node id="2824121827" lat="49.4667749" lon="8.5640537">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="microbrewery" v="no"/>
+    <tag k="name" v="Zum goldenen Engel"/>
+    <tag k="opening_hours" v="Mo-Sa 11:00-22:30"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+49 621 472286"/>
+    <tag k="tourism" v="guest_house"/>
+    <tag k="website" v="http://www.goldener-engel-seckenheim.de/"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="2825150850" lat="49.4621201" lon="8.5655568">
+    <tag k="amenity" v="doctors"/>
+    <tag k="fax" v="+49 621 4814332"/>
+    <tag k="healthcare" v="doctor"/>
+    <tag k="healthcare:speciality" v="general"/>
+    <tag k="name" v="Hausarztpraxis Dr. Hanna Böttcher-Schmidt"/>
+    <tag k="opening_hours" v="Mo 08:00-11:00,15:00-18:00;Tu 08:00-11:00;Th 08:00-11:00,15:30-19:00;Fr 08:00-11:00"/>
+    <tag k="phone" v="+49 621 471584"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="2825964337" lat="49.4681008" lon="8.5598777">
+    <tag k="amenity" v="dentist"/>
+    <tag k="email" v="info@die-zahnwerkstatt.com"/>
+    <tag k="name" v="Die Zahnwerkstatt"/>
+    <tag k="phone" v="+49 621 48250870"/>
+    <tag k="website" v="http://seckenheimerzahnwerkstatt.com/"/>
+  </node>
+  <node id="2825964338" lat="49.4687404" lon="8.5515496">
+    <tag k="amenity" v="dentist"/>
+    <tag k="email" v="kontakt@drwerle.de"/>
+    <tag k="fax" v="+49 621 4815205"/>
+    <tag k="name" v="Dr. Ulrich Werle"/>
+    <tag k="opening_hours" v="Mo,Th 8:00-12:00,14:00-18:00;Tu 8:00-12:00,15:00-19:00;We,Fr 8:00-13:00"/>
+    <tag k="phone" v="+49 621 471102"/>
+    <tag k="website" v="www.drwerle.de"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="2825964342" lat="49.4688456" lon="8.5593740">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Ristorante &quot;Stella Leone&quot;"/>
+    <tag k="opening_hours" v="Mo 18:00+;Tu-Su 11:30-14:00,18:00-23:00;Sa Off"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+49 621 48228020"/>
+    <tag k="website" v="http://www.loewen-seckenheim.de/seiten/restaurant.html"/>
+  </node>
+  <node id="2825964344" lat="49.4696453" lon="8.5580546">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="kebab;pizza"/>
+    <tag k="name" v="Pizza und Kebap-Haus"/>
+    <tag k="phone" v="+49 621 48222240"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="2825964345" lat="49.4720339" lon="8.5485946">
+    <tag k="addr:postcode" v="68239"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="pizza"/>
+    <tag k="email" v="piccolo@snack-web.de"/>
+    <tag k="fax" v="+49 6214960634"/>
+    <tag k="name" v="Pizzeria Piccola Italia"/>
+    <tag k="opening_hours" v="Mo-Su 11:00-23:30"/>
+    <tag k="operator" v="Senol Nalbant"/>
+    <tag k="phone" v="+49 6214960632"/>
+    <tag k="website" v="http://www.pizza-seckenheim.de"/>
+  </node>
+  <node id="2825965390" lat="49.4713805" lon="8.5557761"/>
+  <node id="2825965391" lat="49.4713778" lon="8.5553110"/>
+  <node id="2825965392" lat="49.4713854" lon="8.5552841"/>
+  <node id="2825965393" lat="49.4714247" lon="8.5556201"/>
+  <node id="2825965394" lat="49.4714305" lon="8.5555763"/>
+  <node id="2825965395" lat="49.4714336" lon="8.5556261"/>
+  <node id="2825965396" lat="49.4714450" lon="8.5555860"/>
+  <node id="2825965406" lat="49.4719528" lon="8.5488773"/>
+  <node id="2825965407" lat="49.4719702" lon="8.5487008"/>
+  <node id="2825965415" lat="49.4720437" lon="8.5488985"/>
+  <node id="2825965417" lat="49.4720611" lon="8.5487221"/>
+  <node id="2827079368" lat="49.4674258" lon="8.5621520">
+    <tag k="amenity" v="cafe"/>
+    <tag k="cuisine" v="ice_cream"/>
+    <tag k="email" v="adria.seckenheim@yahoo.de"/>
+    <tag k="fax" v="+49 621 44578579"/>
+    <tag k="name" v="Eiscafe Adria"/>
+    <tag k="opening_hours" v="11:00-22:00"/>
+    <tag k="phone" v="+49 621 471759"/>
+    <tag k="website" v="http://www.adria-seckenheim.de/"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="2827081677" lat="49.4672349" lon="8.5625126">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Zum Reichsadler"/>
+    <tag k="opening_hours" v="9:00-24:00; Tu off"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="2827169904" lat="49.4674796" lon="8.5610955"/>
+  <node id="2827169908" lat="49.4675449" lon="8.5609155"/>
+  <node id="2827169912" lat="49.4675999" lon="8.5608880"/>
+  <node id="2827169917" lat="49.4676417" lon="8.5609456"/>
+  <node id="2830955756" lat="49.4663512" lon="8.5639126">
+    <tag k="amenity" v="doctors"/>
+    <tag k="healthcare:speciality" v="psychiatry"/>
+    <tag k="name" v="Dr. Claus Probst"/>
+    <tag k="phone" v="+49 621 476200"/>
+  </node>
+  <node id="2830955757" lat="49.4669180" lon="8.5630128">
+    <tag k="amenity" v="doctors"/>
+    <tag k="healthcare:speciality" v="general"/>
+    <tag k="name" v="Dr. Roland Kremser"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="2830955759" lat="49.4668545" lon="8.5631499">
+    <tag k="amenity" v="cafe"/>
+    <tag k="name" v="K&amp;U Bäckerei"/>
+    <tag k="shop" v="bakery"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="2830955760" lat="49.4666474" lon="8.5635323">
+    <tag k="amenity" v="pharmacy"/>
+    <tag k="dispensing" v="yes"/>
+    <tag k="fax" v="+49 621 49600981"/>
+    <tag k="name" v="Neue Apotheke Seckenheim"/>
+    <tag k="opening_hours" v="Mo-Fr 08:30-18:30;Sa 08:30-13:00"/>
+    <tag k="phone" v="+49 621 49600980"/>
+    <tag k="website" v="www.neue-apotheke-ma.de"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="2836786220" lat="49.4679979" lon="8.5227914">
+    <tag k="amenity" v="toilets"/>
+    <tag k="name" v="WC 1"/>
+  </node>
+  <node id="2837217842" lat="49.4634646" lon="8.5664119">
+    <tag k="amenity" v="dentist"/>
+    <tag k="healthcare:speciality" v="dental_oral_maxillo_facial_surgery"/>
+    <tag k="name" v="Alfred Bernatek"/>
+  </node>
+  <node id="2837217844" lat="49.4650906" lon="8.5650084">
+    <tag k="amenity" v="doctors"/>
+    <tag k="email" v="kuehlwein@praxis-dr-kuehlwein.de"/>
+    <tag k="fax" v="+49 621 101246"/>
+    <tag k="healthcare:speciality" v="paediatrics"/>
+    <tag k="name" v="Dr. Kühlwein"/>
+    <tag k="opening_hours" v="Mo,Tu,Th,Fr 7:30-18:00;We 7:30-12:00"/>
+    <tag k="phone" v="+49 621 476161"/>
+    <tag k="website" v="http://www.praxis-dr-kuehlwein.de/"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="2837217845" lat="49.4635467" lon="8.5666288">
+    <tag k="amenity" v="driving_school"/>
+    <tag k="email" v="info@fahrszination.com"/>
+    <tag k="image" v="https://commons.wikimedia.org/wiki/File:Fahrschule_fahrszination_Mannheim-Seckenheim.jpg"/>
+    <tag k="name" v="Fahrschule fahrszination"/>
+    <tag k="phone" v="+49 175 16 42 760"/>
+    <tag k="website" v="http://www.fahrszination.com"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="2837217846" lat="49.4621969" lon="8.5690339">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="image" v="https://commons.wikimedia.org/wiki/File:Gastst%C3%A4tte_Zur_Turnhalle_Mannheim-Seckenheim.jpg"/>
+    <tag k="name" v="Restaurant Dalmatino"/>
+    <tag k="old_name" v="Gasthaus Zur Turnhalle"/>
+    <tag k="opening_hours" v="Tu-Su 11:30-14:00,17:30-22:00"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+49 621 475191"/>
+    <tag k="website" v="https://www.meinseckenheim.de/schaufenster-bummel/restaurant-dalmatino/"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="wheelchair:description" v="Eingang ok, WC breit und ohne Stufen aber ohne Haltegriff"/>
+  </node>
+  <node id="2837217848" lat="49.4640407" lon="8.5660650">
+    <tag k="amenity" v="pub"/>
+    <tag k="name" v="Helvetia-Treff"/>
+    <tag k="opening_hours" v="Mo-Th 10:00-01:00, Fr 10:00-03:00, Sa 13:00-03:00, Su 13:00-01:00"/>
+    <tag k="phone" v="+49 621 476321"/>
+    <tag k="website" v="https://de-de.facebook.com/pages/Billard-Dart-Helvetia-Treff-Caf%C3%A9-Bar-Mannheim-Seckenheim/695694930462278"/>
+  </node>
+  <node id="2837217849" lat="49.4646716" lon="8.5654135">
+    <tag k="amenity" v="kindergarten"/>
+    <tag k="email" v="mail@kinderladen-seckenheim.de"/>
+    <tag k="name" v="Kinderladen Seckenheim eV"/>
+    <tag k="phone" v="+49 621 476422"/>
+    <tag k="website" v="http://www.kinderladen-seckenheim.de/"/>
+  </node>
+  <node id="2837217850" lat="49.4610335" lon="8.5697362">
+    <tag k="amenity" v="car_wash"/>
+    <tag k="name" v="Lotus Wash"/>
+  </node>
+  <node id="2837217857" lat="49.4608546" lon="8.5698358"/>
+  <node id="2837217858" lat="49.4608674" lon="8.5698646"/>
+  <node id="2837217859" lat="49.4608846" lon="8.5698044"/>
+  <node id="2837217860" lat="49.4608953" lon="8.5698286"/>
+  <node id="2837217862" lat="49.4610350" lon="8.5696821"/>
+  <node id="2838905293" lat="49.4677065" lon="8.5633104">
+    <tag k="amenity" v="driving_school"/>
+    <tag k="email" v="info@fahrschule-rakowski.de"/>
+    <tag k="name" v="Fahrschule Ralf Rakowski"/>
+    <tag k="phone" v="+49 621 4810226"/>
+    <tag k="website" v="http://www.fahrschule-rakowski.de/"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="2838907602" lat="49.4674085" lon="8.5638175"/>
+  <node id="2838907610" lat="49.4675548" lon="8.5633830"/>
+  <node id="2839027921" lat="49.4681408" lon="8.5611951">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="email" v="info@cookandmore.net"/>
+    <tag k="fax" v="+49 621 97861431"/>
+    <tag k="lastcheck" v="2017-06-12"/>
+    <tag k="name" v="Badischer Hof"/>
+    <tag k="old_name" v="Brauerei Pfisterer"/>
+    <tag k="opening_hours" v="Tu-Sa 11:30-14:00, 17:30-23:00; Su 11:30-14:30, 17:30-21:30"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+49 621 97861430"/>
+    <tag k="website" v="http://www.badischerhof.net/"/>
+    <tag k="wheelchair" v="limited"/>
+  </node>
+  <node id="2839027939" lat="49.4689102" lon="8.5597866">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="email" v="info@stern-seckenheim.de"/>
+    <tag k="fax" v="+49 621 472023"/>
+    <tag k="name" v="Hotel Restaurant Stern"/>
+    <tag k="opening_hours" v="Mo-Su 11:30-14:00, 17:00-23:00"/>
+    <tag k="phone" v="+49 621 471488"/>
+    <tag k="tourism" v="hotel"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="2841284810" lat="49.4682328" lon="8.5610032">
+    <tag k="amenity" v="cafe"/>
+    <tag k="name" v="Das Café"/>
+    <tag k="shop" v="confectionery"/>
+    <tag k="website" v="https://de-de.facebook.com/Das-Caf%C3%A9-669514169741856/"/>
+  </node>
+  <node id="2841284879" lat="49.4705519" lon="8.5612970"/>
+  <node id="2875721561" lat="49.4530994" lon="8.5185111"/>
+  <node id="2875721562" lat="49.4531279" lon="8.5185360"/>
+  <node id="2875721563" lat="49.4531301" lon="8.5184279"/>
+  <node id="2875721565" lat="49.4531586" lon="8.5184528"/>
+  <node id="2884856620" lat="49.4509423" lon="8.5232557">
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="denomination" v="lutheran"/>
+    <tag k="name" v="Freie evangelische Gemeinde Mannheim"/>
+    <tag k="phone" v="+49 621 4394287"/>
+    <tag k="religion" v="christian"/>
+    <tag k="website" v="http://feg-mannheim.de/"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="wheelchair:description" v="Eingang ok, Lift vorhanden"/>
+  </node>
+  <node id="2930608104" lat="49.4731886" lon="8.5632168"/>
+  <node id="2930608105" lat="49.4732196" lon="8.5631604"/>
+  <node id="2930608106" lat="49.4732311" lon="8.5633393"/>
+  <node id="2930608107" lat="49.4732527" lon="8.5633001"/>
+  <node id="2930608168" lat="49.4750311" lon="8.5612701">
+    <tag k="addr:city" v="Ilvesheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="80"/>
+    <tag k="addr:postcode" v="68549"/>
+    <tag k="addr:street" v="Neue Schulstraße"/>
+    <tag k="amenity" v="veterinary"/>
+    <tag k="contact:email" v="info@tierphysiotherapie-julia-magin.de"/>
+    <tag k="contact:fax" v="+49 621 4963006"/>
+    <tag k="contact:phone" v="+49 621 4949939"/>
+    <tag k="contact:website" v="http://tierphysiotherapie-julia-magin.de"/>
+    <tag k="name" v="Tierphysiotherapie Julia Magin"/>
+    <tag k="opening_hours" v="Mo 14:00-20:00; Tu,Th 09:00-18:00; We 10:00-21:00; Fr 09:00-15:00; Sa 09:00-16:00"/>
+    <tag k="operator" v="Julia Magin"/>
+    <tag k="source" v="http://tierphysiotherapie-julia-magin.de"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="2930613633" lat="49.4737469" lon="8.5627076">
+    <tag k="amenity" v="dentist"/>
+    <tag k="entrance" v="yes"/>
+    <tag k="name" v="Dr. Roy Riefenstahl"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="2930617801" lat="49.4720697" lon="8.5662230">
+    <tag k="amenity" v="doctors"/>
+    <tag k="healthcare:speciality" v="internal"/>
+    <tag k="name" v="Dr. Veit Harold Bauer"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="2930629474" lat="49.4714165" lon="8.5665877">
+    <tag k="automatic_door" v="infrared"/>
+    <tag k="door" v="sliding"/>
+    <tag k="entrance" v="main"/>
+  </node>
+  <node id="2930629475" lat="49.4714303" lon="8.5665638"/>
+  <node id="2930629476" lat="49.4714353" lon="8.5665706"/>
+  <node id="2930639320" lat="49.4722239" lon="8.5635533">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="greek"/>
+    <tag k="name" v="Schiff Alexander"/>
+    <tag k="opening_hours" v="Mo-Su 17:00-24:00; Su 11:30-14:30"/>
+    <tag k="phone" v="+49 621 858355"/>
+    <tag k="wheelchair" v="limited"/>
+  </node>
+  <node id="2930672063" lat="49.4708795" lon="8.5666894">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="greek"/>
+    <tag k="name" v="Zur Krone"/>
+    <tag k="opening_hours" v="Th-Tu 11:00-14:00, 17:00-24:00"/>
+    <tag k="operator" v="Efstatios Sakalidis"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+49 621 492189"/>
+  </node>
+  <node id="2930681602" lat="49.4716873" lon="8.5673739">
+    <tag k="alt_name" v="Deutsches Haus"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="greek"/>
+    <tag k="name" v="Santorini"/>
+    <tag k="opening_hours" v="Tu-Sa 17:00-24:00; Su 11:30-14:30, 17:00-24:00"/>
+    <tag k="phone" v="+49 621 494685"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="2938493560" lat="49.4471930" lon="8.5749017">
+    <tag k="amenity" v="nightclub"/>
+    <tag k="email" v="club-voyage@gmx.de"/>
+    <tag k="name" v="Club-Lounge Voyage"/>
+    <tag k="opening_hours" v="Fr-Sa 20:00-05:00"/>
+    <tag k="phone" v="+49 621 49601836"/>
+    <tag k="website" v="https://de-de.facebook.com/pages/Club-Lounge-VOYAGE/191583504218921"/>
+  </node>
+  <node id="2940066715" lat="49.4463714" lon="8.5760765">
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:postcode" v="68229"/>
+    <tag k="addr:street" v="Saarburger Ring"/>
+    <tag k="amenity" v="dentist"/>
+    <tag k="email" v="mail@med-smile.de"/>
+    <tag k="fax" v="+49 621 478441"/>
+    <tag k="name" v="Zahnärztliche Gemeinschaftspraxis Dres. Jäger &amp; Partner"/>
+    <tag k="opening_hours" v="Mo-Fr 7:00-20:00,Sa 9:00-13:00"/>
+    <tag k="phone" v="+49 621 477885"/>
+    <tag k="toilets:wheelchair" v="yes"/>
+    <tag k="website" v="http://www.med-smile.de"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="2940073138" lat="49.4428262" lon="8.5796107">
+    <tag k="addr:postcode" v="68229"/>
+    <tag k="amenity" v="pharmacy"/>
+    <tag k="contact:fax" v="+49 621 4804652"/>
+    <tag k="contact:phone" v="+49 621 475160"/>
+    <tag k="dispensing" v="yes"/>
+    <tag k="name" v="Schiller Apotheke"/>
+    <tag k="opening_hours" v="Mo-Fr 08:30-13:00,15:00-18:30; Sa 08:30-13:00"/>
+    <tag k="operator" v="Jürgen Sommer"/>
+    <tag k="website" v="http://www.schillerapo-mannheim.de/"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="2941487959" lat="49.4474286" lon="8.5799870">
+    <tag k="amenity" v="pub"/>
+    <tag k="name" v="Weißes Rössel"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="3119956007" lat="49.4426752" lon="8.5194471"/>
+  <node id="3119956008" lat="49.4427602" lon="8.5195421"/>
+  <node id="3119956009" lat="49.4428189" lon="8.5191430"/>
+  <node id="3119956010" lat="49.4429039" lon="8.5192379"/>
+  <node id="3120865044" lat="49.4444662" lon="8.5248179"/>
+  <node id="3120865045" lat="49.4444790" lon="8.5248788"/>
+  <node id="3120865046" lat="49.4444807" lon="8.5247461"/>
+  <node id="3120865047" lat="49.4445000" lon="8.5247659"/>
+  <node id="3120865048" lat="49.4445112" lon="8.5249663"/>
+  <node id="3120865049" lat="49.4445247" lon="8.5249220"/>
+  <node id="3120865050" lat="49.4445354" lon="8.5247338"/>
+  <node id="3120865051" lat="49.4445611" lon="8.5247437"/>
+  <node id="3120865052" lat="49.4445916" lon="8.5248080"/>
+  <node id="3120865053" lat="49.4446913" lon="8.5248822"/>
+  <node id="3120865054" lat="49.4447598" lon="8.5249261"/>
+  <node id="3120865055" lat="49.4447735" lon="8.5251394"/>
+  <node id="3120865056" lat="49.4448394" lon="8.5249453"/>
+  <node id="3154827502" lat="49.4665303" lon="8.5568042">
+    <tag k="amenity" v="doctors"/>
+    <tag k="email" v="Dr.Regina.Koenig@t-online.de"/>
+    <tag k="fax" v="+49 621 4824979"/>
+    <tag k="healthcare:speciality" v="naturopathy"/>
+    <tag k="name" v="Dr. Regina König"/>
+    <tag k="phone" v="+49 621 4824977"/>
+    <tag k="website" v="http://www.koenig-psychotherapie.de/"/>
+  </node>
+  <node id="3192101630" lat="49.4587655" lon="8.5641129"/>
+  <node id="3192101631" lat="49.4586392" lon="8.5640513"/>
+  <node id="3220417547" lat="49.4677168" lon="8.5613024"/>
+  <node id="3220417548" lat="49.4677608" lon="8.5612267"/>
+  <node id="3387344679" lat="49.4466098" lon="8.5323708"/>
+  <node id="3452492032" lat="49.4656014" lon="8.5655313"/>
+  <node id="3452492033" lat="49.4656089" lon="8.5655406"/>
+  <node id="3452492034" lat="49.4656477" lon="8.5654428"/>
+  <node id="3452492035" lat="49.4656896" lon="8.5653628"/>
+  <node id="3452492036" lat="49.4656971" lon="8.5653721"/>
+  <node id="3452492037" lat="49.4657670" lon="8.5653850"/>
+  <node id="3452492038" lat="49.4657741" lon="8.5653715"/>
+  <node id="3452492040" lat="49.4658168" lon="8.5659389"/>
+  <node id="3452492041" lat="49.4658241" lon="8.5659251"/>
+  <node id="3452492042" lat="49.4658341" lon="8.5659375"/>
+  <node id="3452492043" lat="49.4658445" lon="8.5659177"/>
+  <node id="3452492044" lat="49.4659869" lon="8.5657884"/>
+  <node id="3452492045" lat="49.4659955" lon="8.5657990"/>
+  <node id="3455114428" lat="49.4513249" lon="8.5175835">
+    <tag k="amenity" v="cafe"/>
+    <tag k="image" v="https://commons.wikimedia.org/wiki/File:K%26U_Mannheim-Wallau.jpg"/>
+    <tag k="name" v="K&amp;U Bäckerei"/>
+    <tag k="opening_hours" v="Mo-Fr 03:00-15:30;Sa 03:00-12:00"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+49 621 87988110"/>
+    <tag k="shop" v="bakery"/>
+    <tag k="website" v="http://www.k-und-u.com"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="3456088493" lat="49.4711130" lon="8.5661279"/>
+  <node id="3456088505" lat="49.4711941" lon="8.5662406"/>
+  <node id="3456088511" lat="49.4712100" lon="8.5656830">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="name" v="Gasthaus Zum Adler"/>
+    <tag k="old_name" v="Ristorante Adler"/>
+    <tag k="opening_hours" v="Mo-Fr 11:30-14:30,17:30-22:30;Sa 17:30-23:00;Su 11:30-22:30;Tu off"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+49 621 46099550"/>
+    <tag k="website" v="http://www.adler-ilvesheim.de/"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="3456088512" lat="49.4712106" lon="8.5662124"/>
+  <node id="3456088525" lat="49.4713273" lon="8.5660029"/>
+  <node id="3456088529" lat="49.4713659" lon="8.5663033"/>
+  <node id="3456088568" lat="49.4717315" lon="8.5655241"/>
+  <node id="3456088573" lat="49.4717815" lon="8.5654467"/>
+  <node id="3456088578" lat="49.4718556" lon="8.5657142"/>
+  <node id="3456088579" lat="49.4719057" lon="8.5656368"/>
+  <node id="3456088580" lat="49.4720440" lon="8.5668201"/>
+  <node id="3456088581" lat="49.4720447" lon="8.5667598"/>
+  <node id="3456088582" lat="49.4720793" lon="8.5668764"/>
+  <node id="3456088583" lat="49.4720925" lon="8.5666291"/>
+  <node id="3456088584" lat="49.4720992" lon="8.5668469"/>
+  <node id="3456088829" lat="49.4737071" lon="8.5676104"/>
+  <node id="3456088830" lat="49.4737284" lon="8.5676374"/>
+  <node id="3456088831" lat="49.4738819" lon="8.5676034"/>
+  <node id="3456088832" lat="49.4738998" lon="8.5675699"/>
+  <node id="3456088833" lat="49.4739241" lon="8.5675264"/>
+  <node id="3456088834" lat="49.4739355" lon="8.5675051"/>
+  <node id="3456859920" lat="49.4514645" lon="8.5222286">
+    <tag k="amenity" v="social_facility"/>
+    <tag k="fax" v="+49 621 8624741"/>
+    <tag k="name" v="Aura Tagesbetreuung"/>
+    <tag k="opening_hours" v="Mo-Fr 7:30-16:00"/>
+    <tag k="phone" v="+49 621 8624740"/>
+    <tag k="website" v="http://www.aura-tagesbetreuung.de"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="3456918305" lat="49.4427570" lon="8.5193643">
+    <tag k="amenity" v="kindergarten"/>
+    <tag k="name" v="Kindertagesstätte Sporwörthstraße"/>
+    <tag k="operator" v="Immanuel-Pfingstberggemeinde"/>
+    <tag k="phone" v="+49 621 871773"/>
+    <tag k="website" v="http://www.immanuelpfingstberg.ekma.de/KITA_Immanuel.html"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="3469042647" lat="49.4620752" lon="8.5613231">
+    <tag k="amenity" v="dentist"/>
+    <tag k="name" v="Zahnarztpraxis Dres. Berger-Kühn und Kühn"/>
+    <tag k="opening_hours" v="Mo-Th 8:00-12:00,14:00-18:00; Fr 8:00-12:00"/>
+    <tag k="phone" v="+49 621 471961"/>
+    <tag k="website" v="http://www.die-zahnaerzte-mannheim.de"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="3470860936" lat="49.4671362" lon="8.5574462">
+    <tag k="amenity" v="driving_school"/>
+    <tag k="image" v="https://commons.wikimedia.org/wiki/File:Fahrschule_Point_Mannheim-Seckenheim.jpg"/>
+    <tag k="name" v="Fahrschule Point"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="3470860937" lat="49.4672617" lon="8.5573117">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="image" v="https://commons.wikimedia.org/wiki/File:Gasthaus_Alt_Seggene_Mannheim-Seckenheim.jpg"/>
+    <tag k="name" v="Gasthaus Alt Seggene"/>
+    <tag k="opening_hours" v="Tu-Fr,Su 11:30-14:30,17:00+;Sa 17:00+"/>
+    <tag k="operator" v="Michael Adler"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="3470877947" lat="49.4672868" lon="8.5575712">
+    <tag k="amenity" v="doctors"/>
+    <tag k="healthcare:speciality" v="paediatrics"/>
+    <tag k="name" v="Dr. Martin Teich"/>
+    <tag k="phone" v="+49 621 484560"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="3470877948" lat="49.4672794" lon="8.5575568">
+    <tag k="amenity" v="doctors"/>
+    <tag k="fax" v="+49 621 475538"/>
+    <tag k="healthcare:speciality" v="internal"/>
+    <tag k="healthcare:speciality_1" v="general"/>
+    <tag k="name" v="Praxis Dr. Bernd Lehmann"/>
+    <tag k="opening_hours" v="Mo,Th 8:00-12:00,15:00-18:00; Tu 8:00-12:00,16:00-19:00; Fr 8:00-12:00,14:00-16:00"/>
+    <tag k="phone" v="+49 621 475588"/>
+    <tag k="website" v="http://www.doktor-lehmann.de/"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="3470883487" lat="49.4673611" lon="8.5569052">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="italian"/>
+    <tag k="image" v="https://commons.wikimedia.org/wiki/File:Da_Ciro_Mannheim-Seckenheim.jpg"/>
+    <tag k="name" v="Da Ciro"/>
+    <tag k="opening_hours" v="Mo-Fr 11:30-14:30,17:00-22:00;Sa,Su 17:00-22:00"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+49 621 43752214"/>
+    <tag k="website" v="http://www.daciro-mannheim.de"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="3716446017" lat="49.4489185" lon="8.5560389">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="microbrewery" v="no"/>
+    <tag k="name" v="Clubhaus TC Kurpfalz"/>
+    <tag k="opening_hours" v="Tu-Fr 16:30+;Sa, Su 11:00+"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+49 621 471610"/>
+    <tag k="website" v="http://tc-kurpfalz.de/#2/14"/>
+  </node>
+  <node id="3949881057" lat="49.4712832" lon="8.5651256"/>
+  <node id="3949881060" lat="49.4712972" lon="8.5650521"/>
+  <node id="3949881062" lat="49.4713521" lon="8.5651315"/>
+  <node id="3949881066" lat="49.4714122" lon="8.5652932"/>
+  <node id="3949881067" lat="49.4714142" lon="8.5650204"/>
+  <node id="3949881068" lat="49.4714148" lon="8.5652393"/>
+  <node id="3949881069" lat="49.4714315" lon="8.5650441"/>
+  <node id="3949881073" lat="49.4714926" lon="8.5653189"/>
+  <node id="3949881075" lat="49.4715049" lon="8.5651343"/>
+  <node id="4014438989" lat="49.4462829" lon="8.5760731">
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:postcode" v="68229"/>
+    <tag k="addr:street" v="Saarburger Ring"/>
+    <tag k="amenity" v="dentist"/>
+    <tag k="name" v="MED:SMILE Zahnärzte Mannheim"/>
+    <tag k="phone" v="+49 621 478441"/>
+    <tag k="toilets:wheelchair" v="yes"/>
+    <tag k="website" v="http://med-smile.de"/>
+    <tag k="wheelchair" v="limited"/>
+  </node>
+  <node id="4074715376" lat="49.4632371" lon="8.5586144">
+    <tag k="amenity" v="driving_school"/>
+    <tag k="name" v="Fahrschule Vati"/>
+    <tag k="phone" v="+49 621 471243"/>
+    <tag k="website" v="http://www.fahrschule-vati.de/"/>
+  </node>
+  <node id="4079661225" lat="49.4674693" lon="8.5610978"/>
+  <node id="4079661226" lat="49.4674695" lon="8.5609613"/>
+  <node id="4079661227" lat="49.4674703" lon="8.5611166"/>
+  <node id="4079661228" lat="49.4674719" lon="8.5609466"/>
+  <node id="4079661229" lat="49.4674741" lon="8.5610104"/>
+  <node id="4079661230" lat="49.4674753" lon="8.5610244"/>
+  <node id="4079661231" lat="49.4674775" lon="8.5609639"/>
+  <node id="4079661232" lat="49.4674817" lon="8.5611140"/>
+  <node id="4079661233" lat="49.4674836" lon="8.5610094"/>
+  <node id="4079661234" lat="49.4674966" lon="8.5609062"/>
+  <node id="4079661235" lat="49.4675014" lon="8.5611549"/>
+  <node id="4079661236" lat="49.4675034" lon="8.5608977"/>
+  <node id="4079661237" lat="49.4675034" lon="8.5609203"/>
+  <node id="4079661238" lat="49.4675053" lon="8.5611482"/>
+  <node id="4079661239" lat="49.4675105" lon="8.5611674"/>
+  <node id="4079661240" lat="49.4675145" lon="8.5611604"/>
+  <node id="4079661241" lat="49.4675337" lon="8.5611992"/>
+  <node id="4079661242" lat="49.4675377" lon="8.5611924"/>
+  <node id="4079661243" lat="49.4675393" lon="8.5609156"/>
+  <node id="4079661244" lat="49.4675441" lon="8.5612136"/>
+  <node id="4079661245" lat="49.4675487" lon="8.5612057"/>
+  <node id="4079661246" lat="49.4675635" lon="8.5612393"/>
+  <node id="4079661247" lat="49.4675678" lon="8.5612319"/>
+  <node id="4079661248" lat="49.4675743" lon="8.5612541"/>
+  <node id="4079661249" lat="49.4675789" lon="8.5612463"/>
+  <node id="4079661250" lat="49.4675912" lon="8.5612803"/>
+  <node id="4079661251" lat="49.4675937" lon="8.5608986"/>
+  <node id="4079661252" lat="49.4675967" lon="8.5612709"/>
+  <node id="4079661253" lat="49.4676016" lon="8.5612946"/>
+  <node id="4079661254" lat="49.4676060" lon="8.5612871"/>
+  <node id="4079661255" lat="49.4676195" lon="8.5613221"/>
+  <node id="4079661256" lat="49.4676248" lon="8.5613130"/>
+  <node id="4079661257" lat="49.4676303" lon="8.5613370"/>
+  <node id="4079661258" lat="49.4676357" lon="8.5613277"/>
+  <node id="4079661259" lat="49.4676501" lon="8.5613646"/>
+  <node id="4079661260" lat="49.4676556" lon="8.5613551"/>
+  <node id="4079661261" lat="49.4676604" lon="8.5613788"/>
+  <node id="4079661262" lat="49.4676664" lon="8.5613685"/>
+  <node id="4079661263" lat="49.4676668" lon="8.5609800"/>
+  <node id="4079661264" lat="49.4676710" lon="8.5609726"/>
+  <node id="4079661265" lat="49.4676779" lon="8.5609966"/>
+  <node id="4079661266" lat="49.4676826" lon="8.5609885"/>
+  <node id="4079661267" lat="49.4676894" lon="8.5614001"/>
+  <node id="4079661268" lat="49.4676896" lon="8.5614251"/>
+  <node id="4079661269" lat="49.4676954" lon="8.5610205"/>
+  <node id="4079661270" lat="49.4676996" lon="8.5614257"/>
+  <node id="4079661272" lat="49.4677713" lon="8.5611240"/>
+  <node id="4079661275" lat="49.4677754" lon="8.5611170"/>
+  <node id="4079661276" lat="49.4677897" lon="8.5611494"/>
+  <node id="4079661277" lat="49.4677949" lon="8.5611405"/>
+  <node id="4079661278" lat="49.4678004" lon="8.5611636"/>
+  <node id="4079661280" lat="49.4678054" lon="8.5611550"/>
+  <node id="4079661898" lat="49.4678206" lon="8.5611915"/>
+  <node id="4079661899" lat="49.4678213" lon="8.5612089"/>
+  <node id="4079661900" lat="49.4678289" lon="8.5612101"/>
+  <node id="4079662052" lat="49.4677001" lon="8.5610124"/>
+  <node id="4079662053" lat="49.4677030" lon="8.5614075"/>
+  <node id="4079662054" lat="49.4677058" lon="8.5610345"/>
+  <node id="4079662055" lat="49.4677104" lon="8.5610266"/>
+  <node id="4079662056" lat="49.4677276" lon="8.5610645"/>
+  <node id="4079662057" lat="49.4677319" lon="8.5610571"/>
+  <node id="4079662058" lat="49.4677377" lon="8.5610781"/>
+  <node id="4079662059" lat="49.4677419" lon="8.5610709"/>
+  <node id="4079662060" lat="49.4677596" lon="8.5611082"/>
+  <node id="4079662061" lat="49.4677638" lon="8.5611011"/>
+  <node id="4111359891" lat="49.4552455" lon="8.5386927">
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:housenumber" v="10"/>
+    <tag k="addr:postcode" v="68239"/>
+    <tag k="addr:street" v="Karolingerweg"/>
+    <tag k="amenity" v="doctors"/>
+    <tag k="healthcare:speciality" v="general"/>
+    <tag k="name" v="Dr. Ulrich Marquardt"/>
+  </node>
+  <node id="4200179953" lat="49.4472081" lon="8.5362930"/>
+  <node id="4200179954" lat="49.4472181" lon="8.5362720"/>
+  <node id="4200179955" lat="49.4472305" lon="8.5363191"/>
+  <node id="4200179956" lat="49.4472376" lon="8.5363183"/>
+  <node id="4200179957" lat="49.4472411" lon="8.5362963"/>
+  <node id="4200179958" lat="49.4472423" lon="8.5363090"/>
+  <node id="4266510094" lat="49.4548572" lon="8.5889647"/>
+  <node id="4266510095" lat="49.4542985" lon="8.5884877"/>
+  <node id="4266510096" lat="49.4541560" lon="8.5888487"/>
+  <node id="4266510097" lat="49.4547119" lon="8.5893472"/>
+  <node id="4266510118" lat="49.4539631" lon="8.5872774"/>
+  <node id="4266510119" lat="49.4539488" lon="8.5873129"/>
+  <node id="4317932370" lat="49.4531547" lon="8.5184635"/>
+  <node id="4343736660" lat="49.4682024" lon="8.5605933">
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:housenumber" v="143"/>
+    <tag k="addr:postcode" v="68239"/>
+    <tag k="addr:street" v="Seckenheimer Hauptstraße"/>
+    <tag k="addr:suburb" v="Seckenheim"/>
+    <tag k="amenity" v="doctors"/>
+    <tag k="name" v="Dr. Cürten"/>
+  </node>
+  <node id="4343739027" lat="49.4682216" lon="8.5605316">
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:housenumber" v="143"/>
+    <tag k="addr:postcode" v="68239"/>
+    <tag k="addr:street" v="Seckenheimer Hauptstraße"/>
+    <tag k="addr:suburb" v="Seckenheim"/>
+    <tag k="amenity" v="doctors"/>
+    <tag k="description" v="Internistische Hausarztpraxis"/>
+    <tag k="healthcare:speciality" v="general"/>
+    <tag k="name" v="Dr. Cornelius Müller"/>
+    <tag k="website" v="http://www.doktor-mueller.de/"/>
+  </node>
+  <node id="4343739067" lat="49.4682207" lon="8.5605410">
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:housenumber" v="143"/>
+    <tag k="addr:postcode" v="68239"/>
+    <tag k="addr:street" v="Seckenheimer Hauptstraße"/>
+    <tag k="addr:suburb" v="Seckenheim"/>
+    <tag k="amenity" v="doctors"/>
+    <tag k="name" v="Drs. Zimpfer-Keese"/>
+  </node>
+  <node id="4343739988" lat="49.4681758" lon="8.5606207">
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:housenumber" v="143"/>
+    <tag k="addr:postcode" v="68239"/>
+    <tag k="addr:street" v="Seckenheimer Hauptstraße"/>
+    <tag k="addr:suburb" v="Seckenheim"/>
+    <tag k="amenity" v="doctors"/>
+    <tag k="description" v="Fachärztin für Psychotherapeutische Medizin Psychotherapie und Naturheilverfahren"/>
+    <tag k="name" v="Dr. Regina König"/>
+    <tag k="website" v="http://www.koenig-psychotherapie.de/"/>
+  </node>
+  <node id="4392510888" lat="49.4758931" lon="8.5068634"/>
+  <node id="4392511089" lat="49.4760298" lon="8.5063697"/>
+  <node id="4477810989" lat="49.4480900" lon="8.5389070">
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="denomination" v="roman_catholic"/>
+    <tag k="name" v="Kreuzweg"/>
+    <tag k="name:de" v="Kreuzweg"/>
+    <tag k="religion" v="christian"/>
+  </node>
+  <node id="4592240724" lat="49.4533617" lon="8.5880555">
+    <tag k="amenity" v="cafe"/>
+    <tag k="name" v="Bäcker Görtz"/>
+    <tag k="shop" v="bakery"/>
+  </node>
+  <node id="4768567560" lat="49.4735239" lon="8.5321390">
+    <tag k="addr:housenumber" v="34"/>
+    <tag k="addr:street" v="Hans-Thoma-Straße"/>
+    <tag k="amenity" v="school"/>
+    <tag k="name" v="Karl-von-Drais-Schule"/>
+    <tag k="website" v="http://privatschule-mannheim.de"/>
+  </node>
+  <node id="4836274234" lat="49.4533056" lon="8.5881999">
+    <tag k="amenity" v="fast_food"/>
+    <tag k="cuisine" v="kebab"/>
+    <tag k="name" v="Balikaya"/>
+  </node>
+  <node id="4883490049" lat="49.4462829" lon="8.5760731">
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:postcode" v="68229"/>
+    <tag k="addr:street" v="Saarburger Ring"/>
+    <tag k="amenity" v="dentist"/>
+    <tag k="name" v="MED:SMILE Berufsausübungsgemeinschaft Dr. Jäger, Dr. Bitsch &amp; Partner"/>
+    <tag k="phone" v="+49 621 477885"/>
+    <tag k="toilets:wheelchair" v="yes"/>
+    <tag k="website" v="http://www.med-smile.de"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="wheelchair:description" v="komplett barrierefrei"/>
+  </node>
+  <node id="4933288197" lat="49.4748833" lon="8.5344806"/>
+  <node id="4933288198" lat="49.4747996" lon="8.5354677"/>
+  <node id="4933288199" lat="49.4747770" lon="8.5355267"/>
+  <node id="4933288200" lat="49.4733461" lon="8.5351968"/>
+  <node id="4933288201" lat="49.4732014" lon="8.5366693"/>
+  <node id="4933288202" lat="49.4731178" lon="8.5367015"/>
+  <node id="4933288203" lat="49.4725565" lon="8.5365620"/>
+  <node id="4933288204" lat="49.4728145" lon="8.5339120"/>
+  <node id="4933288205" lat="49.4734541" lon="8.5340622"/>
+  <node id="4933288206" lat="49.4734454" lon="8.5341561"/>
+  <node id="4933288207" lat="49.4748345" lon="8.5344431"/>
+  <node id="5082360451" lat="49.4677843" lon="8.5891888">
+    <tag k="amenity" v="dentist"/>
+    <tag k="name" v="Zahnarztpraxis Volker Breisch"/>
+  </node>
+  <node id="5129129185" lat="49.4638912" lon="8.5641673">
+    <tag k="amenity" v="food_court"/>
+    <tag k="name" v="Pizzeria Aurora"/>
+  </node>
+  <node id="5129131332" lat="49.4639489" lon="8.5643511">
+    <tag k="amenity" v="doctors"/>
+    <tag k="healthcare:speciality" v="neurology"/>
+    <tag k="name" v="Dr. Christian Peters"/>
+  </node>
+  <node id="5137138251" lat="49.4731066" lon="8.5635007"/>
+  <node id="5137138252" lat="49.4730956" lon="8.5635208"/>
+  <node id="5142663322" lat="49.4739012" lon="8.5646411">
+    <tag k="addr:city" v="Ilvesheim"/>
+    <tag k="addr:housenumber" v="13"/>
+    <tag k="addr:postcode" v="68549"/>
+    <tag k="addr:street" v="Deidesheimer Straße"/>
+    <tag k="amenity" v="kindergarten"/>
+    <tag k="capacity" v="9"/>
+    <tag k="contact:email" v="info@entdeckeruniversum.de"/>
+    <tag k="contact:phone" v="+49 621 43748834"/>
+    <tag k="contact:website" v="http://entdeckeruniversum.de"/>
+    <tag k="max_age" v="3"/>
+    <tag k="min_age" v="0"/>
+    <tag k="name" v="Private Kinderbetreuung D(H)EIN Entdeckeruniversum"/>
+    <tag k="opening_hours" v="Mo-Fr 07:00-18:00"/>
+    <tag k="operator" v="Dr. Anja Dhein"/>
+  </node>
+  <node id="5151224991" lat="49.4707940" lon="8.5677145"/>
+  <node id="5151224992" lat="49.4708058" lon="8.5677165"/>
+  <node id="5151224993" lat="49.4708256" lon="8.5677012"/>
+  <node id="5151224994" lat="49.4708356" lon="8.5676755"/>
+  <node id="5151224995" lat="49.4708340" lon="8.5676344"/>
+  <node id="5151224996" lat="49.4707185" lon="8.5676103"/>
+  <node id="5151224997" lat="49.4707587" lon="8.5676304"/>
+  <node id="5151224998" lat="49.4707655" lon="8.5676803"/>
+  <node id="5151224999" lat="49.4708026" lon="8.5676618"/>
+  <node id="5151225000" lat="49.4707932" lon="8.5676103"/>
+  <node id="5151225001" lat="49.4708183" lon="8.5675741"/>
+  <node id="5151225002" lat="49.4706499" lon="8.5671159"/>
+  <node id="5151225003" lat="49.4707030" lon="8.5670919"/>
+  <node id="5151225004" lat="49.4706659" lon="8.5671996"/>
+  <node id="5151225005" lat="49.4707189" lon="8.5671756"/>
+  <node id="5151225006" lat="49.4706303" lon="8.5672157"/>
+  <node id="5151225007" lat="49.4706935" lon="8.5675470"/>
+  <node id="5151225008" lat="49.4708167" lon="8.5674913"/>
+  <node id="5151225009" lat="49.4707535" lon="8.5671600"/>
+  <node id="5151701122" lat="49.4551649" lon="8.5395482">
+    <tag k="addr:housenumber" v="21"/>
+    <tag k="addr:postcode" v="68239"/>
+    <tag k="addr:street" v="Wasengrund"/>
+    <tag k="amenity" v="kindergarten"/>
+    <tag k="name" v="Katholischer Kindergarten"/>
+  </node>
+  <node id="5232335227" lat="49.4675073" lon="8.5675086">
+    <tag k="amenity" v="restaurant"/>
+    <tag k="cuisine" v="thai"/>
+    <tag k="name" v="Thaifood by Touchcha"/>
+  </node>
+  <node id="5234341868" lat="49.4714267" lon="8.5671251">
+    <tag k="amenity" v="bank"/>
+    <tag k="atm" v="yes"/>
+    <tag k="email" v="box@sparkasse-rhein-neckar-nord.de"/>
+    <tag k="fax" v="+49 621 298-4444"/>
+    <tag k="name" v="Sparkasse Rhein Neckar Nord"/>
+    <tag k="opening_hours" v="Mo, Tu, We, Fr 08:30-12:30, 14:00-16:00; Th 08:30-12:30, 14:00-18:00"/>
+    <tag k="phone" v="+49 621 298-0"/>
+    <tag k="website" v="https://www.sparkasse-rhein-neckar-nord.de/module/ihre_sparkasse/filialfinder/index.php?n=%2Fmodule%2Fihre_sparkasse%2Ffilialfinder%2F&amp;IFLBSERVERID=IF@@021@@IF"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="5234484583" lat="49.4474859" lon="8.5834048"/>
+  <node id="5234484584" lat="49.4474930" lon="8.5834111"/>
+  <node id="5250964464" lat="49.4630691" lon="8.5534752">
+    <tag k="amenity" v="kindergarten"/>
+    <tag k="email" v="info@kinderladen-seebaerchen.de"/>
+    <tag k="name" v="Kinderladen Seebärchen e.V."/>
+    <tag k="phone" v="+49 621 471844"/>
+    <tag k="website" v="http://www.kinderladen-seebaerchen.de/"/>
+  </node>
+  <node id="5275198322" lat="49.4458364" lon="8.5288062">
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="145"/>
+    <tag k="addr:postcode" v="68219"/>
+    <tag k="addr:street" v="Wachenburgstraße"/>
+    <tag k="amenity" v="pharmacy"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Birken-Apotheke"/>
+    <tag k="phone" v="+49 621 873256"/>
+    <tag k="website" v="http://www.birken-apotheke-pfingstberg.de/"/>
+  </node>
+  <node id="5279287668" lat="49.4710148" lon="8.5574468"/>
+  <node id="5279287669" lat="49.4709805" lon="8.5573775"/>
+  <node id="5337225099" lat="49.4464136" lon="8.5324547"/>
+  <node id="5337225100" lat="49.4464675" lon="8.5324719"/>
+  <node id="5337225105" lat="49.4463972" lon="8.5323661">
+    <tag k="entrance" v="yes"/>
+  </node>
+  <node id="5337225112" lat="49.4464698" lon="8.5319193">
+    <tag k="entrance" v="yes"/>
+  </node>
+  <node id="5556542910" lat="49.4566223" lon="8.5391732">
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:housenumber" v="25"/>
+    <tag k="addr:postcode" v="68239"/>
+    <tag k="addr:street" v="Karolingerweg"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="name" v="Hochstätt-Mesjid"/>
+    <tag k="religion" v="muslim"/>
+  </node>
+  <node id="5674236385" lat="49.4758292" lon="8.5078049"/>
+  <node id="5674236386" lat="49.4755692" lon="8.5092087"/>
+  <way id="24652742">
+    <nd ref="267966470"/>
+    <nd ref="267966532"/>
+    <nd ref="267966533"/>
+    <nd ref="1122644912"/>
+    <nd ref="1122645053"/>
+    <nd ref="267966540"/>
+    <nd ref="267966470"/>
+    <tag k="amenity" v="school"/>
+    <tag k="fenced" v="yes"/>
+    <tag k="name" v="Schloss-Schule Ilvesheim"/>
+  </way>
+  <way id="29020445">
+    <nd ref="20979353"/>
+    <nd ref="1082815560"/>
+    <nd ref="1082815609"/>
+    <nd ref="1810086476"/>
+    <nd ref="319151084"/>
+    <nd ref="1810086474"/>
+    <nd ref="1810086472"/>
+    <nd ref="1082815662"/>
+    <nd ref="1082815415"/>
+    <nd ref="1082815909"/>
+    <nd ref="1012592922"/>
+    <nd ref="1082815287"/>
+    <nd ref="1810086469"/>
+    <nd ref="1082815136"/>
+    <nd ref="319151085"/>
+    <nd ref="1082815349"/>
+    <nd ref="1082814913"/>
+    <nd ref="1082814958"/>
+    <nd ref="1082815460"/>
+    <nd ref="1012592886"/>
+    <nd ref="1082815325"/>
+    <nd ref="1082815491"/>
+    <nd ref="1810054285"/>
+    <nd ref="1810054309"/>
+    <nd ref="1810054318"/>
+    <nd ref="1810054334"/>
+    <nd ref="1810054338"/>
+    <nd ref="1810054337"/>
+    <nd ref="1810054335"/>
+    <nd ref="1810054326"/>
+    <nd ref="1810054325"/>
+    <nd ref="1810054324"/>
+    <nd ref="1810054322"/>
+    <nd ref="1810054343"/>
+    <nd ref="1810054348"/>
+    <nd ref="1810054354"/>
+    <nd ref="1810071751"/>
+    <nd ref="1810071753"/>
+    <nd ref="1082815079"/>
+    <nd ref="1810071758"/>
+    <nd ref="1810071761"/>
+    <nd ref="1810071767"/>
+    <nd ref="1810071772"/>
+    <nd ref="1810071774"/>
+    <nd ref="1810071773"/>
+    <nd ref="1082815323"/>
+    <nd ref="1082815234"/>
+    <nd ref="1810071786"/>
+    <nd ref="1810071805"/>
+    <nd ref="1081099440"/>
+    <nd ref="1082815108"/>
+    <nd ref="1082815065"/>
+    <nd ref="1810071822"/>
+    <nd ref="1810071827"/>
+    <nd ref="1810071824"/>
+    <nd ref="1810071829"/>
+    <nd ref="1082815077"/>
+    <nd ref="1384953266"/>
+    <nd ref="1082815343"/>
+    <nd ref="319151086"/>
+    <nd ref="1384953344"/>
+    <nd ref="1809964839"/>
+    <nd ref="1384953338"/>
+    <nd ref="1810071872"/>
+    <nd ref="1384953305"/>
+    <nd ref="1809964832"/>
+    <nd ref="1384953189"/>
+    <nd ref="1810098680"/>
+    <nd ref="1810071834"/>
+    <nd ref="1810098678"/>
+    <nd ref="20979353"/>
+    <tag k="access" v="customers"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="capacity" v="ca. 6500"/>
+    <tag k="fixme" v="auch Verkehrsübungsplatz (http://www.uebungsplatz-mannheim.de/)"/>
+    <tag k="name" v="P 20 Großparkplatz Maimarkt"/>
+    <tag k="note" v="Nur zu Veranstaltungen geöffnet; Anzahl Parkplätze anhand Luftbild abgeschätzt"/>
+    <tag k="opening_hours" v="&quot;nur während Veranstaltungen auf dem Maimarktgelände geöffnet&quot;"/>
+    <tag k="operator" v="Maimarkt Mannheim"/>
+    <tag k="park_ride" v="no"/>
+    <tag k="parking" v="surface"/>
+    <tag k="ref" v="P20"/>
+  </way>
+  <way id="31549270">
+    <nd ref="353033772"/>
+    <nd ref="1746428712"/>
+    <nd ref="353033644"/>
+    <nd ref="1746428709"/>
+    <nd ref="1746428721"/>
+    <nd ref="353033642"/>
+    <nd ref="353033641"/>
+    <nd ref="1746428741"/>
+    <nd ref="1746428745"/>
+    <nd ref="1746428743"/>
+    <nd ref="353033640"/>
+    <nd ref="1809855842"/>
+    <nd ref="1746428737"/>
+    <nd ref="353033639"/>
+    <nd ref="1746428733"/>
+    <nd ref="1746428729"/>
+    <nd ref="1746428725"/>
+    <nd ref="1746428717"/>
+    <nd ref="353033778"/>
+    <nd ref="1746463833"/>
+    <nd ref="353033777"/>
+    <nd ref="353033776"/>
+    <nd ref="353033774"/>
+    <nd ref="353033773"/>
+    <nd ref="353033772"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="capacity" v="20"/>
+    <tag k="capacity:bus" v="20"/>
+    <tag k="name" v="SAP-Arena (Busse)"/>
+    <tag k="parking" v="surface"/>
+    <tag k="source" v="HiRes aerial imagery"/>
+  </way>
+  <way id="32141012">
+    <nd ref="360822805"/>
+    <nd ref="1810250143"/>
+    <nd ref="1810250116"/>
+    <nd ref="1810250111"/>
+    <nd ref="360835010"/>
+    <nd ref="1810249991"/>
+    <nd ref="360822807"/>
+    <nd ref="360822808"/>
+    <nd ref="1810249442"/>
+    <nd ref="1810249437"/>
+    <nd ref="360824819"/>
+    <nd ref="360822809"/>
+    <nd ref="564717179"/>
+    <nd ref="360822811"/>
+    <nd ref="360822813"/>
+    <nd ref="360822815"/>
+    <nd ref="360822816"/>
+    <nd ref="1746427915"/>
+    <nd ref="360822817"/>
+    <nd ref="360822805"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="building" v="yes"/>
+    <tag k="building:levels" v="4"/>
+    <tag k="name" v="SAP-Arena (P2)"/>
+    <tag k="parking" v="multi-storey"/>
+    <tag k="ref" v="P2"/>
+    <tag k="source" v="HiRes aerial imagery"/>
+    <tag k="wheelchair" v="yes"/>
+  </way>
+  <way id="34655505">
+    <nd ref="403187886"/>
+    <nd ref="3452492038"/>
+    <nd ref="3452492037"/>
+    <nd ref="1582874679"/>
+    <nd ref="1582874683"/>
+    <nd ref="1582874693"/>
+    <nd ref="403187887"/>
+    <nd ref="1582874690"/>
+    <nd ref="3452492044"/>
+    <nd ref="3452492045"/>
+    <nd ref="1582874687"/>
+    <nd ref="403187890"/>
+    <nd ref="1582874677"/>
+    <nd ref="3452492043"/>
+    <nd ref="3452492042"/>
+    <nd ref="3452492041"/>
+    <nd ref="3452492040"/>
+    <nd ref="1582874672"/>
+    <nd ref="1582874674"/>
+    <nd ref="403187892"/>
+    <nd ref="3452492033"/>
+    <nd ref="3452492032"/>
+    <nd ref="3452492034"/>
+    <nd ref="3452492035"/>
+    <nd ref="3452492036"/>
+    <nd ref="403187886"/>
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="74"/>
+    <tag k="addr:postcode" v="68239"/>
+    <tag k="addr:street" v="Seckenheimer Hauptstraße"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="image" v="https://commons.wikimedia.org/wiki/File:Mannheim-Seckenheim-St-Aegidius-Kirche.jpg"/>
+    <tag k="name" v="St. Aegidius"/>
+    <tag k="religion" v="christian"/>
+    <tag k="website" v="www.sse-mannheim-so.de"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="wikipedia" v="de:St.-Aegidius-Kirche (Mannheim)"/>
+  </way>
+  <way id="35555846">
+    <nd ref="416628965"/>
+    <nd ref="416628966"/>
+    <nd ref="416628967"/>
+    <nd ref="416628968"/>
+    <nd ref="416628965"/>
+    <tag k="amenity" v="kindergarten"/>
+    <tag k="name" v="Evangelischer Kindergarten"/>
+  </way>
+  <way id="35555847">
+    <nd ref="416628969"/>
+    <nd ref="416628970"/>
+    <nd ref="416628971"/>
+    <nd ref="2571356057"/>
+    <nd ref="2571356059"/>
+    <nd ref="416628972"/>
+    <nd ref="416628969"/>
+    <tag k="amenity" v="school"/>
+    <tag k="name" v="Astrid-Lindgren-Schule"/>
+  </way>
+  <way id="41720568">
+    <nd ref="513569084"/>
+    <nd ref="513569086"/>
+    <nd ref="1746463446"/>
+    <nd ref="1746463449"/>
+    <nd ref="1746463437"/>
+    <nd ref="1746463436"/>
+    <nd ref="1746463435"/>
+    <nd ref="1746463427"/>
+    <nd ref="557034135"/>
+    <nd ref="1746463425"/>
+    <nd ref="1746463422"/>
+    <nd ref="513569089"/>
+    <nd ref="557034137"/>
+    <nd ref="513569096"/>
+    <nd ref="1746463469"/>
+    <nd ref="1746463462"/>
+    <nd ref="1746463463"/>
+    <nd ref="1746463471"/>
+    <nd ref="1746463474"/>
+    <nd ref="1746463479"/>
+    <nd ref="1746463480"/>
+    <nd ref="1746463484"/>
+    <nd ref="1746463488"/>
+    <nd ref="1746463486"/>
+    <nd ref="513569084"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="capacity" v="360"/>
+    <tag k="name" v="SAP-Arena (P1)"/>
+    <tag k="parking" v="surface"/>
+    <tag k="ref" v="P1"/>
+    <tag k="source" v="HiRes aerial imagery"/>
+  </way>
+  <way id="44860308">
+    <nd ref="568729200"/>
+    <nd ref="568729203"/>
+    <nd ref="568729206"/>
+    <nd ref="568729208"/>
+    <nd ref="4266510118"/>
+    <nd ref="4266510119"/>
+    <nd ref="568729210"/>
+    <nd ref="568729212"/>
+    <nd ref="568729200"/>
+    <tag k="amenity" v="car_wash"/>
+    <tag k="building" v="yes"/>
+    <tag k="name" v="Top Wash"/>
+  </way>
+  <way id="48243757">
+    <nd ref="2837217857"/>
+    <nd ref="2837217858"/>
+    <nd ref="613101815"/>
+    <nd ref="613101784"/>
+    <nd ref="2837217862"/>
+    <nd ref="613101793"/>
+    <nd ref="2837217860"/>
+    <nd ref="2837217859"/>
+    <nd ref="2837217857"/>
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="41"/>
+    <tag k="addr:postcode" v="68239"/>
+    <tag k="addr:street" v="Schwabenstraße"/>
+    <tag k="amenity" v="fuel"/>
+    <tag k="brand" v="Total"/>
+    <tag k="building" v="yes"/>
+    <tag k="image" v="https://commons.wikimedia.org/wiki/File:Total_Mannheim-Seckenheim.jpg"/>
+    <tag k="name" v="Total"/>
+  </way>
+  <way id="51037839">
+    <nd ref="650787144"/>
+    <nd ref="650787155"/>
+    <nd ref="650787167"/>
+    <nd ref="650787173"/>
+    <nd ref="650787182"/>
+    <nd ref="650787191"/>
+    <nd ref="650787196"/>
+    <nd ref="650787204"/>
+    <nd ref="650787211"/>
+    <nd ref="650787219"/>
+    <nd ref="650787223"/>
+    <nd ref="650787230"/>
+    <nd ref="650787237"/>
+    <nd ref="650787244"/>
+    <nd ref="650787144"/>
+    <tag k="addr:city" v="Ilvesheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:postcode" v="68549"/>
+    <tag k="addr:street" v="Mühlenweg"/>
+    <tag k="amenity" v="fire_station"/>
+    <tag k="building" v="yes"/>
+    <tag k="email" v="gemeinde@ilvesheim.de"/>
+    <tag k="name" v="Freiwillige Feuerwehr Ilvesheim"/>
+    <tag k="phone" v="+49 621 49660-0"/>
+    <tag k="website" v="www.feuerwehr-ilvesheim.de/"/>
+  </way>
+  <way id="105347095">
+    <nd ref="1213827652"/>
+    <nd ref="1213826870"/>
+    <nd ref="1213826164"/>
+    <nd ref="1213828810"/>
+    <nd ref="2284615208"/>
+    <nd ref="2284615215"/>
+    <nd ref="1213827652"/>
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:street" v="Xaver-Fuhr-Straße"/>
+    <tag k="amenity" v="exhibition_centre"/>
+    <tag k="building" v="public"/>
+    <tag k="name" v="Maimarkthalle"/>
+    <tag k="name:de" v="Messe Mannheim"/>
+    <tag k="name:en" v="Trade Fair Mannheim"/>
+  </way>
+  <way id="110922397">
+    <nd ref="1264989495"/>
+    <nd ref="1264989502"/>
+    <nd ref="1264989493"/>
+    <nd ref="1740864084"/>
+    <nd ref="1264989497"/>
+    <nd ref="1264989495"/>
+    <tag k="access" v="private"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="name" v="P1"/>
+    <tag k="parking" v="surface"/>
+  </way>
+  <way id="110922398">
+    <nd ref="1264989498"/>
+    <nd ref="1264989496"/>
+    <nd ref="1264989500"/>
+    <nd ref="1264989494"/>
+    <nd ref="1264989498"/>
+    <tag k="access" v="private"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="name" v="P2"/>
+    <tag k="parking" v="surface"/>
+  </way>
+  <way id="117148396">
+    <nd ref="1319643377"/>
+    <nd ref="2841284879"/>
+    <nd ref="1319643351"/>
+    <nd ref="1319643300"/>
+    <nd ref="1319643360"/>
+    <nd ref="1319643377"/>
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="44"/>
+    <tag k="addr:postcode" v="68239"/>
+    <tag k="addr:street" v="Breisacher Straße"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="building" v="yes"/>
+    <tag k="cuisine" v="greek"/>
+    <tag k="name" v="Fischerhäusel"/>
+    <tag k="opening_hours" v="Tu-Su 11:00-14:30, 17:00-24:00"/>
+    <tag k="phone" v="+49 621 4960511"/>
+    <tag k="website" v="http://ac1921.de/vereinsheim.html"/>
+  </way>
+  <way id="117148397">
+    <nd ref="1319643355"/>
+    <nd ref="1319643248"/>
+    <nd ref="1319643325"/>
+    <nd ref="1319643326"/>
+    <nd ref="1319643251"/>
+    <nd ref="1319643277"/>
+    <nd ref="1319643232"/>
+    <nd ref="5279287669"/>
+    <nd ref="5279287668"/>
+    <nd ref="1319643285"/>
+    <nd ref="1319643355"/>
+    <tag k="addr:housenumber" v="158"/>
+    <tag k="addr:street" v="Seckenheimer Hauptstraße"/>
+    <tag k="amenity" v="fire_station"/>
+    <tag k="building" v="yes"/>
+    <tag k="email" v="kommandant@ff-seckenheim.de"/>
+    <tag k="name" v="Freiwillige Feuerwehr Seckenheim"/>
+    <tag k="phone" v="+49 621 382888-454"/>
+    <tag k="source:geometry" v="LGL, www.lgl-bw.de"/>
+    <tag k="website" v="http://www.ff-seckenheim.de/"/>
+  </way>
+  <way id="118519026">
+    <nd ref="1332812048"/>
+    <nd ref="1332812044"/>
+    <nd ref="1332812045"/>
+    <nd ref="1332812046"/>
+    <nd ref="1332812048"/>
+    <tag k="amenity" v="biergarten"/>
+    <tag k="name" v="Schloss Gasthaus am Neckar"/>
+  </way>
+  <way id="122238384">
+    <nd ref="1366561442"/>
+    <nd ref="1780538187"/>
+    <nd ref="1780538189"/>
+    <nd ref="1366561616"/>
+    <nd ref="1366561471"/>
+    <nd ref="1780538199"/>
+    <nd ref="1780538196"/>
+    <nd ref="1780538191"/>
+    <nd ref="1780538219"/>
+    <nd ref="1780538217"/>
+    <nd ref="1780538223"/>
+    <nd ref="1780538235"/>
+    <nd ref="1780538231"/>
+    <nd ref="1780538240"/>
+    <nd ref="1780538225"/>
+    <nd ref="1780538221"/>
+    <nd ref="1780538201"/>
+    <nd ref="1780538203"/>
+    <nd ref="1780538205"/>
+    <nd ref="1780538207"/>
+    <nd ref="1780538210"/>
+    <nd ref="1780538214"/>
+    <nd ref="1780538212"/>
+    <nd ref="1780538208"/>
+    <nd ref="1366561341"/>
+    <nd ref="1366561442"/>
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="30"/>
+    <tag k="addr:postcode" v="68219"/>
+    <tag k="addr:street" v="Winterstraße"/>
+    <tag k="amenity" v="school"/>
+    <tag k="building" v="yes"/>
+    <tag k="fax" v="+49 621 8799422"/>
+    <tag k="name" v="Pfingstbergschule"/>
+    <tag k="phone" v="+49 621 873554"/>
+    <tag k="website" v="www.pfingstbergschule-mannheim.de"/>
+  </way>
+  <way id="127497366">
+    <nd ref="1411023053"/>
+    <nd ref="1411022997"/>
+    <nd ref="1411023030"/>
+    <nd ref="1411023058"/>
+    <nd ref="1411023010"/>
+    <nd ref="1411023041"/>
+    <nd ref="1411022989"/>
+    <nd ref="1411023043"/>
+    <nd ref="1411023005"/>
+    <nd ref="1411023017"/>
+    <nd ref="1411023019"/>
+    <nd ref="1411023036"/>
+    <nd ref="2228405927"/>
+    <nd ref="2228405926"/>
+    <nd ref="2228405931"/>
+    <nd ref="2228405932"/>
+    <nd ref="1411023006"/>
+    <nd ref="1411023028"/>
+    <nd ref="1411023060"/>
+    <nd ref="2228405934"/>
+    <nd ref="2228405933"/>
+    <nd ref="1411023034"/>
+    <nd ref="1411023053"/>
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="26, 28"/>
+    <tag k="addr:postcode" v="68219"/>
+    <tag k="addr:street" v="Waldblick"/>
+    <tag k="amenity" v="kindergarten"/>
+    <tag k="building" v="yes"/>
+    <tag k="name" v="KITA Waldblick"/>
+    <tag k="phone" v="+49 621 872798"/>
+    <tag k="website" v="http://www.immanuelpfingstberg.ekma.de/index.php?seite=KITA_Waldblick"/>
+  </way>
+  <way id="127497367">
+    <nd ref="1411022992"/>
+    <nd ref="1411023012"/>
+    <nd ref="1411022995"/>
+    <nd ref="1411023000"/>
+    <nd ref="1411022992"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="protestant"/>
+    <tag k="email" v="immanuel-pfingstberggemeinde@ekma.de"/>
+    <tag k="fax" v="+49 621 8762725"/>
+    <tag k="name" v="Pfingstbergkirche"/>
+    <tag k="phone" v="+49 621 873542"/>
+    <tag k="religion" v="christian"/>
+    <tag k="website" v="http://www.immanuelpfingstberg.ekma.de/"/>
+    <tag k="wheelchair" v="no"/>
+    <tag k="wikidata" v="Q1601210"/>
+    <tag k="wikipedia" v="de:Pfingstbergkirche"/>
+  </way>
+  <way id="127740660">
+    <nd ref="1413226370"/>
+    <nd ref="1433744186"/>
+    <nd ref="1433744182"/>
+    <nd ref="1413226412"/>
+    <nd ref="1413226411"/>
+    <nd ref="1413226376"/>
+    <nd ref="1433744202"/>
+    <nd ref="1433744185"/>
+    <nd ref="1433744184"/>
+    <nd ref="1433744183"/>
+    <nd ref="1433744181"/>
+    <nd ref="1433744180"/>
+    <nd ref="1413226377"/>
+    <nd ref="1433744243"/>
+    <nd ref="1413226378"/>
+    <nd ref="1413226368"/>
+    <nd ref="1413226370"/>
+  </way>
+  <way id="127996847">
+    <nd ref="1415440983"/>
+    <nd ref="1415440939"/>
+    <nd ref="1415441012"/>
+    <nd ref="1415440919"/>
+    <nd ref="1415440983"/>
+    <tag k="addr:housenumber" v="18"/>
+    <tag k="addr:street" v="Wörthfelder Weg"/>
+    <tag k="amenity" v="social_facility"/>
+    <tag k="building" v="yes"/>
+    <tag k="name" v="Wohngemeinschaftshaus Seckenheim - VEZUM"/>
+    <tag k="social_facility" v="group_home"/>
+    <tag k="social_facility:for" v="diseased"/>
+    <tag k="website" v="www.vezum.de/"/>
+  </way>
+  <way id="130074010">
+    <nd ref="1433744250"/>
+    <nd ref="1433744187"/>
+    <nd ref="1433744196"/>
+    <nd ref="1433744188"/>
+    <nd ref="1433744250"/>
+  </way>
+  <way id="144825681">
+    <nd ref="1583254490"/>
+    <nd ref="1583254487"/>
+    <nd ref="1583254505"/>
+    <nd ref="1583254506"/>
+    <nd ref="1583254490"/>
+    <tag k="addr:housenumber" v="4"/>
+    <tag k="amenity" v="public_building"/>
+    <tag k="building" v="yes"/>
+    <tag k="email" v="KWEAMannheim@Bundeswehr.org"/>
+    <tag k="fax" v="+49 621 4295-2222"/>
+    <tag k="name" v="Kreiswehrersatzamt Mannheim"/>
+    <tag k="phone" v="+49 621 4295-0"/>
+    <tag k="website" v="http://www.bund.de/cln_134/DE/Behoerden/K/KWEA/KWEA-Mannheim/Kreiswehrersatzamt-Mannheim.html"/>
+  </way>
+  <way id="145289571">
+    <nd ref="1587146444"/>
+    <nd ref="3456088581"/>
+    <nd ref="3456088580"/>
+    <nd ref="3456088582"/>
+    <nd ref="3456088584"/>
+    <nd ref="1587146476"/>
+    <nd ref="1587146488"/>
+    <nd ref="1587146487"/>
+    <nd ref="1587146498"/>
+    <nd ref="1587146478"/>
+    <nd ref="1587146464"/>
+    <nd ref="1587146485"/>
+    <nd ref="1587146459"/>
+    <nd ref="3456088583"/>
+    <nd ref="1587146444"/>
+    <tag k="addr:city" v="Ilvesheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="8"/>
+    <tag k="addr:postcode" v="68549"/>
+    <tag k="addr:street" v="Neue Schulstraße"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="protestant"/>
+    <tag k="name" v="Martin-Luther-Lirche"/>
+    <tag k="religion" v="christian"/>
+    <tag k="source" v="LGL, www.lgl-bw.de"/>
+  </way>
+  <way id="145289577">
+    <nd ref="1587146306"/>
+    <nd ref="2930629474"/>
+    <nd ref="2930629475"/>
+    <nd ref="2930629476"/>
+    <nd ref="1587146323"/>
+    <nd ref="1587146315"/>
+    <nd ref="1587146320"/>
+    <nd ref="1587146312"/>
+    <nd ref="1587146293"/>
+    <nd ref="1587146291"/>
+    <nd ref="1587146256"/>
+    <nd ref="1587146306"/>
+    <tag k="addr:city" v="Ilvesheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="11"/>
+    <tag k="addr:postcode" v="68549"/>
+    <tag k="addr:street" v="Schlossstraße"/>
+    <tag k="amenity" v="bank"/>
+    <tag k="atm" v="yes"/>
+    <tag k="building" v="yes"/>
+    <tag k="building:levels" v="3"/>
+    <tag k="building:material" v="plaster"/>
+    <tag k="name" v="VR Bank Rhein-Neckar"/>
+    <tag k="opening_hours" v="Mo-Fr 08:30-12:30, Mo,Fr 14:00-16:30, Tu,Th 14:00-18:00"/>
+    <tag k="roof:levels" v="1"/>
+    <tag k="roof:material" v="roof_tiles"/>
+    <tag k="roof:orientation" v="along"/>
+    <tag k="roof:shape" v="gabled"/>
+    <tag k="wheelchair" v="yes"/>
+  </way>
+  <way id="145289581">
+    <nd ref="1892005393"/>
+    <nd ref="3456088529"/>
+    <nd ref="1587146291"/>
+    <nd ref="1587146256"/>
+    <nd ref="1587146219"/>
+    <nd ref="1892005390"/>
+    <nd ref="3456088512"/>
+    <nd ref="3456088505"/>
+    <nd ref="3456088493"/>
+    <nd ref="1587146246"/>
+    <nd ref="3456088525"/>
+    <nd ref="1892005393"/>
+    <tag k="addr:city" v="Ilvesheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="9"/>
+    <tag k="addr:postcode" v="68549"/>
+    <tag k="addr:street" v="Schlossstraße"/>
+    <tag k="amenity" v="townhall"/>
+    <tag k="building" v="yes"/>
+    <tag k="building:levels" v="2"/>
+    <tag k="building:material" v="plaster"/>
+    <tag k="email" v="gemeinde@ilvesheim.de"/>
+    <tag k="fax" v="+49 621 49660-50"/>
+    <tag k="name" v="Ilvesheim Rathaus"/>
+    <tag k="phone" v="+49 621 49660-0"/>
+    <tag k="roof:levels" v="1"/>
+    <tag k="roof:material" v="roof_tiles"/>
+    <tag k="roof:orientation" v="along"/>
+    <tag k="roof:shape" v="gabled"/>
+    <tag k="website" v="http://www.ilvesheim.de/"/>
+    <tag k="wheelchair" v="yes"/>
+  </way>
+  <way id="145300044">
+    <nd ref="1587248892"/>
+    <nd ref="1587248880"/>
+    <nd ref="1587248885"/>
+    <nd ref="1587248897"/>
+    <nd ref="1587248892"/>
+    <tag k="addr:city" v="Ilvesheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="5"/>
+    <tag k="addr:postcode" v="68549"/>
+    <tag k="addr:street" v="Schloßstraße"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="building" v="yes"/>
+    <tag k="email" v="info@gasthaus-zur-rose.com"/>
+    <tag k="fax" v="+49 621 4403712"/>
+    <tag k="name" v="Gasthaus zur Rose"/>
+    <tag k="opening_hours" v="Fr-Su, Mo 11:30-14:00, 17:00-21:30"/>
+    <tag k="operator" v="Sven Stadler"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+49 621 492952"/>
+    <tag k="tourism" v="hotel"/>
+    <tag k="website" v="www.gasthaus-zur-rose.com/"/>
+    <tag k="wheelchair" v="no"/>
+  </way>
+  <way id="155766389">
+    <nd ref="1681213110"/>
+    <nd ref="3120865048"/>
+    <nd ref="3120865049"/>
+    <nd ref="3120865045"/>
+    <nd ref="3120865044"/>
+    <nd ref="3120865046"/>
+    <nd ref="3120865047"/>
+    <nd ref="3120865050"/>
+    <nd ref="3120865051"/>
+    <nd ref="3120865052"/>
+    <nd ref="3120865053"/>
+    <nd ref="3120865054"/>
+    <nd ref="3120865056"/>
+    <nd ref="3120865055"/>
+    <nd ref="1681213257"/>
+    <nd ref="1681213246"/>
+    <nd ref="1681213181"/>
+    <nd ref="1681213170"/>
+    <nd ref="1681213144"/>
+    <nd ref="1681213149"/>
+    <nd ref="1681213097"/>
+    <nd ref="1681213110"/>
+    <tag k="addr:housenumber" v="70"/>
+    <tag k="addr:street" v="Minneburgstraße"/>
+    <tag k="amenity" v="social_facility"/>
+    <tag k="building" v="yes"/>
+    <tag k="name" v="Maria-Scherer-Haus Seniorenzentrum"/>
+    <tag k="social_facility" v="group_home"/>
+    <tag k="social_facility:for" v="senior"/>
+    <tag k="website" v="www.maria-scherer-haus.de/"/>
+  </way>
+  <way id="156225465">
+    <nd ref="370695652"/>
+    <nd ref="370695653"/>
+    <nd ref="370695654"/>
+    <nd ref="1330737037"/>
+    <nd ref="1330737056"/>
+    <nd ref="1330734073"/>
+    <nd ref="1330737054"/>
+    <nd ref="1330737038"/>
+    <nd ref="370695655"/>
+    <nd ref="370695652"/>
+    <tag k="amenity" v="grave_yard"/>
+    <tag k="landuse" v="cemetery"/>
+    <tag k="name" v="Friedhof Ilvesheim"/>
+  </way>
+  <way id="156287398">
+    <nd ref="1685572004"/>
+    <nd ref="1685572005"/>
+    <nd ref="1685572003"/>
+    <nd ref="1685572002"/>
+    <nd ref="1685572004"/>
+    <tag k="addr:housenumber" v="52"/>
+    <tag k="addr:street" v="Am Dünenrand"/>
+    <tag k="amenity" v="police"/>
+    <tag k="building" v="yes"/>
+    <tag k="name" v="Autobahnpolizeirevier Mannheim"/>
+    <tag k="source:addr" v="LGL, www.lgl-bw.de"/>
+  </way>
+  <way id="156425217">
+    <nd ref="1686758377"/>
+    <nd ref="1686758170"/>
+    <nd ref="1686758155"/>
+    <nd ref="1686758141"/>
+    <nd ref="1686758164"/>
+    <nd ref="1686758198"/>
+    <nd ref="1686758190"/>
+    <nd ref="1686758335"/>
+    <nd ref="1686758390"/>
+    <nd ref="1686758377"/>
+    <tag k="addr:street" v="Am Sandhang"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Katholische Kirche"/>
+    <tag k="religion" v="christian"/>
+  </way>
+  <way id="156425218">
+    <nd ref="1686758390"/>
+    <nd ref="1686758394"/>
+    <nd ref="1686758387"/>
+    <nd ref="1686758385"/>
+    <nd ref="1686758354"/>
+    <nd ref="1686758335"/>
+    <nd ref="1686758390"/>
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="21"/>
+    <tag k="addr:postcode" v="68239"/>
+    <tag k="addr:street" v="Am Sandhang"/>
+    <tag k="amenity" v="kindergarten"/>
+    <tag k="building" v="yes"/>
+    <tag k="name" v="Katholischer Kindergarten Don Bosco"/>
+  </way>
+  <way id="156921284">
+    <nd ref="1691630987"/>
+    <nd ref="1691630993"/>
+    <nd ref="1691630994"/>
+    <nd ref="1691630999"/>
+    <nd ref="1691631001"/>
+    <nd ref="1691630991"/>
+    <nd ref="1691630987"/>
+    <tag k="addr:housenumber" v="42-46"/>
+    <tag k="addr:street" v="Meersburger Straße"/>
+    <tag k="amenity" v="police"/>
+    <tag k="building" v="yes"/>
+    <tag k="image" v="https://commons.wikimedia.org/wiki/File:Polizei_Mannheim-Seckenheim.jpg"/>
+    <tag k="name" v="Polizeiposten Seckenheim"/>
+    <tag k="opening_hours" v="Mo,Tu,We,Fr 07:00-16:00; Th 07:00-18:00"/>
+    <tag k="source:address" v="survey"/>
+    <tag k="source:geometry" v="LGL, www.lgl-bw.de"/>
+    <tag k="wheelchair" v="yes"/>
+  </way>
+  <way id="157056025">
+    <nd ref="1692946160"/>
+    <nd ref="1692946195"/>
+    <nd ref="1692946213"/>
+    <nd ref="1692946176"/>
+    <nd ref="1692946160"/>
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="15"/>
+    <tag k="addr:postcode" v="68239"/>
+    <tag k="addr:street" v="Plittersdorfer Straße"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="building" v="yes"/>
+    <tag k="name" v="Prinz Max"/>
+    <tag k="website" v="www.prinz-max.de/"/>
+  </way>
+  <way id="157198396">
+    <nd ref="1694159157"/>
+    <nd ref="1694159171"/>
+    <nd ref="2824121823"/>
+    <nd ref="2824121822"/>
+    <nd ref="2838907602"/>
+    <nd ref="1694159157"/>
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:housenumber" v="4"/>
+    <tag k="addr:postcode" v="68239"/>
+    <tag k="addr:street" v="Kehler Straße"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="building" v="yes"/>
+    <tag k="email" v="info@hotelweingaertner.de"/>
+    <tag k="fax" v="+49 621 4837550"/>
+    <tag k="internet_access" v="yes"/>
+    <tag k="name" v="Hotel Weingärtner"/>
+    <tag k="opening_hours" v="17:00+"/>
+    <tag k="phone" v="+49 621 483750"/>
+    <tag k="roof:shape" v="gabled"/>
+    <tag k="smoking" v="no"/>
+    <tag k="tourism" v="hotel"/>
+    <tag k="website" v="http://www.hotelweingaertner.de/"/>
+    <tag k="wheelchair" v="limited"/>
+  </way>
+  <way id="157911344">
+    <nd ref="1701414619"/>
+    <nd ref="1701414615"/>
+    <nd ref="2824061773"/>
+    <nd ref="2824061774"/>
+    <nd ref="1701414596"/>
+    <nd ref="1701414610"/>
+    <nd ref="2824061775"/>
+    <nd ref="2824061777"/>
+    <nd ref="1701414619"/>
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="71"/>
+    <tag k="addr:postcode" v="68239"/>
+    <tag k="addr:street" v="Rastatter Straße"/>
+    <tag k="amenity" v="kindergarten"/>
+    <tag k="building" v="yes"/>
+    <tag k="name" v="Kinderhaus Rastatter Straße"/>
+  </way>
+  <way id="157911369">
+    <nd ref="1701413369"/>
+    <nd ref="1701413431"/>
+    <nd ref="1701413364"/>
+    <nd ref="3192101630"/>
+    <nd ref="1701413288"/>
+    <nd ref="2532214713"/>
+    <nd ref="2532214714"/>
+    <nd ref="2532214717"/>
+    <nd ref="2532214715"/>
+    <nd ref="3192101631"/>
+    <nd ref="1701413369"/>
+    <tag k="amenity" v="kindergarten"/>
+    <tag k="building" v="yes"/>
+    <tag k="name" v="Kinderhaus Seckenheim Süd"/>
+  </way>
+  <way id="157911371">
+    <nd ref="1701414155"/>
+    <nd ref="1701414175"/>
+    <nd ref="1701414173"/>
+    <nd ref="1701414204"/>
+    <nd ref="1701414218"/>
+    <nd ref="1701414183"/>
+    <nd ref="1701414185"/>
+    <nd ref="1701414213"/>
+    <nd ref="1701414220"/>
+    <nd ref="1701414200"/>
+    <nd ref="1701414195"/>
+    <nd ref="1701414177"/>
+    <nd ref="1701414122"/>
+    <nd ref="1701414082"/>
+    <nd ref="1701414148"/>
+    <nd ref="1701414142"/>
+    <nd ref="1701414102"/>
+    <nd ref="1701414067"/>
+    <nd ref="1701414144"/>
+    <nd ref="1701414155"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:street" v="Innerer Heckweg"/>
+    <tag k="amenity" v="school"/>
+    <tag k="building" v="yes"/>
+    <tag k="name" v="Seckenheim-Grundschule &quot;Aussenstelle Süd&quot;"/>
+    <tag k="wheelchair" v="limited"/>
+  </way>
+  <way id="162149880">
+    <nd ref="1740825071"/>
+    <nd ref="1740825069"/>
+    <nd ref="1740874714"/>
+    <nd ref="1265073730"/>
+    <nd ref="1265073736"/>
+    <nd ref="2405885934"/>
+    <nd ref="1265073719"/>
+    <nd ref="2302126288"/>
+    <nd ref="2302126289"/>
+    <nd ref="2302126287"/>
+    <nd ref="4392511089"/>
+    <nd ref="2302126286"/>
+    <nd ref="4392510888"/>
+    <nd ref="2405887682"/>
+    <nd ref="5674236385"/>
+    <nd ref="1265073726"/>
+    <nd ref="5674236386"/>
+    <nd ref="1740825071"/>
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="12"/>
+    <tag k="addr:postcode" v="68163"/>
+    <tag k="addr:street" v="Seckenheimer Landstraße"/>
+    <tag k="amenity" v="college"/>
+    <tag k="landuse" v="military"/>
+    <tag k="name" v="Bildungszentrum der Bundeswehr"/>
+    <tag k="note" v="Bis 31.12.2012 Bundesakademie für Wehrverwaltung und Wehrtechnik"/>
+    <tag k="operator" v="Bundeswehr"/>
+    <tag k="source" v="http://www.bmvg.de/portal/a/bmvg/!ut/p/c4/NYuxDsIwDET_yE6EhAobVSVgYWCBdkvbKDJqnMo4ZeHjSQbupDfc0-GApew2Ck4psVvwif1Ex_EDY9wCvFKWskIkprd6oRzxUT-zhymx10r1rFQYxGkSWJPoUk0WKQZoxt7YrjXW_GO_ze1wOQ_Nftdd2zuuMZ5-ym-ETA!!/"/>
+    <tag k="website" v="http://www.bund.de/DE/Behoerden/B/BAkWVT/Bundesakademie-fuer-Wehrverwaltung-und-Wehrtechnik.html"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="wikipedia" v="de:Bildungszentrum der Bundeswehr"/>
+  </way>
+  <way id="162152644">
+    <nd ref="1740825070"/>
+    <nd ref="1740867127"/>
+    <nd ref="1740867130"/>
+    <nd ref="1740867129"/>
+    <nd ref="1740867132"/>
+    <nd ref="1740867131"/>
+    <nd ref="1740874711"/>
+    <nd ref="1740825070"/>
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="16"/>
+    <tag k="addr:postcode" v="68163"/>
+    <tag k="addr:street" v="Seckenheimer Landstraße"/>
+    <tag k="amenity" v="college"/>
+    <tag k="name" v="Hochschule der Bundesagentur für Arbeit"/>
+    <tag k="website" v="http://www.hdba.de/"/>
+    <tag k="wheelchair" v="yes"/>
+  </way>
+  <way id="162826541">
+    <nd ref="1746428006"/>
+    <nd ref="1431304653"/>
+    <nd ref="1431304652"/>
+    <nd ref="1809855279"/>
+    <nd ref="1746427987"/>
+    <nd ref="1810250849"/>
+    <nd ref="1746427993"/>
+    <nd ref="1746428001"/>
+    <nd ref="1746428003"/>
+    <nd ref="1746428004"/>
+    <nd ref="1746428005"/>
+    <nd ref="1746428010"/>
+    <nd ref="1746428012"/>
+    <nd ref="1746428014"/>
+    <nd ref="1746428019"/>
+    <nd ref="1746428020"/>
+    <nd ref="1746428021"/>
+    <nd ref="1746428022"/>
+    <nd ref="1746428025"/>
+    <nd ref="1746428030"/>
+    <nd ref="1746428036"/>
+    <nd ref="1746428040"/>
+    <nd ref="1746428043"/>
+    <nd ref="1746428044"/>
+    <nd ref="1746428045"/>
+    <nd ref="1746428046"/>
+    <nd ref="1746428047"/>
+    <nd ref="1746428023"/>
+    <nd ref="1746428006"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="capacity" v="10"/>
+    <tag k="capacity:bus" v="10"/>
+    <tag k="name" v="SAP-Arena (LKW/Busse)"/>
+  </way>
+  <way id="162826542">
+    <nd ref="1746428006"/>
+    <nd ref="1746428023"/>
+    <nd ref="1746428027"/>
+    <nd ref="1746428024"/>
+    <nd ref="1746428028"/>
+    <nd ref="1746428026"/>
+    <nd ref="1746428029"/>
+    <nd ref="1746428018"/>
+    <nd ref="1431304567"/>
+    <nd ref="1431304660"/>
+    <nd ref="1746428006"/>
+    <tag k="access" v="no"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="capacity" v="3"/>
+    <tag k="name" v="SAP-Arena (Polizei)"/>
+  </way>
+  <way id="162826543">
+    <nd ref="1746428071"/>
+    <nd ref="1431304627"/>
+    <nd ref="1746428117"/>
+    <nd ref="1746463828"/>
+    <nd ref="1746463822"/>
+    <nd ref="1746428104"/>
+    <nd ref="1746428109"/>
+    <nd ref="1746463819"/>
+    <nd ref="1746428094"/>
+    <nd ref="1746428098"/>
+    <nd ref="1746463816"/>
+    <nd ref="1746463813"/>
+    <nd ref="1746463812"/>
+    <nd ref="1746428074"/>
+    <nd ref="1746428086"/>
+    <nd ref="1746428107"/>
+    <nd ref="1746463814"/>
+    <nd ref="1746428081"/>
+    <nd ref="1746428092"/>
+    <nd ref="1746428085"/>
+    <nd ref="1746428091"/>
+    <nd ref="1746463799"/>
+    <nd ref="1746428070"/>
+    <nd ref="1746428073"/>
+    <nd ref="1746428068"/>
+    <nd ref="1746428069"/>
+    <nd ref="1746463763"/>
+    <nd ref="1746428058"/>
+    <nd ref="1746428060"/>
+    <nd ref="1746463727"/>
+    <nd ref="1746463722"/>
+    <nd ref="1746428049"/>
+    <nd ref="1746428048"/>
+    <nd ref="1431304497"/>
+    <nd ref="1746428016"/>
+    <nd ref="1746463562"/>
+    <nd ref="1746463561"/>
+    <nd ref="1746463543"/>
+    <nd ref="1746463513"/>
+    <nd ref="1746427984"/>
+    <nd ref="1746427975"/>
+    <nd ref="1746463510"/>
+    <nd ref="1746463511"/>
+    <nd ref="1746463520"/>
+    <nd ref="1746463523"/>
+    <nd ref="1746463545"/>
+    <nd ref="1746463548"/>
+    <nd ref="1746463577"/>
+    <nd ref="1746463579"/>
+    <nd ref="1746463605"/>
+    <nd ref="1746463607"/>
+    <nd ref="1746463641"/>
+    <nd ref="1746463644"/>
+    <nd ref="1746463688"/>
+    <nd ref="1746463691"/>
+    <nd ref="1746463739"/>
+    <nd ref="1746463741"/>
+    <nd ref="1746428061"/>
+    <nd ref="1746428075"/>
+    <nd ref="1746428080"/>
+    <nd ref="1746428128"/>
+    <nd ref="1746463827"/>
+    <nd ref="1746463826"/>
+    <nd ref="1746428079"/>
+    <nd ref="1746428076"/>
+    <nd ref="1746428071"/>
+    <tag k="access" v="private"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="name" v="SAP-Arena (VIP)"/>
+    <tag k="wheelchair" v="yes"/>
+  </way>
+  <way id="162832732">
+    <nd ref="1746475400"/>
+    <nd ref="1809855324"/>
+    <nd ref="1809855326"/>
+    <nd ref="1809855329"/>
+    <nd ref="1809855339"/>
+    <nd ref="1809855417"/>
+    <nd ref="1809855426"/>
+    <nd ref="1809855431"/>
+    <nd ref="1809855432"/>
+    <nd ref="1809855427"/>
+    <nd ref="1809855419"/>
+    <nd ref="1746475419"/>
+    <nd ref="1746475422"/>
+    <nd ref="1746475382"/>
+    <nd ref="1746475380"/>
+    <nd ref="1809855239"/>
+    <nd ref="1809855240"/>
+    <nd ref="1809855242"/>
+    <nd ref="1809855251"/>
+    <nd ref="1809855253"/>
+    <nd ref="1809855257"/>
+    <nd ref="1809855261"/>
+    <nd ref="1809855273"/>
+    <nd ref="1809855283"/>
+    <nd ref="1809855295"/>
+    <nd ref="1809855296"/>
+    <nd ref="1809855298"/>
+    <nd ref="1809855306"/>
+    <nd ref="1809855309"/>
+    <nd ref="1809855349"/>
+    <nd ref="1809855347"/>
+    <nd ref="1809855348"/>
+    <nd ref="1809855343"/>
+    <nd ref="1809855330"/>
+    <nd ref="1809855319"/>
+    <nd ref="1809855308"/>
+    <nd ref="1809855301"/>
+    <nd ref="1809855297"/>
+    <nd ref="1809855299"/>
+    <nd ref="1809855303"/>
+    <nd ref="1809855313"/>
+    <nd ref="1809855314"/>
+    <nd ref="1809855316"/>
+    <nd ref="1746475387"/>
+    <nd ref="1746475385"/>
+    <nd ref="1746475452"/>
+    <nd ref="1746475455"/>
+    <nd ref="1809855580"/>
+    <nd ref="1809855585"/>
+    <nd ref="1809855591"/>
+    <nd ref="1809855599"/>
+    <nd ref="1809855618"/>
+    <nd ref="1809855740"/>
+    <nd ref="1809855771"/>
+    <nd ref="1809855773"/>
+    <nd ref="1809855775"/>
+    <nd ref="1809855772"/>
+    <nd ref="1809855749"/>
+    <nd ref="1746475509"/>
+    <nd ref="1746475489"/>
+    <nd ref="1746475485"/>
+    <nd ref="1809855652"/>
+    <nd ref="1809855655"/>
+    <nd ref="1809855674"/>
+    <nd ref="1809855679"/>
+    <nd ref="1809855682"/>
+    <nd ref="1809855681"/>
+    <nd ref="1809855676"/>
+    <nd ref="1809855654"/>
+    <nd ref="1809855660"/>
+    <nd ref="1809855646"/>
+    <nd ref="1809855640"/>
+    <nd ref="1809855638"/>
+    <nd ref="1746475478"/>
+    <nd ref="1746475463"/>
+    <nd ref="1746475460"/>
+    <nd ref="1809855592"/>
+    <nd ref="1809855589"/>
+    <nd ref="1809855593"/>
+    <nd ref="1809855601"/>
+    <nd ref="1809855611"/>
+    <nd ref="1809855606"/>
+    <nd ref="1809855565"/>
+    <nd ref="1809855244"/>
+    <nd ref="1809855144"/>
+    <nd ref="1809855140"/>
+    <nd ref="1809855139"/>
+    <nd ref="1746475349"/>
+    <nd ref="1746475347"/>
+    <nd ref="1746475370"/>
+    <nd ref="1746475372"/>
+    <nd ref="1746475376"/>
+    <nd ref="1746475377"/>
+    <nd ref="1746475384"/>
+    <nd ref="1746475400"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="name" v="SAP-Arena (P3)"/>
+    <tag k="parking" v="surface"/>
+    <tag k="ref" v="P3"/>
+    <tag k="source" v="HiRes aerial imagery"/>
+  </way>
+  <way id="163985144">
+    <nd ref="1756478210"/>
+    <nd ref="1756478208"/>
+    <nd ref="1756534096"/>
+    <nd ref="1756479306"/>
+    <nd ref="1756478204"/>
+    <nd ref="1756478206"/>
+    <nd ref="1756478210"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="building" v="yes"/>
+    <tag k="fee" v="yes"/>
+    <tag k="name" v="Parkhaus City-Airport"/>
+    <tag k="parking" v="multi-storey"/>
+  </way>
+  <way id="169867349">
+    <nd ref="1810250802"/>
+    <nd ref="1810250821"/>
+    <nd ref="1810250826"/>
+    <nd ref="1810250823"/>
+    <nd ref="1810250818"/>
+    <nd ref="1810250800"/>
+    <nd ref="1810250799"/>
+    <nd ref="1810250796"/>
+    <nd ref="1810250795"/>
+    <nd ref="1810250794"/>
+    <nd ref="1810250793"/>
+    <nd ref="1810250789"/>
+    <nd ref="1810250787"/>
+    <nd ref="1810250782"/>
+    <nd ref="1810250779"/>
+    <nd ref="1810250777"/>
+    <nd ref="1431304540"/>
+    <nd ref="1810250802"/>
+    <tag k="access" v="private"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="capacity" v="4"/>
+    <tag k="name" v="Ü-Wagen"/>
+  </way>
+  <way id="171559434">
+    <nd ref="1825708522"/>
+    <nd ref="1825708518"/>
+    <nd ref="1825708515"/>
+    <nd ref="1825708520"/>
+    <nd ref="1825708522"/>
+    <tag k="addr:housenumber" v="13"/>
+    <tag k="addr:street" v="Hans-Thoma-Straße"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="building:levels" v="1"/>
+    <tag k="denomination" v="baptist"/>
+    <tag k="height" v="4"/>
+    <tag k="name" v="Freie Baptistengemeinde Mannheim"/>
+    <tag k="religion" v="christian"/>
+    <tag k="service_times" v="Su 10:00"/>
+    <tag k="website" v="http://www.fbg-mannheim.de"/>
+  </way>
+  <way id="172685505">
+    <nd ref="1835658196"/>
+    <nd ref="1835658215"/>
+    <nd ref="1835658204"/>
+    <nd ref="1835658187"/>
+    <nd ref="1835658196"/>
+    <tag k="addr:housenumber" v="55"/>
+    <tag k="addr:street" v="Main-Neckar-Bahn-Straße"/>
+    <tag k="amenity" v="dentist"/>
+    <tag k="building" v="yes"/>
+    <tag k="name" v="Dr. med. dent. Bernhard Dumm"/>
+  </way>
+  <way id="172794041">
+    <nd ref="1836461337"/>
+    <nd ref="1836461343"/>
+    <nd ref="1836461338"/>
+    <nd ref="1836461332"/>
+    <nd ref="5234484583"/>
+    <nd ref="5234484584"/>
+    <nd ref="1836461337"/>
+    <tag k="addr:city" v="Edingen-Neckarhausen"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="60"/>
+    <tag k="addr:postcode" v="68535"/>
+    <tag k="addr:street" v="Neckarhauser Straße"/>
+    <tag k="addr:suburb" v="Neu-Edingen"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="building" v="yes"/>
+    <tag k="cuisine" v="greek"/>
+    <tag k="email" v="panussis1@t-online.de"/>
+    <tag k="fax" v="+49 621 4810547"/>
+    <tag k="name" v="Hotel Philoxenia"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+49 621 4810548"/>
+    <tag k="tourism" v="hotel"/>
+    <tag k="website" v="http://www.hotel-philoxenia.de/"/>
+  </way>
+  <way id="172840025">
+    <nd ref="1836885346"/>
+    <nd ref="1836885344"/>
+    <nd ref="1836885340"/>
+    <nd ref="1836885342"/>
+    <nd ref="1836885346"/>
+    <tag k="amenity" v="pub"/>
+    <tag k="building" v="yes"/>
+    <tag k="name" v="Lunch Box"/>
+  </way>
+  <way id="173666291">
+    <nd ref="1844357188"/>
+    <nd ref="1844357212"/>
+    <nd ref="1844357200"/>
+    <nd ref="1844357205"/>
+    <nd ref="1844357186"/>
+    <nd ref="1844357172"/>
+    <nd ref="1844357179"/>
+    <nd ref="1844357177"/>
+    <nd ref="1844357181"/>
+    <nd ref="1844357182"/>
+    <nd ref="1844357188"/>
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="35"/>
+    <tag k="addr:postcode" v="68229"/>
+    <tag k="addr:street" v="Main-Neckar-Bahn-Straße"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="building" v="yes"/>
+    <tag k="name" v="Friedrichsfelder Hof"/>
+    <tag k="phone" v="+49 621 471370"/>
+    <tag k="website" v="http://de-de.facebook.com/pages/Friedrichsfelder-Hof/138825619519344"/>
+  </way>
+  <way id="173666378">
+    <nd ref="1844357147"/>
+    <nd ref="1844357163"/>
+    <nd ref="1844357154"/>
+    <nd ref="1844357140"/>
+    <nd ref="1844357134"/>
+    <nd ref="1844357113"/>
+    <nd ref="1844357139"/>
+    <nd ref="1844357147"/>
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="31"/>
+    <tag k="addr:postcode" v="68229"/>
+    <tag k="addr:street" v="Main-Neckar-Bahn-Straße"/>
+    <tag k="amenity" v="public_building"/>
+    <tag k="building" v="yes"/>
+    <tag k="name" v="Jugendtreff Friedrichsfeld e.V."/>
+    <tag k="website" v="http://www.jugendtreff-friedrichsfeld-ev.de"/>
+  </way>
+  <way id="175316256">
+    <nd ref="1186349783"/>
+    <nd ref="4079661899"/>
+    <nd ref="4079661900"/>
+    <nd ref="1186349789"/>
+    <nd ref="4079661898"/>
+    <nd ref="4079661278"/>
+    <nd ref="4079661280"/>
+    <nd ref="4079661277"/>
+    <nd ref="4079661276"/>
+    <nd ref="4079661272"/>
+    <nd ref="4079661275"/>
+    <nd ref="4079662061"/>
+    <nd ref="4079662060"/>
+    <nd ref="4079662058"/>
+    <nd ref="4079662059"/>
+    <nd ref="4079662057"/>
+    <nd ref="4079662056"/>
+    <nd ref="4079662054"/>
+    <nd ref="4079662055"/>
+    <nd ref="4079662052"/>
+    <nd ref="4079661269"/>
+    <nd ref="4079661265"/>
+    <nd ref="4079661266"/>
+    <nd ref="4079661264"/>
+    <nd ref="4079661263"/>
+    <nd ref="2827169917"/>
+    <nd ref="2827169912"/>
+    <nd ref="4079661251"/>
+    <nd ref="1186349774"/>
+    <nd ref="2827169908"/>
+    <nd ref="4079661243"/>
+    <nd ref="1186349787"/>
+    <nd ref="4079661236"/>
+    <nd ref="4079661234"/>
+    <nd ref="4079661237"/>
+    <nd ref="1186349791"/>
+    <nd ref="4079661228"/>
+    <nd ref="4079661226"/>
+    <nd ref="4079661231"/>
+    <nd ref="4079661233"/>
+    <nd ref="4079661229"/>
+    <nd ref="4079661230"/>
+    <nd ref="1186349773"/>
+    <nd ref="1186349778"/>
+    <nd ref="2827169904"/>
+    <nd ref="4079661225"/>
+    <nd ref="4079661227"/>
+    <nd ref="4079661232"/>
+    <nd ref="4079661238"/>
+    <nd ref="4079661235"/>
+    <nd ref="4079661239"/>
+    <nd ref="4079661240"/>
+    <nd ref="4079661242"/>
+    <nd ref="4079661241"/>
+    <nd ref="4079661244"/>
+    <nd ref="4079661245"/>
+    <nd ref="4079661247"/>
+    <nd ref="4079661246"/>
+    <nd ref="4079661248"/>
+    <nd ref="4079661249"/>
+    <nd ref="4079661252"/>
+    <nd ref="4079661250"/>
+    <nd ref="4079661253"/>
+    <nd ref="4079661254"/>
+    <nd ref="4079661256"/>
+    <nd ref="4079661255"/>
+    <nd ref="4079661257"/>
+    <nd ref="4079661258"/>
+    <nd ref="4079661260"/>
+    <nd ref="4079661259"/>
+    <nd ref="4079661261"/>
+    <nd ref="4079661262"/>
+    <nd ref="4079661267"/>
+    <nd ref="4079661268"/>
+    <nd ref="4079661270"/>
+    <nd ref="1186349785"/>
+    <nd ref="4079662053"/>
+    <nd ref="1186349790"/>
+    <nd ref="3220417547"/>
+    <nd ref="3220417548"/>
+    <nd ref="1186349783"/>
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:housenumber" v="135"/>
+    <tag k="addr:postcode" v="68239"/>
+    <tag k="addr:street" v="Seckenheimer Hauptstraße"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="building:levels" v="1"/>
+    <tag k="denomination" v="evangelical"/>
+    <tag k="height" v="15"/>
+    <tag k="image" v="https://commons.wikimedia.org/wiki/File:Mannheim-Seckenheim-Erloeserkirche.jpg"/>
+    <tag k="name" v="Erlöserkirche"/>
+    <tag k="religion" v="christian"/>
+    <tag k="roof:shape" v="gabled"/>
+    <tag k="website" v="http://www.erloeser.ekma.de/"/>
+    <tag k="wikidata" v="Q1355760"/>
+    <tag k="wikipedia" v="de:Erlöserkirche (Mannheim-Seckenheim)"/>
+  </way>
+  <way id="178850171">
+    <nd ref="1892005435"/>
+    <nd ref="1892005438"/>
+    <nd ref="1892005432"/>
+    <nd ref="3949881062"/>
+    <nd ref="1892005430"/>
+    <nd ref="3949881057"/>
+    <nd ref="1892005399"/>
+    <nd ref="3949881060"/>
+    <nd ref="1892005431"/>
+    <nd ref="3949881067"/>
+    <nd ref="3949881069"/>
+    <nd ref="3949881075"/>
+    <nd ref="1892005499"/>
+    <nd ref="3949881073"/>
+    <nd ref="1892005474"/>
+    <nd ref="3949881066"/>
+    <nd ref="1892005446"/>
+    <nd ref="3949881068"/>
+    <nd ref="1892005467"/>
+    <nd ref="1892005435"/>
+    <tag k="addr:city" v="Ilvesheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="9"/>
+    <tag k="addr:postcode" v="68549"/>
+    <tag k="addr:street" v="Hauptstraße"/>
+    <tag k="amenity" v="community_centre"/>
+    <tag k="building" v="yes"/>
+    <tag k="name" v="Bürgerhaus Hirsch"/>
+    <tag k="website" v="http://www.ilvesheim.de/php/buergerhaus.php"/>
+  </way>
+  <way id="178995328">
+    <nd ref="1893369282"/>
+    <nd ref="1893369263"/>
+    <nd ref="1893369248"/>
+    <nd ref="1893369247"/>
+    <nd ref="1893369255"/>
+    <nd ref="1893369282"/>
+    <tag k="addr:city" v="Ilvesheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="55"/>
+    <tag k="addr:postcode" v="68549"/>
+    <tag k="addr:street" v="Neue Schulstraße"/>
+    <tag k="amenity" v="dentist"/>
+    <tag k="building" v="yes"/>
+    <tag k="name" v="Dr. Wolfgang Rütten,  Dr. Roy Riefenstahl"/>
+  </way>
+  <way id="179143112">
+    <nd ref="1894898106"/>
+    <nd ref="1894898111"/>
+    <nd ref="2930608105"/>
+    <nd ref="2930608104"/>
+    <nd ref="2930608107"/>
+    <nd ref="2930608106"/>
+    <nd ref="1894898127"/>
+    <nd ref="1894898113"/>
+    <nd ref="5137138251"/>
+    <nd ref="5137138252"/>
+    <nd ref="1894898106"/>
+    <tag k="addr:city" v="Ilvesheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="7"/>
+    <tag k="addr:postcode" v="68549"/>
+    <tag k="addr:street" v="Deidesheimer Straße"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="email" v="kontakt@christliche-gemeinde-ilvesheim.com"/>
+    <tag k="name" v="Christliche Gemeinde Ilvesheim e. V."/>
+    <tag k="religion" v="christian"/>
+    <tag k="website" v="http://www.christliche-gemeinde-ilvesheim.com"/>
+  </way>
+  <way id="179240005">
+    <nd ref="1895852462"/>
+    <nd ref="3456088830"/>
+    <nd ref="3456088829"/>
+    <nd ref="1895852444"/>
+    <nd ref="1895852425"/>
+    <nd ref="1895852461"/>
+    <nd ref="1895852479"/>
+    <nd ref="1895852475"/>
+    <nd ref="3456088833"/>
+    <nd ref="3456088834"/>
+    <nd ref="1895852520"/>
+    <nd ref="1895852508"/>
+    <nd ref="3456088831"/>
+    <nd ref="3456088832"/>
+    <nd ref="1895852462"/>
+    <tag k="addr:city" v="Ilvesheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="22"/>
+    <tag k="addr:postcode" v="68549"/>
+    <tag k="addr:street" v="Wachenheimer Straße"/>
+    <tag k="amenity" v="kindergarten"/>
+    <tag k="building" v="yes"/>
+    <tag k="email" v="Kiga-st.josef@tesionmail.de"/>
+    <tag k="name" v="Kindergarten St.Josef"/>
+    <tag k="phone" v="+49 621 492673"/>
+    <tag k="source:geometry" v="LGL, www.lgl-bw.de"/>
+    <tag k="website" v="www.kindergarten-stjosef-ilvesheim.de/"/>
+  </way>
+  <way id="179240006">
+    <nd ref="1895852731"/>
+    <nd ref="1895852750"/>
+    <nd ref="1895852790"/>
+    <nd ref="1895852763"/>
+    <nd ref="1895852731"/>
+    <tag k="addr:city" v="Ilvesheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="37"/>
+    <tag k="addr:postcode" v="68549"/>
+    <tag k="addr:street" v="Beim Schlossgarten"/>
+    <tag k="amenity" v="school"/>
+    <tag k="building" v="yes"/>
+    <tag k="name" v="Kinderwerkstatt &quot;MAUADA&quot;"/>
+    <tag k="phone" v="+49 621 3390806"/>
+    <tag k="website" v="http://www.mauada.de"/>
+  </way>
+  <way id="179412769">
+    <nd ref="1897837030"/>
+    <nd ref="1897837094"/>
+    <nd ref="1897837164"/>
+    <nd ref="1897837083"/>
+    <nd ref="1897837030"/>
+    <tag k="addr:city" v="Ilvesheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:postcode" v="68549"/>
+    <tag k="addr:street" v="Mühlkopf"/>
+    <tag k="amenity" v="community"/>
+    <tag k="building" v="yes"/>
+    <tag k="email" v="info@juz-ilvesheim.de"/>
+    <tag k="name" v="Jugendzentrum Ilvesheim"/>
+    <tag k="phone" v="+49 621 4963342"/>
+    <tag k="website" v="www.juz-ilvesheim.de/"/>
+  </way>
+  <way id="182071838">
+    <nd ref="1924112732"/>
+    <nd ref="1924112744"/>
+    <nd ref="1924112739"/>
+    <nd ref="1924112728"/>
+    <nd ref="1924112732"/>
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="60"/>
+    <tag k="addr:postcode" v="68239"/>
+    <tag k="addr:street" v="Sinsheimer Straße"/>
+    <tag k="amenity" v="kindergarten"/>
+    <tag k="building" v="yes"/>
+    <tag k="name" v="Kath. Kindergarten St. Adalbert"/>
+    <tag k="phone" v="+49 621 47 69 69"/>
+    <tag k="roof:shape" v="hipped"/>
+    <tag k="website" v="http://www.kathma.de/"/>
+    <tag k="wheelchair" v="yes"/>
+  </way>
+  <way id="182669694">
+    <nd ref="1930276863"/>
+    <nd ref="1930276861"/>
+    <nd ref="1930276880"/>
+    <nd ref="1930276878"/>
+    <nd ref="1930276862"/>
+    <nd ref="1930276836"/>
+    <nd ref="1930276819"/>
+    <nd ref="1930276826"/>
+    <nd ref="1930276863"/>
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="5, 7, 11"/>
+    <tag k="addr:postcode" v="68239"/>
+    <tag k="addr:street" v="Oberkircher Straße"/>
+    <tag k="amenity" v="kindergarten"/>
+    <tag k="building" v="yes"/>
+    <tag k="name" v="Kath. Kindergarten St. Agnes"/>
+  </way>
+  <way id="182669695">
+    <nd ref="1930277854"/>
+    <nd ref="1930277841"/>
+    <nd ref="1930277847"/>
+    <nd ref="1930277857"/>
+    <nd ref="1930277854"/>
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="32"/>
+    <tag k="addr:postcode" v="68239"/>
+    <tag k="addr:street" v="Badener Straße"/>
+    <tag k="amenity" v="doctors"/>
+    <tag k="building" v="yes"/>
+    <tag k="email" v="rezeption@osteopathie-mannheim.com"/>
+    <tag k="healthcare:speciality" v="osteopathy"/>
+    <tag k="name" v="Schwerpunktpraxis für Osteopathie"/>
+    <tag k="phone" v="+49 621 1284926"/>
+    <tag k="website" v="http://osteopathie-mannheim.com/"/>
+  </way>
+  <way id="212797431">
+    <nd ref="2226066988"/>
+    <nd ref="2228280864"/>
+    <nd ref="2228280862"/>
+    <nd ref="2226066960"/>
+    <nd ref="2226066895"/>
+    <nd ref="2226066941"/>
+    <nd ref="2226066988"/>
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="14"/>
+    <tag k="addr:postcode" v="68219"/>
+    <tag k="addr:street" v="Strahlenburgstraße"/>
+    <tag k="amenity" v="restaurant"/>
+    <tag k="building" v="yes"/>
+    <tag k="fax" v="+49 621 45470420"/>
+    <tag k="name" v="Steakhaus Zum Waldblick"/>
+    <tag k="opening_hours" v="Tu-Sa 11:00-14:00, 17:00-22:30; Su 11:00-14:30, 17:00-22:30"/>
+    <tag k="phone" v="+49 621 81911680"/>
+    <tag k="website" v="http://www.steakhaus-zum-waldblick.de/"/>
+  </way>
+  <way id="212797593">
+    <nd ref="2226068189"/>
+    <nd ref="2226068216"/>
+    <nd ref="2226068225"/>
+    <nd ref="2226068230"/>
+    <nd ref="2226068228"/>
+    <nd ref="2226068219"/>
+    <nd ref="3387344679"/>
+    <nd ref="2226068207"/>
+    <nd ref="2226068199"/>
+    <nd ref="5337225100"/>
+    <nd ref="2226068180"/>
+    <nd ref="5337225099"/>
+    <nd ref="2226068161"/>
+    <nd ref="5337225105"/>
+    <nd ref="2226068148"/>
+    <nd ref="2226068163"/>
+    <nd ref="2226068182"/>
+    <nd ref="5337225112"/>
+    <nd ref="2226068189"/>
+    <tag k="addr:street" v="Herbststraße"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="email" v="st.theresia@sema-sued.de"/>
+    <tag k="fax" v="+49 621 8710342"/>
+    <tag k="name" v="St. Theresia vom Kinde Jesu"/>
+    <tag k="phone" v="+49 621 873600"/>
+    <tag k="religion" v="christian"/>
+    <tag k="source" v="Bing; local knowledge"/>
+    <tag k="website" v="http://www.kathma.de/html/sued.html"/>
+    <tag k="wikipedia" v="de:Rheinau (Mannheim)#Sehensw.C3.BCrdigkeiten"/>
+  </way>
+  <way id="231374464">
+    <nd ref="2397665607"/>
+    <nd ref="2397665610"/>
+    <nd ref="2397665605"/>
+    <nd ref="2397665602"/>
+    <nd ref="2397665607"/>
+    <tag k="amenity" v="biergarten"/>
+    <tag k="name" v="Lindbergh - Biergarten"/>
+    <tag k="wheelchair" v="yes"/>
+  </way>
+  <way id="278175871">
+    <nd ref="2825965390"/>
+    <nd ref="2825965393"/>
+    <nd ref="2825965395"/>
+    <nd ref="2825965396"/>
+    <nd ref="2825965394"/>
+    <nd ref="1319643268"/>
+    <nd ref="2825965392"/>
+    <nd ref="2825965391"/>
+    <nd ref="1319643350"/>
+    <nd ref="1319643312"/>
+    <nd ref="1319643363"/>
+    <nd ref="1319643264"/>
+    <nd ref="1319643365"/>
+    <nd ref="1319643357"/>
+    <nd ref="2825965390"/>
+    <tag k="addr:city" v="Mannheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="211"/>
+    <tag k="addr:postcode" v="68239"/>
+    <tag k="addr:street" v="Seckenheimer Hauptstraße"/>
+    <tag k="amenity" v="social_facility"/>
+    <tag k="building" v="yes"/>
+    <tag k="email" v="info@schifferkinderheim.de"/>
+    <tag k="fax" v="+49 621 484 06-13"/>
+    <tag k="name" v="Evang. Schifferkinderheim Mannheim"/>
+    <tag k="phone" v="+49 621 484 06-0"/>
+    <tag k="social_facility" v="group_home"/>
+    <tag k="social_facility:for" v="child"/>
+    <tag k="website" v="http://www.schifferkinderheim.de/"/>
+    <tag k="wheelchair" v="limited"/>
+  </way>
+  <way id="278175894">
+    <nd ref="2825965417"/>
+    <nd ref="2825965415"/>
+    <nd ref="2825965406"/>
+    <nd ref="2825965407"/>
+    <nd ref="2825965417"/>
+    <tag k="amenity" v="biergarten"/>
+    <tag k="name" v="Pizzeria Piccolo Italia"/>
+  </way>
+  <way id="279683897">
+    <nd ref="1694159171"/>
+    <nd ref="1279191386"/>
+    <nd ref="1415448620"/>
+    <nd ref="1694159176"/>
+    <nd ref="2838907610"/>
+    <nd ref="1694159157"/>
+    <nd ref="1694159171"/>
+    <tag k="amenity" v="biergarten"/>
+    <tag k="name" v="Weinstube Weingärtner"/>
+  </way>
+  <way id="283738443">
+    <nd ref="2875721563"/>
+    <nd ref="2875721565"/>
+    <nd ref="4317932370"/>
+    <nd ref="2875721562"/>
+    <nd ref="2875721561"/>
+    <nd ref="2875721563"/>
+    <tag k="amenity" v="fast_food"/>
+    <tag k="building" v="yes"/>
+    <tag k="building:levels" v="1"/>
+    <tag k="cuisine" v="chinese"/>
+    <tag k="height" v="2.7"/>
+    <tag k="image" v="https://commons.wikimedia.org/wiki/File:Chen%27s_China-Imbiss_Mannheim-Wallau.jpg"/>
+    <tag k="name" v="Chen's China-Imbiss"/>
+    <tag k="opening_hours" v="11:00-21:00"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="roof:shape" v="flat"/>
+    <tag k="wheelchair" v="no"/>
+  </way>
+  <way id="306968687">
+    <nd ref="3119956010"/>
+    <nd ref="3119956008"/>
+    <nd ref="3119956007"/>
+    <nd ref="3119956009"/>
+    <nd ref="3119956010"/>
+    <tag k="addr:housenumber" v="8-10"/>
+    <tag k="addr:street" v="Sporwörthstraße"/>
+    <tag k="amenity" v="community_centre"/>
+    <tag k="building" v="yes"/>
+    <tag k="fax" v="+49 621 8762725"/>
+    <tag k="image" v="https://commons.wikimedia.org/wiki/File:Gemeindezentrum_Immanuel03_Mannheim-Casterfeld.jpg"/>
+    <tag k="name" v="Evangelisches Gemeindezentrum Immanuel-Pfingstberg"/>
+    <tag k="phone" v="+49 621 873542"/>
+    <tag k="source:address" v="survey"/>
+    <tag k="source:geometry" v="Bing"/>
+    <tag k="website" v="http://www.immanuelpfingstberg.ekma.de/KITA_Immanuel.html"/>
+    <tag k="wheelchair" v="yes"/>
+  </way>
+  <way id="338523143">
+    <nd ref="3456088573"/>
+    <nd ref="3456088579"/>
+    <nd ref="3456088578"/>
+    <nd ref="3456088568"/>
+    <nd ref="3456088573"/>
+    <tag k="addr:city" v="Ilvesheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="18"/>
+    <tag k="addr:postcode" v="68549"/>
+    <tag k="addr:street" v="Hauptstraße"/>
+    <tag k="amenity" v="library"/>
+    <tag k="building" v="yes"/>
+    <tag k="email" v="bibliothek@ilvesheim.de"/>
+    <tag k="name" v="Gemeindebibliothek Ilvesheim"/>
+    <tag k="phone" v="+49 621 494161"/>
+    <tag k="source:geometry" v="LGL, www.lgl-bw.de"/>
+    <tag k="website" v="http://www.ilvesheim.de/php/kulturFreizeit.php"/>
+    <tag k="wheelchair" v="limited"/>
+  </way>
+  <way id="420031834">
+    <nd ref="4200179957"/>
+    <nd ref="4200179954"/>
+    <nd ref="4200179953"/>
+    <nd ref="4200179955"/>
+    <nd ref="4200179956"/>
+    <nd ref="4200179958"/>
+    <nd ref="4200179957"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="chapel"/>
+    <tag k="building:levels" v="1"/>
+    <tag k="denomination" v="roman_catholic"/>
+    <tag k="historic" v="wayside_shrine"/>
+    <tag k="name" v="Pfingstberg-Kapelle"/>
+    <tag k="religion" v="christian"/>
+    <tag k="start_date" v="2009"/>
+  </way>
+  <way id="427418168">
+    <nd ref="4266510094"/>
+    <nd ref="4266510095"/>
+    <nd ref="4266510096"/>
+    <nd ref="4266510097"/>
+    <nd ref="4266510094"/>
+    <tag k="amenity" v="parking"/>
+    <tag k="name" v="real,- Parkplatz II"/>
+    <tag k="parking" v="yes"/>
+  </way>
+  <way id="502971791">
+    <nd ref="4933288207"/>
+    <nd ref="4933288206"/>
+    <nd ref="4933288205"/>
+    <nd ref="4933288204"/>
+    <nd ref="4933288203"/>
+    <nd ref="4933288202"/>
+    <nd ref="4933288201"/>
+    <nd ref="4933288200"/>
+    <nd ref="4933288199"/>
+    <nd ref="4933288198"/>
+    <nd ref="4933288197"/>
+    <nd ref="4933288207"/>
+    <tag k="amenity" v="university"/>
+    <tag k="contact:website" v="http://www.dhbw-mannheim.de"/>
+    <tag k="name" v="Duale Hochschule Baden-Württemberg Mannheim"/>
+    <tag k="name:en" v="Baden-Wuerttemberg Cooperative State University Mannheim"/>
+    <tag k="old_name" v="Berufsakademie Mannheim"/>
+    <tag k="short_name" v="DHBW Mannheim"/>
+    <tag k="wikipedia" v="de:Duale Hochschule Baden-Württemberg Mannheim"/>
+  </way>
+  <way id="530481193">
+    <nd ref="5151225001"/>
+    <nd ref="5151224995"/>
+    <nd ref="5151224994"/>
+    <nd ref="5151224993"/>
+    <nd ref="5151224992"/>
+    <nd ref="5151224991"/>
+    <nd ref="5151224998"/>
+    <nd ref="5151224999"/>
+    <nd ref="5151225000"/>
+    <nd ref="5151225001"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="St. Peter"/>
+    <tag k="religion" v="christian"/>
+    <tag k="source:geometry" v="LGL, www.lgl-bw.de"/>
+    <tag k="wheelchair" v="limited"/>
+  </way>
+  <way id="530481194">
+    <nd ref="5151225004"/>
+    <nd ref="5151225002"/>
+    <nd ref="5151225003"/>
+    <nd ref="5151225005"/>
+    <nd ref="5151225004"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="building:material" v="plaster"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="height" v="70"/>
+    <tag k="name" v="St. Peter"/>
+    <tag k="religion" v="christian"/>
+    <tag k="roof:height" v="10"/>
+    <tag k="roof:shape" v="pyramidal"/>
+    <tag k="source:geometry" v="LGL, www.lgl-bw.de"/>
+    <tag k="wheelchair" v="limited"/>
+  </way>
+  <way id="530481195">
+    <nd ref="5151225008"/>
+    <nd ref="5151225001"/>
+    <nd ref="5151225000"/>
+    <nd ref="5151224999"/>
+    <nd ref="5151224998"/>
+    <nd ref="5151224997"/>
+    <nd ref="5151224996"/>
+    <nd ref="5151225007"/>
+    <nd ref="5151225006"/>
+    <nd ref="5151225004"/>
+    <nd ref="5151225005"/>
+    <nd ref="5151225009"/>
+    <nd ref="5151225008"/>
+    <tag k="addr:city" v="Ilvesheim"/>
+    <tag k="addr:country" v="DE"/>
+    <tag k="addr:housenumber" v="5"/>
+    <tag k="addr:postcode" v="68549"/>
+    <tag k="addr:street" v="Kirchenstraße"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="building:material" v="plaster"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="height" v="30"/>
+    <tag k="name" v="St. Peter"/>
+    <tag k="religion" v="christian"/>
+    <tag k="roof:height" v="8"/>
+    <tag k="source:geometry" v="LGL, www.lgl-bw.de"/>
+    <tag k="wheelchair" v="limited"/>
+  </way>
+  <relation id="1753376">
+    <member type="way" ref="127740660" role="outer"/>
+    <member type="way" ref="130074010" role="inner"/>
+    <tag k="amenity" v="social_facility"/>
+    <tag k="building" v="yes"/>
+    <tag k="name" v="Senioren Pflegezetrum"/>
+    <tag k="social_facility" v="assisted_living"/>
+    <tag k="social_facility:for" v="senior"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+</osm>

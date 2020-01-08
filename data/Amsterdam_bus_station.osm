@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.55.3 9da5e7ae">
+  <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+  <meta osm_base="2018-06-18T20:14:02Z"/>
+  <node id="280555108" lat="52.3022975" lon="4.8573326"/>
+  <node id="280555382" lat="52.3021362" lon="4.8579982"/>
+  <node id="362617479" lat="52.3797411" lon="4.9006943">
+    <tag k="amenity" v="bus_station"/>
+    <tag k="bus" v="yes"/>
+    <tag k="name" v="CS IJzijde"/>
+    <tag k="name:he" v="תחנה מרכזית"/>
+    <tag k="name:nl" v="CS IJzijde"/>
+    <tag k="operator" v="GVB; Connexxion; EBS"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="zone" v="5700"/>
+  </node>
+  <node id="605447455" lat="52.3028716" lon="4.8577063"/>
+  <node id="729547465" lat="52.3112218" lon="4.9851737">
+    <tag k="amenity" v="bus_station"/>
+    <tag k="bus" v="yes"/>
+    <tag k="name" v="Gaasperplasstation"/>
+    <tag k="source" v="CXX"/>
+    <tag k="zone" v="5725"/>
+  </node>
+  <node id="747067486" lat="52.2973682" lon="4.9595615">
+    <tag k="amenity" v="bus_station"/>
+    <tag k="name" v="Busstation Holendrecht"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="1686005085" lat="52.3515955" lon="4.8387527">
+    <tag k="amenity" v="bus_station"/>
+  </node>
+  <node id="1802521398" lat="52.3229849" lon="4.7933172"/>
+  <node id="2807417608" lat="52.3026290" lon="4.8583188"/>
+  <node id="2807417901" lat="52.3027971" lon="4.8582892"/>
+  <node id="2807417908" lat="52.3028121" lon="4.8582282"/>
+  <node id="2807417909" lat="52.3028139" lon="4.8582294"/>
+  <node id="2807417911" lat="52.3028199" lon="4.8581900"/>
+  <node id="2807417912" lat="52.3028200" lon="4.8581872"/>
+  <node id="2807417913" lat="52.3028202" lon="4.8581916"/>
+  <node id="2807417915" lat="52.3028207" lon="4.8581851"/>
+  <node id="2807417916" lat="52.3028211" lon="4.8581937"/>
+  <node id="2807417917" lat="52.3028214" lon="4.8581839"/>
+  <node id="2807417918" lat="52.3028223" lon="4.8581831"/>
+  <node id="2807417919" lat="52.3028223" lon="4.8581950"/>
+  <node id="2807417920" lat="52.3028235" lon="4.8581826"/>
+  <node id="2807417922" lat="52.3028252" lon="4.8581830"/>
+  <node id="2807417923" lat="52.3028267" lon="4.8583135"/>
+  <node id="2807417924" lat="52.3028267" lon="4.8583152"/>
+  <node id="2807417925" lat="52.3028268" lon="4.8583175"/>
+  <node id="2807417927" lat="52.3028273" lon="4.8583086"/>
+  <node id="2807417928" lat="52.3028274" lon="4.8583215"/>
+  <node id="2807417930" lat="52.3028285" lon="4.8583254"/>
+  <node id="2807417933" lat="52.3028310" lon="4.8583303"/>
+  <node id="2807417938" lat="52.3028319" lon="4.8584505"/>
+  <node id="2807417940" lat="52.3028329" lon="4.8583325"/>
+  <node id="2807417941" lat="52.3028338" lon="4.8583333"/>
+  <node id="2807417944" lat="52.3028360" lon="4.8583347"/>
+  <node id="2807417946" lat="52.3028375" lon="4.8583352"/>
+  <node id="2807417948" lat="52.3028385" lon="4.8583354"/>
+  <node id="2807417949" lat="52.3028398" lon="4.8583355"/>
+  <node id="2807417953" lat="52.3028422" lon="4.8583350"/>
+  <node id="2807417954" lat="52.3028436" lon="4.8583344"/>
+  <node id="2807417956" lat="52.3028459" lon="4.8583327"/>
+  <node id="2807417957" lat="52.3028483" lon="4.8583298"/>
+  <node id="2807417958" lat="52.3028497" lon="4.8583272"/>
+  <node id="2807417960" lat="52.3028509" lon="4.8583240"/>
+  <node id="2807417962" lat="52.3028571" lon="4.8580428"/>
+  <node id="2807417963" lat="52.3028585" lon="4.8580383"/>
+  <node id="2807417965" lat="52.3028590" lon="4.8580386"/>
+  <node id="2807417966" lat="52.3028592" lon="4.8580442"/>
+  <node id="2807417973" lat="52.3028726" lon="4.8579694"/>
+  <node id="2807417974" lat="52.3028729" lon="4.8579720"/>
+  <node id="2807417975" lat="52.3028730" lon="4.8579671"/>
+  <node id="2807417976" lat="52.3028733" lon="4.8579661"/>
+  <node id="2807417978" lat="52.3028737" lon="4.8582274"/>
+  <node id="2807417979" lat="52.3028745" lon="4.8579643"/>
+  <node id="2807417980" lat="52.3028745" lon="4.8579753"/>
+  <node id="2807417981" lat="52.3028759" lon="4.8579634"/>
+  <node id="2807417983" lat="52.3028774" lon="4.8579635"/>
+  <node id="2807417990" lat="52.3028871" lon="4.8582361"/>
+  <node id="2807418317" lat="52.3029258" lon="4.8577504"/>
+  <node id="2807418318" lat="52.3029258" lon="4.8577518"/>
+  <node id="2807418319" lat="52.3029261" lon="4.8577485"/>
+  <node id="2807418320" lat="52.3029261" lon="4.8577536"/>
+  <node id="2807418321" lat="52.3029267" lon="4.8577552"/>
+  <node id="2807418322" lat="52.3029268" lon="4.8577468"/>
+  <node id="2807418323" lat="52.3029279" lon="4.8577568"/>
+  <node id="2807418324" lat="52.3029280" lon="4.8577453"/>
+  <node id="2807418325" lat="52.3029295" lon="4.8577446"/>
+  <node id="2807418326" lat="52.3029309" lon="4.8577449"/>
+  <node id="2846676304" lat="52.4181413" lon="4.8932154"/>
+  <node id="2846676311" lat="52.4181460" lon="4.8934351"/>
+  <node id="2846676355" lat="52.4182115" lon="4.8932114"/>
+  <node id="2846676356" lat="52.4182162" lon="4.8934310"/>
+  <node id="3271002553" lat="52.3222813" lon="4.9359109">
+    <tag k="addr:city" v="Duivendrecht"/>
+    <tag k="addr:housenumber" v="3"/>
+    <tag k="addr:postcode" v="1115BZ"/>
+    <tag k="addr:street" v="Stationsplein"/>
+    <tag k="amenity" v="bus_station"/>
+    <tag k="name" v="Eurolines Duivendrecht"/>
+    <tag k="source" v="BAG"/>
+    <tag k="source:date" v="2016-09-18"/>
+  </node>
+  <node id="3619001700" lat="52.3220920" lon="4.7927436"/>
+  <node id="3619001704" lat="52.3223187" lon="4.7923329"/>
+  <node id="3619001706" lat="52.3227582" lon="4.7937280"/>
+  <node id="3725258351" lat="52.3694491" lon="4.8768723"/>
+  <node id="3725258352" lat="52.3693127" lon="4.8772564"/>
+  <node id="3725258353" lat="52.3691423" lon="4.8775515"/>
+  <node id="3725258354" lat="52.3690707" lon="4.8775997"/>
+  <node id="3725258355" lat="52.3697900" lon="4.8766278"/>
+  <node id="3725258357" lat="52.3698453" lon="4.8768859"/>
+  <node id="3725258359" lat="52.3694813" lon="4.8769922"/>
+  <node id="3725258360" lat="52.3690011" lon="4.8773185"/>
+  <node id="3920338489" lat="52.3025723" lon="4.8582819"/>
+  <node id="4041642874" lat="52.3113175" lon="4.9843223">
+    <tag k="amenity" v="bus_station"/>
+    <tag k="name" v="Gaasperplas"/>
+    <tag k="network" v="Amsterdam Metro"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="railway" v="station"/>
+    <tag k="station" v="subway"/>
+    <tag k="wikidata" v="Q2187835"/>
+    <tag k="zone" v="5725"/>
+  </node>
+  <node id="4277705209" lat="52.4181287" lon="4.8934698">
+    <tag k="amenity" v="bus_station"/>
+    <tag k="name" v="Molenwijk"/>
+    <tag k="zone" v="5711"/>
+  </node>
+  <node id="4519529378" lat="52.4298932" lon="4.8561675"/>
+  <node id="4519529379" lat="52.4297582" lon="4.8561520"/>
+  <node id="4519529380" lat="52.4291339" lon="4.8563594"/>
+  <node id="4519529381" lat="52.4293673" lon="4.8562405"/>
+  <node id="4519529383" lat="52.4288353" lon="4.8565101"/>
+  <node id="4519529384" lat="52.4298641" lon="4.8566367"/>
+  <node id="4519529386" lat="52.4299242" lon="4.8564611"/>
+  <node id="4519529388" lat="52.4289014" lon="4.8567464"/>
+  <node id="4519530091" lat="52.4291592" lon="4.8567964"/>
+  <node id="4552593795" lat="52.3021625" lon="4.8578896"/>
+  <node id="4552593797" lat="52.3028527" lon="4.8583697"/>
+  <node id="4555591915" lat="52.3221470" lon="4.7747639"/>
+  <node id="4555591941" lat="52.3216265" lon="4.7743631"/>
+  <node id="4555591944" lat="52.3215885" lon="4.7746247"/>
+  <node id="4555591956" lat="52.3217568" lon="4.7743454"/>
+  <node id="4555591967" lat="52.3221766" lon="4.7750134"/>
+  <node id="4555591973" lat="52.3220560" lon="4.7751229"/>
+  <node id="5200049655" lat="52.3223761" lon="4.7924176"/>
+  <way id="25728982">
+    <nd ref="2807417608"/>
+    <nd ref="3920338489"/>
+    <nd ref="280555382"/>
+    <nd ref="4552593795"/>
+    <nd ref="280555108"/>
+    <nd ref="605447455"/>
+    <nd ref="2807418326"/>
+    <nd ref="2807418325"/>
+    <nd ref="2807418324"/>
+    <nd ref="2807418322"/>
+    <nd ref="2807418319"/>
+    <nd ref="2807418317"/>
+    <nd ref="2807418318"/>
+    <nd ref="2807418320"/>
+    <nd ref="2807418321"/>
+    <nd ref="2807418323"/>
+    <nd ref="2807417983"/>
+    <nd ref="2807417981"/>
+    <nd ref="2807417979"/>
+    <nd ref="2807417976"/>
+    <nd ref="2807417975"/>
+    <nd ref="2807417973"/>
+    <nd ref="2807417974"/>
+    <nd ref="2807417980"/>
+    <nd ref="2807417965"/>
+    <nd ref="2807417963"/>
+    <nd ref="2807417962"/>
+    <nd ref="2807417966"/>
+    <nd ref="2807417922"/>
+    <nd ref="2807417920"/>
+    <nd ref="2807417918"/>
+    <nd ref="2807417917"/>
+    <nd ref="2807417915"/>
+    <nd ref="2807417912"/>
+    <nd ref="2807417911"/>
+    <nd ref="2807417913"/>
+    <nd ref="2807417916"/>
+    <nd ref="2807417919"/>
+    <nd ref="2807417909"/>
+    <nd ref="2807417908"/>
+    <nd ref="2807417901"/>
+    <nd ref="2807417927"/>
+    <nd ref="2807417923"/>
+    <nd ref="2807417924"/>
+    <nd ref="2807417925"/>
+    <nd ref="2807417928"/>
+    <nd ref="2807417930"/>
+    <nd ref="2807417933"/>
+    <nd ref="2807417940"/>
+    <nd ref="2807417941"/>
+    <nd ref="2807417944"/>
+    <nd ref="2807417946"/>
+    <nd ref="2807417948"/>
+    <nd ref="2807417949"/>
+    <nd ref="2807417953"/>
+    <nd ref="2807417954"/>
+    <nd ref="2807417956"/>
+    <nd ref="2807417957"/>
+    <nd ref="2807417958"/>
+    <nd ref="2807417960"/>
+    <nd ref="2807417978"/>
+    <nd ref="2807417990"/>
+    <nd ref="4552593797"/>
+    <nd ref="2807417938"/>
+    <nd ref="2807417608"/>
+    <tag k="addr:city" v="Amstelveen"/>
+    <tag k="addr:country" v="NL"/>
+    <tag k="amenity" v="bus_station"/>
+    <tag k="building" v="yes"/>
+    <tag k="layer" v="1"/>
+    <tag k="lit" v="yes"/>
+    <tag k="live_display" v="yes"/>
+    <tag k="name" v="Busstation Amstelveen"/>
+    <tag k="operator" v="Connexxion"/>
+    <tag k="public_transport" v="station"/>
+    <tag k="ref:bag" v="362100001111445"/>
+    <tag k="shelter" v="yes"/>
+    <tag k="source" v="BAG"/>
+    <tag k="source:date" v="2014-03-24"/>
+    <tag k="start_date" v="1996"/>
+  </way>
+  <way id="280578243">
+    <nd ref="2846676356"/>
+    <nd ref="2846676311"/>
+    <nd ref="2846676304"/>
+    <nd ref="2846676355"/>
+    <nd ref="2846676356"/>
+    <tag k="amenity" v="bus_station"/>
+    <tag k="building" v="yes"/>
+    <tag k="name" v="Bus Station Molenwijk"/>
+    <tag k="ref:bag" v="363100012150919"/>
+    <tag k="source" v="BAG"/>
+    <tag k="source:date" v="2014-05-07"/>
+    <tag k="start_date" v="2006"/>
+  </way>
+  <way id="356449244">
+    <nd ref="3619001704"/>
+    <nd ref="3619001700"/>
+    <nd ref="3619001706"/>
+    <nd ref="1802521398"/>
+    <nd ref="5200049655"/>
+    <nd ref="3619001704"/>
+    <tag k="amenity" v="bus_station"/>
+    <tag k="building" v="roof"/>
+    <tag k="image" v="File:Knooppunt Schiphol Noord. (25156683084).jpg"/>
+    <tag k="layer" v="1"/>
+    <tag k="note" v="Knooppunt Schiphol Noord"/>
+    <tag k="ref:bag" v="394100001023540"/>
+    <tag k="start_date" v="2015"/>
+    <tag k="wikipedia" v="nl:Knooppunt Schiphol-Noord"/>
+  </way>
+  <way id="368673642">
+    <nd ref="3725258357"/>
+    <nd ref="3725258355"/>
+    <nd ref="3725258351"/>
+    <nd ref="3725258359"/>
+    <nd ref="3725258360"/>
+    <nd ref="3725258354"/>
+    <nd ref="3725258353"/>
+    <nd ref="3725258352"/>
+    <nd ref="3725258357"/>
+    <tag k="amenity" v="bus_station"/>
+    <tag k="name" v="Busstation Elandsgracht"/>
+    <tag k="note" v="not a building. new situation 2015. approximate area."/>
+    <tag k="old_name" v="Busstation Marnixstraat"/>
+    <tag k="operator" v="Connexxion"/>
+  </way>
+  <way id="455560644">
+    <nd ref="4519529378"/>
+    <nd ref="4519529386"/>
+    <nd ref="4519529384"/>
+    <nd ref="4519530091"/>
+    <nd ref="4519529388"/>
+    <nd ref="4519529383"/>
+    <nd ref="4519529380"/>
+    <nd ref="4519529381"/>
+    <nd ref="4519529379"/>
+    <nd ref="4519529378"/>
+    <tag k="amenity" v="bus_station"/>
+    <tag k="name" v="De Vlinder"/>
+    <tag k="operator" v="cxx"/>
+    <tag k="website" v="http://www.connexxion.nl/dienstregeling/haltedisplay/37223552"/>
+  </way>
+  <way id="459822003">
+    <nd ref="4555591915"/>
+    <nd ref="4555591967"/>
+    <nd ref="4555591973"/>
+    <nd ref="4555591944"/>
+    <nd ref="4555591941"/>
+    <nd ref="4555591956"/>
+    <nd ref="4555591915"/>
+    <tag k="amenity" v="bus_station"/>
+    <tag k="name" v="P40"/>
+    <tag k="operator" v="CXX"/>
+  </way>
+</osm>

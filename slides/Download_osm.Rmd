@@ -1,12 +1,12 @@
 ---
 title: "OpenStreetMap Download"
 author: "Jan-Philipp Kolb"
-date: "21 Juni 2018"
-output: beamer_presentation
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: slidy_presentation
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = T)
 ```
 
 
@@ -22,6 +22,7 @@ download.file(ghURL,"../data/amsterdamCentraal.osm")
 ```
 
 ```{r}
+library(XML)
 AMC <- xmlParse("../data/amsterdamCentraal.osm")
 ```
 

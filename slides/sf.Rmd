@@ -1,7 +1,7 @@
 ---
 title: "The R-package `sf`"
 author: "Jan-Philipp Kolb"
-date: "22 Juni 2018"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: beamer_presentation
 ---
 

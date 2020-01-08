@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.6.0 (15372 thorn-01.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <relation id="47811" visible="true" version="59" changeset="55558787" timestamp="2018-01-18T19:26:44Z" user="AndriesWijma" uid="2349565">
+  <member type="way" ref="139789969" role="outer"/>
+  <member type="way" ref="36071317" role="outer"/>
+  <member type="way" ref="43635191" role="outer"/>
+  <member type="way" ref="43635158" role="outer"/>
+  <member type="way" ref="36071314" role="outer"/>
+  <member type="way" ref="45117752" role="outer"/>
+  <member type="way" ref="45117772" role="outer"/>
+  <member type="way" ref="45117774" role="outer"/>
+  <member type="way" ref="45117777" role="outer"/>
+  <member type="way" ref="42624025" role="outer"/>
+  <member type="way" ref="42935185" role="outer"/>
+  <member type="way" ref="93128596" role="outer"/>
+  <member type="way" ref="43129093" role="outer"/>
+  <member type="way" ref="43129091" role="outer"/>
+  <member type="way" ref="43129084" role="outer"/>
+  <member type="way" ref="42576994" role="outer"/>
+  <member type="way" ref="36387912" role="outer"/>
+  <member type="way" ref="68739958" role="outer"/>
+  <member type="way" ref="43635186" role="outer"/>
+  <member type="way" ref="43635188" role="outer"/>
+  <member type="way" ref="93368155" role="outer"/>
+  <member type="way" ref="257827827" role="outer"/>
+  <member type="way" ref="42688137" role="outer"/>
+  <member type="way" ref="36007085" role="outer"/>
+  <member type="way" ref="36855686" role="outer"/>
+  <member type="way" ref="36855699" role="outer"/>
+  <member type="way" ref="36855703" role="outer"/>
+  <member type="way" ref="36855756" role="outer"/>
+  <member type="way" ref="42794284" role="outer"/>
+  <member type="way" ref="43635189" role="outer"/>
+  <member type="way" ref="43635190" role="outer"/>
+  <member type="way" ref="42794287" role="outer"/>
+  <member type="way" ref="36394316" role="outer"/>
+  <member type="way" ref="36387908" role="outer"/>
+  <member type="way" ref="36344169" role="outer"/>
+  <member type="way" ref="42688173" role="outer"/>
+  <member type="way" ref="257827825" role="outer"/>
+  <member type="way" ref="93368156" role="outer"/>
+  <member type="way" ref="51405584" role="outer"/>
+  <member type="node" ref="268396336" role="admin_centre"/>
+  <tag k="admin_level" v="8"/>
+  <tag k="authoritative" v="yes"/>
+  <tag k="boundary" v="administrative"/>
+  <tag k="name" v="Amsterdam"/>
+  <tag k="name:ca" v="Amsterdam"/>
+  <tag k="name:en" v="Amsterdam"/>
+  <tag k="name:hi" v="एम्स्टर्डम"/>
+  <tag k="name:ko" v="암스테르담"/>
+  <tag k="name:pt" v="Amsterdão"/>
+  <tag k="population" v="844952"/>
+  <tag k="population:date" v="2017-01-01"/>
+  <tag k="ref:gemeentecode" v="363"/>
+  <tag k="source:population" v="https://www.ois.amsterdam.nl"/>
+  <tag k="type" v="boundary"/>
+  <tag k="wikidata" v="Q727"/>
+  <tag k="wikipedia" v="nl:Amsterdam (gemeente)"/>
+ </relation>
+</osm>
