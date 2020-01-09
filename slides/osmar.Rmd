@@ -43,7 +43,7 @@ waterlooplein <- get_osm("../data/268782305.xml")
 
 ## Download information for a bounding box
 
-```{r}
+```{r,eval=F}
 bb <- center_bbox(4.901761,52.36842,900 ,900)
 ua <-get_osm(bb , source = src)
 ```
