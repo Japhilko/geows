@@ -1,0 +1,18 @@
+---
+title: "Addon"
+author: "Jan-Philipp Kolb"
+date: "8 1 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 
+
+- [Geodaten Workshop WZB](https://github.com/WZBSocialScienceCenter/r-geodata-workshop)
+
+<!--
+https://mgimond.github.io/MEGUG2016/Tutorial.html
+-->
