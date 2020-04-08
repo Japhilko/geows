@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Nutzung von Geodaten in den Sozialwissenschaften</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Jan-Philipp Kolb" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="..\workshop.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Nutzung von Geodaten in den Sozialwissenschaften
+## Getting started
+### Jan-Philipp Kolb
+### 08 April, 2020
+
+---
+
+
+
+
+---
+
+## Karten - eine lange Geschichte
+
+### Beispiel: Fra Mauro map
+
+![Di Mauro Map - entstanden um 1450 - erstaunliche Detailtreue ](https://raw.githubusercontent.com/Japhilko/GeoData/master/data/figure/FraMauroDetailedMap.jpeg.jpg)
+
+Quelle: &lt;https://en.wikipedia.org/wiki/Fra_Mauro_map&gt;
+
+---
+
+## Motivation - aktuelle Phänomene
+
+- Die räumliche Darstellung hilft beim Verstehen (aktueller)  Phänomene.
+
+![Covid19 Karte der John Hoppkins University](figure/jhu_corona_map.PNG)
+
+Quelle: &lt;https://coronavirus.jhu.edu/map.html&gt;
+
+
+
+---
+
+## Begriffe
+
+### [Laws of Spatial Sience](http://de.slideshare.net/rheimann04/big-social-data-the-spatial-turn-in-big-data)
+
+[Tobler's Gesetz](https://en.wikipedia.org/wiki/Tobler's_first_law_of_geography)
+
+&gt; everything is related to everything else, but near things are more related than distant things.
+
+---
+
+### [Spatial Turn](https://de.wikipedia.org/wiki/Spatial_turn)
+
+&gt; Als Spatial turn wird seit Ende der 1980er-Jahre ein Paradigmenwechsel in den Kultur- und Sozialwissenschaften bezeichnet, der den Raum bzw. den geographischen Raum als kulturelle Größe wieder wahrnimmt.
+
+[Englisches Wikipedia](https://en.wikipedia.org/wiki/Spatial_turn)
+
+
+
+---
+
+## Beispiel [Wind Map](http://hint.fm/wind/)
+
+&lt;http://hint.fm/wind/&gt;
+
+&lt;!--
+![pic](http://www.flowjustflow.com/wp-content/gallery/hint-fm/high-res-3600.jpg)
+--&gt;
+
+![Wind map USA](figure/windfm.PNG)
+
+---
+
+## Verfügbarkeit der Daten - Beispiel 
+
+&lt;http://www.driven-by-data.net/&gt;
+
+![](http://driven-by-data.net/images/working-women-full.png)
+
+---
+
+## Verfügbarkeit der Daten - Beispiel Zensus Atlas
+
+&lt;https://atlas.zensus2011.de/&gt;
+![](https://raw.githubusercontent.com/Japhilko/GeoData/master/data/figure/Zensus_Mannheim2.png)
+
+---
+
+## Verfügbarkeit der Daten - Beispiel [Fahrradunfälle in Berlin](http://michael-hoerz.de/maps/berlin-bike/)
+
+&lt;http://www.sowirdberlin.de/&gt;
+![](https://asset0.torial.com/system/portfolio_item_images/production/2014/07/21/m5we1vmq6_preview_image_9678.jpg)
+
+---
+
+## Heterogener Datenbestand - Beispiel &lt;http://names.mappinglondon.co.uk/&gt;
+
+![](http://mappinglondon.co.uk/wp-content/uploads/2011/11/surnames1.png)
+
+---
+
+## Motivation - Warum die Darstellung in Karten
+
+- Darstellung in Karten ermöglicht besseres Verständnis bspw. sozialwissenschaftlicher Phänomene.
+
+- Attraktiver Output
+
+- Durch die INSPIRE Richtlinie und *Collaborative Mapping* wächst der verfügbare Bestand an Geodaten.
+
+- Daten sind oft frei verfügbar im Internet (z.B. durch die Nutzung von APIs)
+- Die Daten sind allerdings oft wenig oder gar nicht strukturiert (z.B. Internet Dokumente), heterogen und
+- meistens nicht für die Nutzung zur räumlichen Visualisierung vorgesehen, beinhalten aber implizit  geographische Informationen (Web 2.0)
+- Oftmals sind wenig oder keine Metadaten vorhanden
+
+---
+
+## Gründe für die Nutzung von R
+
+- Als Weg kreativ zu sein ...
+- Graphiken, Graphiken, Graphiken
+- In Kombination mit anderen Programmen nutzbar
+- Zur Verbindung von Datenstrukturen
+- Zum Automatisieren
+- Um die Intelligenz anderer Leute zu nutzen ;-)
+- ...
+
+---
+
+## Noch mehr Gründe
+
+- R ist [frei verfügbar](http://www.inside-r.org/why-use-r). Es kann umsonst [runtergeladen](http://mirrors.softliste.de/cran/) werden.
+
+- R ist eine Skriptsprache 
+- Gute [MöglichkeitenLink](http://www.sr.bham.ac.uk/~ajrs/R/r-gallery.html) für die [Visualisierung](http://research.stowers-institute.org/efg/R/)
+
+- R wird immer [populärer](https://twitter.com/josiahjdavis/status/559778930476220418)
+
+---
+
+## Übersicht - [warum R](http://www.edureka.co/)
+
+
+
+![](http://d287f0h5fel5hu.cloudfront.net/blog/wp-content/uploads/2013/06/bar-learn-r-img11.png)
+
+---
+
+## [R Nutzer rund um die Welt](http://blog.revolutionanalytics.com/)
+
+
+![](http://revolution-computing.typepad.com/.a/6a010534b1db25970b0191035099d8970c-pi)
+
+---
+
+## [Wo sind die aktivsten Nutzer?](http://spatial.ly/)
+
+![](http://spatial.ly/wp-content/uploads/2013/06/r_activity.png)
+
+
+---
+
+## Was ist das Ziel - Straßen in Berlin
+
+Dargestellt werden OpenStreetMap Daten, die mit der Overpass API heruntergeladen wurden.
+
+![](https://raw.githubusercontent.com/Japhilko/GeoData/master/data/figure/streets_Berlin2.png)
+
+
+---
+
+## [Openstreetmap Daten](https://github.com/Japhilko/OSMshinyApp/)
+
+![](figure/shinyApp.PNG)
+
+---
+
+## Links mit Beispielen
+
+- Shiny App zu [Indikatoren](https://japhilko.shinyapps.io/Choropleths/) für Europa
+
+- Räumliche Visualisierung in den USA - [Walmarts in den USA](https://rpubs.com/Radcliffe/walmart)
+- [Race Gap Police USA](http://www.nytimes.com/interactive/2014/09/03/us/the-race-gap-in-americas-police-departments.html?_r=0) - [Wahl USA](http://fivethirtyeight.com/)
+
+- Zeit Artikel zum Zustand der [Eisenbahnbrücken](http://detektor.fm/digital/datenjournalismus-interaktive-karte-zeigt-marode-deutsche-bahn-bruecken) 
+
+- [Fahrradunfälle](http://michael-hoerz.de/maps/berlin-bike/) in Berlin
+
+- [Verteilung Fußballfans](http://interaktiv.morgenpost.de/beta-fussballkarte/#7/51.258/10.756)
+
+- [Plastiktüten im Meer](http://news.nationalgeographic.com/news/2014/07/140715-ocean-plastic-debris-trash-pacific-garbage-patch/)
+
+
+Datenquellen: 
+
+- [Pegelstände](https://www.pegelonline.wsv.de/gast/start) in Deutschland
+- [driven by data](http://driven-by-data.net/)
+
+Resourcen
+
+- Andreas Plank - [Grafiken und Statistik in R](http://www.chironomidaeproject.com/fileadmin/downloads/Formeln_in_R.pdf)
+
+&lt;!--
+## Verschiedene Kartentypen
+
+- [Create and integrate maps in your R workflow with the cartography package](https://rgeomatic.hypotheses.org/842)
+
+
+- [Das Paket cartography](https://cran.r-project.org/web/packages/cartography/vignettes/cartography.html)
+
+
+```r
+# install.packages("cartography")
+library(cartography)
+```
+
+```
+## Warning: package 'cartography' was built under R version 3.6.3
+```
+
+--&gt;
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
