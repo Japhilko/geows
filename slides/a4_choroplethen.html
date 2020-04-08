@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Nutzung von Geodaten in den Sozialwissenschaften</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Jan-Philipp Kolb" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="..\workshop.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Nutzung von Geodaten in den Sozialwissenschaften
+## Choroplethen - <code>maptools</code> und <code>choreplethr</code>
+### Jan-Philipp Kolb
+### 08 April, 2020
+
+---
+
+
+
+
+
+## Inhalt dieses Abschnitts
+
+- Der Beispieldatensatz `wrld_simpl` im Paket `maptools` wird vorgestellt.
+- Es wird gezeigt, wie man Daten aus anderen Quellen mit Kartendaten verbinden kann.
+- Mit dieser Verbindung ist es dann möglich thematische Karten - so genannte Choroplethen - zu erstellen
+- Zudem wird das Paket `choroplethr` vorgestellt.
+
+---
+
+## Was ist ein Choropleth
+
+### Ein Choropleth ist eine Karte, die
+
+- geografische Grenzen zeigt.
+- bei denen Bereiche basierend auf Metriken eingefärbt werden.
+
+Choroplethen sind nützlich für die Visualisierung von Daten, wo geografische Grenzen eine natürliche Einheit der Aggregation sind. 
+
+---
+
+## Das Paket `maptools`
+
+- Datensatz wrld_simpl aus dem Paket `maptools`
+- Polygone für fast alle Staaten der Erde
+
+
+
+
+
+```r
+library(maptools)
+data(wrld_simpl)
+```
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt;   &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; ISO2 &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; NAME &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; AREA &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; POP2005 &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; ATG &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; AG &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Antigua and Barbuda &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 44 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 83039 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; DZA &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; DZ &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Algeria &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 238174 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 32854159 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; AZE &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; AZ &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Azerbaijan &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 8260 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 8352021 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; ALB &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; AL &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Albania &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2740 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 3153731 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; ARM &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; AM &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Armenia &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2820 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 3017661 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; AGO &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; AO &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Angola &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 124670 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 16095214 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+
+
+## Hallo Welt
+
+
+```r
+plot(wrld_simpl)
+```
+
+![](a4_choroplethen_files/figure-html/unnamed-chunk-4-1.png)&lt;!-- --&gt;
+
+---
+
+
+## [Daten zum Gini Index](https://datahub.io/core/gini-index#data)
+
+- Daten von [**datahub.io**](https://datahub.io/core/gini-index#data)
+- Statistisches Maß zur Darstellung von [Ungleichverteilungen](https://de.wikipedia.org/wiki/Gini-Koeffizient)
+
+
+
+
+```r
+link&lt;-"https://raw.githubusercontent.com/Japhilko/geocourse/
+master/data/gini-index_csv.csv"
+gini &lt;- read.csv(link)
+```
+
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; Country.Name &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Country.Code &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; Year &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; Value &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Albania &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; ALB &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1996 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 27.0 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Albania &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; ALB &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2002 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 31.7 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Albania &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; ALB &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2005 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 30.6 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Albania &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; ALB &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2008 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 30.0 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Albania &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; ALB &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2012 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 29.0 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Algeria &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; DZA &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1988 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 40.2 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+
+## Der Gini Index im Jahr 2012
+
+- Für das Jahr 2012 sind am meisten Beobachtungen vorhanden. 
+
+
+```r
+gini12 &lt;- gini[gini$Year==2012,]
+summary(gini12$Value)
+```
+
+```
+##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+##   24.70   29.80   35.10   36.15   41.40   57.40
+```
+
+---
+
+
+## Die Daten matchen
+
+- WIr matchen die Gini-Daten mit den Kartendaten
+
+
+```r
+ind &lt;- match(gini12$Country.Code,wrld_simpl$ISO3)
+```
+
+- Wir nehmen die Länder raus, für die keine Daten vorhanden sind:
+
+
+```r
+ind2 &lt;- ind[!is.na(ind)]
+```
+
+- Eine neue Karte wird erstellt:
+
+
+```r
+ginimap &lt;- wrld_simpl[ind2,]
+```
+
+- Die Gini-Daten werden in den Datenslot geschrieben
+
+
+```r
+ginimap@data$gini12 &lt;- gini12$Value[!is.na(ind)]
+```
+
+---
+
+
+## Die Daten plotten
+
+
+```r
+library(sp)
+spplot(ginimap,"gini12")
+```
+
+![](a4_choroplethen_files/figure-html/unnamed-chunk-13-1.png)&lt;!-- --&gt;
+
+---
+
+
+## Das Paket `colorRamps` verwenden
+
+
+```r
+library(colorRamps)
+spplot(ginimap,"gini12",col.regions=matlab.like(100))
+```
+
+![](a4_choroplethen_files/figure-html/unnamed-chunk-14-1.png)&lt;!-- --&gt;
+
+---
+
+## Aufgabe - Eine Choroplethenkarte erzeugen
+
+- Lade Datensatz [**Unemployment Datensatz**](https://raw.githubusercontent.com/Japhilko/GeoData/master/2015/data/Unemployment.csv) herunter
+- Matche die Daten mit einer passenden Karte
+- Erzeuge mit der (Variable `X2014M10`) folgende Karte:
+
+
+![](a4_choroplethen_files/figure-html/unnamed-chunk-15-1.png)&lt;!-- --&gt;
+
+
+
+
+
+---
+
+
+## Das Paket `choroplethr`
+
+### Paket von [**Ari Lamstein**](http://www.arilamstein.com/) - [**`choroplethr`**](https://cran.r-project.org/web/packages/choroplethr/index.html) 
+
+- Vereinfachung der Erstellung von Choroplethen in R
+
+- World Development Indicators [**`WDI`**](https://cran.r-project.org/web/packages/WDI/index.html) (World Bank)
+
+- Die folgenden Beispiele basieren auf der [**Vignette**](https://cran.r-project.org/web/packages/choroplethr/index.html) des `choroplethr`-Paketes
+
+
+```r
+install.packages("choroplethr")
+```
+
+---
+
+
+## Bevölkerungsschätzungen für den US-Staaten
+
+### US Amerikanischer Community Survey
+
+
+```r
+library("choroplethr")
+data(df_pop_state)
+```
+
+`df_pop_state` ist ein Datensatz , der in dem Paket `choroplethr` enthalten ist, es enthält Schätzungen zu den US-Staaten für das Jahr 2012.
+
+
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; region &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; value &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; alabama &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 4777326 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; alaska &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 711139 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; arizona &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 6410979 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; arkansas &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2916372 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; california &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 37325068 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; colorado &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 5042853 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+
+
+## `choroplethr` - [Hallo Welt](http://mirrors.softliste.de/cran/web/packages/choroplethr/vignettes/a-introduction.html) 
+
+Die Karte zeigt die US Bevölkerungsschätzung für die US-Staaten und das Jahr 2012:
+
+Wir bekommen eine Choroplethenkarte mit nur einem Argument:
+
+
+```r
+state_choropleth(df_pop_state)
+```
+
+![](a4_choroplethen_files/figure-html/unnamed-chunk-21-1.png)&lt;!-- --&gt;
+
+
+Aber wir können auch einen Titel erstellen und die Legende benennen:
+
+
+```r
+state_choropleth(df_pop_state, title="2012 US State Population Estimates", legend="Population")
+```
+
+![](a4_choroplethen_files/figure-html/unnamed-chunk-22-1.png)&lt;!-- --&gt;
+
+---
+
+
+## [Nur drei Staaten darstellen](http://mirrors.softliste.de/cran/web/packages/choroplethr/vignettes/b-state-choropleth.html)
+
+
+```r
+state_choropleth(df_pop_state,
+                 title= "2012 Population Estimates",
+                 legend= "Population", num_colors = 1,
+                 zoom=c("california","washington","oregon"))
+```
+
+![](a4_choroplethen_files/figure-html/unnamed-chunk-23-1.png)&lt;!-- --&gt;
+
+
+---
+
+
+## US County Chroplethen
+
+### [Choroplethen der US Counties](http://mirrors.softliste.de/cran/web/packages/choroplethr/vignettes/c-county-choropleth.html)
+
+- [**Vignette des Pakets**](http://mirrors.softliste.de/cran/web/packages/choroplethr/vignettes/c-county-choropleth.html)
+
+
+```r
+# A data.frame containing population estimates for US Counties in 2012.
+?df_pop_county
+
+# Create a choropleth of US Counties
+?county_choropleth
+```
+
+---
+
+
+## Eine Karte der US Counties
+
+
+```r
+data(df_pop_county)
+county_choropleth(df_pop_county)
+```
+
+![](a4_choroplethen_files/figure-html/unnamed-chunk-25-1.png)&lt;!-- --&gt;
+
+---
+
+## [Choroplethen Länder](http://mirrors.softliste.de/cran/web/packages/choroplethr/vignettes/d-country-choropleth.html)
+
+
+```r
+data(df_pop_country)
+country_choropleth(df_pop_country,
+              title      = "2012 Population Estimates",
+              legend     = "Population",
+              num_colors = 1,
+              zoom       = c("united states of america",
+                             "mexico", "canada"))
+```
+
+---
+
+
+## [Choroplethen Länder](http://mirrors.softliste.de/cran/web/packages/choroplethr/vignettes/d-country-choropleth.html)
+
+![](a4_choroplethen_files/figure-html/unnamed-chunk-27-1.png)&lt;!-- --&gt;
+
+---
+
+
+## Weltbank Daten
+
+
+```r
+library(WDI) 
+choroplethr_wdi(code="SP.POP.TOTL", year=2012, 
+                title="2012 Population", 
+                num_colors=1)
+```
+
+![](a4_choroplethen_files/figure-html/unnamed-chunk-28-1.png)&lt;!-- --&gt;
+
+---
+
+
+## [Lebenserwartung](http://mirrors.softliste.de/cran/web/packages/choroplethr/vignettes/f-world-bank-data.html)
+
+
+```r
+choroplethr_wdi(code="SP.DYN.LE00.IN", year=2012,
+                title="2012 Life Expectancy")
+```
+
+![](a4_choroplethen_files/figure-html/unnamed-chunk-29-1.png)&lt;!-- --&gt;
+
+---
+
+## Ein weiterer Datensatz
+
+&gt; A data.frame containing all US presdiential election results from 1789 to 2012
+
+
+```r
+data(df_president_ts)
+```
+
+&lt;!--
+Mit dem Fragezeichen bekommen wir Hilfe
+
+
+```r
+?df_president_ts
+```
+
+--&gt;
+
+
+D = Democratic; R = Republican; PR = Progressive; 
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt;   &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; region &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; 1908 &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; 1912 &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; 1916 &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; 1920 &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; 1924 &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; 1928 &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; 1932 &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 42 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; south dakota &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; R &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; PR &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; R &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; R &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; R &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; R &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; D &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 43 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; tennessee &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; D &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; D &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; D &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; R &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; D &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; R &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; D &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 44 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; texas &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; D &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; D &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; D &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; D &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; D &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; R &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; D &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 45 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; utah &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; R &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; R &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; D &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; R &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; R &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; R &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; D &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 46 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; vermont &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; R &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; R &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; R &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; R &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; R &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; R &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; R &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 47 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; virginia &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; D &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; D &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; D &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; D &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; D &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; R &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; D &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 48 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; washington &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; R &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; PR &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; D &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; R &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; R &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; R &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; D &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;!--
+R = Republican; 
+D = Democratic; 
+DR = Democratic-Republican; 
+W = Whig;
+F = Federalist;
+GW = George Washington;
+NR = National Republican;
+SD = Southern Democrat;
+PR = Progressive; 
+AI = American Independent;
+SR = States' Rights; 
+PO = Populist; 
+CU = Constitutional Union; 
+I = Independent; 
+ND = Northern Democrat; 
+KN = Know Nothing;
+AM = Anti-Masonic;
+N = Nullifier; 
+SP = Split evenly
+--&gt;
+
+
+```r
+library("choroplethrMaps")
+```
+
+
+---
+
+
+## Das R-Paket `choroplethrMaps`
+
+
+```r
+library(ggplot2);library(choroplethrMaps)
+data(country.map)
+ggplot(country.map, aes(long, lat, group=group))+ 
+  geom_polygon()
+```
+
+![](a4_choroplethen_files/figure-html/unnamed-chunk-34-1.png)&lt;!-- --&gt;
+
+---
+
+
+## Eine Karte für die USA
+
+
+```r
+data(state.map)
+ggplot(state.map,aes(long,lat,group=group))+geom_polygon()
+```
+
+![](a4_choroplethen_files/figure-html/unnamed-chunk-35-1.png)&lt;!-- --&gt;
+
+---
+
+
+## Resourcen
+
+
+```r
+citation("choroplethr")
+```
+
+```
+## 
+## To cite package 'choroplethr' in publications use:
+## 
+##   Ari Lamstein (2018). choroplethr: Simplify the Creation of Choropleth
+##   Maps in R. R package version 3.6.3.
+##   https://CRAN.R-project.org/package=choroplethr
+## 
+## A BibTeX entry for LaTeX users is
+## 
+##   @Manual{,
+##     title = {choroplethr: Simplify the Creation of Choropleth Maps in R},
+##     author = {Ari Lamstein},
+##     year = {2018},
+##     note = {R package version 3.6.3},
+##     url = {https://CRAN.R-project.org/package=choroplethr},
+##   }
+```
+
+---
+
+
+## Resources / Links
+
+- [**Einführung - Was sind Choroplethen**](https://cran.r-project.org/web/packages/choroplethr/vignettes/a-introduction.html)
+
+
+- [**Beschreibung**](http://radar.oreilly.com/2014/01/new-choropleth-package-in-r.html) der Nutzung des  `choroplethr` Paketes
+
+- Die [**US Staaten**](https://cran.r-project.org/web/packages/choroplethr/vignettes/b-state-choropleth.html) plotten mit `choroplethr`
+
+- [**Weltbankdaten in Karten darstellen**](https://cran.r-project.org/web/packages/choroplethr/vignettes/f-world-bank-data.html) mit `choroplethr`
+
+
+- [**Revolutions-Blog**](http://blog.revolutionanalytics.com/2014/01/easy-data-maps-with-r-the-choroplethr-package-.html) über das `choroplethr` Paket
+
+
+- [**trulia**](http://www.trulia.com/tech/2014/01/15/the-choroplethr-package-for-r/)-blog über das `choroplethr` Paket
+
+- [**Präsentation von Ari Lamstein**](http://www.r-bloggers.com/slides-for-my-upcoming-talk-mapping-census-data-in-r/) über das `choroplethr` Paket
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

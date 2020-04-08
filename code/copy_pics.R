@@ -35,6 +35,7 @@ if (sysInfo["nodename"]=="MAC14026"){
 if (sysInfo["nodename"]=="MAL15039"){
   new.folder <- "E:/github/geows/slides/"
   path_wherepicslive <- "E:/github/GeoData/2017/slides/"
+  path_wherepicslive <- "E:/github/geocourse/slides/"
 }
 
 new.folder.fig <- paste0(new.folder,"/figure/")
