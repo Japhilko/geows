@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Nutzung von Geodaten in den Sozialwissenschaften</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Jan-Philipp Kolb" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="..\workshop.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Nutzung von Geodaten in den Sozialwissenschaften
+## Die R-Pakete <code>sp</code> und <code>spdep</code>
+### Jan-Philipp Kolb
+### 08 April, 2020
+
+---
+
+
+
+
+
+
+## Themen dieses Abschnitts
+
+- Eine räumliche Stichprobe ziehen
+- Adressen für die gezogenen Punkte bestimmen
+- Adressdatensatz bereinigen
+- Wie lässt sich die Entfernung bestimmen
+
+### Das erste Gesetz der Geographie (TFLG)
+
+
+&gt; "All things are related, but nearby things are more related than distant things"
+[Tobler, 1970]
+
+---
+
+## [Shapefile mit Regionalschlüssel](http://www.geodatenzentrum.de/geodaten/gdz_rahmen.gdz_div?gdz_spr=deu&amp;gdz_akt_zeile=5&amp;gdz_anz_zeile=1&amp;gdz_unt_zeile=13&amp;gdz_user_id=0) herunterladen
+
+
+
+
+
+
+```r
+library(rgdal)
+```
+
+```
+## Loading required package: sp
+```
+
+```
+## rgdal: version: 1.4-8, (SVN revision 845)
+##  Geospatial Data Abstraction Library extensions to R successfully loaded
+##  Loaded GDAL runtime: GDAL 2.2.3, released 2017/11/20
+##  Path to GDAL shared files: D:/Eigene Dateien/Dokumente/R/win-library/3.6/rgdal/gdal
+##  GDAL binary built with GEOS: TRUE 
+##  Loaded PROJ.4 runtime: Rel. 4.9.3, 15 August 2016, [PJ_VERSION: 493]
+##  Path to PROJ.4 shared files: D:/Eigene Dateien/Dokumente/R/win-library/3.6/rgdal/proj
+##  Linking to sp version: 1.4-0
+```
+
+
+
+```r
+path &lt;- "E:/github/fight_corona/data/"
+plz &lt;- rgdal::readOGR(paste0(path,"post_pl.shp"))
+```
+
+```
+## OGR data source with driver: ESRI Shapefile 
+## Source: "E:\github\fight_corona\data\post_pl.shp", layer: "post_pl"
+## with 8270 features
+## It has 3 fields
+```
+
+---
+
+## [Räumliche Stichprobe](https://www.rdocumentation.org/packages/sp/versions/1.3-1/topics/spsample)
+
+- Mit der Funktion `spsample` aus dem Paket `sp` kann man eine räumliche Stichprobe ziehen.
+
+
+```r
+spatsamp &lt;- spsample(plz, 100,type="random")
+```
+
+![](figure/spsample_type.PNG)
+
+---
+
+## Point in Polygon
+
+- Mit der Funktion `over` kann man feststellen in welchem Polygon ein Punkt liegt.
+
+
+```r
+tmp &lt;- sp::over(spatsamp, plz)
+```
+
+
+```r
+head(tmp)
+```
+
+```
+##   PLZ99 PLZ99_N            PLZORT99
+## 1 38476   38476            Barwedel
+## 2 19376   19376           Siggelkow
+## 3 28832   28832               Achim
+## 4 19230   19230             Hagenow
+## 5 17367   17367             Eggesin
+## 6 49692   49692 Cappeln (Oldenburg)
+```
+
+---
+
+## Koordinatenreferenzsystem (CRS)
+
+### [**CRS bei Wikipedia**]()
+
+- Ein Koordinatenreferenzsystem ist ein Koordinatensystem, das durch Verknüpfung mit einem Datum auf die reale Welt bezogen ist.
+- EPSG-Codes sind ein weit verbreitetes Mittel, um den räumlichen Bezug von Geodaten eindeutig anzugeben.
+- Die 4- bis 5-stelligen Schlüsselnummern beinhalten jeweils eine komplette Beschreibung eines Koordinatenreferenzsystems.
+-  Es gibt mehrere hundert solcher Referenzsysteme, und jedes besteht aus einer Liste von 10 bis 20 Parametern. 
+
+
+&lt;!--
+![](figure/crs_expl.PNG)
+--&gt;
+
+---
+
+## Daten in ein anderes CRS übertragen
+
+
+
+&gt; spTransform for map projection and datum transformation
+
+&lt;!--
+# EPSG: 3857
+--&gt;
+
+
+```r
+newData&lt;-sp::spTransform(spatsamp, CRS("+init=epsg:3857"))
+```
+
+
+```r
+head(spatsamp)
+head(newData)
+```
+
+
+&lt;!--
+# res &lt;- spTransform(spatsamp, CRS("+proj=utm +zone=51 ellps=WGS84"))
+--&gt;
+
+---
+
+## Eine Karte von Afrika
+
+
+```r
+library(maptools)
+data(wrld_simpl)
+Africa &lt;- wrld_simpl[wrld_simpl@data$REGION==2,]
+plot(Africa)
+```
+
+![](a6_spdep_files/figure-html/unnamed-chunk-10-1.png)&lt;!-- --&gt;
+
+---
+
+## Das Zentrum eines Polygonzuges
+
+
+```r
+Af &lt;- coordinates(Africa)
+head(Af)
+```
+
+```
+##          [,1]        [,2]
+## DZA  2.627813  28.1721102
+## AGO 17.552463 -12.3503789
+## BEN  2.332296   9.6047655
+## COG 15.218362  -0.8732659
+## COD 23.646032  -2.8711605
+## BDI 29.901786  -3.3461606
+```
+
+---
+
+## Die Koordinaten plotten
+
+
+```r
+plot(Africa)
+points(x=Af[1,1],y=Af[1,2],col="red",pch=20)
+```
+
+![](a6_spdep_files/figure-html/unnamed-chunk-12-1.png)&lt;!-- --&gt;
+
+
+---
+
+## Die nächsten Nachbarn finden
+
+
+```r
+library(spdep)
+Af_nb &lt;- tri2nb(Af)
+```
+
+Die Nachbarn für das erste Land (Algerien):
+
+
+```r
+Af_nb[1]
+```
+
+```
+## [[1]]
+## [1] 24 26 27 32 48
+```
+
+
+```r
+Africa@data[Af_nb[[1]],1:5]
+```
+
+```
+##     FIPS ISO2 ISO3  UN                   NAME
+## LBY   LY   LY  LBY 434 Libyan Arab Jamahiriya
+## MLI   ML   ML  MLI 466                   Mali
+## MAR   MO   MA  MAR 504                Morocco
+## NER   NG   NE  NER 562                  Niger
+## TUN   TS   TN  TUN 788                Tunisia
+```
+
+---
+
+## Die Nachbarn finden
+
+
+```r
+plot(Africa)
+plot(Africa[1,],col="red",add=T)
+plot(Africa[Af_nb[1][[1]],],col="orange",add=T)
+```
+
+![](a6_spdep_files/figure-html/unnamed-chunk-16-1.png)&lt;!-- --&gt;
+
+---
+
+## *k nearest neighbours*
+
+
+```r
+IDs &lt;- row.names(as(Africa, "data.frame"))
+(Af10_nb &lt;- knn2nb(knearneigh(Af, k = 10), row.names = IDs))
+```
+
+```
+## Neighbour list object:
+## Number of regions: 57 
+## Number of nonzero links: 570 
+## Percentage nonzero weights: 17.54386 
+## Average number of links: 10 
+## Non-symmetric neighbours list
+```
+
+---
+
+## Die 10 nächsten Nachbarn finden
+
+
+```r
+plot(Africa)
+plot(Africa[1,],col="red",add=T)
+plot(Africa[Af10_nb[1][[1]],],col="orange",add=T)
+```
+
+![](a6_spdep_files/figure-html/unnamed-chunk-18-1.png)&lt;!-- --&gt;
+
+---
+
+## Die Distanz berechnen
+
+
+```r
+Af &lt;- coordinates(Africa) # get centroid
+library(raster)
+pointDistance(Af[1:4,], lonlat=TRUE) # compute distance
+```
+
+```
+##         [,1]    [,2]    [,3] [,4]
+## [1,]       0      NA      NA   NA
+## [2,] 4763231       0      NA   NA
+## [3,] 2055609 2954497       0   NA
+## [4,] 3484053 1295173 1839191    0
+```
+
+---
+
+## Berechnen/zeichnen einer Distanzmatrix
+
+
+```r
+Dist_Af &lt;- pointDistance(Af, lonlat=TRUE)
+Af_color &lt;- Dist_Af[,1]
+Af_color &lt;- Af_color/max(Af_color)
+Af_color &lt;- rgb(Af_color,0,0)
+plot(Africa,col=Af_color)
+```
+
+![](a6_spdep_files/figure-html/Africa Distance-1.png)&lt;!-- --&gt;
+
+
+---
+## Übung - Nachbarschaften in London
+
+&lt;!--
+https://github.com/Robinlovelace/Creating-maps-in-R
+--&gt;
+
+- Lade den Datensatz london_sport von meinem Github Verzeichnis herunter.
+- Importiere den Datensatz.
+- Bestimme die nächsten Nachbarn des Stadtteils *City of London*
+
+
+```r
+lon_path &lt;- "E:/github/geocourse/data/"
+london_sport &lt;- readOGR (paste0(lon_path,"london_sport.shp"))
+```
+
+```
+## OGR data source with driver: ESRI Shapefile 
+## Source: "E:\github\geocourse\data\london_sport.shp", layer: "london_sport"
+## with 33 features
+## It has 4 fields
+## Integer64 fields read as strings:  Pop_2001
+```
+
+
+
+
+---
+
+## Links
+
+- [**Raster, CMSAF and solaR**](https://procomun.wordpress.com/2011/06/17/raster-cmsaf-and-solar/)
+
+&lt;https://procomun.wordpress.com/2011/06/17/raster-cmsaf-and-solar/&gt;
+
+- [**Getting rasters into shape from R**](https://johnbaumgartner.wordpress.com/2012/07/26/getting-rasters-into-shape-from-r/)
+
+https://johnbaumgartner.wordpress.com/2012/07/26/getting-rasters-into-shape-from-r/
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

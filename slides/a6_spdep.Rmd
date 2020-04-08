@@ -16,7 +16,7 @@ output:
 
 
 ```{r setup_spdep, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE,cache=T,eval=T,warning=F,fig.height=6)
+knitr::opts_chunk$set(echo = TRUE,eval=T,warning=F,fig.height=6)
 GESIS <- F
 athome <- !GESIS
 ```
@@ -39,9 +39,6 @@ athome <- !GESIS
 
 ## [Shapefile mit Regionalschlüssel](http://www.geodatenzentrum.de/geodaten/gdz_rahmen.gdz_div?gdz_spr=deu&gdz_akt_zeile=5&gdz_anz_zeile=1&gdz_unt_zeile=13&gdz_user_id=0) herunterladen
 
-```{r,eval=GESIS,echo=F}
-vg250path <- "J:/Work/GESISPanel_DATA/01_post_processing/c01/e_2017/ee/01_wave/data/com/geodata/vg250/"
-```
 
 ```{r,eval=athome,echo=F}
 vg250path <- "D:/GESIS/data/vg250_3112.utm32s.shape.ebenen/vg250_ebenen"
@@ -54,8 +51,8 @@ library(rgdal)
 
 
 ```{r}
-setwd(vg250path)
-VG250 <- readOGR ("VG250_GEM.shp","VG250_GEM")
+path <- "E:/github/fight_corona/data/"
+plz <- rgdal::readOGR(paste0(path,"post_pl.shp"))
 ```
 
 ---
@@ -65,7 +62,7 @@ VG250 <- readOGR ("VG250_GEM.shp","VG250_GEM")
 - Mit der Funktion `spsample` aus dem Paket `sp` kann man eine räumliche Stichprobe ziehen.
 
 ```{r}
-spatsamp <- spsample(VG250, 100,type="random")
+spatsamp <- spsample(plz, 100,type="random")
 ```
 
 ![](figure/spsample_type.PNG)
@@ -77,11 +74,11 @@ spatsamp <- spsample(VG250, 100,type="random")
 - Mit der Funktion `over` kann man feststellen in welchem Polygon ein Punkt liegt.
 
 ```{r}
-tmp <- sp::over(spatsamp, VG250)
+tmp <- sp::over(spatsamp, plz)
 ```
 
 ```{r}
-head(tmp[,1:6])
+head(tmp)
 ```
 
 ---
@@ -114,11 +111,11 @@ library(sp)
 # EPSG: 3857
 -->
 
-```{r}
+```{r,eval=F}
 newData<-sp::spTransform(spatsamp, CRS("+init=epsg:3857"))
 ```
 
-```{r}
+```{r,eval=F}
 head(spatsamp)
 head(newData)
 ```
@@ -241,8 +238,8 @@ https://github.com/Robinlovelace/Creating-maps-in-R
 - Bestimme die nächsten Nachbarn des Stadtteils *City of London*
 
 ```{r}
-setwd("D:/github/geocourse/data/")
-london_sport <- readOGR ("london_sport.shp","london_sport")
+lon_path <- "E:/github/geocourse/data/"
+london_sport <- readOGR (paste0(lon_path,"london_sport.shp"))
 ```
 
 
