@@ -291,3 +291,10 @@ DT::datatable(london)
 ```
 
 ![](figure/LondonExample.PNG)
+
+
+---
+
+## Links und Resourcen
+
+- [Geoportal Stadt Mannheim](https://www.gis-mannheim.de/)

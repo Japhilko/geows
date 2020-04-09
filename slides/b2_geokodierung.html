@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Nutzung von Geodaten in den Sozialwissenschaften</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Jan-Philipp Kolb" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="..\workshop.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Nutzung von Geodaten in den Sozialwissenschaften
+## Geokodierung
+### Jan-Philipp Kolb
+### 09 April, 2020
+
+---
+
+
+
+
+## Inhalt dieses Abschnitts
+
+- Das Konzept der Geokoordinaten erklären
+- Möglichkeiten vorstellen, die Geokodierung mit R durchzuführen
+- Nutzung der Nominatim API
+
+---
+
+
+## Geokodierung
+
+### [Wikipedia - Geocoding](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#blockquotes)
+
+
+&gt; Geocoding (...) uses a description of a location, most typically a postal address or place name, to find geographic coordinates from spatial reference data ... 
+
+
+
+```r
+tmaptools::geocode_OSM("Mannheim")
+```
+
+```
+## $query
+## [1] "Mannheim"
+## 
+## $coords
+##         x         y 
+##  8.467236 49.489591 
+## 
+## $bbox
+##      xmin      ymin      xmax      ymax 
+##  8.307236 49.329591  8.627236 49.649591
+```
+
+
+---
+
+## Latitude und Longitude
+
+![](figure/definition-of-latitude-longitude.jpg)
+
+[http://modernsurvivalblog.com](http://modernsurvivalblog.com/survival-skills/basic-map-reading-latitude-longitude/)
+
+---
+
+
+## Geokodierung mit dem Paket `tmaptools`
+
+- Beim Paket `tmaptools` wird die Nominatim API zur Geokodierung verwendet.
+- Diese Funktion hat den Vorteil, dass eine Projektion ausgewählt werden kann, in der die Geokodierungen zurück gegeben werden. 
+
+
+```r
+library("tmaptools")
+```
+
+
+
+```r
+?geocode_OSM
+```
+
+---
+
+## Koordinaten verschiedener Orte in Deutschland
+
+### Geokodierung mit einer Schleife
+
+
+```r
+cities &lt;- c("Hamburg","Koeln","Dresden","Muenchen")
+
+lat &lt;- vector()
+lon &lt;- vector()
+for (i in 1:length(cities)){
+  gc &lt;- geocode_OSM(cities[i])
+  lat[i] &lt;- gc$coords[1]
+  lon[i] &lt;- gc$coords[2]
+}
+```
+
+---
+
+## Welche Koordinaten hat der Norden
+
+
+```r
+Dat &lt;- data.frame(cities,lon,lat)
+kable(Dat)
+```
+
+
+
+cities           lon         lat
+---------  ---------  ----------
+Hamburg     53.54376   10.009913
+Koeln       50.93836    6.959974
+Dresden     51.04933   13.738144
+Muenchen    48.13711   11.575382
+
+
+---
+
+## Reverse Geokodierung
+
+&gt; Reverse geocoding is the process of back (reverse) coding of a point location (latitude, longitude) to a readable address or place name. This permits the identification of nearby street addresses, places, and/or areal subdivisions such as neighbourhoods, county, state, or country.
+
+Quelle: [Wikipedia](https://en.wikipedia.org/wiki/Reverse_geocoding)
+
+
+
+
+
+
+
+---
+
+## Daten einlesen
+
+- Hier wird ein Beispieldatensatz eingelesen, den ich über räumliche Stichproben und reverse geocoding erzeugt habe. 
+
+
+```r
+load("../data/addr_list_t_68239.RData")
+head(addr_list_t)
+```
+
+```
+## [1] "Lilienstraße 32A, 68535 Edingen-Neckarhausen, Germany"
+## [2] "Waldspitze 6, 68239 Mannheim, Germany"                
+## [3] "Holzweg 51, 68239 Mannheim, Germany"                  
+## [4] "Kloppenheimer Str. 247, 68239 Mannheim, Germany"      
+## [5] "Mallaustraße 121, 68219 Mannheim, Germany"            
+## [6] "Holzweg 33A, 68239 Mannheim, Germany"
+```
+
+
+
+
+
+
+---
+
+## Die erste Adressen geokodieren
+
+
+
+```r
+geocode_OSM(addr_list_t[1])
+```
+
+```
+## $query
+## [1] "Lilienstraße 32A, 68535 Edingen-Neckarhausen, Germany"
+## 
+## $coords
+##         x         y 
+##  8.584601 49.445360 
+## 
+## $bbox
+##      xmin      ymin      xmax      ymax 
+##  8.584494 49.445276  8.584708 49.445443
+```
+
+---
+
+## Alle Adressen geokodieren
+
+- im Objekt `gc_list` werden die Ergebnisse gespeichert.
+
+
+```r
+gc_list &lt;- list()
+
+for (i in 1:length(addr_list_t)){
+  gc_list[[i]] &lt;- geocode_OSM(addr_list_t[i])
+}
+```
+
+---
+
+## Geokodierung mit dem R-Paket `opencage`
+
+- Um dieses Paket zu nutzen muss man sich vorher bei der API registrieren
+
+
+```r
+library(opencage)
+```
+
+
+
+
+```r
+gc_info&lt;-opencage_forward(placename = 
+                              "Amsterdam, Van Woustraat")
+```
+
+- Hinweise, wie das Paket genutzt erden kann sind im [**opencage Tutorial**](https://ropensci.org/tutorials/opencage_tutorial/) zu finden. 
+
+---
+
+## Das Paket [`geonames`](https://github.com/ropensci/geonames)
+
+&lt;!--
+https://cran.r-project.org/web/packages/geonames/README.html
+--&gt;
+
+
+
+### Nutzung des `geonames` Paketes
+
+- Ein Account ist notwendig um die meisten Funktionen des Paketes `geonames`zu nutzen.
+
+
+```r
+library(geonames)
+```
+
+
+```r
+options(geonamesUsername="myusername")
+```
+
+
+```r
+MAwiki&lt;-GNfindNearbyWikipedia(postalcode=68239,country="DE",
+                              radius=10)
+```
+
+
+
+---
+
+## Beispiel Geonames 
+
+### Wikipediaeinträge in der Nähe
+
+
+
+
+
+
+
+- [**Login**](http://www.geonames.org/login) für die Nutzung des Web-Services Geonames.
+
+- [**Hier**](http://www.geonames.org/enablefreewebservice) kann man das Arbeiten mit dem Webservice starten.
+
+- [**Informationen zum Download bei Geonames**](http://www.geonames.org/export/ws-overview.html)
+
+
+![](figure/Wiki_Mannheim.PNG)
+
+---
+
+## Eine Bounding Box erstellen 
+
+
+```r
+library(osmdata)
+bbox &lt;- getbb("Mannheim")
+```
+
+&lt;!--
+x -lon - ost-West Richtung
+--&gt;
+
+
+```r
+erg &lt;- geonames::GNcities(49.649591,8.627236,
+                          49.329591,8.307236)
+```
+
+&lt;!--
+https://cengel.github.io/rspatial/5_Geocoding.nb.html
+http://www.datasciencetoolkit.org/
+
+https://github.com/cengel/ArcGIS_geocoding
+--&gt;
+
+---
+
+## Geokodieren mit der API Nominatim
+
+### Zunächst muss der Link erzeugt werden
+
+
+```r
+library("RJSONIO")
+api_adress &lt;- "http://nominatim.openstreetmap.org/search?format="
+file_format &lt;- "json"
+search_query &lt;- "&amp;addressdetails=1&amp;extratags=1&amp;q="
+adress &lt;- "Amsterdam+Niederlande+Rozengracht+1"
+
+link &lt;- paste0(api_adress,file_format,search_query,adress)
+link
+```
+
+```
+## [1] "http://nominatim.openstreetmap.org/search?format=json&amp;addressdetails=1&amp;extratags=1&amp;q=Amsterdam+Niederlande+Rozengracht+1"
+```
+
+---
+
+## Der Download mit Nominatim
+
+
+```r
+con &lt;- url(link)
+geoc &lt;- fromJSON(paste(readLines(con,warn=F), 
+                       collapse = ''))
+close(con)
+```
+
+
+
+
+---
+
+## So sieht das Ergebnis aus
+
+
+
+
+
+```r
+names(geoc[[1]])
+```
+
+```
+##  [1] "place_id"     "licence"      "osm_type"     "osm_id"       "boundingbox" 
+##  [6] "lat"          "lon"          "display_name" "class"        "type"        
+## [11] "importance"   "address"      "extratags"
+```
+
+
+
+```r
+geoc[[1]]$address
+```
+
+```
+##    house_number            road     residential          suburb   city_district 
+##             "1"   "Rozengracht"       "Jordaan"     "Amsterdam"       "Centrum" 
+##            city           state        postcode         country    country_code 
+##     "Amsterdam" "Noord-Holland"        "1016LP"     "Nederland"            "nl"
+```
+
+---
+
+## Das Paket `jsonlite` nutzen
+
+
+```r
+con &lt;- url("http://nominatim.openstreetmap.org/search?format=json&amp;
+           addressdetails=1&amp;extratags=1&amp;q=Amsterdam+Niederlande+Rozengracht+1")
+geoc2 &lt;- jsonlite::fromJSON(con)
+
+geoc2df &lt;- with(geoc2,data.frame(osm_id,lat,lon))
+geoc2df$house_number &lt;-  geoc2$address$house_number
+```
+
+
+
+
+
+
+Wir erhalten nun Daten für mehrere Anschriften:
+
+
+osm_id       lat          lon         house_number 
+-----------  -----------  ----------  -------------
+2721815875   52.3737223   4.8826404   1            
+2743624072   52.3719482   4.8755534   237-1        
+2721830930   52.3736673   4.8823914   7-1          
+2721827922   52.3734021   4.8813371   53-1         
+2721824637   52.372232    4.8767542   231-1        
+2721823434   52.3724786   4.8776618   187-1        
+2721820122   52.3727335   4.8786657   137-1        
+2721816644   52.3729874   4.8797588   105E-1       
+2720971311   52.3727658   4.8775263   194-1        
+2720971056   52.3728019   4.8775994   184-1        
+
+
+
+
+
+
+---
+
+## Das Paket `googleway`
+
+&gt; Accesses Google Maps APIs to Retrieve Data and Plot Maps
+
+
+
+
+```r
+library(googleway)
+```
+
+- Ein [**API Schlüssel**](https://developers.google.com/maps/documentation/javascript/tutorial) ist notwendig um die meisten Funktionen des Paketes zu nutzen. 
+- In der [**Vignette zum Paket**](https://cran.r-project.org/web/packages/googleway/vignettes/googleway-vignette.html#api-key) ist zu sehen, wie man das Paket nutzen kann.
+
+
+&lt;!--
+https://developers.google.com/maps/documentation/javascript/get-api-key
+--&gt;
+
+
+
+&lt;!--
+Abschnitt zu Geocoding in diesem Task View:
+
+https://cran.r-project.org/web/views/WebTechnologies.html
+--&gt;
+
+
+
+
+---
+
+## Das Paket `bbox` 
+
+- Das Paket `bbox` ist auf github zu finden.
+
+
+
+- Beispieldatensatz laden:
+
+
+```r
+load("../data/ddat.RData")
+```
+
+
+&lt;!--
+https://github.com/ropensci/bbox
+--&gt;
+
+
+
+---
+
+## Links
+
+- Überblick von Jesse Sadler zur [**Geokodierung mit R**](https://www.jessesadler.com/post/geocoding-with-r/)
+- Ein Schummelzettel für [**`ggmap`**](https://www.nceas.ucsb.edu/~frazier/RSpatialGuides/ggmap/ggmapCheatsheet.pdf)
+- Die Vignette zum Paket `tmap` - [**tmap: get started**](https://cran.r-project.org/web/packages/tmap/vignettes/tmap-getstarted.html)
+
+- [**latlong.net**](https://www.latlong.net/place/hamburg-germany-8766.html) - eine Homepage um Koordinaaten zu bestimmen.
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

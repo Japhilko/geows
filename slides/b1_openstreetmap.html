@@ -1,23 +1,26 @@
----
-title: "Nutzung von Geodaten in den Sozialwissenschaften"
-subtitle: "Das Arbeiten mit OSM Daten"
-author: "Jan-Philipp Kolb"
-date: "`r format(Sys.time(), '%d %B, %Y')`"
-location: "GESIS, Mannheim, Germany"
-output:
-  xaringan::moon_reader:
-    lib_dir: libs
-    css: ["default", "default-fonts", "../workshop.css"]
-    nature:
-      highlightStyle: "github"
-      highlightLines: true
-      countIncrementalSlides: false
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Nutzung von Geodaten in den Sozialwissenschaften</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Jan-Philipp Kolb" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="..\workshop.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Nutzung von Geodaten in den Sozialwissenschaften
+## Das Arbeiten mit OSM Daten
+### Jan-Philipp Kolb
+### 09 April, 2020
+
 ---
 
-```{r setup_osm, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE,eval=T,warning=F,message=F)
-Ex <- T
-```
+
+
 
 ## Inhalt dieses Abschnitts
 
@@ -25,9 +28,9 @@ Ex <- T
 - Welche OSM-Daten sind erhältlich und wie kann man diese bekommen?
 - Präsentation des Key-Value Schemas, dass bei OSM Daten verwendet wird.
 
-<!--
+&lt;!--
 - Vorstellung von Forschung die mit OSM-Daten durchgeführt wurde
--->
+--&gt;
 
 ---
 
@@ -36,7 +39,7 @@ Ex <- T
 
 ### http://www.openstreetmap.de/
 
-> OpenStreetMap.org ist ein im Jahre 2004 gegründetes internationales Projekt mit dem Ziel, eine freie Weltkarte zu erschaffen. Dafür sammeln wir weltweit Daten über Straßen, Eisenbahnen, Flüsse, Wälder, Häuser und vieles mehr. 
+&gt; OpenStreetMap.org ist ein im Jahre 2004 gegründetes internationales Projekt mit dem Ziel, eine freie Weltkarte zu erschaffen. Dafür sammeln wir weltweit Daten über Straßen, Eisenbahnen, Flüsse, Wälder, Häuser und vieles mehr. 
 
 ---
 
@@ -45,7 +48,7 @@ Ex <- T
 
 ### [**Wikipedia - OpenStreetMap**](https://en.wikipedia.org/wiki/OpenStreetMap)
 
-> OpenStreetMap (OSM) ist ein kollaboratives Projekt um eine editierbare Weltkarte zu erzeugen.
+&gt; OpenStreetMap (OSM) ist ein kollaboratives Projekt um eine editierbare Weltkarte zu erzeugen.
 
 ![](figure/overview_osm.PNG)
 
@@ -78,14 +81,14 @@ Ex <- T
 - Der zweite Objekttyp sind Wege. Dadurch wird beispielsweise der Verlauf von Straßen oder Flüssen beschrieben.
 - Der dritte Objekttyp sind Relationen. Dabei handelt es sich um eine Gruppierung von Objekten, die in einem logischen Zusammenhang stehen. 
 
-<!--
+&lt;!--
 - nodes (points), 
 - ways (polygons and polylines)
 - relations (logical grouping of all three object types
 to express real-world geographical relationships)
--->
+--&gt;
 
-<!--
+&lt;!--
 Es gibt prinipiell drei verschiedene Objekttypen. Es gibt einfache nodes, also Punkte. Das kann bspw. eine Haltestelle des öffentlichen Nahverkehrs sein. 
 
 Der zweite Objekttyp sind Wege. Dadurch wird beispielsweise der Verlauf von Straßen oder Flüssen beschrieben. 
@@ -94,7 +97,7 @@ Der zweite Objekttyp sind Wege. Dadurch wird beispielsweise der Verlauf von Stra
 - ways (polygons and polylines)
 - relations (logical grouping of all three object types
 to express real-world geographical relationships)
--->
+--&gt;
 
 Hippolyte Pruvost and Peter Mooney: Exploring Data Model Relations in OpenStreetMap
 
@@ -106,9 +109,9 @@ Hippolyte Pruvost and Peter Mooney: Exploring Data Model Relations in OpenStreet
 ### [**Martijn van Exel**](https://www.slideshare.net/mvexel/openstreetmap-9819440) - nodes and ways
 
 ![](figure/Nodes_ways.PNG)
-<!--
+&lt;!--
 ![](figure/threetypes_osm.png)
--->
+--&gt;
 
 ---
 
@@ -150,17 +153,17 @@ Hippolyte Pruvost and Peter Mooney: Exploring Data Model Relations in OpenStreet
 
 ![](figure/Geofabrik.PNG)
 
-<!--
+&lt;!--
 Das shapefile Format ist ein beliebtes Format räumlicher Vektordaten für geographisches Informationssysteme (GIS). Das Dateiformat Shapefile ist ein ursprünglich für die Software ArcView der Firma ESRI entwickeltes Format für Geodaten.
--->
+--&gt;
 
-<!--
+&lt;!--
 ## Download von OpenStreetMap Daten - openaprs
 
 ### Kartendaten ([**openaprs**](http://www.openaprs.net/))
 
 ![](figure/openaprs.PNG)
--->
+--&gt;
 
 ---
 
@@ -180,15 +183,15 @@ Das shapefile Format ist ein beliebtes Format räumlicher Vektordaten für geogr
 
 - [**Hier**](https://datashenanigan.wordpress.com/2015/05/18/getting-started-with-postgresql-in-r/) ist eine Einführung in PostgreSQL zu finden
 
-<!--
+&lt;!--
 ![](figure/What-is-PostgreSQL.png)
--->
+--&gt;
 
 ![](figure/aquadatastudio_postgresql_visual_table_editing.png)
-<!--
+&lt;!--
 https://filehippo.com/de/download_postgresql/
 http://www.postgresqltutorial.com/what-is-postgresql/
--->
+--&gt;
 
 ---
 
@@ -232,11 +235,13 @@ osm2pgsql -c -d osmBerlin --slim -C  -k  berlin-latest.osm.pbf
 
 ### [**Github Verzeichnis**](https://github.com/tomoakin/RPostgreSQL) zum Paket
 
-```{r,eval=F}
+
+```r
 install.packages("RPostgreSQL")
 ```
 
-```{r}
+
+```r
 library("RPostgreSQL")
 ```
 
@@ -260,12 +265,10 @@ library("RPostgreSQL")
 - [Plugin OpenLayers](http://www.qgistutorials.com/de/docs/downloading_osm_data.html)
 
 ![qgis](figure/stamen_watercolor1.png)
-<!--
+&lt;!--
 https://underdark.files.wordpress.com/2012/07/stamen_watercolor1.png?w=700
--->
-```{r,echo=F}
-library("knitr")
-```
+--&gt;
+
 
 ---
 
@@ -282,6 +285,114 @@ library("knitr")
 
 - Daten zu Administrative Grenzen kann man bei *Second Administrative Level Boundaries*  ([**SALB**](http://wiki.openstreetmap.org/wiki/SALB)) bekommen
 
-<!--
-<http://wiki.openstreetmap.org/wiki/SALB>
--->
+&lt;!--
+&lt;http://wiki.openstreetmap.org/wiki/SALB&gt;
+--&gt;
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
