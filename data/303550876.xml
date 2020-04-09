@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.6.1 (2008 thorn-03.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <node id="303550876" visible="true" version="7" changeset="37441130" timestamp="2016-02-25T17:17:18Z" user="seichter" uid="66497" lat="49.4877002" lon="8.4657346">
+  <tag k="addr:city" v="Mannheim"/>
+  <tag k="addr:country" v="DE"/>
+  <tag k="addr:housenumber" v="4-8"/>
+  <tag k="addr:place" v="D1"/>
+  <tag k="addr:postcode" v="68159"/>
+  <tag k="addr:street" v="D1"/>
+  <tag k="branch" v="Mannheim"/>
+  <tag k="brand" v="C&amp;A"/>
+  <tag k="contact:phone" v="+49 621 18030"/>
+  <tag k="contact:website" v="http://www.canda.de"/>
+  <tag k="name" v="C&amp;A"/>
+  <tag k="opening_hours" v="Mo-Sa 09:00-20:00; Su,PH off"/>
+  <tag k="organic" v="no"/>
+  <tag k="payment:coins" v="yes"/>
+  <tag k="payment:girocard" v="yes"/>
+  <tag k="payment:mastercard" v="yes"/>
+  <tag k="payment:notes" v="yes"/>
+  <tag k="payment:visa" v="yes"/>
+  <tag k="second_hand" v="no"/>
+  <tag k="shop" v="clothes"/>
+  <tag k="wheelchair" v="yes"/>
+ </node>
+</osm>

@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="overpass-ide"><metadata><desc>Filtered OSM data converted to GPX by overpass turbo</desc><copyright author="The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."/><time>2018-10-10T11:51:02Z</time></metadata><wpt lat="52.3621301" lon="4.8808701"><name>Leidseplein</name><desc>highway=bus_stop
+name=Leidseplein
+public_transport=platform
+zone=5700</desc><link href="http://osm.org/browse/node/447840083"/></wpt><wpt lat="52.3743805" lon="4.8912374"><name>Dam</name><desc>cxx:code=57002550
+cxx:id=31843
+highway=bus_stop
+name=Dam
+public_transport=platform
+source=CXX
+zone=5700</desc><link href="http://osm.org/browse/node/495568909"/></wpt><wpt lat="52.3695272" lon="4.8775579"><name>Elandsgracht</name><desc>bus=yes
+highway=bus_stop
+name=Elandsgracht
+public_transport=stop_position
+railway=tram_stop
+tram=yes</desc><link href="http://osm.org/browse/node/502341044"/></wpt><wpt lat="52.3767017" lon="4.9003307"><name>Centraal Station / Nicolaaskerk</name><desc>bench=yes
+bin=yes
+highway=bus_stop
+name=Centraal Station / Nicolaaskerk
+shelter=yes
+zone=5700</desc><link href="http://osm.org/browse/node/534026003"/></wpt><wpt lat="52.3739482" lon="4.9054983"><name>Prins Hendrikkade</name><desc>bench=yes
+bin=yes
+highway=bus_stop
+name=Prins Hendrikkade
+operator=GVB
+public_transport=platform
+shelter=yes
+zone=5700</desc><link href="http://osm.org/browse/node/700343182"/></wpt><wpt lat="52.3731" lon="4.8901809"><name>Dam</name><desc>bus=yes
+cxx:code=57002560
+cxx:id=31844
+highway=bus_stop
+name=Dam
+public_transport=platform
+source=CXX
+zone=5700</desc><link href="http://osm.org/browse/node/724232554"/></wpt><wpt lat="52.3734195" lon="4.9064773"><name>Prins Hendrikkade</name><desc>bench=yes
+bin=yes
+highway=bus_stop
+name=Prins Hendrikkade
+public_transport=platform
+shelter=yes
+zone=5700</desc><link href="http://osm.org/browse/node/1079768926"/></wpt><wpt lat="52.3723269" lon="4.9094836"><name>IJ tunnel</name><desc>bench=yes
+bin=yes
+highway=bus_stop
+name=IJ tunnel
+operator=GVB
+public_transport=platform
+shelter=yes
+zone=5700</desc><link href="http://osm.org/browse/node/1079768989"/></wpt><wpt lat="52.3765226" lon="4.9205927"><name>Kattenburg</name><desc>highway=bus_stop
+name=Kattenburg
+public_transport=platform</desc><link href="http://osm.org/browse/node/2021794519"/></wpt><wpt lat="52.3710067" lon="4.9133407"><name>Kadijksplein</name><desc>bench=yes
+bin=yes
+highway=bus_stop
+name=Kadijksplein
+public_transport=platform
+shelter=yes</desc><link href="http://osm.org/browse/node/2087644061"/></wpt><wpt lat="52.3707341" lon="4.9133884"><name>Kadijksplein</name><desc>bench=yes
+bin=yes
+highway=bus_stop
+name=Kadijksplein
+public_transport=platform
+shelter=yes</desc><link href="http://osm.org/browse/node/2087644236"/></wpt><wpt lat="52.3706236" lon="4.9163389"><name>Kattenburgerplein</name><desc>bench=yes
+bin=yes
+bus=yes
+highway=bus_stop
+name=Kattenburgerplein
+public_transport=stop_position
+shelter=yes</desc><link href="http://osm.org/browse/node/2087644362"/></wpt><wpt lat="52.3833728" lon="4.8932036"><name>Westerdoksdijk</name><desc>highway=bus_stop
+name=Westerdoksdijk
+public_transport=platform
+shelter=no</desc><link href="http://osm.org/browse/node/2985582161"/></wpt><wpt lat="52.3727832" lon="4.918366"><name>Kattenburgerstraat</name><desc>bench=yes
+bin=yes
+highway=bus_stop
+name=Kattenburgerstraat
+public_transport=platform
+shelter=yes</desc><link href="http://osm.org/browse/node/2985619319"/></wpt><wpt lat="52.3730415" lon="4.9191446"><name>Kattenburgerstraat</name><desc>bench=yes
+bin=yes
+highway=bus_stop
+name=Kattenburgerstraat
+public_transport=platform
+shelter=yes</desc><link href="http://osm.org/browse/node/2985619320"/></wpt><wpt lat="52.3765341" lon="4.9219695"><name>Jan Schaeferbrug</name><desc>bench=yes
+bin=yes
+highway=bus_stop
+name=Jan Schaeferbrug
+public_transport=platform
+ref:IFOPT=NL:Q:30008083
+shelter=yes
+tactile_paving=yes
+zone=5700</desc><link href="http://osm.org/browse/node/2985619321"/></wpt><wpt lat="52.3765737" lon="4.9217564"><name>Jan Schaeferbrug</name><desc>bench=yes
+bus=yes
+highway=bus_stop
+name=Jan Schaeferbrug
+public_transport=platform
+ref:IFOPT=NL:Q:30008084
+shelter=yes
+tactile_paving=yes
+zone=5700</desc><link href="http://osm.org/browse/node/2985619322"/></wpt><wpt lat="52.3793993" lon="4.9230171"><name>Tosaristraat</name><desc>bench=yes
+highway=bus_stop
+name=Tosaristraat
+public_transport=platform
+shelter=yes</desc><link href="http://osm.org/browse/node/2985619323"/></wpt><wpt lat="52.3794855" lon="4.9231289"><name>Tosaristraat</name><desc>bench=yes
+bin=yes
+highway=bus_stop
+name=Tosaristraat
+public_transport=platform</desc><link href="http://osm.org/browse/node/2985619324"/></wpt><wpt lat="52.3682528" lon="4.9232295"><name>Oostenburgergracht</name><desc>bench=yes
+bin=yes
+bus=yes
+highway=bus_stop
+name=Oostenburgergracht
+operator=GVB
+public_transport=stop_position
+shelter=yes</desc><link href="http://osm.org/browse/node/2985818686"/></wpt><wpt lat="52.3792093" lon="4.9025698"><name>perron F</name><desc>bus=yes
+highway=bus_stop
+name=perron F
+public_transport=stop_position</desc><link href="http://osm.org/browse/node/3188829454"/></wpt><wpt lat="52.3801609" lon="4.8991388"><name>perron M</name><desc>bus=yes
+highway=bus_stop
+name=perron M
+public_transport=stop_position</desc><link href="http://osm.org/browse/node/3188829455"/></wpt><wpt lat="52.3787084" lon="4.874082"><name>Frederik Hendrikplantsoen</name><desc>bench=yes
+bus=yes
+highway=bus_stop
+name=Frederik Hendrikplantsoen
+public_transport=platform
+shelter=yes
+zone=5700</desc><link href="http://osm.org/browse/node/3309919328"/></wpt><wpt lat="52.3768444" lon="4.9024"><name>Prins Hendrikkade Uitstaphalte</name><desc>highway=bus_stop
+name=Prins Hendrikkade Uitstaphalte
+public_transport=platform</desc><link href="http://osm.org/browse/node/3315443313"/></wpt><wpt lat="52.3830293" lon="4.9137653"><name>Valkenweg</name><desc>highway=bus_stop
+name=Valkenweg
+public_transport=platform
+shelter=yes</desc><link href="http://osm.org/browse/node/3317508423"/></wpt><wpt lat="52.3831105" lon="4.9132214"><name>Valkenweg</name><desc>highway=bus_stop
+name=Valkenweg
+public_transport=platform
+shelter=yes</desc><link href="http://osm.org/browse/node/3317508424"/></wpt><wpt lat="52.3687652" lon="4.9045019"><name>Waterlooplein</name><desc>bench=no
+bus=yes
+highway=bus_stop
+name=Waterlooplein
+public_transport=platform
+ref:IFOPT=NL:Q:30005051
+shelter=no
+zone=5700</desc><link href="http://osm.org/browse/node/3332544994"/></wpt><wpt lat="52.3614526" lon="4.9076087"><name>Weesperplein</name><desc>highway=bus_stop
+name=Weesperplein
+public_transport=platform</desc><link href="http://osm.org/browse/node/3332544995"/></wpt><wpt lat="52.3793921" lon="4.9012296"><name>perron H</name><desc>bus=yes
+highway=bus_stop
+name=perron H
+public_transport=stop_position</desc><link href="http://osm.org/browse/node/3336787500"/></wpt><wpt lat="52.3793918" lon="4.9020687"><name>perron E</name><desc>bus=yes
+highway=bus_stop
+name=perron E
+public_transport=stop_position</desc><link href="http://osm.org/browse/node/3336787501"/></wpt><wpt lat="52.3796001" lon="4.900646"><name>perron J</name><desc>bus=yes
+highway=bus_stop
+name=perron J
+public_transport=stop_position</desc><link href="http://osm.org/browse/node/3336787502"/></wpt><wpt lat="52.3796165" lon="4.9014519"><name>perron D</name><desc>bus=yes
+highway=bus_stop
+name=perron D
+public_transport=stop_position</desc><link href="http://osm.org/browse/node/3336787503"/></wpt><wpt lat="52.3800757" lon="4.9001912"><name>perron B</name><desc>bus=yes
+highway=bus_stop
+name=perron B
+public_transport=stop_position</desc><link href="http://osm.org/browse/node/3336787507"/></wpt><wpt lat="52.3802901" lon="4.8996024"><name>perron A</name><desc>bus=yes
+highway=bus_stop
+name=perron A
+public_transport=stop_position</desc><link href="http://osm.org/browse/node/3336787508"/></wpt><wpt lat="52.3705605" lon="4.9162883"><name>Kattenburgerplein</name><desc>highway=bus_stop
+name=Kattenburgerplein
+public_transport=platform</desc><link href="http://osm.org/browse/node/4623486147"/></wpt><wpt lat="52.3708274" lon="4.9159772"><name>Kattenburgerplein</name><desc>bench=yes
+bin=yes
+highway=bus_stop
+name=Kattenburgerplein
+public_transport=platform
+shelter=yes</desc><link href="http://osm.org/browse/node/4623486148"/></wpt><wpt lat="52.3831132" lon="4.888033"><name>Buiten Oranjestraat</name><desc>highway=bus_stop
+name=Buiten Oranjestraat
+public_transport=platform</desc><link href="http://osm.org/browse/node/4623486165"/></wpt><wpt lat="52.3833105" lon="4.8878747"><name>Buiten Oranjestraat</name><desc>highway=bus_stop
+name=Buiten Oranjestraat
+public_transport=platform</desc><link href="http://osm.org/browse/node/4623486166"/></wpt><wpt lat="52.3682075" lon="4.9231813"><name>Oostenburgergracht</name><desc>highway=bus_stop
+name=Oostenburgergracht
+public_transport=platform</desc><link href="http://osm.org/browse/node/4623486304"/></wpt><wpt lat="52.3692318" lon="4.9202188"><name>Wittenburgergracht</name><desc>bench=yes
+bus=yes
+highway=bus_stop
+name=Wittenburgergracht
+public_transport=platform
+ref:IFOPT=NL:Q:30008024
+shelter=yes
+zone=5700</desc><link href="http://osm.org/browse/node/4623486305"/></wpt><wpt lat="52.369136" lon="4.920829"><name>Wittenburgergracht</name><desc>bench=yes
+bus=yes
+highway=bus_stop
+name=Wittenburgergracht
+public_transport=platform
+ref:IFOPT=NL:Q:30008023
+shelter=yes
+zone=5700</desc><link href="http://osm.org/browse/node/4623486306"/></wpt><wpt lat="52.381499" lon="4.8915109"><name>Buiten Brouwersstraat</name><desc>highway=bus_stop
+name=Buiten Brouwersstraat
+public_transport=platform</desc><link href="http://osm.org/browse/node/4623486319"/></wpt><wpt lat="52.3816704" lon="4.8913321"><name>Buiten Brouwersstraat</name><desc>highway=bus_stop
+name=Buiten Brouwersstraat
+public_transport=platform</desc><link href="http://osm.org/browse/node/4623486320"/></wpt><wpt lat="52.3800655" lon="4.8994983"><name>Centraal Station</name><desc>highway=bus_stop
+name=Centraal Station
+public_transport=platform
+shelter=yes
+tactile_paving=yes</desc><link href="http://osm.org/browse/node/4623486322"/></wpt><wpt lat="52.3646442" lon="4.8786728"><name>Nassaukade</name><desc>highway=bus_stop
+name=Nassaukade
+public_transport=platform</desc><link href="http://osm.org/browse/node/4625762620"/></wpt><wpt lat="52.3790372" lon="4.8753599"><name>Frederik Hendrikplantsoen</name><desc>bench=no
+bus=yes
+highway=bus_stop
+name=Frederik Hendrikplantsoen
+public_transport=platform
+shelter=no
+zone=5700</desc><link href="http://osm.org/browse/node/4625762622"/></wpt><wpt lat="52.3797661" lon="4.9003127"><name>Centraal Station</name><desc>highway=bus_stop
+name=Centraal Station
+public_transport=platform
+shelter=yes
+tactile_paving=yes</desc><link href="http://osm.org/browse/node/4628393688"/></wpt><wpt lat="52.3797927" lon="4.9008675"><name>Centraal Station</name><desc>highway=bus_stop
+name=Centraal Station
+public_transport=platform
+shelter=yes
+tactile_paving=yes</desc><link href="http://osm.org/browse/node/4628394747"/></wpt><wpt lat="52.3796286" lon="4.9006882"><name>Centraal Station</name><desc>highway=bus_stop
+name=Centraal Station
+public_transport=platform
+shelter=yes
+tactile_paving=yes</desc><link href="http://osm.org/browse/node/4629696005"/></wpt><wpt lat="52.3794114" lon="4.9012771"><name>Centraal Station</name><desc>highway=bus_stop
+name=Centraal Station
+public_transport=platform
+shelter=yes
+tactile_paving=yes</desc><link href="http://osm.org/browse/node/4629696009"/></wpt><wpt lat="52.3800505" lon="4.9001598"><name>Centraal Station</name><desc>highway=bus_stop
+name=Centraal Station
+public_transport=platform
+shelter=yes
+tactile_paving=yes</desc><link href="http://osm.org/browse/node/4629696024"/></wpt><wpt lat="52.3773744" lon="4.9135876"><name>Piet Heinkade</name><desc>highway=bus_stop
+name=Piet Heinkade
+public_transport=platform
+shelter=yes</desc><link href="http://osm.org/browse/node/4629696025"/></wpt><wpt lat="52.3760501" lon="4.9226766"><name>Kattenburg</name><desc>highway=bus_stop
+name=Kattenburg
+public_transport=platform
+shelter=yes</desc><link href="http://osm.org/browse/node/4629696037"/></wpt><wpt lat="52.3802649" lon="4.899571"><name>Centraal Station</name><desc>highway=bus_stop
+name=Centraal Station
+public_transport=platform</desc><link href="http://osm.org/browse/node/4629696039"/></wpt><wpt lat="52.3766909" lon="4.9002651"><name>Centraal Station / Nicolaaskerk</name><desc>highway=bus_stop
+name=Centraal Station / Nicolaaskerk</desc><link href="http://osm.org/browse/node/4920562726"/></wpt><wpt lat="52.3625755" lon="4.8806669"><name>Leidseplein</name><desc>highway=bus_stop
+name=Leidseplein
+public_transport=platform
+zone=5700</desc><link href="http://osm.org/browse/node/5283970540"/></wpt><wpt lat="52.3745103" lon="4.9044762"><name>Prins Hendrikkade</name><desc>bench=yes
+bus=yes
+highway=bus_stop
+name=Prins Hendrikkade
+operator=GVB
+public_transport=platform
+shelter=yes
+zone=5700</desc><link href="http://osm.org/browse/node/5415960373"/></wpt><wpt lat="52.369549" lon="4.8775836"><name>Elandsgracht</name><desc>bench=yes
+bus=yes
+highway=bus_stop
+name=Elandsgracht
+public_transport=platform
+ref:IFOPT=NL:Q:57002620
+shelter=yes
+zone=5700</desc><link href="http://osm.org/browse/node/5496022594"/></wpt><wpt lat="52.3683424" lon="4.8783219"><name>Elandsgracht</name><desc>bench=yes
+bus=yes
+highway=bus_stop
+name=Elandsgracht
+public_transport=platform
+ref:IFOPT=NL:Q:57006027
+shelter=yes</desc><link href="http://osm.org/browse/node/5496022595"/></wpt><wpt lat="52.3813066" lon="4.8808595"><name>Nieuwe Willemstraat</name><desc>bus=yes
+highway=bus_stop
+name=Nieuwe Willemstraat
+public_transport=platform</desc><link href="http://osm.org/browse/node/5830879707"/></wpt><wpt lat="52.3817102" lon="4.8812594"><name>Nieuwe Willemstraat</name><desc>bus=yes
+highway=bus_stop
+name=Nieuwe Willemstraat
+public_transport=platform</desc><link href="http://osm.org/browse/node/5830879708"/></wpt></gpx>

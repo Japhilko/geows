@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.6.1 (1981 thorn-01.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <node id="25439439" visible="true" version="17" changeset="55296222" timestamp="2018-01-09T15:27:34Z" user="Nakaner" uid="496201" lat="49.4792363" lon="8.4694107">
+  <tag k="iata" v="MHG"/>
+  <tag k="name" v="Mannheim Hbf"/>
+  <tag k="note" v="Adressdaten an Bahnhofsgebäude"/>
+  <tag k="operator" v="DB Netz AG"/>
+  <tag k="public_transport" v="station"/>
+  <tag k="railway" v="station"/>
+  <tag k="railway:ref" v="RM"/>
+  <tag k="railway:ref:SBB" v="MAN"/>
+  <tag k="railway:station_category" v="2"/>
+  <tag k="uic_ref" v="8000244"/>
+  <tag k="wheelchair" v="yes"/>
+  <tag k="wikidata" v="Q706994"/>
+  <tag k="wikipedia" v="de:Mannheim Hauptbahnhof"/>
+ </node>
+</osm>

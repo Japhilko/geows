@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.6.1 (1986 thorn-01.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <node id="25113879" visible="true" version="13" changeset="52784617" timestamp="2017-10-10T09:21:44Z" user="Uni Mannheim" uid="6778174" lat="49.4832445" lon="8.4645749">
+  <tag k="amenity" v="university"/>
+  <tag k="name" v="Universität Mannheim"/>
+  <tag k="toilets:wheelchair" v="yes"/>
+  <tag k="wheelchair" v="limited"/>
+  <tag k="wikidata" v="Q317070"/>
+  <tag k="wikipedia" v="de:Universität Mannheim"/>
+ </node>
+</osm>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.6.1 (2061 thorn-02.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <way id="162149882" visible="true" version="19" changeset="57712546" timestamp="2018-04-01T13:35:49Z" user="archINFORM" uid="225813">
+  <nd ref="1809965047"/>
+  <nd ref="1809965046"/>
+  <nd ref="1809965045"/>
+  <nd ref="1756478210"/>
+  <nd ref="1756478206"/>
+  <nd ref="1756478204"/>
+  <nd ref="1809965039"/>
+  <nd ref="1809965038"/>
+  <nd ref="1098671522"/>
+  <nd ref="1098671695"/>
+  <nd ref="1098671414"/>
+  <nd ref="1756534093"/>
+  <nd ref="1098671131"/>
+  <nd ref="1098671587"/>
+  <nd ref="1756534083"/>
+  <nd ref="1756534063"/>
+  <nd ref="1098671530"/>
+  <nd ref="297885340"/>
+  <nd ref="1040020065"/>
+  <nd ref="1756534087"/>
+  <nd ref="3567884117"/>
+  <nd ref="1756533979"/>
+  <nd ref="1756533974"/>
+  <nd ref="1809965028"/>
+  <nd ref="1809965021"/>
+  <nd ref="1756533961"/>
+  <nd ref="1756533956"/>
+  <nd ref="1756533941"/>
+  <nd ref="1809965007"/>
+  <nd ref="1809965003"/>
+  <nd ref="1809965000"/>
+  <nd ref="1809964973"/>
+  <nd ref="1809964900"/>
+  <nd ref="20979353"/>
+  <nd ref="1810098678"/>
+  <nd ref="1810071834"/>
+  <nd ref="1810098680"/>
+  <nd ref="1384953189"/>
+  <nd ref="1809964832"/>
+  <nd ref="1384953305"/>
+  <nd ref="1810071872"/>
+  <nd ref="1384953338"/>
+  <nd ref="1809964839"/>
+  <nd ref="1384953344"/>
+  <nd ref="319151086"/>
+  <nd ref="1082815343"/>
+  <nd ref="1082815172"/>
+  <nd ref="1082814934"/>
+  <nd ref="1810098684"/>
+  <nd ref="1810098685"/>
+  <nd ref="1810098686"/>
+  <nd ref="1082814892"/>
+  <nd ref="20979354"/>
+  <nd ref="1810098713"/>
+  <nd ref="1810098726"/>
+  <nd ref="1362648875"/>
+  <nd ref="1362648873"/>
+  <nd ref="1317484946"/>
+  <nd ref="1317484982"/>
+  <nd ref="1740825047"/>
+  <nd ref="1362648871"/>
+  <nd ref="1362648869"/>
+  <nd ref="1927697377"/>
+  <nd ref="1927697375"/>
+  <nd ref="3495233821"/>
+  <nd ref="1927699044"/>
+  <nd ref="3495233822"/>
+  <nd ref="1362648870"/>
+  <nd ref="1745138030"/>
+  <nd ref="1362648867"/>
+  <nd ref="1740825056"/>
+  <nd ref="1740825071"/>
+  <nd ref="1740825069"/>
+  <nd ref="1740874714"/>
+  <nd ref="1740874713"/>
+  <nd ref="1740874711"/>
+  <nd ref="1740825070"/>
+  <nd ref="1740867127"/>
+  <nd ref="1740867130"/>
+  <nd ref="1740867129"/>
+  <nd ref="1740867132"/>
+  <nd ref="1756359872"/>
+  <nd ref="1756359871"/>
+  <nd ref="1756359869"/>
+  <nd ref="1756359868"/>
+  <nd ref="1756359848"/>
+  <nd ref="1756359844"/>
+  <nd ref="1756359801"/>
+  <nd ref="1756359799"/>
+  <nd ref="1756359780"/>
+  <nd ref="1756534291"/>
+  <nd ref="1756534294"/>
+  <nd ref="1756359737"/>
+  <nd ref="1117370744"/>
+  <nd ref="1317485365"/>
+  <nd ref="1756534208"/>
+  <nd ref="1756534205"/>
+  <nd ref="1756534202"/>
+  <nd ref="1756534192"/>
+  <nd ref="1756534186"/>
+  <nd ref="1756534198"/>
+  <nd ref="1756534195"/>
+  <nd ref="1756534189"/>
+  <nd ref="4101581450"/>
+  <nd ref="1809965047"/>
+  <tag k="addr:city" v="Mannheim"/>
+  <tag k="addr:housenumber" v="172"/>
+  <tag k="addr:postcode" v="68163"/>
+  <tag k="addr:street" v="Seckenheimer Landstraße"/>
+  <tag k="aeroway" v="aerodrome"/>
+  <tag k="iata" v="MHG"/>
+  <tag k="icao" v="EDFM"/>
+  <tag k="name" v="City-Airport Mannheim"/>
+  <tag k="operator" v="Rhein-Neckar Flugplatz GmbH"/>
+  <tag k="ref" v="MHG"/>
+  <tag k="source" v="HiRes aerial imagery"/>
+  <tag k="type" v="civilian"/>
+  <tag k="website" v="http://www.flugplatz-mannheim.de/"/>
+  <tag k="wheelchair" v="yes"/>
+  <tag k="wikidata" v="Q315060"/>
+  <tag k="wikipedia" v="de:City-Airport Mannheim"/>
+ </way>
+</osm>

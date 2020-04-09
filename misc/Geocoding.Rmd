@@ -1,0 +1,115 @@
+---
+title: "Geocoding"
+author: "Jan-Philipp Kolb"
+date: "22 Juni 2018"
+output: beamer_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,cache=T)
+```
+
+## Code Chunk - `tmaptools`
+
+
+```{r gcBrouwersstraat}
+library("tmaptools")
+gc_tma <- tmaptools::geocode_OSM("Amsterdam, Buiten Brouwersstraat")
+gc_tma
+```
+
+## Geocoding `ggmap`
+
+
+```{r gcBrouwersstraatggmap}
+library("ggmap")
+gc_ggm <- ggmap::geocode("Amsterdam, Buiten Brouwersstraat")
+gc_ggm
+```
+
+```{r,echo=F,eval=F}
+save(gc_ggm,file="../data/gc_ggm.RData")
+```
+
+
+##  [Longitude and latitude](https://keydifferences.com/difference-between-latitude-and-longitude.html)
+
+![](figure/latitude-vs-longitude2.jpg)
+
+## Changing the projection
+
+- [EPSG:4326](http://spatialreference.org/ref/epsg/wgs-84/)
+
+```{r,echo=F}
+load("../data/gc_ggm.RData")
+```
+
+```{r,eval=F}
+install.packages("data.table")
+```
+
+If we work with simple features we can use the function `st_transform` from package `sf`.
+
+```{r}
+library(data.table)
+library(sf)
+DT <- data.table(longitude=gc_ggm$lon,
+           latitude=gc_ggm$lat)
+
+DT_sf = st_as_sf(DT, coords = c("longitude", "latitude"), 
+                 crs = 3857, agr = "constant")
+hrr_sf2 = st_transform(DT_sf, "+init=epsg:4326")
+```
+
+
+```{r}
+library(rgdal)
+coordinates(gc_ggm) <- c("lat", "lon")
+proj4string(gc_ggm) <- CRS("+init=epsg:3857")
+gc_ggm_t <- rgdal::spTransform(gc_ggm, CRS("+init=epsg:4326"))
+```
+
+## Projection with the `mapmisc` package
+
+```{r,eval=F}
+install.packages("mapmisc")
+```
+
+
+
+```{r}
+library(mapmisc)
+```
+
+
+## Links
+
+- [Changing the Projection of Shapefile](https://stackoverflow.com/questions/39979726/changing-the-projection-of-shapefile)
+
+- [First vignette R-package `sf`](https://cran.r-project.org/web/packages/sf/vignettes/sf1.html)
+
+- [Projecting sp objects in R](https://gis.stackexchange.com/questions/31743/projecting-sp-objects-in-r)
+
+- [Lon-Lat to Simple Features (sfg and sfc) in R](https://gis.stackexchange.com/questions/222978/lon-lat-to-simple-features-sfg-and-sfc-in-r)
+
+- [EPSG 3857 or 4326 for GoogleMaps, OpenStreetMap and Leaflet](https://gis.stackexchange.com/questions/48949/epsg-3857-or-4326-for-googlemaps-openstreetmap-and-leaflet)
+
+<!--
+https://gis.stackexchange.com/questions/48949/epsg-3857-or-4326-for-googlemaps-openstreetmap-and-leaflet
+
+https://gis.stackexchange.com/questions/222978/lon-lat-to-simple-features-sfg-and-sfc-in-r
+
+https://cran.rstudio.com/web/packages/mapsapi/vignettes/intro.html
+
+https://www.shanelynn.ie/massive-geocoding-with-r-and-google-maps/
+
+https://cran.r-project.org/web/packages/sf/vignettes/sf1.html#crs
+
+https://cran.r-project.org/web/packages/sf/vignettes/sf1.html
+
+https://gis.stackexchange.com/questions/31743/projecting-sp-objects-in-r
+
+http://r.789695.n4.nabble.com/spTransform-longlat-to-utm-td4646641.html
+
+https://stackoverflow.com/questions/39979726/changing-the-projection-of-shapefile   
+-->

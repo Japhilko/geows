@@ -1,17 +1,17 @@
 ---
-title: "B3 Die OSM main api"
+title: "Nutzung von Geodaten in den Sozialwissenschaften"
+subtitle: "Die OSM main api"
 author: "Jan-Philipp Kolb"
-date: "23 Oktober 2018"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+location: "GESIS, Mannheim, Germany"
 output:
-  beamer_presentation: 
-    colortheme: beaver
-    fonttheme: structurebold
-    highlight: espresso
-    incremental: yes
-    keep_tex: yes
-    theme: CambridgeUS
-  slidy_presentation: 
-    keep_md: yes
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["default", "default-fonts", "../workshop.css"]
+    nature:
+      highlightStyle: "github"
+      highlightLines: true
+      countIncrementalSlides: false
 ---
 
 ```{r setup_mainosmapi, include=FALSE}
@@ -27,6 +27,8 @@ Ex <- T
 
 ![osm export](figure/openstreetmap_export-1024x505.png)
 
+---
+
 
 ## Das R-Paket `XML` - Gaston Sanchez
 
@@ -40,11 +42,13 @@ library("XML")
 
 Seine Arbeit sieht man [**hier**](http://gastonsanchez.com/).
 
+---
 
 ## [Das Arbeiten mit XML Daten](https://github.com/gastonstat/tutorial-R-web-data/blob/master/04-parsing-xml/04-parsing-xml.pdf)
 
 ![Gaston Sanchez - Webdaten bekommen](figure/GastonSanchez3.PNG)
 
+---
 
 ## Funktionen im XML Paket
 
@@ -55,6 +59,7 @@ colnames(tab) <- c("Function","Description")
 kable(tab)
 ```
 
+---
 
 ## [Einzelne Objekte finden](http://www.openstreetmap.org/export)
 
@@ -62,6 +67,7 @@ kable(tab)
 
 ![osm export](figure/admgrBer.PNG)
 
+---
 
 ## Beispiel: administrative Grenzen Berlin
 
@@ -88,6 +94,8 @@ BE <- xmlParse("../data/62422.xml")
 
 ![Administrative Grenzen  Berlin](figure/ExampleAdmBE.PNG)
 
+---
+
 ## Das XML analysieren
 
 - [Tobi Bosede - Working with XML Data in R](http://www.informit.com/articles/article.aspx?p=2215520)
@@ -99,6 +107,7 @@ xmlSize(xmltop)
 xmlSize(xmltop[[1]])
 ```
 
+---
 
 ## Nutzung von Xpath
 
@@ -108,6 +117,7 @@ xmlSize(xmltop[[1]])
 xpathApply(BE,"//tag[@k = 'population']")
 ```
 
+---
 
 ## Quelle für die Bevölkerungsgröße
 
@@ -117,6 +127,8 @@ xpathApply(BE,"//tag[@k = 'source:population']")
 
 -[**Statistik Berlin Brandenburg**](https://www.statistik-berlin-brandenburg.de/datenbank/inhalt-datenbank.asp)
 
+---
+
 ## Etwas überraschend: 
 
 ```{r}
@@ -124,6 +136,8 @@ xpathApply(BE,"//tag[@k = 'name:ta']")
 ```
 
 ![](figure/OSMBerta.png)
+
+---
 
 ## Geographische Region
 
@@ -140,10 +154,13 @@ region[[1]]
   Teltow;Nauener Platte"/>
 ```
 
+---
+
 ## Landkreis
 
 ![Barnim](figure/Barnim.png)
 
+---
 
 ## Weiteres Beispiel
 
@@ -160,7 +177,7 @@ obj_amenity<-xpathApply(obj2,"//tag[@k = 'amenity']")[[1]]
 obj_amenity
 ```
 
-
+---
 
 ## Wikipedia Artikel
 
@@ -176,6 +193,7 @@ xpathApply(obj2,"//tag[@k = 'wheelchair']")[[1]]
 xpathApply(obj2,"//tag[@k = 'name']")[[1]]
 ```
 
+---
 
 ## Das C und das A
 
@@ -190,6 +208,7 @@ obj3 <- xmlParse("../data/303550876.xml")
 xpathApply(obj3,"//tag[@k = 'opening_hours']")[[1]]
 ```
 
+---
 
 ## Hin und weg
 
@@ -210,6 +229,8 @@ xpathApply(obj4,"//tag[@k = 'railway:station_category']")[[1]]
 
 ![](figure/Bahnhofskategorien.PNG)
 
+---
+
 ## Exkurs: Bahnhofskategorien
 
 - [**rvest: Easily Harvest (Scrape) Web Pages**](https://cran.r-project.org/web/packages/rvest/index.html)
@@ -222,12 +243,16 @@ df_html_bhfkat<-html_table(
   html_nodes(bhfkat, "table")[[2]],fill = TRUE)
 ```
 
+---
+
 ## Bahnhofskategorien Übersicht
 
 ```{r,echo=F}
 library(knitr)
 kable(df_html_bhfkat)
 ```
+
+---
 
 ## Nur fliegen ist schöner
 
@@ -252,6 +277,8 @@ xpathApply(obj5,"//tag[@k = 'website']")[[1]]
 xpathApply(obj5,"//tag[@k = 'iata']")[[1]]
 ```
 
+---
+
 ## Das Paket `osmar` benutzen
 
 ```{r}
@@ -261,6 +288,8 @@ node_osmar <- as_osmar(node_)
 node_osmar
 ```
 
+---
+
 ## [Drei Typen von Vektorobjekten](https://www.earthdatascience.org/courses/earth-analytics/spatial-data-r/intro-vector-data-r/)
 
 <!--
@@ -269,10 +298,14 @@ https://www.earthdatascience.org/courses/earth-analytics/spatial-data-r/intro-ve
 
 ![](figure/points-lines-polygons-vector-data-types.png)
 
+---
+
 ## Die Ausdehnung
 
 ![](figure/spatial-extent.png)
 
+
+---
 
 ## [Import mit dem Paket `sf`](https://cran.r-project.org/web/packages/sf/vignettes/sf2.html)
 
@@ -287,12 +320,16 @@ library(sf)
 st_layers("../data/Amsterdam_highway_primary.osm")
 ```
 
+---
+
 ## Import von Layer `lines`
 
 ```{r}
 dat <- st_read("../data/Amsterdam_highway_primary.osm",
                "lines")
 ```
+
+---
 
 ## Den Layer plotten
 
@@ -301,6 +338,8 @@ plot(dat$geometry)
 ```
 
 
+---
+
 ## Import von Layer `points`
 
 ```{r}
@@ -308,12 +347,15 @@ datp <- st_read("../data/Amsterdam_highway_primary.osm",
                 "points")
 ```
 
+---
+
 ## Den Layer `points` plotten
 
 ```{r}
 plot(dat$geometry,pch=20,col=rgb(0,0,1,.1))
 ```
 
+---
 
 ## Mit einem anderen Paket plotten
 
@@ -321,6 +363,8 @@ plot(dat$geometry,pch=20,col=rgb(0,0,1,.1))
 library(tmap)
 qtm(dat$geometry)
 ```
+
+---
 
 ## 
 
@@ -333,6 +377,8 @@ datm <- st_read("../data/ams_centraal.osm","multipolygons")
 sp::plot(datm$geometry)
 ```
 
+
+---
 
 ## Mehr Beispiele, wie man mit XML Daten umgeht:
 
@@ -354,11 +400,15 @@ sp::plot(datm$geometry)
 
 - [**Forschungsprojekte im Zusammenhang mit OpenStreetMap**](http://wiki.openstreetmap.org/wiki/Research)
 
+---
+
 ## Referenzen
 
 ```{r}
 citation("XML")
 ```
+
+---
 
 ## Das neuere Paket
 

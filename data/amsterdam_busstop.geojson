@@ -1,0 +1,1179 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2018-10-10T11:51:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/447840083",
+        "highway": "bus_stop",
+        "name": "Leidseplein",
+        "public_transport": "platform",
+        "zone": "5700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8808701,
+          52.3621301
+        ]
+      },
+      "id": "node/447840083"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/495568909",
+        "cxx:code": "57002550",
+        "cxx:id": "31843",
+        "highway": "bus_stop",
+        "name": "Dam",
+        "public_transport": "platform",
+        "source": "CXX",
+        "zone": "5700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8912374,
+          52.3743805
+        ]
+      },
+      "id": "node/495568909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/502341044",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Elandsgracht",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8775579,
+          52.3695272
+        ]
+      },
+      "id": "node/502341044"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/534026003",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "name": "Centraal Station / Nicolaaskerk",
+        "shelter": "yes",
+        "zone": "5700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9003307,
+          52.3767017
+        ]
+      },
+      "id": "node/534026003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/700343182",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "name": "Prins Hendrikkade",
+        "operator": "GVB",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "zone": "5700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9054983,
+          52.3739482
+        ]
+      },
+      "id": "node/700343182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/724232554",
+        "bus": "yes",
+        "cxx:code": "57002560",
+        "cxx:id": "31844",
+        "highway": "bus_stop",
+        "name": "Dam",
+        "public_transport": "platform",
+        "source": "CXX",
+        "zone": "5700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8901809,
+          52.3731
+        ]
+      },
+      "id": "node/724232554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1079768926",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "name": "Prins Hendrikkade",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "zone": "5700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9064773,
+          52.3734195
+        ]
+      },
+      "id": "node/1079768926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1079768989",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "name": "IJ tunnel",
+        "operator": "GVB",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "zone": "5700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9094836,
+          52.3723269
+        ]
+      },
+      "id": "node/1079768989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2021794519",
+        "highway": "bus_stop",
+        "name": "Kattenburg",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9205927,
+          52.3765226
+        ]
+      },
+      "id": "node/2021794519"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2087644061",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "name": "Kadijksplein",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9133407,
+          52.3710067
+        ]
+      },
+      "id": "node/2087644061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2087644236",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "name": "Kadijksplein",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9133884,
+          52.3707341
+        ]
+      },
+      "id": "node/2087644236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2087644362",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kattenburgerplein",
+        "public_transport": "stop_position",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9163389,
+          52.3706236
+        ]
+      },
+      "id": "node/2087644362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2985582161",
+        "highway": "bus_stop",
+        "name": "Westerdoksdijk",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8932036,
+          52.3833728
+        ]
+      },
+      "id": "node/2985582161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2985619319",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "name": "Kattenburgerstraat",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.918366,
+          52.3727832
+        ]
+      },
+      "id": "node/2985619319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2985619320",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "name": "Kattenburgerstraat",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9191446,
+          52.3730415
+        ]
+      },
+      "id": "node/2985619320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2985619321",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "name": "Jan Schaeferbrug",
+        "public_transport": "platform",
+        "ref:IFOPT": "NL:Q:30008083",
+        "shelter": "yes",
+        "tactile_paving": "yes",
+        "zone": "5700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9219695,
+          52.3765341
+        ]
+      },
+      "id": "node/2985619321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2985619322",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Jan Schaeferbrug",
+        "public_transport": "platform",
+        "ref:IFOPT": "NL:Q:30008084",
+        "shelter": "yes",
+        "tactile_paving": "yes",
+        "zone": "5700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9217564,
+          52.3765737
+        ]
+      },
+      "id": "node/2985619322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2985619323",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Tosaristraat",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9230171,
+          52.3793993
+        ]
+      },
+      "id": "node/2985619323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2985619324",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "name": "Tosaristraat",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9231289,
+          52.3794855
+        ]
+      },
+      "id": "node/2985619324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2985818686",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Oostenburgergracht",
+        "operator": "GVB",
+        "public_transport": "stop_position",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9232295,
+          52.3682528
+        ]
+      },
+      "id": "node/2985818686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3188829454",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "perron F",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9025698,
+          52.3792093
+        ]
+      },
+      "id": "node/3188829454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3188829455",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "perron M",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8991388,
+          52.3801609
+        ]
+      },
+      "id": "node/3188829455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3309919328",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Frederik Hendrikplantsoen",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "zone": "5700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.874082,
+          52.3787084
+        ]
+      },
+      "id": "node/3309919328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3315443313",
+        "highway": "bus_stop",
+        "name": "Prins Hendrikkade Uitstaphalte",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9024,
+          52.3768444
+        ]
+      },
+      "id": "node/3315443313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3317508423",
+        "highway": "bus_stop",
+        "name": "Valkenweg",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9137653,
+          52.3830293
+        ]
+      },
+      "id": "node/3317508423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3317508424",
+        "highway": "bus_stop",
+        "name": "Valkenweg",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9132214,
+          52.3831105
+        ]
+      },
+      "id": "node/3317508424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3332544994",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Waterlooplein",
+        "public_transport": "platform",
+        "ref:IFOPT": "NL:Q:30005051",
+        "shelter": "no",
+        "zone": "5700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9045019,
+          52.3687652
+        ]
+      },
+      "id": "node/3332544994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3332544995",
+        "highway": "bus_stop",
+        "name": "Weesperplein",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9076087,
+          52.3614526
+        ]
+      },
+      "id": "node/3332544995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3336787500",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "perron H",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9012296,
+          52.3793921
+        ]
+      },
+      "id": "node/3336787500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3336787501",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "perron E",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9020687,
+          52.3793918
+        ]
+      },
+      "id": "node/3336787501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3336787502",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "perron J",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.900646,
+          52.3796001
+        ]
+      },
+      "id": "node/3336787502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3336787503",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "perron D",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9014519,
+          52.3796165
+        ]
+      },
+      "id": "node/3336787503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3336787507",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "perron B",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9001912,
+          52.3800757
+        ]
+      },
+      "id": "node/3336787507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3336787508",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "perron A",
+        "public_transport": "stop_position"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8996024,
+          52.3802901
+        ]
+      },
+      "id": "node/3336787508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4623486147",
+        "highway": "bus_stop",
+        "name": "Kattenburgerplein",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9162883,
+          52.3705605
+        ]
+      },
+      "id": "node/4623486147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4623486148",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "name": "Kattenburgerplein",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9159772,
+          52.3708274
+        ]
+      },
+      "id": "node/4623486148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4623486165",
+        "highway": "bus_stop",
+        "name": "Buiten Oranjestraat",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.888033,
+          52.3831132
+        ]
+      },
+      "id": "node/4623486165"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4623486166",
+        "highway": "bus_stop",
+        "name": "Buiten Oranjestraat",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8878747,
+          52.3833105
+        ]
+      },
+      "id": "node/4623486166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4623486304",
+        "highway": "bus_stop",
+        "name": "Oostenburgergracht",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9231813,
+          52.3682075
+        ]
+      },
+      "id": "node/4623486304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4623486305",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Wittenburgergracht",
+        "public_transport": "platform",
+        "ref:IFOPT": "NL:Q:30008024",
+        "shelter": "yes",
+        "zone": "5700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9202188,
+          52.3692318
+        ]
+      },
+      "id": "node/4623486305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4623486306",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Wittenburgergracht",
+        "public_transport": "platform",
+        "ref:IFOPT": "NL:Q:30008023",
+        "shelter": "yes",
+        "zone": "5700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.920829,
+          52.369136
+        ]
+      },
+      "id": "node/4623486306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4623486319",
+        "highway": "bus_stop",
+        "name": "Buiten Brouwersstraat",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8915109,
+          52.381499
+        ]
+      },
+      "id": "node/4623486319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4623486320",
+        "highway": "bus_stop",
+        "name": "Buiten Brouwersstraat",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8913321,
+          52.3816704
+        ]
+      },
+      "id": "node/4623486320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4623486322",
+        "highway": "bus_stop",
+        "name": "Centraal Station",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8994983,
+          52.3800655
+        ]
+      },
+      "id": "node/4623486322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4625762620",
+        "highway": "bus_stop",
+        "name": "Nassaukade",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8786728,
+          52.3646442
+        ]
+      },
+      "id": "node/4625762620"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4625762622",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Frederik Hendrikplantsoen",
+        "public_transport": "platform",
+        "shelter": "no",
+        "zone": "5700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8753599,
+          52.3790372
+        ]
+      },
+      "id": "node/4625762622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4628393688",
+        "highway": "bus_stop",
+        "name": "Centraal Station",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9003127,
+          52.3797661
+        ]
+      },
+      "id": "node/4628393688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4628394747",
+        "highway": "bus_stop",
+        "name": "Centraal Station",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9008675,
+          52.3797927
+        ]
+      },
+      "id": "node/4628394747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4629696005",
+        "highway": "bus_stop",
+        "name": "Centraal Station",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9006882,
+          52.3796286
+        ]
+      },
+      "id": "node/4629696005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4629696009",
+        "highway": "bus_stop",
+        "name": "Centraal Station",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9012771,
+          52.3794114
+        ]
+      },
+      "id": "node/4629696009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4629696024",
+        "highway": "bus_stop",
+        "name": "Centraal Station",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9001598,
+          52.3800505
+        ]
+      },
+      "id": "node/4629696024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4629696025",
+        "highway": "bus_stop",
+        "name": "Piet Heinkade",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9135876,
+          52.3773744
+        ]
+      },
+      "id": "node/4629696025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4629696037",
+        "highway": "bus_stop",
+        "name": "Kattenburg",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9226766,
+          52.3760501
+        ]
+      },
+      "id": "node/4629696037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4629696039",
+        "highway": "bus_stop",
+        "name": "Centraal Station",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.899571,
+          52.3802649
+        ]
+      },
+      "id": "node/4629696039"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4920562726",
+        "highway": "bus_stop",
+        "name": "Centraal Station / Nicolaaskerk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9002651,
+          52.3766909
+        ]
+      },
+      "id": "node/4920562726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5283970540",
+        "highway": "bus_stop",
+        "name": "Leidseplein",
+        "public_transport": "platform",
+        "zone": "5700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8806669,
+          52.3625755
+        ]
+      },
+      "id": "node/5283970540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5415960373",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Prins Hendrikkade",
+        "operator": "GVB",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "zone": "5700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9044762,
+          52.3745103
+        ]
+      },
+      "id": "node/5415960373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5496022594",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Elandsgracht",
+        "public_transport": "platform",
+        "ref:IFOPT": "NL:Q:57002620",
+        "shelter": "yes",
+        "zone": "5700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8775836,
+          52.369549
+        ]
+      },
+      "id": "node/5496022594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5496022595",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Elandsgracht",
+        "public_transport": "platform",
+        "ref:IFOPT": "NL:Q:57006027",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8783219,
+          52.3683424
+        ]
+      },
+      "id": "node/5496022595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5830879707",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Nieuwe Willemstraat",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8808595,
+          52.3813066
+        ]
+      },
+      "id": "node/5830879707"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5830879708",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Nieuwe Willemstraat",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8812594,
+          52.3817102
+        ]
+      },
+      "id": "node/5830879708"
+    }
+  ]
+}

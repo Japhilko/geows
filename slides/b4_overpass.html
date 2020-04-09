@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Nutzung von Geodaten in den Sozialwissenschaften</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Jan-Philipp Kolb" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="..\workshop.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Nutzung von Geodaten in den Sozialwissenschaften
+## Overpass
+### Jan-Philipp Kolb
+### 09 April, 2020
+
+---
+
+
+
+
+## Themen dieses Abschnitts
+
+- Die [**Overpass API**](https://wiki.openstreetmap.org/wiki/Overpass_API) von Roland Olbricht wird vorgestellt.
+- Die API [**Overpass Turbo**](https://overpass-turbo.eu/)
+- Wie man die OSM Daten graphisch darstellen kann.
+
+---
+
+
+## Die Overpass API
+
+&lt;!--
+This API is perfect to download data on very particular topics.
+
+Wenn man beispielsweise nach speziellen Map Features sucht.
+--&gt;
+
+- Die von Roland Olbricht geschriebene Overpass API ermöglicht es Entwicklern, kleine Auszüge von benutzergenerierten Inhalten von Openstreetmap nach vorgegebenen Kriterien herunterzuladen.
+- Overpass ist eine read-only API, die durch den Benutzer ausgewählte Teile der OSM-Daten bereitstellt. 
+- Overpass kann als eine Datenbank über das Internet verstanden werden.
+- Die API eignet sich besonders gut, wenn man nach ganz speziellen Map Features sucht. 
+
+&lt;!--
+Overpass is a read-only API that provides custom selected parts of the OSM data. 
+It can be understood as a database over the web, it uses the fact that OSM is enriched with additional information ranging from city names to e.g. locations of street lamps or energy generators \citep{schmidt2013extraction}.
+If it is the target, to get all bus stops in Amsterdam, then it is possible to download the information from Overpass Turbo (\url{https://overpass-turbo.eu/}), using the key highway and the value bus\_stop.
+--&gt;
+
+---
+
+
+## [Overpass Turbo](https://overpass-turbo.eu/)
+
+![https://overpass-turbo.eu/](figure/overpassTurbo.PNG)
+
+---
+
+
+## Query Overpass
+
+- In der folgenden Abfrage wird bei Overpass Turbo nach Bars im ausgewählten Fenster gesucht. 
+
+```
+node
+  [amenity=bar]
+  ({{bbox}});
+out;
+```
+
+---
+
+
+## Export bei Overpass
+
+![](figure/OverpassExport.PNG)
+
+---
+
+
+## Speicherformate 
+
+### Bei Export von Overpass
+
+- GeoJSON
+- GPX
+- KML
+- OSM Rohdaten
+
+---
+
+
+## Import von Daten
+
+
+```r
+library(XML)
+dat &lt;- xmlParse("../data/bus_stop_amsterdam.kml")
+```
+
+
+```r
+xmltop &lt;- xmlRoot(dat)
+xmltop[[1]][[1]]
+```
+
+```
+## &lt;name&gt;overpass-turbo.eu export&lt;/name&gt;
+```
+
+---
+
+
+## Xpath Abfragesprache
+
+### Beispiel: [xpath wikipedia](https://de.wikipedia.org/wiki/XPath)
+
+
+
+```r
+xpathApply(dat,"Document")
+```
+
+```
+## list()
+## attr(,"class")
+## [1] "XMLNodeSet"
+```
+
+
+---
+
+## JSON importieren
+
+
+
+```r
+install.packages("rjson")
+library(rjson)
+```
+
+
+```r
+library(jsonlite)
+dat&lt;-jsonlite::fromJSON("../data/amsterdam_busstop.geojson")
+typeof(dat)
+```
+
+```
+## [1] "list"
+```
+
+```r
+names(dat)
+```
+
+```
+## [1] "type"      "generator" "copyright" "timestamp" "features"
+```
+
+---
+
+## Wie sehen die Daten aus
+
+
+
+
+
+```r
+DT::datatable(dat$features$properties)
+```
+
+![](figure/amsterdam_busstop_features.PNG)
+
+---
+
+## GPX file importieren
+
+
+
+
+```r
+library(plotKML)
+```
+
+```
+## Warning: package 'plotKML' was built under R version 3.6.3
+```
+
+```
+## plotKML version 0.6-1 (2020-03-08)
+```
+
+```
+## URL: http://plotkml.r-forge.r-project.org/
+```
+
+```r
+dat_gpx &lt;- readGPX("../data/Amsterdam_busstop.gpx")
+head(dat_gpx$waypoints)
+```
+
+```
+##        lon      lat                            name
+## 1 4.880870 52.36213                     Leidseplein
+## 2 4.891237 52.37438                             Dam
+## 3 4.877558 52.36953                    Elandsgracht
+## 4 4.900331 52.37670 Centraal Station / Nicolaaskerk
+## 5 4.905498 52.37395               Prins Hendrikkade
+## 6 4.890181 52.37310                             Dam
+##                                                                                                                            desc
+## 1                                                      highway=bus_stop\nname=Leidseplein\npublic_transport=platform\nzone=5700
+## 2                 cxx:code=57002550\ncxx:id=31843\nhighway=bus_stop\nname=Dam\npublic_transport=platform\nsource=CXX\nzone=5700
+## 3                     bus=yes\nhighway=bus_stop\nname=Elandsgracht\npublic_transport=stop_position\nrailway=tram_stop\ntram=yes
+## 4                            bench=yes\nbin=yes\nhighway=bus_stop\nname=Centraal Station / Nicolaaskerk\nshelter=yes\nzone=5700
+## 5 bench=yes\nbin=yes\nhighway=bus_stop\nname=Prins Hendrikkade\noperator=GVB\npublic_transport=platform\nshelter=yes\nzone=5700
+## 6        bus=yes\ncxx:code=57002560\ncxx:id=31844\nhighway=bus_stop\nname=Dam\npublic_transport=platform\nsource=CXX\nzone=5700
+##   link
+## 1     
+## 2     
+## 3     
+## 4     
+## 5     
+## 6
+```
+
+---
+
+
+## Daten verbinden - Beispiel Bäckereien in Berlin
+
+- Quelle für die folgenden Daten ist: 
+
+![](figure/osm_freieWeltkarte.PNG)
+
+&lt;!--
+http://wiki.openstreetmap.org/wiki/DE:Datenherkunft_richtig_angeben
+--&gt;
+
+---
+
+## OSM als Datenquelle
+
+- Zum Download habe ich die [**Overpass API**](http://wiki.openstreetmap.org/wiki/Overpass_API) verwendet
+
+
+```r
+load("../data/info_bar_Berlin.RData")
+```
+
+
+
+
+            addr.postcode   addr.street            name                       lat        lon
+----------  --------------  ---------------------  -------------------  ---------  ---------
+79675952    13405           ScharnweberstraÃŸe     Albert's              52.56382   13.32885
+86005430    NA              NA                     Newton Bar            52.51293   13.39123
+111644760   NA              NA                     No Limit Shishabar    52.56556   13.32093
+149607257   NA              NA                     en passant            52.54420   13.41298
+248651127   10115           BergstraÃŸe            Z-Bar                 52.52953   13.39564
+267780050   10405           Christburger StraÃŸe   Immertreu             52.53637   13.42509
+
+---
+
+## Verwendung des Pakets `gosmd`
+
+
+```r
+devtools::install_github("Japhilko/gosmd")
+```
+
+
+
+```r
+library("gosmd")
+pg_MA &lt;- get_osm_nodes(object="leisure=playground","Mannheim")
+pg_MA &lt;- extract_osm_nodes(pg_MA,value='playground')
+```
+
+---
+
+## Matching
+
+
+```r
+tab_plz &lt;- table(info_be$addr.postcode)
+```
+
+
+```r
+load("../data/BE.RData")
+```
+
+
+
+```r
+ind &lt;- match(BE@data$PLZ99_N,names(tab_plz))
+head(ind)
+```
+
+```
+## [1] 1 2 3 4 5 6
+```
+
+### Daten anspielen
+
+
+```r
+BE@data$num_plz &lt;- tab_plz[ind]
+```
+
+
+
+---
+
+## Eine Karte von Berlin mit dem Paket `tmap`
+
+
+```r
+BE@data$num_plz[is.na(BE@data$num_plz)] &lt;- 0
+tmap::qtm(BE,fill = "num_plz")
+```
+
+```
+## Linking to GEOS 3.6.1, GDAL 2.2.3, PROJ 4.9.3
+```
+
+![](b4_overpass_files/figure-html/unnamed-chunk-19-1.png)&lt;!-- --&gt;
+
+## Mehr Informationen einbinden
+
+- Der folgende Datensatz ist eine Kombination aus den vorgestellten PLZ-Shapefiles und OSM-Daten die über Overpass heruntergeladen wurden:
+
+
+
+```r
+load("../data/osmsa_PLZ_14.RData")
+```
+
+
+
+![](figure/osmsa_ex.PNG)
+
+---
+
+## OSM-Daten - Bäckereien in Stuttgart
+
+
+
+
+
+
+
+```r
+tmap::qtm(PLZ_SG,fill="bakery")
+```
+
+![](b4_overpass_files/figure-html/unnamed-chunk-23-1.png)&lt;!-- --&gt;
+
+---
+
+## [Das R-Paket `RDSTK`](http://www.datasciencetoolkit.org/)
+
+
+
+![](figure/DataScienceToolkit.PNG)
+
+- Data Science Toolkit API
+
+
+```r
+library("RDSTK")
+```
+
+---
+
+## Die Daten für Stuttgart
+
+
+```r
+tab_landcover &lt;- table(PLZ_SG$land_cover.value)
+df_landcover &lt;- data.frame(tab_landcover)
+colnames(df_landcover)[1] &lt;- c("Type_landcover")
+kable(df_landcover)
+```
+
+
+
+Type_landcover                              Freq
+-----------------------------------------  -----
+Artificial surfaces and associated areas      26
+Cultivated and managed areas                   8
+Tree Cover, needle-leaved, evergreen           1
+
+---
+
+## Eine Karte der Flächenbedeckung erstellen
+
+- Daten von [European Commission Land Resource Management Unit Global Land Cover 2000.](http://bioval.jrc.ec.europa.eu/products/glc2000/products.php)
+
+
+```r
+tmap::qtm(PLZ_SG,fill="land_cover.value")
+```
+
+![](b4_overpass_files/figure-html/unnamed-chunk-27-1.png)&lt;!-- --&gt;
+
+---
+
+## Die Höhe in Stuttgart
+
+- Daten von [**NASA and the CGIAR Consortium for Spatial Information **](http://srtm.csi.cgiar.org/)
+
+
+```r
+tmap::qtm(PLZ_SG,fill="elevation.value")
+```
+
+![](b4_overpass_files/figure-html/unnamed-chunk-28-1.png)&lt;!-- --&gt;
+
+&lt;!--
+man könnte hier noch zeigen, wie man einen Punkt hinzufügen kann
+--&gt;
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
