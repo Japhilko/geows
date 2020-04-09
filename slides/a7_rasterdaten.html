@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Nutzung von Geodaten in den Sozialwissenschaften</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Jan-Philipp Kolb" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="..\workshop.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Nutzung von Geodaten in den Sozialwissenschaften
+## Rasterdaten
+### Jan-Philipp Kolb
+### 09 April, 2020
+
+---
+
+
+
+
+
+## [Manipulation von Rasterdaten](http://rspatial.org/spatial/rst/8-rastermanip.html)
+
+
+```r
+library(raster)
+```
+
+```
+## Warning: package 'raster' was built under R version 3.6.2
+```
+
+```
+## Loading required package: sp
+```
+
+```r
+x &lt;- raster()
+x
+```
+
+```
+## class      : RasterLayer 
+## dimensions : 180, 360, 64800  (nrow, ncol, ncell)
+## resolution : 1, 1  (x, y)
+## extent     : -180, 180, -90, 90  (xmin, xmax, ymin, ymax)
+## crs        : +proj=longlat +datum=WGS84 +ellps=WGS84 +towgs84=0,0,0
+```
+
+---
+
+
+## Andere Parameter wählen
+
+
+```r
+x1 &lt;- raster(ncol=36, nrow=18, xmn=-1000, xmx=1000, ymn=-100, ymx=900)
+x1
+```
+
+```
+## class      : RasterLayer 
+## dimensions : 18, 36, 648  (nrow, ncol, ncell)
+## resolution : 55.55556, 55.55556  (x, y)
+## extent     : -1000, 1000, -100, 900  (xmin, xmax, ymin, ymax)
+## crs        : NA
+```
+
+---
+
+
+## Den Zellen Werte zuordnen
+
+
+```r
+r &lt;- raster(ncol=10, nrow=10)
+ncell(r)
+```
+
+```
+## [1] 100
+```
+
+```r
+hasValues(r)
+```
+
+```
+## [1] FALSE
+```
+
+
+```r
+values(r) &lt;- runif(ncell(r))
+hasValues(r)
+```
+
+```
+## [1] TRUE
+```
+
+---
+
+
+## Das Ergebnis visualisieren
+
+
+
+```r
+plot(r, main='Raster with 100 cells')
+```
+
+![](a7_rasterdaten_files/figure-html/unnamed-chunk-5-1.png)&lt;!-- --&gt;
+
+&lt;!--
+##  Ein Beispieldatensatz
+
+
+
+
+
+```r
+library(rnaturalearth)
+```
+
+```
+## Warning: package 'rnaturalearth' was built under R version 3.6.3
+```
+
+```r
+usa &lt;- ne_countries(country = "United States of America") # United States borders
+class(usa)
+```
+
+```
+## [1] "SpatialPolygonsDataFrame"
+## attr(,"package")
+## [1] "sp"
+```
+
+## [](https://geocompr.robinlovelace.net/read-write.html)
+
+
+```r
+library(sf)
+```
+
+```
+## Linking to GEOS 3.6.1, GDAL 2.2.3, PROJ 4.9.3
+```
+
+```r
+usa_sf &lt;- st_as_sf(usa)
+plot(usa_sf)
+```
+
+```
+## Warning: plotting the first 9 out of 63 attributes; use max.plot = 63 to plot
+## all
+```
+
+![](a7_rasterdaten_files/figure-html/unnamed-chunk-8-1.png)&lt;!-- --&gt;
+--&gt;
+
+---
+
+
+## Import von Beispieldaten
+
+
+
+
+```r
+link&lt;-"https://raw.githubusercontent.com/GeoScripting-WUR/
+IntroToRaster/gh-pages/data/gewata.zip"
+```
+
+
+```r
+download.file(url = link, destfile = 'gewata.zip', 
+              method = 'auto')
+unzip('gewata.zip')
+```
+
+
+
+```r
+list.files(pattern = glob2rx('*.tif'))
+```
+
+---
+
+## [Import von Rasterdaten - `.tif` file](https://geoscripting-wur.github.io/IntroToRaster/)
+
+
+```r
+gewata &lt;- raster::brick('../data/
+LE71700552001036SGS00_SR_Gewata_INT1U.tif')
+```
+
+
+
+---
+
+## Erste plots erstellen
+
+
+```r
+plot(gewata)
+```
+
+![](a7_rasterdaten_files/figure-html/unnamed-chunk-15-1.png)&lt;!-- --&gt;
+
+
+
+---
+
+
+## [Worldclim Daten importieren](https://pakillo.github.io/R-GIS-tutorial/#raster)
+
+![](figure/WORLDCLIM.PNG)
+
+
+```r
+# this will download 
+# global data on minimum temperature at 10' resolution
+tmin &lt;- raster::getData("worldclim", var = "tmin", res = 10)
+```
+
+
+```r
+tmin1 &lt;- raster::raster( "../data/wc10/tmin1.bil")
+tmin1 &lt;- tmin1/10
+```
+
+---
+
+
+## Minimum Temperatur plotten
+
+
+```r
+plot(tmin1)
+```
+
+
+
+&lt;!--
+## [Indikatoren vom Institut für ökologische Raumforschung (IÖR)](http://www.ioer-monitor.de/)
+![](figure/ioermonitor.PNG)
+--&gt;
+
+&lt;!--
+http://www.ioer-monitor.de/indikatoren/#c1793
+https://monitor.ioer.de/frontend/data/anleitung_import_qgis.pdf
+https://monitor.ioer.de/?raeumliche_gliederung=raster&amp;klassenanzahl=7&amp;opacity=0.8&amp;zoom=6&amp;lat=51.33061163769853&amp;lng=10.458984375000002&amp;ind=B02DT&amp;baselayer=webatlas&amp;time=2011&amp;raumgl=bld&amp;klassifizierung=haeufigkeit&amp;darstellung=auto&amp;ags_array=&amp;glaettung=0&amp;rasterweite=0&amp;
+http://www.ioer-monitor.de/indikatoren/#c1793
+--&gt;
+
+---
+
+
+## Links
+
+- Neon - [**Intro to Raster Data in R**](https://www.neonscience.org/dc-raster-data-r)
+
+- Francisco Rodriguez-Sanchez - [**Spatial data in R: Using R as a GIS**](https://pakillo.github.io/R-GIS-tutorial/#raster)
+
+- Robin Lovelace - [**Geocomputation with R**](https://geocompr.robinlovelace.net/)
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

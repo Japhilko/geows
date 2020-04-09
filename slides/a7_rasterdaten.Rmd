@@ -27,12 +27,17 @@ x <- raster()
 x
 ```
 
+---
+
+
 ## Andere Parameter wählen
 
 ```{r}
 x1 <- raster(ncol=36, nrow=18, xmn=-1000, xmx=1000, ymn=-100, ymx=900)
 x1
 ```
+
+---
 
 
 ## Den Zellen Werte zuordnen
@@ -47,6 +52,9 @@ hasValues(r)
 values(r) <- runif(ncell(r))
 hasValues(r)
 ```
+
+---
+
 
 ## Das Ergebnis visualisieren
 
@@ -78,6 +86,8 @@ plot(usa_sf)
 ```
 -->
 
+---
+
 
 ## Import von Beispieldaten
 
@@ -101,6 +111,8 @@ unzip('gewata.zip')
 list.files(pattern = glob2rx('*.tif'))
 ```
 
+---
+
 ## [Import von Rasterdaten - `.tif` file](https://geoscripting-wur.github.io/IntroToRaster/)
 
 ```{r,eval=F}
@@ -112,6 +124,8 @@ LE71700552001036SGS00_SR_Gewata_INT1U.tif')
 gewata <- raster::brick('../data/LE71700552001036SGS00_SR_Gewata_INT1U.tif')
 ```
 
+---
+
 ## Erste plots erstellen
 
 ```{r}
@@ -121,6 +135,8 @@ plot(gewata)
 ```{r,eval=F,echo=F}
 gewata@data
 ```
+
+---
 
 
 ## [Worldclim Daten importieren](https://pakillo.github.io/R-GIS-tutorial/#raster)
@@ -133,15 +149,17 @@ gewata@data
 tmin <- raster::getData("worldclim", var = "tmin", res = 10)
 ```
 
-```{r}
+```{r,eval=F}
 tmin1 <- raster::raster( "../data/wc10/tmin1.bil")
 tmin1 <- tmin1/10
 ```
 
+---
+
 
 ## Minimum Temperatur plotten
 
-```{r}
+```{r,eval=F}
 plot(tmin1)
 ```
 
@@ -158,6 +176,8 @@ https://monitor.ioer.de/frontend/data/anleitung_import_qgis.pdf
 https://monitor.ioer.de/?raeumliche_gliederung=raster&klassenanzahl=7&opacity=0.8&zoom=6&lat=51.33061163769853&lng=10.458984375000002&ind=B02DT&baselayer=webatlas&time=2011&raumgl=bld&klassifizierung=haeufigkeit&darstellung=auto&ags_array=&glaettung=0&rasterweite=0&
 http://www.ioer-monitor.de/indikatoren/#c1793
 -->
+
+---
 
 
 ## Links
