@@ -1,0 +1,4432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.55.4 3079d8ea">
+  <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+  <meta osm_base="2018-09-12T09:08:02Z"/>
+  <node id="46055840" lat="52.2940585" lon="4.9605040"/>
+  <node id="227189738" lat="52.3424719" lon="4.9130685">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="241928482" lat="52.3472284" lon="4.9179529">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="250060834" lat="52.3795703" lon="4.8964518"/>
+  <node id="250060835" lat="52.3790185" lon="4.8976111"/>
+  <node id="250060837" lat="52.3789344" lon="4.8975037"/>
+  <node id="250060838" lat="52.3794862" lon="4.8963443"/>
+  <node id="256073377" lat="52.3042133" lon="4.7998489"/>
+  <node id="256073378" lat="52.3040559" lon="4.7996257"/>
+  <node id="256073379" lat="52.3042396" lon="4.7992824"/>
+  <node id="256073380" lat="52.3043918" lon="4.7995141"/>
+  <node id="293133298" lat="52.3809714" lon="4.8990503"/>
+  <node id="293133738" lat="52.3807836" lon="4.8988268"/>
+  <node id="296044189" lat="52.3775354" lon="4.9024724">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="layer" v="-1"/>
+  </node>
+  <node id="411759750" lat="52.3466867" lon="4.9163202"/>
+  <node id="411759751" lat="52.3467598" lon="4.9167045"/>
+  <node id="411759752" lat="52.3464190" lon="4.9169222"/>
+  <node id="411759753" lat="52.3463209" lon="4.9165285"/>
+  <node id="429316664" lat="52.3232796" lon="4.9364118">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="441682028" lat="52.3611913" lon="4.9006941">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="568328062" lat="52.3956684" lon="4.9259884"/>
+  <node id="568328065" lat="52.3955612" lon="4.9264241"/>
+  <node id="568328068" lat="52.3956692" lon="4.9264960"/>
+  <node id="568328087" lat="52.3956077" lon="4.9267473"/>
+  <node id="568328091" lat="52.3955912" lon="4.9267364"/>
+  <node id="568328094" lat="52.3955775" lon="4.9267908"/>
+  <node id="693162955" lat="52.3421139" lon="4.9653535"/>
+  <node id="693166728" lat="52.3421195" lon="4.9651790"/>
+  <node id="693174015" lat="52.3420737" lon="4.9651751"/>
+  <node id="693175356" lat="52.3420681" lon="4.9653496"/>
+  <node id="697811140" lat="52.3330488" lon="4.8667909">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="717774734" lat="52.3791650" lon="4.8980135"/>
+  <node id="717807811" lat="52.3346798" lon="4.8653618"/>
+  <node id="717810674" lat="52.3794708" lon="4.8974142"/>
+  <node id="717820870" lat="52.3792308" lon="4.8980775"/>
+  <node id="717821354" lat="52.3794066" lon="4.8973510"/>
+  <node id="814763652" lat="52.3809659" lon="4.8983280"/>
+  <node id="814763667" lat="52.3811900" lon="4.8986018"/>
+  <node id="863071857" lat="52.3826340" lon="4.9028447">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="863071874" lat="52.3821302" lon="4.9033841">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="100"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="863071877" lat="52.3823720" lon="4.9029389">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="36"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="863071880" lat="52.3827436" lon="4.9031136">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="866314025" lat="52.3468771" lon="4.9114182">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="866623237" lat="52.3844935" lon="4.9065187">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="891924478" lat="52.3449426" lon="4.9676985"/>
+  <node id="891933849" lat="52.3449088" lon="4.9677861"/>
+  <node id="891975661" lat="52.3456819" lon="4.9678288"/>
+  <node id="891975812" lat="52.3191078" lon="4.9481933"/>
+  <node id="891996154" lat="52.3454769" lon="4.9676352"/>
+  <node id="891997694" lat="52.3190752" lon="4.9481027"/>
+  <node id="904967823" lat="52.3551132" lon="4.9559442"/>
+  <node id="904967834" lat="52.3544887" lon="4.9546432"/>
+  <node id="904967858" lat="52.3544131" lon="4.9547675"/>
+  <node id="904967868" lat="52.3551988" lon="4.9558222"/>
+  <node id="928658118" lat="52.3330979" lon="4.8661322">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1145528389" lat="52.2881987" lon="4.8531197"/>
+  <node id="1145528417" lat="52.2882324" lon="4.8528700"/>
+  <node id="1145528419" lat="52.2877913" lon="4.8529728"/>
+  <node id="1145528420" lat="52.2878250" lon="4.8527232"/>
+  <node id="1154693983" lat="52.2940549" lon="4.9608587"/>
+  <node id="1154706219" lat="52.2946521" lon="4.9605805"/>
+  <node id="1154708832" lat="52.2946596" lon="4.9602225"/>
+  <node id="1154711944" lat="52.2940572" lon="4.9606552"/>
+  <node id="1154730765" lat="52.2944929" lon="4.9607371"/>
+  <node id="1154733320" lat="52.2946566" lon="4.9602738"/>
+  <node id="1154737983" lat="52.2940889" lon="4.9606291"/>
+  <node id="1154740996" lat="52.2945649" lon="4.9602181"/>
+  <node id="1154762610" lat="52.2946493" lon="4.9603411"/>
+  <node id="1154767278" lat="52.2940694" lon="4.9605488"/>
+  <node id="1154770053" lat="52.2946382" lon="4.9601502"/>
+  <node id="1154772543" lat="52.2944366" lon="4.9607794"/>
+  <node id="1154793203" lat="52.2946611" lon="4.9604173"/>
+  <node id="1154807201" lat="52.2941172" lon="4.9610694"/>
+  <node id="1154820328" lat="52.2946166" lon="4.9604618"/>
+  <node id="1154834309" lat="52.2941005" lon="4.9608093"/>
+  <node id="1219948002" lat="52.2800098" lon="5.0630623">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="4"/>
+    <tag k="fee" v="no"/>
+  </node>
+  <node id="1222363313" lat="52.2800632" lon="5.0644225">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="4"/>
+    <tag k="fee" v="no"/>
+  </node>
+  <node id="1334693468" lat="52.3754808" lon="4.9088154"/>
+  <node id="1334693469" lat="52.3756161" lon="4.9087964"/>
+  <node id="1334693470" lat="52.3756200" lon="4.9088670"/>
+  <node id="1334693479" lat="52.3754841" lon="4.9088859"/>
+  <node id="1377736447" lat="52.2903306" lon="4.8642400">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="yes"/>
+  </node>
+  <node id="1377736538" lat="52.2904684" lon="4.8632852">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="80"/>
+    <tag k="covered" v="yes"/>
+  </node>
+  <node id="1411441080" lat="52.2782115" lon="4.9772145">
+    <tag k="FIXME" v="expacted capacity"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="440"/>
+    <tag k="covered" v="yes"/>
+  </node>
+  <node id="1444969478" lat="52.3301308" lon="5.0716685">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="7"/>
+  </node>
+  <node id="1444969584" lat="52.3362004" lon="5.0673017">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="2"/>
+  </node>
+  <node id="1444969592" lat="52.3362836" lon="5.0671626">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="2"/>
+  </node>
+  <node id="1444969598" lat="52.3363285" lon="5.0670061">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="4"/>
+  </node>
+  <node id="1450137708" lat="52.3079584" lon="5.0456674">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1455723395" lat="52.3398604" lon="4.8733515">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="yes"/>
+    <tag k="layer" v="-1"/>
+    <tag k="location" v="underground"/>
+    <tag k="name" v="Fietspunt Station Zuid WTC"/>
+  </node>
+  <node id="1455723400" lat="52.3398557" lon="4.8731186">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="2000"/>
+    <tag k="covered" v="yes"/>
+    <tag k="fee" v="no"/>
+    <tag k="location" v="underground"/>
+    <tag k="name" v="Fietspunt Station Zuid WTC"/>
+  </node>
+  <node id="1455763441" lat="52.3397764" lon="4.8734257"/>
+  <node id="1455763442" lat="52.3400929" lon="4.8730107"/>
+  <node id="1455763443" lat="52.3401056" lon="4.8733969"/>
+  <node id="1455763444" lat="52.3397638" lon="4.8730396"/>
+  <node id="1489877413" lat="52.2969505" lon="4.8890386">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1489877438" lat="52.2972524" lon="4.9002920">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="5"/>
+  </node>
+  <node id="1489877444" lat="52.2973019" lon="4.9002233">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="5"/>
+  </node>
+  <node id="1489877461" lat="52.2973469" lon="4.9001693">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="5"/>
+  </node>
+  <node id="1489877465" lat="52.2973754" lon="4.9001325">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="5"/>
+  </node>
+  <node id="1489877479" lat="52.2974160" lon="4.9000785">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="5"/>
+  </node>
+  <node id="1489877481" lat="52.2974580" lon="4.9000319">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="5"/>
+  </node>
+  <node id="1491315899" lat="52.3245327" lon="4.9379535">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1558266648" lat="52.3564972" lon="4.9533297"/>
+  <node id="1558266695" lat="52.3566036" lon="4.9534799"/>
+  <node id="1558266739" lat="52.3566151" lon="4.9531580"/>
+  <node id="1558266766" lat="52.3566973" lon="4.9534466"/>
+  <node id="1558267032" lat="52.3547058" lon="4.9552595">
+    <tag k="entrance" v="yes"/>
+  </node>
+  <node id="1576546355" lat="52.3420168" lon="4.8422019">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1576655644" lat="52.3516621" lon="4.8339602">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="50"/>
+  </node>
+  <node id="1576976346" lat="52.3553379" lon="4.8179756">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="60"/>
+    <tag k="covered" v="no"/>
+    <tag k="fee" v="no"/>
+  </node>
+  <node id="1577851986" lat="52.3468275" lon="4.8346479">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="10"/>
+    <tag k="covered" v="yes"/>
+    <tag k="fee" v="yes"/>
+  </node>
+  <node id="1577852058" lat="52.3468259" lon="4.8341087">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1577852086" lat="52.3470749" lon="4.8341008">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1578160119" lat="52.3585116" lon="4.8048786">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1578160128" lat="52.3588523" lon="4.8035375">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1578160150" lat="52.3596755" lon="4.8069184">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1578160160" lat="52.3596968" lon="4.8071410">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1580313650" lat="52.3590084" lon="4.8030277">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1582016013" lat="52.3513727" lon="4.7907057">
+    <tag k="access" v="customers"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1588416423" lat="52.3553751" lon="4.9562935">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="shed"/>
+    <tag k="mapillary" v="PNdf5F5kqP4KVQ70uG-4TA"/>
+    <tag k="survey:date" v="2017-09-10"/>
+  </node>
+  <node id="1595406791" lat="52.3630108" lon="4.8705047">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="wall_loops"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1595406792" lat="52.3632897" lon="4.8700226">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="wall_loops"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1595406794" lat="52.3633243" lon="4.8701680">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="wall_loops"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1595406797" lat="52.3633611" lon="4.8699566">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="wall_loops"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1595406800" lat="52.3633886" lon="4.8700997">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="wall_loops"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1598676347" lat="52.3475938" lon="4.8238599">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1598676350" lat="52.3476397" lon="4.8243373">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="yes"/>
+  </node>
+  <node id="1601142264" lat="52.3549180" lon="4.8461728">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1604715991" lat="52.3600084" lon="4.7749180">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1607110429" lat="52.3242922" lon="4.9268353">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="10"/>
+    <tag k="covered" v="no"/>
+    <tag k="fee" v="no"/>
+  </node>
+  <node id="1620464526" lat="52.3599598" lon="4.8155408">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1623897538" lat="52.3648830" lon="4.8958511">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1627015076" lat="52.3553842" lon="4.7928946">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1627039092" lat="52.3563779" lon="4.7968627">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1629183518" lat="52.3601107" lon="4.8076099">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1650224727" lat="52.3453485" lon="4.8139142">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="6"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1653333067" lat="52.2974904" lon="4.9600887">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="wall_loops"/>
+    <tag k="capacity" v="120"/>
+    <tag k="covered" v="yes"/>
+    <tag k="note" v="expected capacity"/>
+  </node>
+  <node id="1655708875" lat="52.3581341" lon="4.8002964">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1655708901" lat="52.3581259" lon="4.8006156">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="4"/>
+  </node>
+  <node id="1655770318" lat="52.3594139" lon="4.8223480">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1683924701" lat="52.3628220" lon="4.8842601">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="200"/>
+    <tag k="covered" v="no"/>
+    <tag k="name" v="Parkeerboot Zieniskade"/>
+    <tag k="note" v="on a boat"/>
+  </node>
+  <node id="1683924723" lat="52.3649180" lon="4.8813628">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="200"/>
+    <tag k="covered" v="no"/>
+    <tag k="name" v="Parkeerboot Lijnbaansgracht"/>
+  </node>
+  <node id="1683935932" lat="52.3660525" lon="4.8801057"/>
+  <node id="1683935951" lat="52.3660916" lon="4.8802950"/>
+  <node id="1683935955" lat="52.3662487" lon="4.8802050"/>
+  <node id="1683935957" lat="52.3662144" lon="4.8800289"/>
+  <node id="1684769376" lat="52.3492398" lon="4.8406876">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1684852345" lat="52.3520821" lon="4.7995404">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1687939963" lat="52.3451523" lon="4.8468328">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1687939987" lat="52.3433908" lon="4.8434909">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1687940045" lat="52.3451408" lon="4.8458672">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1687940069" lat="52.3408049" lon="4.8423322">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1687940077" lat="52.3451785" lon="4.8465513">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1693843891" lat="52.3122734" lon="4.9459808">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1693843936" lat="52.3119832" lon="4.9462464">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1694380061" lat="52.3569498" lon="4.8344509">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1694380112" lat="52.3567498" lon="4.8340435">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1694380148" lat="52.3574576" lon="4.8337294">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1694408072" lat="52.3585058" lon="4.8335930">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="yes"/>
+  </node>
+  <node id="1694408088" lat="52.3587303" lon="4.8344863">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="yes"/>
+  </node>
+  <node id="1698591677" lat="52.3591091" lon="4.8044201">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1700724694" lat="52.3550980" lon="4.7933737">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1700724736" lat="52.3553034" lon="4.7926755">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1700758006" lat="52.3534713" lon="4.8077691">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="6"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1710473460" lat="52.2928177" lon="4.9590847">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="wall_loops"/>
+    <tag k="capacity" v="100"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1712433480" lat="52.3520186" lon="4.8763579">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="24"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1713450913" lat="52.3558127" lon="4.8793680">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1713450915" lat="52.3558504" lon="4.8795236">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1718645025" lat="52.3527612" lon="4.8643174">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1719213317" lat="52.3441975" lon="4.9082521">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="no"/>
+    <tag k="mapillary" v="c2HvFMprY2S5I7TLPIx_4g"/>
+    <tag k="survey:date" v="2017-09-08"/>
+  </node>
+  <node id="1719213318" lat="52.3441040" lon="4.9083220">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="no"/>
+    <tag k="mapillary" v="0-1JXH6wPw-GjuZQ7LpdCQ"/>
+    <tag k="survey:date" v="2017-09-08"/>
+  </node>
+  <node id="1719213333" lat="52.3441761" lon="4.9084505">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="no"/>
+    <tag k="mapillary" v="c2HvFMprY2S5I7TLPIx_4g"/>
+    <tag k="survey:date" v="2017-09-08"/>
+  </node>
+  <node id="1719213343" lat="52.3438353" lon="4.9085766">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1719213348" lat="52.3447842" lon="4.9067796">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1720261599" lat="52.3636393" lon="4.8832247">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1721554056" lat="52.3692596" lon="4.8948709">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1721554065" lat="52.3686832" lon="4.8949351">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1721554069" lat="52.3687487" lon="4.8954608">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1721554070" lat="52.3692384" lon="4.8949941">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1722682292" lat="52.3714121" lon="4.8026072">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1724642655" lat="52.3459296" lon="4.8113479">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1724642657" lat="52.3460345" lon="4.8112862">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1724642660" lat="52.3458739" lon="4.8110611">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1725810223" lat="52.3379877" lon="4.9292723">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1725810229" lat="52.3400969" lon="4.9214402">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1730333466" lat="52.3467483" lon="4.8472530">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1731537449" lat="52.3406955" lon="4.8682596">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1731537478" lat="52.3435100" lon="4.8679333">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1731544189" lat="52.3391289" lon="4.8689945">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1733419556" lat="52.3621774" lon="4.8058512">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1753852560" lat="52.3431424" lon="4.8528725">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1754622232" lat="52.3466393" lon="4.8422879">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1754622241" lat="52.3467769" lon="4.8401261">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1760090461" lat="52.3145298" lon="4.8232938">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+  </node>
+  <node id="1770258250" lat="52.3495136" lon="4.8240627">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="yes"/>
+  </node>
+  <node id="1770258279" lat="52.3494694" lon="4.8234780">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="yes"/>
+  </node>
+  <node id="1774692936" lat="52.3297475" lon="4.8232751">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="4"/>
+  </node>
+  <node id="1774878142" lat="52.3273678" lon="4.8360962">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="4"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="1782706790" lat="52.3545743" lon="4.7924207">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1782706793" lat="52.3540715" lon="4.7926889">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1782706794" lat="52.3537421" lon="4.7928606">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1782706798" lat="52.3548005" lon="4.7922544">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1790686504" lat="52.3409229" lon="4.8286598">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="yes"/>
+    <tag k="fee" v="no"/>
+  </node>
+  <node id="1791448476" lat="52.3134086" lon="4.9398432"/>
+  <node id="1791448479" lat="52.3129249" lon="4.9396581"/>
+  <node id="1791448481" lat="52.3133152" lon="4.9395642"/>
+  <node id="1791448483" lat="52.3130692" lon="4.9401489"/>
+  <node id="1801059448" lat="52.3527379" lon="4.7995821">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="6"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1801059449" lat="52.3529427" lon="4.7994695">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="6"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1801059450" lat="52.3534556" lon="4.7991959">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="6"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1801059452" lat="52.3532365" lon="4.7993158">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="6"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1814365251" lat="52.4291730" lon="4.7400657">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="4"/>
+  </node>
+  <node id="1851914000" lat="52.3329868" lon="4.9894487">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1867617662" lat="52.2915766" lon="4.7339774"/>
+  <node id="1867617663" lat="52.2915925" lon="4.7339885"/>
+  <node id="1867617664" lat="52.2916043" lon="4.7339431"/>
+  <node id="1867617665" lat="52.2916216" lon="4.7339551"/>
+  <node id="1867617666" lat="52.2916611" lon="4.7338866"/>
+  <node id="1867617667" lat="52.2916780" lon="4.7336575"/>
+  <node id="1867617668" lat="52.2916781" lon="4.7338976"/>
+  <node id="1867617669" lat="52.2916802" lon="4.7335801"/>
+  <node id="1867617670" lat="52.2916954" lon="4.7335907"/>
+  <node id="1867617671" lat="52.2916959" lon="4.7336700"/>
+  <node id="1867617672" lat="52.2917045" lon="4.7337883"/>
+  <node id="1867617673" lat="52.2917106" lon="4.7336816"/>
+  <node id="1867617674" lat="52.2917210" lon="4.7337989"/>
+  <node id="1867617675" lat="52.2917441" lon="4.7337032"/>
+  <node id="1870355536" lat="52.3091014" lon="4.7605813">
+    <tag k="addr:city" v="Schiphol"/>
+    <tag k="addr:country" v="NL"/>
+    <tag k="addr:street" v="Aankomstpassage"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="yes"/>
+    <tag k="name" v="Fietsenstalling Schiphol Plaza"/>
+  </node>
+  <node id="1870355537" lat="52.3074318" lon="4.7630278">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1870355538" lat="52.3097819" lon="4.7595059">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1906705452" lat="52.3302065" lon="4.9541090">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="yes"/>
+    <tag k="name" v="Fietskluis"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="1916343294" lat="52.3155616" lon="4.9557624">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="1916343574" lat="52.3157321" lon="4.9557356">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="1916343764" lat="52.3152500" lon="4.9573771">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="1971498420" lat="52.3566123" lon="4.7925954">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1971505697" lat="52.3571922" lon="4.7955401">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1979206585" lat="52.3511392" lon="4.7759498">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1979206587" lat="52.3510982" lon="4.7758343">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1979941759" lat="52.3216184" lon="4.9523330"/>
+  <node id="1979941770" lat="52.3215791" lon="4.9523683"/>
+  <node id="1979941780" lat="52.3215032" lon="4.9521417"/>
+  <node id="1979941838" lat="52.3215425" lon="4.9521065"/>
+  <node id="1991443628" lat="52.3619979" lon="4.7985354">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1991482465" lat="52.3597131" lon="4.8035090">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1992109445" lat="52.3594179" lon="4.8034465">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1992109455" lat="52.3593737" lon="4.8030279">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1992119684" lat="52.3584006" lon="4.8006864">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1998738559" lat="52.3451823" lon="4.8099600">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1998738694" lat="52.3454003" lon="4.8109709">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1998915512" lat="52.3596412" lon="4.8069397">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1998915513" lat="52.3597286" lon="4.8071229">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1998915514" lat="52.3591629" lon="4.8074280">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="yes"/>
+    <tag k="layer" v="-1"/>
+  </node>
+  <node id="1998915519" lat="52.3596461" lon="4.8071596">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="1999705545" lat="52.3706964" lon="4.8478835">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1999705555" lat="52.3712336" lon="4.8445119">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1999705567" lat="52.3699006" lon="4.8439137">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1999705569" lat="52.3718208" lon="4.8445575">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="1999705611" lat="52.3700209" lon="4.8439058">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="2001087502" lat="52.3473793" lon="4.8178824">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="2002447965" lat="52.3560946" lon="4.8127043">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="2007057589" lat="52.3564205" lon="4.7923298">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2011665805" lat="52.3597499" lon="4.8071093">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2012367403" lat="52.3553431" lon="4.8199354">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="2012367559" lat="52.3559328" lon="4.8213221">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="2012367586" lat="52.3557362" lon="4.8214480">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="2014933369" lat="52.3527760" lon="4.8052695">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="2016695193" lat="52.3355283" lon="4.8806347">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="2027140153" lat="52.3226483" lon="4.9553181"/>
+  <node id="2027140155" lat="52.3225582" lon="4.9551804"/>
+  <node id="2027140157" lat="52.3225980" lon="4.9551487"/>
+  <node id="2027140163" lat="52.3226085" lon="4.9553497"/>
+  <node id="2054127571" lat="52.3770058" lon="4.9171675">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2054127576" lat="52.3773022" lon="4.9146274">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2054127580" lat="52.3756762" lon="4.9263621">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2054127587" lat="52.3760660" lon="4.9238596">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2054127589" lat="52.3758482" lon="4.9252785">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2054127593" lat="52.3766943" lon="4.9194975">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2054127595" lat="52.3765702" lon="4.9203942">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2054127596" lat="52.3754241" lon="4.9277890">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2054127600" lat="52.3770550" lon="4.9167973">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2054127606" lat="52.3754879" lon="4.9274242">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2054127607" lat="52.3757909" lon="4.9256513">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2054127608" lat="52.3771548" lon="4.9159900">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2054127609" lat="52.3767616" lon="4.9189787">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2054127615" lat="52.3755485" lon="4.9270729">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2054127624" lat="52.3763099" lon="4.9222476">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2054127629" lat="52.3756173" lon="4.9266920">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2054127630" lat="52.3753648" lon="4.9281028">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2054127633" lat="52.3759595" lon="4.9245623">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="informal"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2054127642" lat="52.3764695" lon="4.9211263">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2054127646" lat="52.3761151" lon="4.9235162">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2054127650" lat="52.3772269" lon="4.9153704">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2054127654" lat="52.3761690" lon="4.9231595">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2054127658" lat="52.3765212" lon="4.9207509">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2054127663" lat="52.3762771" lon="4.9224595">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2054127664" lat="52.3762247" lon="4.9228189">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2054127667" lat="52.3773268" lon="4.9142653">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2054127669" lat="52.3772645" lon="4.9149815">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2054127674" lat="52.3766227" lon="4.9200186">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2054127678" lat="52.3760069" lon="4.9242351">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2054127684" lat="52.3771859" lon="4.9157244">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2079956002" lat="52.3550091" lon="4.8556392">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="18"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2081463812" lat="52.3585093" lon="4.8025978">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2081463814" lat="52.3585633" lon="4.8028604">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2081463815" lat="52.3582783" lon="4.8024307">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2081733553" lat="52.3497689" lon="4.7871635">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2143993660" lat="52.3495499" lon="4.8559513">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="2145892419" lat="52.3493335" lon="4.8550690">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="2145892421" lat="52.3493335" lon="4.8549536">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="2180026894" lat="52.3233980" lon="4.7999526">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="lockers"/>
+    <tag k="capacity" v="20"/>
+    <tag k="covered" v="yes"/>
+  </node>
+  <node id="2211047894" lat="52.3565386" lon="4.7933970">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2212804863" lat="52.3669870" lon="4.8924789"/>
+  <node id="2212804864" lat="52.3669898" lon="4.8922209"/>
+  <node id="2212804868" lat="52.3670009" lon="4.8925170"/>
+  <node id="2212804870" lat="52.3670047" lon="4.8921980"/>
+  <node id="2212804872" lat="52.3670214" lon="4.8925186"/>
+  <node id="2212804874" lat="52.3670224" lon="4.8922010"/>
+  <node id="2212804883" lat="52.3670356" lon="4.8924789"/>
+  <node id="2212804884" lat="52.3670381" lon="4.8922285"/>
+  <node id="2218829188" lat="52.3395076" lon="4.9684873"/>
+  <node id="2218829189" lat="52.3393515" lon="4.9690854"/>
+  <node id="2298156396" lat="52.3543208" lon="4.8062798">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="2331917682" lat="52.3464155" lon="4.8322333">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="ground_slots"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2331917704" lat="52.3454930" lon="4.8343738">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="2332820942" lat="52.3613480" lon="4.9324379">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="2332820954" lat="52.3613301" lon="4.9326040">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="2332820956" lat="52.3610581" lon="4.9322388">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="2333087255" lat="52.2888203" lon="4.8396217">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="2378539311" lat="52.3610207" lon="4.8846271">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2404192607" lat="52.3488646" lon="4.8422366">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2414327822" lat="52.3646036" lon="4.8730982">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="source" v="knowledge"/>
+  </node>
+  <node id="2423884942" lat="52.3635883" lon="4.8752103">
+    <tag k="access" v="private"/>
+    <tag k="addr:housenumber" v="58"/>
+    <tag k="addr:street" v="Eerste Helmersstraat"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="building"/>
+    <tag k="covered" v="yes"/>
+    <tag k="source" v="knowledge"/>
+  </node>
+  <node id="2429185579" lat="52.3082307" lon="5.0402970">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="2467750533" lat="52.3717809" lon="4.9620296">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="12"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467871996" lat="52.3589961" lon="4.8854721">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467871997" lat="52.3643556" lon="4.9202149">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467871998" lat="52.3643552" lon="4.9206718">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="50"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467871999" lat="52.3654532" lon="4.9221921">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="12"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872000" lat="52.3662931" lon="4.9473920">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872001" lat="52.3689371" lon="4.9186691">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="6"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872002" lat="52.3690093" lon="4.9183152">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="14"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872003" lat="52.3696261" lon="4.9115320">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="24"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872004" lat="52.3701208" lon="4.9197301">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="32"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872005" lat="52.3701879" lon="4.9117361">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872006" lat="52.3702440" lon="4.9194378">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="12"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872007" lat="52.3702838" lon="4.9119496">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="6"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872008" lat="52.3703151" lon="4.9195645">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="12"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872009" lat="52.3707938" lon="4.9161024">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872010" lat="52.3713007" lon="4.9148254">
+    <tag k="FIXME" v="expacted capacity"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="20"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872011" lat="52.3713022" lon="4.9127478">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872012" lat="52.3714521" lon="4.9153238">
+    <tag k="FIXME" v="expacted capacity"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="12"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872013" lat="52.3716840" lon="4.9620284">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="30"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872014" lat="52.3730435" lon="4.9124962">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="30"/>
+    <tag k="covered" v="no"/>
+    <tag k="fee" v="no"/>
+  </node>
+  <node id="2467872015" lat="52.3732069" lon="4.9117680">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="90"/>
+    <tag k="covered" v="no"/>
+    <tag k="fee" v="no"/>
+  </node>
+  <node id="2467872016" lat="52.3745450" lon="4.9119826">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="2"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872019" lat="52.3755918" lon="4.9107413">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="4"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872022" lat="52.3757347" lon="4.9259883">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872023" lat="52.3762856" lon="4.9105081">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="88"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872024" lat="52.3768870" lon="4.9117337">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="100"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872025" lat="52.3765830" lon="4.9118274">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="54"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872026" lat="52.3768923" lon="4.9180406">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872027" lat="52.3769169" lon="4.9178513">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872028" lat="52.3769571" lon="4.9175318">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872033" lat="52.3778574" lon="4.9050179">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="75"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872034" lat="52.3779967" lon="4.9053191">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="30"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872035" lat="52.3783238" lon="4.9051028">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872036" lat="52.3783269" lon="4.9055366">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872040" lat="52.3919183" lon="4.9134290">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="20"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872041" lat="52.3921073" lon="4.9129421">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="20"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2467872043" lat="52.4064362" lon="4.9257136">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="14"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260314" lat="52.2976281" lon="4.9599618">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="wall_loops"/>
+    <tag k="capacity" v="150"/>
+    <tag k="covered" v="yes"/>
+  </node>
+  <node id="2468260316" lat="52.3423700" lon="4.8541643">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="10"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260318" lat="52.3423956" lon="4.8539473">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="10"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260321" lat="52.3424594" lon="4.8548674">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="10"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260324" lat="52.3425425" lon="4.8550426">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="10"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260325" lat="52.3426383" lon="4.8534088">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="10"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260327" lat="52.3427516" lon="4.8533272">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="10"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260329" lat="52.3428986" lon="4.8553955">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="10"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260331" lat="52.3430200" lon="4.8554451">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="10"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260334" lat="52.3432486" lon="4.8554776">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="21"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260338" lat="52.3436367" lon="4.8553312">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="14"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260342" lat="52.3437580" lon="4.8552973">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="14"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260347" lat="52.3439586" lon="4.8528123">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="10"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260352" lat="52.3439921" lon="4.8560328">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="10"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260358" lat="52.3440288" lon="4.8562916">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="10"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260363" lat="52.3440998" lon="4.8552018">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="21"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260368" lat="52.3441119" lon="4.8528751">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="10"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260373" lat="52.3441965" lon="4.8550865">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="10"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260378" lat="52.3443738" lon="4.8548800">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="10"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260382" lat="52.3443865" lon="4.8531182">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="10"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260386" lat="52.3444951" lon="4.8532881">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="10"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260389" lat="52.3445191" lon="4.8546160">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="10"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260393" lat="52.3446117" lon="4.8541794">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="10"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260398" lat="52.3446991" lon="4.8521937">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260403" lat="52.3447269" lon="4.8524075">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260408" lat="52.3447625" lon="4.8526872">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260414" lat="52.3448043" lon="4.8529745">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260419" lat="52.3448097" lon="4.8534604">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="28"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260424" lat="52.3448522" lon="4.8532757">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260429" lat="52.3448847" lon="4.8535958">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260439" lat="52.3449225" lon="4.8538603">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260443" lat="52.3449604" lon="4.8541388">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260445" lat="52.3449952" lon="4.8543931">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260447" lat="52.3450277" lon="4.8546513">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260449" lat="52.3450895" lon="4.8550702">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260451" lat="52.3451266" lon="4.8553460">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260453" lat="52.3451576" lon="4.8556219">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260455" lat="52.3451947" lon="4.8558801">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2468260457" lat="52.3452318" lon="4.8561610">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2469808933" lat="52.3655162" lon="4.8851917">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="14"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2469808934" lat="52.3659344" lon="4.8846641">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2469808935" lat="52.3659584" lon="4.8827790">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="3"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2469808937" lat="52.3659769" lon="4.8825076">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2470843058" lat="52.3450985" lon="4.8547832">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="6"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2470843061" lat="52.3451201" lon="4.8548972">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="10"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2470843074" lat="52.3452858" lon="4.8547086">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2470843087" lat="52.3454966" lon="4.8530465">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2470843093" lat="52.3455772" lon="4.8531228">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="12"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2470843097" lat="52.3456538" lon="4.8529011">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="10"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2470843119" lat="52.3458111" lon="4.8527459">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="10"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2470843123" lat="52.3458168" lon="4.8541140">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="12"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2470843142" lat="52.3459275" lon="4.8525730">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="10"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2470843145" lat="52.3459357" lon="4.8543808">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="6"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2470843166" lat="52.3461631" lon="4.8565442">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2470843175" lat="52.3462327" lon="4.8565094">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2470843185" lat="52.3463091" lon="4.8543308">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2470846460" lat="52.3801193" lon="4.9008034"/>
+  <node id="2470846464" lat="52.3801282" lon="4.9007206"/>
+  <node id="2470846466" lat="52.3801943" lon="4.9008648"/>
+  <node id="2470846467" lat="52.3802253" lon="4.9008314"/>
+  <node id="2470846469" lat="52.3802538" lon="4.9003853"/>
+  <node id="2470846471" lat="52.3802766" lon="4.9003626"/>
+  <node id="2470846473" lat="52.3803468" lon="4.9004734"/>
+  <node id="2470846475" lat="52.3803525" lon="4.9004280"/>
+  <node id="2470866793" lat="52.3766636" lon="4.9196900">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2470866798" lat="52.3767173" lon="4.9193326">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2470866802" lat="52.3767831" lon="4.9188161">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="16"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="2505878178" lat="52.3545506" lon="4.8909468">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="2613311526" lat="52.3719284" lon="4.8465322">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="2624661598" lat="52.3449719" lon="4.9676228"/>
+  <node id="2624661600" lat="52.3448420" lon="4.9674934"/>
+  <node id="2624661602" lat="52.3447818" lon="4.9676736"/>
+  <node id="2624661604" lat="52.3451148" lon="4.9671016"/>
+  <node id="2624661606" lat="52.3452261" lon="4.9671970"/>
+  <node id="2624661608" lat="52.3454412" lon="4.9665244"/>
+  <node id="2624661610" lat="52.3452962" lon="4.9664346"/>
+  <node id="2624932929" lat="52.3985154" lon="4.7930007"/>
+  <node id="2624932930" lat="52.3985166" lon="4.7929305"/>
+  <node id="2624932933" lat="52.3985893" lon="4.7930026"/>
+  <node id="2624932934" lat="52.3985899" lon="4.7929305"/>
+  <node id="2655906628" lat="52.3394067" lon="4.9691889"/>
+  <node id="2655906630" lat="52.3395888" lon="4.9685418"/>
+  <node id="2655906632" lat="52.3395518" lon="4.9684884"/>
+  <node id="2725913962" lat="52.3657300" lon="4.8927739">
+    <tag k="addr:city" v="Amsterdam"/>
+    <tag k="addr:housenumber" v="20"/>
+    <tag k="addr:postcode" v="1017HK"/>
+    <tag k="addr:street" v="Vijzelstraat"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="115"/>
+    <tag k="covered" v="yes"/>
+    <tag k="name" v="Fietspunt Vijzelstraat"/>
+    <tag k="source" v="BAG"/>
+    <tag k="source:date" v="2014-02-11"/>
+    <tag k="website" v="https://www.amsterdam.nl/parkeren-verkeer/fiets/fietsparkeren/fiets-vijzelstraat/"/>
+  </node>
+  <node id="2744201205" lat="52.3791805" lon="4.8980431"/>
+  <node id="2744201206" lat="52.3791843" lon="4.8980322"/>
+  <node id="2744201207" lat="52.3792225" lon="4.8980831"/>
+  <node id="2744201208" lat="52.3792261" lon="4.8980730"/>
+  <node id="2811667255" lat="52.3884979" lon="4.8394186"/>
+  <node id="2811667256" lat="52.3885020" lon="4.8401487"/>
+  <node id="2811667257" lat="52.3883169" lon="4.8401515"/>
+  <node id="2811667258" lat="52.3883128" lon="4.8394214"/>
+  <node id="2814611539" lat="52.3443042" lon="4.8435186"/>
+  <node id="2814611540" lat="52.3443044" lon="4.8435531"/>
+  <node id="2814611543" lat="52.3441829" lon="4.8435191"/>
+  <node id="2814611544" lat="52.3441832" lon="4.8435602"/>
+  <node id="2814611559" lat="52.3443599" lon="4.8435176"/>
+  <node id="2814611560" lat="52.3443602" lon="4.8435521"/>
+  <node id="2814611563" lat="52.3442394" lon="4.8435181"/>
+  <node id="2814611564" lat="52.3442396" lon="4.8435592"/>
+  <node id="2814611566" lat="52.3442404" lon="4.8433842"/>
+  <node id="2814611567" lat="52.3442406" lon="4.8434187"/>
+  <node id="2814611570" lat="52.3442425" lon="4.8435181"/>
+  <node id="2814611572" lat="52.3442428" lon="4.8435537"/>
+  <node id="2814611587" lat="52.3442960" lon="4.8433831"/>
+  <node id="2814611588" lat="52.3442963" lon="4.8434176"/>
+  <node id="2814611593" lat="52.3442978" lon="4.8435171"/>
+  <node id="2814611594" lat="52.3442980" lon="4.8435528"/>
+  <node id="2814611597" lat="52.3443085" lon="4.8433828"/>
+  <node id="2814611598" lat="52.3443087" lon="4.8434172"/>
+  <node id="2814611614" lat="52.3443638" lon="4.8435196"/>
+  <node id="2814611615" lat="52.3443641" lon="4.8435570"/>
+  <node id="2814611616" lat="52.3443642" lon="4.8433818"/>
+  <node id="2814611617" lat="52.3443644" lon="4.8434163"/>
+  <node id="2814611620" lat="52.3443782" lon="4.8433816"/>
+  <node id="2814611621" lat="52.3443784" lon="4.8434161"/>
+  <node id="2814611622" lat="52.3444200" lon="4.8435183"/>
+  <node id="2814611623" lat="52.3444200" lon="4.8435265"/>
+  <node id="2814611624" lat="52.3444203" lon="4.8435558"/>
+  <node id="2814611635" lat="52.3444340" lon="4.8433809"/>
+  <node id="2814611636" lat="52.3444341" lon="4.8434154"/>
+  <node id="2818608142" lat="52.3373007" lon="4.8904156"/>
+  <node id="2818608143" lat="52.3373025" lon="4.8903519"/>
+  <node id="2818608148" lat="52.3373193" lon="4.8903194"/>
+  <node id="2818608149" lat="52.3373207" lon="4.8903770"/>
+  <node id="2818608152" lat="52.3373365" lon="4.8903431"/>
+  <node id="2818608154" lat="52.3373437" lon="4.8904096"/>
+  <node id="2818608156" lat="52.3374130" lon="4.8905049"/>
+  <node id="2818608157" lat="52.3374168" lon="4.8905763"/>
+  <node id="2818608161" lat="52.3374368" lon="4.8905376"/>
+  <node id="2818608162" lat="52.3374387" lon="4.8905402"/>
+  <node id="2818608166" lat="52.3375380" lon="4.8899552"/>
+  <node id="2818608169" lat="52.3376583" lon="4.8901163"/>
+  <node id="2818974094" lat="52.3346792" lon="4.8658994"/>
+  <node id="2818974112" lat="52.3347157" lon="4.8658995"/>
+  <node id="2847316997" lat="52.4039369" lon="4.9086986"/>
+  <node id="2847317057" lat="52.4039865" lon="4.9085891"/>
+  <node id="2847317377" lat="52.4042308" lon="4.9090526"/>
+  <node id="2847317379" lat="52.4042319" lon="4.9090540"/>
+  <node id="2847317413" lat="52.4042812" lon="4.9089449"/>
+  <node id="2853601827" lat="52.3556599" lon="4.9587012"/>
+  <node id="2853601829" lat="52.3556980" lon="4.9586995"/>
+  <node id="2853601830" lat="52.3557358" lon="4.9586977"/>
+  <node id="2874507315" lat="52.2981486" lon="4.8319778">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="2955012136" lat="52.3571747" lon="4.9546585"/>
+  <node id="2955012137" lat="52.3571703" lon="4.9547485"/>
+  <node id="2955012138" lat="52.3571325" lon="4.9547437"/>
+  <node id="2955012139" lat="52.3571369" lon="4.9546536"/>
+  <node id="2998226840" lat="52.2955525" lon="4.9286469">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="3085216714" lat="52.3667673" lon="4.8687466">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="3111728344" lat="52.3123370" lon="4.8788950">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="3118447737" lat="52.3890205" lon="4.8369278">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="3118447738" lat="52.3876240" lon="4.8369948">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="3130890090" lat="52.3622874" lon="4.9060084">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="14"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="3130912405" lat="52.3652890" lon="4.8979817">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="note" v="park early"/>
+  </node>
+  <node id="3130944344" lat="52.3658683" lon="4.8970378"/>
+  <node id="3130944345" lat="52.3659010" lon="4.8970258"/>
+  <node id="3130944346" lat="52.3659354" lon="4.8973543"/>
+  <node id="3130944347" lat="52.3659018" lon="4.8973637"/>
+  <node id="3130947864" lat="52.3639061" lon="4.8980722"/>
+  <node id="3130947865" lat="52.3639184" lon="4.8981554"/>
+  <node id="3130947866" lat="52.3638480" lon="4.8981835"/>
+  <node id="3130947867" lat="52.3638373" lon="4.8981245"/>
+  <node id="3132581807" lat="52.3467637" lon="4.9181123">
+    <tag k="addr:city" v="Amsterdam"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:postcode" v="1097 DN"/>
+    <tag k="addr:street" v="Julianaplein"/>
+    <tag k="alt_name" v="Fietsenstalling Station Amsterdam Amstel"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="1300"/>
+    <tag k="covered" v="yes"/>
+    <tag k="location" v="underground"/>
+    <tag k="moped" v="yes"/>
+    <tag k="old_name" v="Amstel Fietspoint"/>
+    <tag k="operator" v="NS"/>
+    <tag k="service:bicycle:rental" v="yes"/>
+    <tag k="service:bicycle:repair" v="yes"/>
+    <tag k="shop" v="bicycle"/>
+    <tag k="website" v="http://www.ns.nl/stalling-amstel"/>
+  </node>
+  <node id="3223184302" lat="52.3860948" lon="4.7451492"/>
+  <node id="3223184303" lat="52.3860979" lon="4.7454053"/>
+  <node id="3223184305" lat="52.3861120" lon="4.7455068"/>
+  <node id="3223184307" lat="52.3861248" lon="4.7449639"/>
+  <node id="3223184308" lat="52.3861264" lon="4.7454177"/>
+  <node id="3223184309" lat="52.3861364" lon="4.7451672"/>
+  <node id="3223184310" lat="52.3861424" lon="4.7455200"/>
+  <node id="3223184313" lat="52.3862253" lon="4.7450075"/>
+  <node id="3336346069" lat="52.3125369" lon="5.0442261">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="3358016088" lat="52.3034744" lon="4.8580650"/>
+  <node id="3358016089" lat="52.3034871" lon="4.8580739"/>
+  <node id="3358016090" lat="52.3032284" lon="4.8590466"/>
+  <node id="3358016091" lat="52.3032181" lon="4.8590387"/>
+  <node id="3373237646" lat="52.3639023" lon="4.8984317"/>
+  <node id="3373237647" lat="52.3639161" lon="4.8985122"/>
+  <node id="3373237649" lat="52.3639614" lon="4.8983977"/>
+  <node id="3373237650" lat="52.3639753" lon="4.8984833"/>
+  <node id="3384141519" lat="52.3467902" lon="4.9180658">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="yes"/>
+    <tag k="level" v="-1"/>
+    <tag k="name" v="Bewaakte fietsenstalling"/>
+    <tag k="operator" v="Gemeente Amsterdam"/>
+  </node>
+  <node id="3407541859" lat="52.3581435" lon="4.9002853">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="wall_loops"/>
+  </node>
+  <node id="3407541862" lat="52.3582418" lon="4.9007989">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="wall_loops"/>
+  </node>
+  <node id="3407541866" lat="52.3583215" lon="4.9011922">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="wall_loops"/>
+  </node>
+  <node id="3426809055" lat="52.3541814" lon="4.9238228">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="20"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="3426809056" lat="52.3542175" lon="4.9222288">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="3426809057" lat="52.3542321" lon="4.9224450">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="3426809058" lat="52.3542681" lon="4.9221895">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="3426809059" lat="52.3544172" lon="4.9242534">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="3"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="3426809060" lat="52.3549711" lon="4.9254466">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="3492905303" lat="52.3545138" lon="5.0161275"/>
+  <node id="3492905309" lat="52.3548750" lon="5.0160232"/>
+  <node id="3492905328" lat="52.3545500" lon="5.0164636"/>
+  <node id="3492905332" lat="52.3549112" lon="5.0163593"/>
+  <node id="3521913050" lat="52.3722259" lon="4.9159576">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="yes"/>
+  </node>
+  <node id="3608691749" lat="52.3667597" lon="4.9010798">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="3608691750" lat="52.3669276" lon="4.9006642">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="3608691751" lat="52.3669947" lon="4.9004940">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="3608691752" lat="52.3670539" lon="4.9003269">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="3608691753" lat="52.3671074" lon="4.9001948">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="3608691754" lat="52.3671666" lon="4.9000453">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="3608691755" lat="52.3672774" lon="4.8997684">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="3608691756" lat="52.3673541" lon="4.8995774">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="3608691757" lat="52.3674251" lon="4.8994088">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="3608691758" lat="52.3674902" lon="4.8992210">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="3608739236" lat="52.3553545" lon="4.9076610">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="6"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="3608739237" lat="52.3608284" lon="4.9044500">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="3608739238" lat="52.3611152" lon="4.9043125">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="3608739239" lat="52.3613530" lon="4.9041965">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="3608739240" lat="52.3620057" lon="4.9038426">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="3608739241" lat="52.3648807" lon="4.9023978">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="26"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="3608739242" lat="52.3660621" lon="4.9017967">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="14"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="3670419230" lat="52.3220487" lon="4.7930484">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="yes"/>
+    <tag k="fee" v="no"/>
+  </node>
+  <node id="3684128280" lat="52.3225683" lon="4.9560983"/>
+  <node id="3684128282" lat="52.3225201" lon="4.9561400"/>
+  <node id="3684128287" lat="52.3225953" lon="4.9563724"/>
+  <node id="3684128288" lat="52.3226434" lon="4.9563307"/>
+  <node id="3684285925" lat="52.3205570" lon="4.9527921"/>
+  <node id="3684285926" lat="52.3206057" lon="4.9527475"/>
+  <node id="3684285927" lat="52.3206240" lon="4.9529868"/>
+  <node id="3684285929" lat="52.3206727" lon="4.9529422"/>
+  <node id="3684285938" lat="52.3211948" lon="4.9535251"/>
+  <node id="3684285939" lat="52.3212222" lon="4.9536046"/>
+  <node id="3684285940" lat="52.3212421" lon="4.9536628"/>
+  <node id="3684285942" lat="52.3212694" lon="4.9537423"/>
+  <node id="3684285943" lat="52.3213141" lon="4.9534159"/>
+  <node id="3684285944" lat="52.3213310" lon="4.9550463"/>
+  <node id="3684285945" lat="52.3213414" lon="4.9534954"/>
+  <node id="3684285946" lat="52.3213583" lon="4.9551260"/>
+  <node id="3684285947" lat="52.3213613" lon="4.9535536"/>
+  <node id="3684285948" lat="52.3213887" lon="4.9536331"/>
+  <node id="3684285950" lat="52.3214229" lon="4.9549621"/>
+  <node id="3684285951" lat="52.3214503" lon="4.9550418"/>
+  <node id="3684285956" lat="52.3216807" lon="4.9560623"/>
+  <node id="3684285958" lat="52.3217294" lon="4.9560177"/>
+  <node id="3684285959" lat="52.3217476" lon="4.9562570"/>
+  <node id="3684285962" lat="52.3217964" lon="4.9562124"/>
+  <node id="3686283669" lat="52.3021877" lon="4.9194460"/>
+  <node id="3686283673" lat="52.3022728" lon="4.9197192"/>
+  <node id="3686283679" lat="52.3024764" lon="4.9195382"/>
+  <node id="3686283683" lat="52.3025489" lon="4.9204513"/>
+  <node id="3686283685" lat="52.3026457" lon="4.9207067"/>
+  <node id="3686283691" lat="52.3027969" lon="4.9202057"/>
+  <node id="3686283694" lat="52.3028614" lon="4.9205139"/>
+  <node id="3686283696" lat="52.3028795" lon="4.9204282"/>
+  <node id="3692827299" lat="52.3046678" lon="4.8845870"/>
+  <node id="3692827300" lat="52.3046629" lon="4.8848477"/>
+  <node id="3692827301" lat="52.3044937" lon="4.8848393"/>
+  <node id="3692827302" lat="52.3044985" lon="4.8845786"/>
+  <node id="3706365625" lat="52.3533760" lon="4.8542779">
+    <tag k="addr:city" v="Amsterdam"/>
+    <tag k="addr:housenumber" v="26"/>
+    <tag k="addr:postcode" v="1075 TT"/>
+    <tag k="addr:street" v="2e Schinkelstraat"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="yes"/>
+    <tag k="name" v="Schinkel-Stalling"/>
+  </node>
+  <node id="3773661677" lat="52.4075974" lon="4.9166283"/>
+  <node id="3773661678" lat="52.4074742" lon="4.9169131"/>
+  <node id="3773661679" lat="52.4073513" lon="4.9167749"/>
+  <node id="3773661680" lat="52.4074793" lon="4.9164848"/>
+  <node id="3773763556" lat="52.3958970" lon="4.9261242"/>
+  <node id="3773765557" lat="52.3957254" lon="4.9268689"/>
+  <node id="3773765562" lat="52.3956907" lon="4.9268505">
+    <tag k="barrier" v="gate"/>
+  </node>
+  <node id="3773765563" lat="52.3958669" lon="4.9261089">
+    <tag k="barrier" v="gate"/>
+  </node>
+  <node id="3773765571" lat="52.3952144" lon="4.9260445"/>
+  <node id="3773765572" lat="52.3951753" lon="4.9260218"/>
+  <node id="3773765573" lat="52.3951406" lon="4.9261819"/>
+  <node id="3773765574" lat="52.3951798" lon="4.9262047"/>
+  <node id="3774807574" lat="52.3100760" lon="4.9413629"/>
+  <node id="3774807575" lat="52.3101019" lon="4.9414348"/>
+  <node id="3774807576" lat="52.3100031" lon="4.9415298"/>
+  <node id="3774814357" lat="52.3099773" lon="4.9414579"/>
+  <node id="3783290662" lat="52.4016314" lon="4.9180310"/>
+  <node id="3783290663" lat="52.4017182" lon="4.9180981"/>
+  <node id="3783290664" lat="52.4015709" lon="4.9186801"/>
+  <node id="3783290665" lat="52.4014825" lon="4.9186238"/>
+  <node id="3783793282" lat="52.3671483" lon="4.8903570"/>
+  <node id="3783793283" lat="52.3671693" lon="4.8907044"/>
+  <node id="3783793285" lat="52.3671654" lon="4.8907316"/>
+  <node id="3783793286" lat="52.3672152" lon="4.8903826"/>
+  <node id="3783793287" lat="52.3672109" lon="4.8904130"/>
+  <node id="3783793288" lat="52.3670985" lon="4.8907060"/>
+  <node id="3784672824" lat="52.2932643" lon="4.8732594"/>
+  <node id="3784672825" lat="52.2932084" lon="4.8734947"/>
+  <node id="3784672826" lat="52.2931556" lon="4.8734611"/>
+  <node id="3784672827" lat="52.2932115" lon="4.8732258"/>
+  <node id="3803531124" lat="52.3544310" lon="4.9547381">
+    <tag k="barrier" v="gate"/>
+  </node>
+  <node id="3803531915" lat="52.3557546" lon="4.9586949"/>
+  <node id="3803531916" lat="52.3557463" lon="4.9585232"/>
+  <node id="3803531917" lat="52.3556912" lon="4.9584194">
+    <tag k="barrier" v="gate"/>
+  </node>
+  <node id="3803531918" lat="52.3556705" lon="4.9584194"/>
+  <node id="3803531919" lat="52.3556050" lon="4.9585097"/>
+  <node id="3803531920" lat="52.3556083" lon="4.9586972"/>
+  <node id="3803531951" lat="52.3551768" lon="4.9558535"/>
+  <node id="3803622370" lat="52.4266194" lon="4.9093753"/>
+  <node id="3803622371" lat="52.4265116" lon="4.9095282"/>
+  <node id="3803622372" lat="52.4265425" lon="4.9096577"/>
+  <node id="3803622373" lat="52.4265544" lon="4.9096683"/>
+  <node id="3803622374" lat="52.4263406" lon="4.9090585"/>
+  <node id="3803622375" lat="52.4263791" lon="4.9090828"/>
+  <node id="3803622376" lat="52.4263707" lon="4.9091194"/>
+  <node id="3803622377" lat="52.4263319" lon="4.9090951"/>
+  <node id="3808339581" lat="52.3773122" lon="4.9033334"/>
+  <node id="3808339582" lat="52.3772746" lon="4.9032011"/>
+  <node id="3808339583" lat="52.3772643" lon="4.9030945"/>
+  <node id="3808339584" lat="52.3772786" lon="4.9029680"/>
+  <node id="3820090988" lat="52.3802502" lon="4.9003949"/>
+  <node id="3874280598" lat="52.2888427" lon="4.8555109"/>
+  <node id="3874280599" lat="52.2887556" lon="4.8562126"/>
+  <node id="3874280600" lat="52.2887283" lon="4.8562079"/>
+  <node id="3874280601" lat="52.2888124" lon="4.8555029"/>
+  <node id="3898433585" lat="52.3396730" lon="4.8738084"/>
+  <node id="3898433587" lat="52.3396869" lon="4.8738071"/>
+  <node id="3898433598" lat="52.3397672" lon="4.8764587"/>
+  <node id="3898433600" lat="52.3397849" lon="4.8764605"/>
+  <node id="3898433617" lat="52.3406817" lon="4.8731129"/>
+  <node id="3898433618" lat="52.3406824" lon="4.8731624"/>
+  <node id="3898433620" lat="52.3406872" lon="4.8732902"/>
+  <node id="3898433621" lat="52.3406885" lon="4.8733428"/>
+  <node id="3898433622" lat="52.3406771" lon="4.8734273"/>
+  <node id="3898433623" lat="52.3406784" lon="4.8734800"/>
+  <node id="3898433636" lat="52.3409230" lon="4.8730955"/>
+  <node id="3898433637" lat="52.3409242" lon="4.8731482"/>
+  <node id="3898433638" lat="52.3409358" lon="4.8734106"/>
+  <node id="3898433639" lat="52.3409371" lon="4.8734633"/>
+  <node id="3898433640" lat="52.3410149" lon="4.8732672"/>
+  <node id="3898433641" lat="52.3410162" lon="4.8733225"/>
+  <node id="3901345974" lat="52.2944963" lon="4.9602773"/>
+  <node id="3901345975" lat="52.2945193" lon="4.9603149"/>
+  <node id="3901345976" lat="52.2944504" lon="4.9607440"/>
+  <node id="3901345977" lat="52.2941682" lon="4.9606072"/>
+  <node id="3901345978" lat="52.2941151" lon="4.9604590"/>
+  <node id="3903371084" lat="52.3883228" lon="4.8403288"/>
+  <node id="3903371085" lat="52.3883310" lon="4.8411057"/>
+  <node id="3903371086" lat="52.3884930" lon="4.8403239"/>
+  <node id="3903371087" lat="52.3885013" lon="4.8411009"/>
+  <node id="3974022112" lat="52.3570360" lon="4.9799031"/>
+  <node id="3974022113" lat="52.3569472" lon="4.9803153"/>
+  <node id="3974022114" lat="52.3568507" lon="4.9802595"/>
+  <node id="3974022118" lat="52.3569394" lon="4.9798474"/>
+  <node id="4105376415" lat="52.4042106" lon="4.9214680">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="4105376416" lat="52.4042458" lon="4.9213328"/>
+  <node id="4105376417" lat="52.4041988" lon="4.9212992"/>
+  <node id="4105376418" lat="52.4041341" lon="4.9215319"/>
+  <node id="4105376419" lat="52.4041794" lon="4.9215655"/>
+  <node id="4185943843" lat="52.2889942" lon="4.8723907"/>
+  <node id="4185943850" lat="52.2890320" lon="4.8724163"/>
+  <node id="4185943851" lat="52.2890300" lon="4.8722496"/>
+  <node id="4185943853" lat="52.2890678" lon="4.8722752"/>
+  <node id="4213703689" lat="52.3451065" lon="4.9123245">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="rack"/>
+    <tag k="capacity" v="8"/>
+  </node>
+  <node id="4311324292" lat="52.3331567" lon="4.8639857"/>
+  <node id="4311324293" lat="52.3331577" lon="4.8646362"/>
+  <node id="4311324333" lat="52.3332067" lon="4.8670661"/>
+  <node id="4311324334" lat="52.3332079" lon="4.8669849"/>
+  <node id="4311324335" lat="52.3330318" lon="4.8669779"/>
+  <node id="4311324336" lat="52.3330306" lon="4.8670591"/>
+  <node id="4311341531" lat="52.3347753" lon="4.8653621"/>
+  <node id="4311341532" lat="52.3347747" lon="4.8659633"/>
+  <node id="4311341533" lat="52.3347157" lon="4.8659632"/>
+  <node id="4311341534" lat="52.3348419" lon="4.8683614"/>
+  <node id="4311341535" lat="52.3346802" lon="4.8681288"/>
+  <node id="4311341536" lat="52.3346820" lon="4.8677104"/>
+  <node id="4311341537" lat="52.3348454" lon="4.8677123"/>
+  <node id="4311341542" lat="52.3382042" lon="4.8688435"/>
+  <node id="4311341543" lat="52.3382081" lon="4.8689544"/>
+  <node id="4311341544" lat="52.3388490" lon="4.8688926"/>
+  <node id="4311341545" lat="52.3388450" lon="4.8687816"/>
+  <node id="4318521929" lat="52.3766295" lon="4.9130784"/>
+  <node id="4318521930" lat="52.3766370" lon="4.9130757"/>
+  <node id="4318521931" lat="52.3766289" lon="4.9129935"/>
+  <node id="4318521932" lat="52.3766213" lon="4.9129961"/>
+  <node id="4340380316" lat="52.3182204" lon="4.9498129"/>
+  <node id="4340380317" lat="52.3182573" lon="4.9497794"/>
+  <node id="4340380318" lat="52.3182819" lon="4.9499899"/>
+  <node id="4340380319" lat="52.3183204" lon="4.9499604"/>
+  <node id="4340380322" lat="52.3190418" lon="4.9481311"/>
+  <node id="4340380323" lat="52.3190764" lon="4.9482358"/>
+  <node id="4340380324" lat="52.3191107" lon="4.9482093"/>
+  <node id="4340380325" lat="52.3191246" lon="4.9483793"/>
+  <node id="4340380326" lat="52.3191517" lon="4.9483471"/>
+  <node id="4340380327" lat="52.3191902" lon="4.9493757"/>
+  <node id="4340380329" lat="52.3192004" lon="4.9494020"/>
+  <node id="4340380331" lat="52.3192510" lon="4.9493031"/>
+  <node id="4340380332" lat="52.3192632" lon="4.9492832"/>
+  <node id="4340380334" lat="52.3192661" lon="4.9493419"/>
+  <node id="4340380335" lat="52.3192755" lon="4.9491893"/>
+  <node id="4340380337" lat="52.3192837" lon="4.9492899"/>
+  <node id="4340380339" lat="52.3192951" lon="4.9491879"/>
+  <node id="4340380344" lat="52.3217785" lon="4.9522155"/>
+  <node id="4340380347" lat="52.3219851" lon="4.9522324"/>
+  <node id="4340380354" lat="52.3222204" lon="4.9519057"/>
+  <node id="4340380356" lat="52.3222355" lon="4.9519580"/>
+  <node id="4340380357" lat="52.3222372" lon="4.9517173"/>
+  <node id="4340380359" lat="52.3222528" lon="4.9517036"/>
+  <node id="4340380360" lat="52.3222573" lon="4.9517790"/>
+  <node id="4340380366" lat="52.3242065" lon="4.9592697"/>
+  <node id="4340380367" lat="52.3242174" lon="4.9593009"/>
+  <node id="4340380370" lat="52.3242875" lon="4.9591942"/>
+  <node id="4340380371" lat="52.3242986" lon="4.9592252"/>
+  <node id="4340380373" lat="52.3243532" lon="4.9591329"/>
+  <node id="4340380374" lat="52.3243589" lon="4.9593099"/>
+  <node id="4340380375" lat="52.3243641" lon="4.9591641"/>
+  <node id="4340380376" lat="52.3247386" lon="4.9589160"/>
+  <node id="4340380377" lat="52.3247510" lon="4.9587976"/>
+  <node id="4340380379" lat="52.3247620" lon="4.9589843"/>
+  <node id="4340380380" lat="52.3247639" lon="4.9588338"/>
+  <node id="4340380381" lat="52.3247661" lon="4.9588907"/>
+  <node id="4340380382" lat="52.3247791" lon="4.9588787"/>
+  <node id="4340380383" lat="52.3247898" lon="4.9589590"/>
+  <node id="4340380384" lat="52.3248025" lon="4.9589475"/>
+  <node id="4340380444" lat="52.3217932" lon="4.9522566"/>
+  <node id="4340380445" lat="52.3218040" lon="4.9523429"/>
+  <node id="4340380446" lat="52.3218178" lon="4.9523839"/>
+  <node id="4340380448" lat="52.3218653" lon="4.9521878"/>
+  <node id="4340380450" lat="52.3218903" lon="4.9522646"/>
+  <node id="4340380451" lat="52.3219045" lon="4.9523054"/>
+  <node id="4340380454" lat="52.3219359" lon="4.9520653"/>
+  <node id="4340380456" lat="52.3219506" lon="4.9521064"/>
+  <node id="4340380457" lat="52.3219712" lon="4.9521913"/>
+  <node id="4340380461" lat="52.3223470" lon="4.9517877"/>
+  <node id="4340380462" lat="52.3223519" lon="4.9516133"/>
+  <node id="4340380463" lat="52.3223658" lon="4.9518461"/>
+  <node id="4340380464" lat="52.3223704" lon="4.9516757"/>
+  <node id="4340380474" lat="52.3243745" lon="4.9593475"/>
+  <node id="4340380476" lat="52.3244516" lon="4.9592281"/>
+  <node id="4340380477" lat="52.3244639" lon="4.9592643"/>
+  <node id="4340380485" lat="52.3246329" lon="4.9589103"/>
+  <node id="4340380486" lat="52.3246408" lon="4.9590061"/>
+  <node id="4340380487" lat="52.3246458" lon="4.9589465"/>
+  <node id="4340380488" lat="52.3246640" lon="4.9590736"/>
+  <node id="4340380491" lat="52.3269713" lon="4.9666749"/>
+  <node id="4340380493" lat="52.3269959" lon="4.9667610"/>
+  <node id="4340380495" lat="52.3270085" lon="4.9667956"/>
+  <node id="4340380504" lat="52.3271808" lon="4.9664043"/>
+  <node id="4340380509" lat="52.3273276" lon="4.9663135"/>
+  <node id="4340380510" lat="52.3273349" lon="4.9663356"/>
+  <node id="4340380511" lat="52.3273651" lon="4.9664160"/>
+  <node id="4340380513" lat="52.3273735" lon="4.9664405"/>
+  <node id="4340380598" lat="52.3267696" lon="4.9668090"/>
+  <node id="4340380599" lat="52.3267856" lon="4.9668513"/>
+  <node id="4340380600" lat="52.3269141" lon="4.9668355"/>
+  <node id="4340380601" lat="52.3269286" lon="4.9668714"/>
+  <node id="4340380602" lat="52.3269565" lon="4.9666387"/>
+  <node id="4340380604" lat="52.3271980" lon="4.9664565"/>
+  <node id="4340380611" lat="52.3272544" lon="4.9663393"/>
+  <node id="4340380613" lat="52.3272660" lon="4.9663291"/>
+  <node id="4340380614" lat="52.3272719" lon="4.9663912"/>
+  <node id="4340380615" lat="52.3272759" lon="4.9663591"/>
+  <node id="4340380616" lat="52.3272785" lon="4.9664957"/>
+  <node id="4340380617" lat="52.3272883" lon="4.9665188"/>
+  <node id="4357618699" lat="52.3015945" lon="4.8750825">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="4426415729" lat="52.2874543" lon="4.8503235"/>
+  <node id="4426415730" lat="52.2874447" lon="4.8503160"/>
+  <node id="4426415731" lat="52.2875359" lon="4.8496060"/>
+  <node id="4426415732" lat="52.2875585" lon="4.8496148"/>
+  <node id="4426415733" lat="52.2874650" lon="4.8503236"/>
+  <node id="4428091797" lat="52.3622785" lon="4.8836642">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="yes"/>
+    <tag k="name" v="Fietsp. Paradiso"/>
+    <tag k="operator" v="Pantar"/>
+    <tag k="underground" v="yes"/>
+  </node>
+  <node id="4450903757" lat="52.3333621" lon="4.8646446"/>
+  <node id="4450903760" lat="52.3331598" lon="4.8643190"/>
+  <node id="4450903764" lat="52.3335221" lon="4.8646444"/>
+  <node id="4450903769" lat="52.3335226" lon="4.8639903"/>
+  <node id="4450903770" lat="52.3335253" lon="4.8642320"/>
+  <node id="4459669416" lat="52.3281830" lon="5.0509610"/>
+  <node id="4459669417" lat="52.3282033" lon="5.0509165"/>
+  <node id="4459669418" lat="52.3282731" lon="5.0510710"/>
+  <node id="4459669419" lat="52.3282934" lon="5.0510265"/>
+  <node id="4462875134" lat="52.3022202" lon="4.9493449">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="level" v="0"/>
+  </node>
+  <node id="4463945397" lat="52.4199661" lon="4.9074349"/>
+  <node id="4463945398" lat="52.4199351" lon="4.9074004"/>
+  <node id="4463945399" lat="52.4198725" lon="4.9075640"/>
+  <node id="4463945400" lat="52.4198997" lon="4.9075935"/>
+  <node id="4475916053" lat="52.3668971" lon="4.9016095">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="entrance" v="yes"/>
+  </node>
+  <node id="4489495336" lat="52.3771361" lon="4.9032683"/>
+  <node id="4489495340" lat="52.3771437" lon="4.9028937"/>
+  <node id="4489495351" lat="52.3770182" lon="4.9035984"/>
+  <node id="4489495352" lat="52.3772913" lon="4.9034171"/>
+  <node id="4489495353" lat="52.3770640" lon="4.9032073"/>
+  <node id="4489495357" lat="52.3769494" lon="4.9035287"/>
+  <node id="4523376986" lat="52.3182367" lon="4.8530000"/>
+  <node id="4523380719" lat="52.3182363" lon="4.8528250"/>
+  <node id="4523380720" lat="52.3185675" lon="4.8528541"/>
+  <node id="4523380721" lat="52.3185691" lon="4.8529940"/>
+  <node id="4573664559" lat="52.3633926" lon="4.9134448">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="4573664560" lat="52.3640133" lon="4.9113419">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="4699951418" lat="52.3074440" lon="4.8073854">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="yes"/>
+    <tag k="fee" v="no"/>
+    <tag k="supervised" v="no"/>
+  </node>
+  <node id="4709891598" lat="52.3969739" lon="4.7954558"/>
+  <node id="4709891599" lat="52.3968123" lon="4.7954756"/>
+  <node id="4709891602" lat="52.3968147" lon="4.7956435"/>
+  <node id="4709891604" lat="52.3968121" lon="4.7954619"/>
+  <node id="4709891605" lat="52.3969765" lon="4.7956374"/>
+  <node id="4732235693" lat="52.3023350" lon="4.9193023"/>
+  <node id="4732235697" lat="52.3024517" lon="4.9194639"/>
+  <node id="4732235699" lat="52.3024071" lon="4.9194973"/>
+  <node id="4738627821" lat="52.3641140" lon="4.8341170">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="4743709993" lat="52.3349560" lon="5.0050503"/>
+  <node id="4743709994" lat="52.3350466" lon="5.0050128"/>
+  <node id="4760428325" lat="52.3548616" lon="4.9796765"/>
+  <node id="4760428326" lat="52.3548158" lon="4.9798989"/>
+  <node id="4760428328" lat="52.3550355" lon="4.9800202"/>
+  <node id="4760428334" lat="52.3550813" lon="4.9797978"/>
+  <node id="4791525495" lat="52.3790844" lon="4.8978346"/>
+  <node id="4791525496" lat="52.3791383" lon="4.8978981"/>
+  <node id="4791525497" lat="52.3793651" lon="4.8973818"/>
+  <node id="4791525498" lat="52.3793350" lon="4.8973463"/>
+  <node id="4791525499" lat="52.3793709" lon="4.8972644"/>
+  <node id="4791525500" lat="52.3793472" lon="4.8972364"/>
+  <node id="4791525501" lat="52.3791251" lon="4.8981547"/>
+  <node id="4791525502" lat="52.3788658" lon="4.8988630"/>
+  <node id="4791525503" lat="52.3788031" lon="4.8988013"/>
+  <node id="4791525504" lat="52.3790623" lon="4.8980931"/>
+  <node id="4828224404" lat="52.3119592" lon="5.0435416">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="4885479132" lat="52.3540691" lon="4.9062379">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="4886265954" lat="52.3486304" lon="4.9178173">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="4886265957" lat="52.3482366" lon="4.9172731">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="4888232713" lat="52.4265579" lon="4.9093365"/>
+  <node id="4896009062" lat="52.3629547" lon="4.8838828"/>
+  <node id="4896009063" lat="52.3630546" lon="4.8840183"/>
+  <node id="4896009064" lat="52.3633609" lon="4.8835275"/>
+  <node id="4896009065" lat="52.3633347" lon="4.8834175"/>
+  <node id="4896009066" lat="52.3628990" lon="4.8836991"/>
+  <node id="4905726898" lat="52.3377005" lon="4.8737024"/>
+  <node id="4905726899" lat="52.3369581" lon="4.8737668"/>
+  <node id="4905726900" lat="52.3369433" lon="4.8733296"/>
+  <node id="4905726901" lat="52.3376808" lon="4.8732679"/>
+  <node id="4906834721" lat="52.3776983" lon="4.8064590">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="operator" v="FATHI TEBRIL"/>
+  </node>
+  <node id="4938195551" lat="52.3527097" lon="4.9479781"/>
+  <node id="4938195552" lat="52.3527368" lon="4.9479068"/>
+  <node id="4938195553" lat="52.3529418" lon="4.9479018"/>
+  <node id="4938195554" lat="52.3528458" lon="4.9481258"/>
+  <node id="4938195555" lat="52.3526549" lon="4.9478165"/>
+  <node id="4938195556" lat="52.3527218" lon="4.9476549"/>
+  <node id="4938206536" lat="52.3568253" lon="4.9565364"/>
+  <node id="4938206537" lat="52.3567371" lon="4.9565387"/>
+  <node id="4938206538" lat="52.3567360" lon="4.9564459"/>
+  <node id="4938206539" lat="52.3568240" lon="4.9564434"/>
+  <node id="4945655923" lat="52.3724969" lon="4.8827161">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="4946833722" lat="52.3737411" lon="4.9007808">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="4949258069" lat="52.3567545" lon="4.8336745"/>
+  <node id="4949258070" lat="52.3567545" lon="4.8338640"/>
+  <node id="4949258071" lat="52.3572183" lon="4.8338548"/>
+  <node id="4949258072" lat="52.3572174" lon="4.8336730"/>
+  <node id="4949522112" lat="52.4082353" lon="4.9144516"/>
+  <node id="4949522113" lat="52.4084204" lon="4.9146696"/>
+  <node id="4949522114" lat="52.4083528" lon="4.9148290"/>
+  <node id="4949522115" lat="52.4081672" lon="4.9146064"/>
+  <node id="4969218909" lat="52.3551232" lon="4.8675118">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="rack"/>
+    <tag k="capacity" v="25"/>
+    <tag k="source" v="Mapillary"/>
+  </node>
+  <node id="5058045660" lat="52.3518439" lon="4.9291916">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="name" v="Bicycle parking"/>
+  </node>
+  <node id="5058045663" lat="52.3516480" lon="4.9330511">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="name" v="Bicycle parking"/>
+  </node>
+  <node id="5058391509" lat="52.3442283" lon="4.8433871"/>
+  <node id="5058391510" lat="52.3442283" lon="4.8434164"/>
+  <node id="5058391511" lat="52.3441784" lon="4.8434195"/>
+  <node id="5058391512" lat="52.3441794" lon="4.8433886"/>
+  <node id="5058451121" lat="52.3692489" lon="4.8968340">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="5090973050" lat="52.2799411" lon="4.9718572"/>
+  <node id="5090973051" lat="52.2800110" lon="4.9721472"/>
+  <node id="5090973052" lat="52.2800883" lon="4.9720765"/>
+  <node id="5090973053" lat="52.2800110" lon="4.9718254"/>
+  <node id="5120507507" lat="52.3067594" lon="5.0493349"/>
+  <node id="5120507508" lat="52.3067864" lon="5.0495279"/>
+  <node id="5120507509" lat="52.3065945" lon="5.0496046"/>
+  <node id="5120507510" lat="52.3065689" lon="5.0493930"/>
+  <node id="5157211419" lat="52.3406931" lon="4.8731618"/>
+  <node id="5160333966" lat="52.3369510" lon="4.8735571"/>
+  <node id="5263433491" lat="52.3847220" lon="4.9176648"/>
+  <node id="5263433492" lat="52.3847234" lon="4.9176916"/>
+  <node id="5263433493" lat="52.3846614" lon="4.9177068"/>
+  <node id="5263433494" lat="52.3846650" lon="4.9176753"/>
+  <node id="5263433495" lat="52.3846950" lon="4.9176628"/>
+  <node id="5263433496" lat="52.3848089" lon="4.9175679"/>
+  <node id="5263433497" lat="52.3847850" lon="4.9176128"/>
+  <node id="5263433498" lat="52.3847986" lon="4.9176309"/>
+  <node id="5263433499" lat="52.3848228" lon="4.9175854"/>
+  <node id="5263433500" lat="52.3846742" lon="4.9177995"/>
+  <node id="5263433501" lat="52.3846255" lon="4.9178921"/>
+  <node id="5263433502" lat="52.3846149" lon="4.9178772"/>
+  <node id="5263433503" lat="52.3846635" lon="4.9177835"/>
+  <node id="5276120726" lat="52.3556406" lon="4.9248376">
+    <tag k="access" v="yes"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+    <tag k="operator" v="Amsterdam Council"/>
+  </node>
+  <node id="5308570347" lat="52.3848556" lon="4.9177071"/>
+  <node id="5308570348" lat="52.3848880" lon="4.9177655"/>
+  <node id="5308570349" lat="52.3849102" lon="4.9177257"/>
+  <node id="5308570350" lat="52.3848788" lon="4.9176726"/>
+  <node id="5308570351" lat="52.3844771" lon="4.9178478"/>
+  <node id="5308570352" lat="52.3844117" lon="4.9178610"/>
+  <node id="5308570353" lat="52.3844025" lon="4.9178938"/>
+  <node id="5308570354" lat="52.3844754" lon="4.9178752"/>
+  <node id="5352655129" lat="52.3760321" lon="4.9067637">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="1600"/>
+    <tag k="covered" v="yes"/>
+    <tag k="fee" v="no"/>
+    <tag k="layer" v="-1"/>
+    <tag k="opening_hours" v="24/7"/>
+  </node>
+  <node id="5354783819" lat="52.3368875" lon="4.8635995"/>
+  <node id="5354783820" lat="52.3368888" lon="4.8637840"/>
+  <node id="5354784621" lat="52.3368604" lon="4.8637846"/>
+  <node id="5354784622" lat="52.3368591" lon="4.8636001"/>
+  <node id="5354784623" lat="52.3368882" lon="4.8639214"/>
+  <node id="5354784624" lat="52.3368611" lon="4.8639219"/>
+  <node id="5354784625" lat="52.3368627" lon="4.8641250"/>
+  <node id="5354784626" lat="52.3368897" lon="4.8641244"/>
+  <node id="5471158311" lat="52.3330814" lon="4.9836482"/>
+  <node id="5471158312" lat="52.3330755" lon="4.9837940"/>
+  <node id="5471158313" lat="52.3330198" lon="4.9837880"/>
+  <node id="5471158314" lat="52.3330257" lon="4.9836422"/>
+  <node id="5471192575" lat="52.3336097" lon="4.9782803"/>
+  <node id="5471192576" lat="52.3335800" lon="4.9784155"/>
+  <node id="5471192577" lat="52.3336034" lon="4.9784293"/>
+  <node id="5471192578" lat="52.3336331" lon="4.9782941"/>
+  <node id="5471192591" lat="52.3337749" lon="4.9785102"/>
+  <node id="5471192592" lat="52.3337331" lon="4.9787127"/>
+  <node id="5471192593" lat="52.3337567" lon="4.9787258"/>
+  <node id="5471192594" lat="52.3337984" lon="4.9785233"/>
+  <node id="5528976280" lat="52.3660809" lon="4.8937638">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="fee" v="no"/>
+    <tag k="guarded" v="yes"/>
+    <tag k="layer" v="-1"/>
+  </node>
+  <node id="5533629680" lat="52.3457342" lon="4.9676804"/>
+  <node id="5533629681" lat="52.3455263" lon="4.9674840"/>
+  <node id="5533629684" lat="52.3454021" lon="4.9665253"/>
+  <node id="5533629685" lat="52.3454107" lon="4.9664983"/>
+  <node id="5533629686" lat="52.3452349" lon="4.9666264"/>
+  <node id="5533629687" lat="52.3452599" lon="4.9666478"/>
+  <node id="5535652240" lat="52.3213273" lon="4.8478814"/>
+  <node id="5535652241" lat="52.3210633" lon="4.8482287"/>
+  <node id="5535652242" lat="52.3209961" lon="4.8481429"/>
+  <node id="5535652243" lat="52.3212723" lon="4.8477929"/>
+  <node id="5577913194" lat="52.3381603" lon="4.9771114"/>
+  <node id="5577913195" lat="52.3381357" lon="4.9771892"/>
+  <node id="5577913196" lat="52.3381686" lon="4.9772170"/>
+  <node id="5577913197" lat="52.3381932" lon="4.9771392"/>
+  <node id="5585965464" lat="52.3375662" lon="4.9657563"/>
+  <node id="5585965465" lat="52.3375484" lon="4.9658649"/>
+  <node id="5585965466" lat="52.3375589" lon="4.9658695"/>
+  <node id="5585965467" lat="52.3375766" lon="4.9657609"/>
+  <node id="5585965468" lat="52.3375829" lon="4.9656481"/>
+  <node id="5585965469" lat="52.3375727" lon="4.9657107"/>
+  <node id="5585965470" lat="52.3375832" lon="4.9657153"/>
+  <node id="5585965471" lat="52.3375934" lon="4.9656527"/>
+  <node id="5585995718" lat="52.3378097" lon="4.9641092"/>
+  <node id="5585995719" lat="52.3377995" lon="4.9641718"/>
+  <node id="5585995720" lat="52.3378100" lon="4.9641764"/>
+  <node id="5585995721" lat="52.3378202" lon="4.9641138"/>
+  <node id="5586030818" lat="52.3379173" lon="4.9634743"/>
+  <node id="5586030819" lat="52.3379071" lon="4.9635369"/>
+  <node id="5586030820" lat="52.3379176" lon="4.9635415"/>
+  <node id="5586030821" lat="52.3379278" lon="4.9634789"/>
+  <node id="5596376130" lat="52.4179313" lon="4.8272322">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="15"/>
+    <tag k="covered" v="no"/>
+  </node>
+  <node id="5598599408" lat="52.3234642" lon="4.9905650">
+    <tag k="access" v="customers"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="5634847959" lat="52.4286308" lon="4.9131225"/>
+  <node id="5634847960" lat="52.4286248" lon="4.9131458"/>
+  <node id="5634847961" lat="52.4287866" lon="4.9132571"/>
+  <node id="5634847962" lat="52.4287926" lon="4.9132338"/>
+  <node id="5634847963" lat="52.4289252" lon="4.9129615"/>
+  <node id="5634847964" lat="52.4289140" lon="4.9129598"/>
+  <node id="5634847965" lat="52.4289052" lon="4.9131224"/>
+  <node id="5634847966" lat="52.4289164" lon="4.9131241"/>
+  <node id="5634847970" lat="52.4291738" lon="4.9127728"/>
+  <node id="5634847971" lat="52.4291680" lon="4.9127955"/>
+  <node id="5634847972" lat="52.4291332" lon="4.9127718"/>
+  <node id="5634847973" lat="52.4291390" lon="4.9127491"/>
+  <node id="5634847974" lat="52.4294305" lon="4.9135179"/>
+  <node id="5634847975" lat="52.4294125" lon="4.9135088"/>
+  <node id="5634847976" lat="52.4294428" lon="4.9133470"/>
+  <node id="5634847977" lat="52.4294607" lon="4.9133560"/>
+  <node id="5634848010" lat="52.4294593" lon="4.9137917"/>
+  <node id="5634848011" lat="52.4294420" lon="4.9137876"/>
+  <node id="5634848012" lat="52.4294358" lon="4.9138570"/>
+  <node id="5634848013" lat="52.4294531" lon="4.9138612"/>
+  <node id="5634848044" lat="52.4283197" lon="4.9148023"/>
+  <node id="5634848045" lat="52.4283086" lon="4.9148019"/>
+  <node id="5634848046" lat="52.4283101" lon="4.9146938"/>
+  <node id="5634848047" lat="52.4283212" lon="4.9146942"/>
+  <node id="5649808727" lat="52.3684213" lon="4.9468809"/>
+  <node id="5649808731" lat="52.3681144" lon="4.9468179"/>
+  <node id="5649808733" lat="52.3681152" lon="4.9468891"/>
+  <node id="5649808734" lat="52.3684206" lon="4.9468096"/>
+  <node id="5650331928" lat="52.3054654" lon="4.8025653">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="lockers"/>
+    <tag k="capacity" v="8"/>
+    <tag k="covered" v="yes"/>
+    <tag k="fee" v="no"/>
+    <tag k="supervised" v="no"/>
+  </node>
+  <node id="5658709618" lat="52.3800774" lon="4.8986793">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="building"/>
+    <tag k="covered" v="yes"/>
+    <tag k="fee" v="yes"/>
+    <tag k="indoor" v="yes"/>
+    <tag k="level" v="0"/>
+    <tag k="lit" v="yes"/>
+    <tag k="supervised" v="yes"/>
+    <tag k="surface" v="paved"/>
+  </node>
+  <node id="5667429650" lat="52.3604929" lon="4.9310053"/>
+  <node id="5667429651" lat="52.3605046" lon="4.9310947"/>
+  <node id="5667429652" lat="52.3605176" lon="4.9311650"/>
+  <node id="5667429653" lat="52.3605371" lon="4.9312331"/>
+  <node id="5667429654" lat="52.3605644" lon="4.9313097"/>
+  <node id="5667429655" lat="52.3605930" lon="4.9313715"/>
+  <node id="5667429656" lat="52.3606216" lon="4.9314183"/>
+  <node id="5667429657" lat="52.3607061" lon="4.9313608"/>
+  <node id="5667429658" lat="52.3605800" lon="4.9309563"/>
+  <node id="5667429659" lat="52.3604247" lon="4.9305850"/>
+  <node id="5667429660" lat="52.3604579" lon="4.9304127"/>
+  <node id="5667429661" lat="52.3604223" lon="4.9303913"/>
+  <node id="5667429662" lat="52.3603891" lon="4.9305654"/>
+  <node id="5667429663" lat="52.3603837" lon="4.9317781"/>
+  <node id="5667429664" lat="52.3606385" lon="4.9315673"/>
+  <node id="5667429665" lat="52.3606216" lon="4.9315226"/>
+  <node id="5667429666" lat="52.3603694" lon="4.9317312"/>
+  <node id="5667429667" lat="52.3606389" lon="4.9303313"/>
+  <node id="5667429668" lat="52.3610065" lon="4.9305141"/>
+  <node id="5667429669" lat="52.3610143" lon="4.9304722"/>
+  <node id="5667429670" lat="52.3606467" lon="4.9302894"/>
+  <node id="5715916359" lat="52.3293144" lon="4.9311354"/>
+  <node id="5715916360" lat="52.3292483" lon="4.9311959"/>
+  <node id="5715916361" lat="52.3293289" lon="4.9314314"/>
+  <node id="5715916362" lat="52.3293949" lon="4.9313710"/>
+  <node id="5730694503" lat="52.4280518" lon="5.0739437"/>
+  <node id="5730694504" lat="52.4280218" lon="5.0740747"/>
+  <node id="5730694505" lat="52.4280189" lon="5.0739233"/>
+  <node id="5730694506" lat="52.4279888" lon="5.0740543"/>
+  <node id="5737703286" lat="52.4015355" lon="4.9309734"/>
+  <node id="5737703287" lat="52.4013528" lon="4.9307522"/>
+  <node id="5737703288" lat="52.4012912" lon="4.9308888"/>
+  <node id="5737703289" lat="52.4014739" lon="4.9311101"/>
+  <node id="5747433778" lat="52.4006453" lon="4.9330451">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="yes"/>
+  </node>
+  <node id="5825714204" lat="52.3722300" lon="4.8895769"/>
+  <node id="5825714205" lat="52.3721506" lon="4.8895633"/>
+  <node id="5825714206" lat="52.3721532" lon="4.8895228"/>
+  <node id="5825714207" lat="52.3722326" lon="4.8895364"/>
+  <node id="5825714208" lat="52.3721918" lon="4.8894700"/>
+  <node id="5825714209" lat="52.3720823" lon="4.8894513"/>
+  <node id="5825714210" lat="52.3720848" lon="4.8894108"/>
+  <node id="5825714211" lat="52.3721943" lon="4.8894295"/>
+  <node id="5825714212" lat="52.3710343" lon="4.8893263"/>
+  <node id="5825714213" lat="52.3709248" lon="4.8893076"/>
+  <node id="5825714214" lat="52.3709273" lon="4.8892671"/>
+  <node id="5825714215" lat="52.3710368" lon="4.8892859"/>
+  <node id="5825714216" lat="52.3704152" lon="4.8891895"/>
+  <node id="5825714217" lat="52.3703275" lon="4.8891745"/>
+  <node id="5825714218" lat="52.3703301" lon="4.8891340"/>
+  <node id="5825714219" lat="52.3704178" lon="4.8891490"/>
+  <node id="5825714220" lat="52.3702082" lon="4.8891386"/>
+  <node id="5825714221" lat="52.3701640" lon="4.8891272"/>
+  <node id="5825714222" lat="52.3701679" lon="4.8890870"/>
+  <node id="5825714223" lat="52.3702121" lon="4.8890984"/>
+  <node id="5825714224" lat="52.3697470" lon="4.8889955"/>
+  <node id="5825714225" lat="52.3697218" lon="4.8889874"/>
+  <node id="5825714226" lat="52.3697163" lon="4.8889609"/>
+  <node id="5825714227" lat="52.3697498" lon="4.8889717"/>
+  <node id="5825714228" lat="52.3697059" lon="4.8888877"/>
+  <node id="5825714229" lat="52.3698037" lon="4.8889165"/>
+  <node id="5825714230" lat="52.3698072" lon="4.8888852"/>
+  <node id="5825714231" lat="52.3697093" lon="4.8888563"/>
+  <node id="5825714232" lat="52.3694320" lon="4.8888481"/>
+  <node id="5825714233" lat="52.3694287" lon="4.8888879"/>
+  <node id="5825714235" lat="52.3693436" lon="4.8888282"/>
+  <node id="5825714236" lat="52.3693403" lon="4.8888680"/>
+  <node id="5825714238" lat="52.3690761" lon="4.8888121"/>
+  <node id="5825714239" lat="52.3689482" lon="4.8888181"/>
+  <node id="5825714240" lat="52.3689476" lon="4.8887879"/>
+  <node id="5825714241" lat="52.3690756" lon="4.8887819"/>
+  <node id="5825714242" lat="52.3690898" lon="4.8887236"/>
+  <node id="5825714243" lat="52.3689618" lon="4.8887296"/>
+  <node id="5825714244" lat="52.3689613" lon="4.8886994"/>
+  <node id="5825714245" lat="52.3690893" lon="4.8886934"/>
+  <node id="5839002683" lat="52.4221430" lon="4.9477262">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="5839003990" lat="52.4216991" lon="4.9487707">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="5844793420" lat="52.3346816" lon="4.8683625"/>
+  <node id="5856758372" lat="52.3607433" lon="4.9826567"/>
+  <node id="5856758373" lat="52.3608375" lon="4.9828861"/>
+  <node id="5856758374" lat="52.3608522" lon="4.9828699"/>
+  <node id="5856758375" lat="52.3607579" lon="4.9826405"/>
+  <node id="5856758376" lat="52.3613289" lon="4.9820458"/>
+  <node id="5856758377" lat="52.3614891" lon="4.9824355"/>
+  <node id="5856758378" lat="52.3615038" lon="4.9824194"/>
+  <node id="5856758379" lat="52.3613436" lon="4.9820296"/>
+  <node id="5866569025" lat="52.3434965" lon="5.0137872">
+    <tag k="access" v="yes"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="rack"/>
+    <tag k="capacity" v="6"/>
+    <tag k="fee" v="no"/>
+    <tag k="lit" v="yes"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="smoothness" v="intermediate"/>
+    <tag k="supervised" v="no"/>
+    <tag k="surface" v="unpaved"/>
+  </node>
+  <node id="5884578005" lat="52.3736312" lon="4.9419129"/>
+  <node id="5884578006" lat="52.3735526" lon="4.9419953"/>
+  <node id="5884578007" lat="52.3735409" lon="4.9419654"/>
+  <node id="5884578008" lat="52.3736195" lon="4.9418829"/>
+  <node id="5884578009" lat="52.3731068" lon="4.9424886"/>
+  <node id="5884578010" lat="52.3729954" lon="4.9426039"/>
+  <node id="5884578011" lat="52.3729845" lon="4.9425756"/>
+  <node id="5884578012" lat="52.3730959" lon="4.9424603"/>
+  <node id="5888646985" lat="52.2921640" lon="4.9743862">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="5888647085" lat="52.2920762" lon="4.9747460">
+    <tag k="amenity" v="bicycle_parking"/>
+  </node>
+  <node id="5891728657" lat="52.3054783" lon="4.8025875">
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="60"/>
+    <tag k="fee" v="no"/>
+    <tag k="supervised" v="no"/>
+  </node>
+  <node id="5897038261" lat="52.3757404" lon="4.8446185"/>
+  <node id="5897038262" lat="52.3758947" lon="4.8446809"/>
+  <node id="5897038263" lat="52.3757464" lon="4.8445789"/>
+  <node id="5897038269" lat="52.3759006" lon="4.8446413"/>
+  <node id="5897039169" lat="52.3764828" lon="4.8448122"/>
+  <node id="5897039170" lat="52.3767665" lon="4.8449215"/>
+  <node id="5897039174" lat="52.3764704" lon="4.8449020"/>
+  <node id="5897039175" lat="52.3767214" lon="4.8449673"/>
+  <node id="5897039221" lat="52.3765956" lon="4.8449502"/>
+  <node id="5897039222" lat="52.3764931" lon="4.8449107"/>
+  <node id="5897039223" lat="52.3767170" lon="4.8449970"/>
+  <node id="5897039226" lat="52.3767943" lon="4.8449954"/>
+  <node id="5897108280" lat="52.3779584" lon="4.8452277"/>
+  <node id="5897108281" lat="52.3780441" lon="4.8456688"/>
+  <node id="5897108282" lat="52.3780589" lon="4.8456611"/>
+  <node id="5897108283" lat="52.3779732" lon="4.8452200"/>
+  <node id="5897108284" lat="52.3779338" lon="4.8449756"/>
+  <node id="5897108985" lat="52.3779478" lon="4.8448184"/>
+  <node id="5897108986" lat="52.3779391" lon="4.8451355"/>
+  <node id="5897108987" lat="52.3779544" lon="4.8451340"/>
+  <node id="5897108988" lat="52.3779488" lon="4.8449792"/>
+  <node id="5897108989" lat="52.3779628" lon="4.8448220"/>
+  <node id="5897144803" lat="52.3781618" lon="4.8461856"/>
+  <node id="5897144804" lat="52.3781424" lon="4.8461962"/>
+  <node id="5897144805" lat="52.3781827" lon="4.8462890"/>
+  <node id="5897144806" lat="52.3781633" lon="4.8462995"/>
+  <node id="5897144807" lat="52.3782012" lon="4.8463802"/>
+  <node id="5897144808" lat="52.3781818" lon="4.8463907"/>
+  <node id="5897144809" lat="52.3782408" lon="4.8465755"/>
+  <node id="5897144810" lat="52.3782214" lon="4.8465860"/>
+  <node id="5897144811" lat="52.3783362" lon="4.8470462"/>
+  <node id="5897144812" lat="52.3782510" lon="4.8466259"/>
+  <node id="5897144813" lat="52.3782316" lon="4.8466364"/>
+  <node id="5897144814" lat="52.3783168" lon="4.8470568"/>
+  <node id="5897144815" lat="52.3785289" lon="4.8470343"/>
+  <node id="5897144816" lat="52.3785426" lon="4.8471027"/>
+  <node id="5897144821" lat="52.3786066" lon="4.8470682"/>
+  <node id="5897144822" lat="52.3785929" lon="4.8469998"/>
+  <node id="5897144823" lat="52.3787703" lon="4.8469039"/>
+  <node id="5897144824" lat="52.3787840" lon="4.8469724"/>
+  <node id="5897144825" lat="52.3788460" lon="4.8468630"/>
+  <node id="5897144826" lat="52.3788598" lon="4.8469314"/>
+  <node id="5897144827" lat="52.3790620" lon="4.8467464"/>
+  <node id="5897144828" lat="52.3794033" lon="4.8465621"/>
+  <node id="5897144829" lat="52.3794412" lon="4.8466174"/>
+  <node id="5897144830" lat="52.3790758" lon="4.8468148"/>
+  <node id="5897144987" lat="52.3795174" lon="4.8454803"/>
+  <node id="5897144988" lat="52.3795055" lon="4.8457881"/>
+  <node id="5897144989" lat="52.3795214" lon="4.8457897"/>
+  <node id="5897144990" lat="52.3795333" lon="4.8454819"/>
+  <node id="5899631527" lat="52.3725783" lon="4.8407070"/>
+  <node id="5899631528" lat="52.3725751" lon="4.8409282"/>
+  <node id="5899631529" lat="52.3725965" lon="4.8409290"/>
+  <node id="5899631530" lat="52.3725997" lon="4.8407078"/>
+  <node id="5899631531" lat="52.3729520" lon="4.8413064"/>
+  <node id="5899631532" lat="52.3727485" lon="4.8413210"/>
+  <node id="5899631533" lat="52.3727476" lon="4.8412866"/>
+  <node id="5899631534" lat="52.3729511" lon="4.8412721"/>
+  <node id="5899631535" lat="52.3729387" lon="4.8412302"/>
+  <node id="5899631536" lat="52.3727508" lon="4.8412437"/>
+  <node id="5899631537" lat="52.3727498" lon="4.8412093"/>
+  <node id="5899631538" lat="52.3729378" lon="4.8411958"/>
+  <node id="5899631803" lat="52.3737904" lon="4.8390203"/>
+  <node id="5899631804" lat="52.3737741" lon="4.8392869"/>
+  <node id="5899631805" lat="52.3738162" lon="4.8392938"/>
+  <node id="5899631806" lat="52.3738324" lon="4.8390272"/>
+  <way id="23148057">
+    <nd ref="250060834"/>
+    <nd ref="250060835"/>
+    <nd ref="250060837"/>
+    <nd ref="250060838"/>
+    <nd ref="250060834"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="building" v="yes"/>
+    <tag k="capacity" v="2500"/>
+    <tag k="covered" v="yes"/>
+    <tag k="layer" v="1"/>
+    <tag k="name" v="Fietsflat Amsterdam Centraal"/>
+  </way>
+  <way id="23637597">
+    <nd ref="256073377"/>
+    <nd ref="256073378"/>
+    <nd ref="256073379"/>
+    <nd ref="256073380"/>
+    <nd ref="256073377"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="35099546">
+    <nd ref="411759750"/>
+    <nd ref="411759751"/>
+    <nd ref="411759752"/>
+    <nd ref="411759753"/>
+    <nd ref="411759750"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="55117814">
+    <nd ref="693174015"/>
+    <nd ref="693166728"/>
+    <nd ref="693162955"/>
+    <nd ref="693175356"/>
+    <nd ref="693174015"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="source" v="3dShapes"/>
+  </way>
+  <way id="57862628">
+    <nd ref="717810674"/>
+    <nd ref="717820870"/>
+    <nd ref="2744201208"/>
+    <nd ref="2744201207"/>
+    <nd ref="2744201205"/>
+    <nd ref="2744201206"/>
+    <nd ref="717774734"/>
+    <nd ref="717821354"/>
+    <nd ref="717810674"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="building" v="yes"/>
+    <tag k="name" v="OV-fiets"/>
+    <tag k="ref:bag" v="363100012170977"/>
+    <tag k="source" v="BAG"/>
+    <tag k="source:date" v="2014-03-24"/>
+    <tag k="start_date" v="1005"/>
+    <tag k="supervised" v="yes"/>
+  </way>
+  <way id="67498390">
+    <nd ref="814763667"/>
+    <nd ref="293133298"/>
+    <nd ref="293133738"/>
+    <nd ref="814763652"/>
+    <nd ref="814763667"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="1100"/>
+    <tag k="covered" v="no"/>
+    <tag k="layer" v="1"/>
+  </way>
+  <way id="76823254">
+    <nd ref="904967823"/>
+    <nd ref="3803531951"/>
+    <nd ref="904967868"/>
+    <nd ref="904967834"/>
+    <nd ref="3803531124"/>
+    <nd ref="904967858"/>
+    <nd ref="1558267032"/>
+    <nd ref="904967823"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="fenced" v="yes"/>
+  </way>
+  <way id="99017969">
+    <nd ref="1145528419"/>
+    <nd ref="1145528420"/>
+    <nd ref="1145528417"/>
+    <nd ref="1145528389"/>
+    <nd ref="1145528419"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="rack"/>
+  </way>
+  <way id="118729255">
+    <nd ref="1334693479"/>
+    <nd ref="1334693468"/>
+    <nd ref="1334693469"/>
+    <nd ref="1334693470"/>
+    <nd ref="1334693479"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="500"/>
+    <tag k="covered" v="yes"/>
+    <tag k="fee" v="no"/>
+    <tag k="layer" v="-1"/>
+    <tag k="location" v="underground"/>
+    <tag k="note" v="Underground free parking"/>
+  </way>
+  <way id="132317203">
+    <nd ref="1455763442"/>
+    <nd ref="1455763444"/>
+    <nd ref="1455763441"/>
+    <nd ref="1455763443"/>
+    <nd ref="1455763442"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="building" v="yes"/>
+    <tag k="covered" v="yes"/>
+    <tag k="layer" v="-1"/>
+    <tag k="location" v="underground"/>
+    <tag k="name" v="Fietspunt Station Zuid WTC"/>
+  </way>
+  <way id="142388792">
+    <nd ref="1558266766"/>
+    <nd ref="1558266739"/>
+    <nd ref="1558266648"/>
+    <nd ref="1558266695"/>
+    <nd ref="1558266766"/>
+    <tag k="access" v="private"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="shed"/>
+    <tag k="covered" v="yes"/>
+  </way>
+  <way id="156094116">
+    <nd ref="1683935951"/>
+    <nd ref="1683935955"/>
+    <nd ref="1683935957"/>
+    <nd ref="1683935932"/>
+    <nd ref="1683935951"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="200"/>
+    <tag k="covered" v="no"/>
+    <tag k="name" v="Fietsenstalling Raamplein"/>
+  </way>
+  <way id="167786077">
+    <nd ref="1791448481"/>
+    <nd ref="1791448476"/>
+    <nd ref="1791448483"/>
+    <nd ref="1791448479"/>
+    <nd ref="1791448481"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="176215212">
+    <nd ref="1867617673"/>
+    <nd ref="1867617675"/>
+    <nd ref="1867617674"/>
+    <nd ref="1867617672"/>
+    <nd ref="1867617668"/>
+    <nd ref="1867617666"/>
+    <nd ref="1867617673"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="lockers"/>
+    <tag k="covered" v="yes"/>
+  </way>
+  <way id="176215213">
+    <nd ref="1867617669"/>
+    <nd ref="1867617670"/>
+    <nd ref="1867617667"/>
+    <nd ref="1867617671"/>
+    <nd ref="1867617665"/>
+    <nd ref="1867617664"/>
+    <nd ref="1867617663"/>
+    <nd ref="1867617662"/>
+    <nd ref="1867617669"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="lockers"/>
+    <tag k="covered" v="yes"/>
+  </way>
+  <way id="187266076">
+    <nd ref="1979941838"/>
+    <nd ref="1979941759"/>
+    <nd ref="1979941770"/>
+    <nd ref="1979941780"/>
+    <nd ref="1979941838"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="192153624">
+    <nd ref="2027140155"/>
+    <nd ref="2027140157"/>
+    <nd ref="2027140153"/>
+    <nd ref="2027140163"/>
+    <nd ref="2027140155"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="211258066">
+    <nd ref="2212804884"/>
+    <nd ref="2212804874"/>
+    <nd ref="2212804870"/>
+    <nd ref="2212804864"/>
+    <nd ref="2212804863"/>
+    <nd ref="2212804868"/>
+    <nd ref="2212804872"/>
+    <nd ref="2212804883"/>
+    <nd ref="2212804884"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="100"/>
+    <tag k="covered" v="no"/>
+    <tag k="name" v="Fietsenstalling Singel"/>
+  </way>
+  <way id="239284260">
+    <nd ref="2470846475"/>
+    <nd ref="2470846473"/>
+    <nd ref="2470846467"/>
+    <nd ref="2470846466"/>
+    <nd ref="2470846460"/>
+    <nd ref="2470846464"/>
+    <nd ref="3820090988"/>
+    <nd ref="2470846469"/>
+    <nd ref="2470846471"/>
+    <nd ref="2470846475"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+    <tag k="layer" v="1"/>
+    <tag k="level" v="-1"/>
+  </way>
+  <way id="256836086">
+    <nd ref="2624661598"/>
+    <nd ref="2624661600"/>
+    <nd ref="2624661602"/>
+    <nd ref="891933849"/>
+    <nd ref="891924478"/>
+    <nd ref="2624661598"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="256836087">
+    <nd ref="2624661604"/>
+    <nd ref="2624661606"/>
+    <nd ref="2624661608"/>
+    <nd ref="5533629685"/>
+    <nd ref="5533629684"/>
+    <nd ref="2624661610"/>
+    <nd ref="5533629686"/>
+    <nd ref="5533629687"/>
+    <nd ref="2624661604"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="lit" v="yes"/>
+  </way>
+  <way id="256868922">
+    <nd ref="2624932933"/>
+    <nd ref="2624932929"/>
+    <nd ref="2624932930"/>
+    <nd ref="2624932934"/>
+    <nd ref="2624932933"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="shed"/>
+  </way>
+  <way id="260103581">
+    <nd ref="2655906628"/>
+    <nd ref="2655906630"/>
+    <nd ref="2655906632"/>
+    <nd ref="2218829188"/>
+    <nd ref="2218829189"/>
+    <nd ref="2655906628"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="276562552">
+    <nd ref="2811667255"/>
+    <nd ref="2811667256"/>
+    <nd ref="2811667257"/>
+    <nd ref="2811667258"/>
+    <nd ref="2811667255"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="276902210">
+    <nd ref="2814611588"/>
+    <nd ref="2814611567"/>
+    <nd ref="2814611566"/>
+    <nd ref="2814611587"/>
+    <nd ref="2814611588"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="shed"/>
+    <tag k="ref:bag" v="363100012187470"/>
+    <tag k="source" v="BAG"/>
+    <tag k="source:date" v="2014-03-24"/>
+    <tag k="start_date" v="1998"/>
+  </way>
+  <way id="276902216">
+    <nd ref="2814611617"/>
+    <nd ref="2814611598"/>
+    <nd ref="2814611597"/>
+    <nd ref="2814611616"/>
+    <nd ref="2814611617"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="shed"/>
+    <tag k="ref:bag" v="363100012187469"/>
+    <tag k="source" v="BAG"/>
+    <tag k="source:date" v="2014-03-24"/>
+    <tag k="start_date" v="1998"/>
+  </way>
+  <way id="276902219">
+    <nd ref="2814611594"/>
+    <nd ref="2814611572"/>
+    <nd ref="2814611570"/>
+    <nd ref="2814611593"/>
+    <nd ref="2814611594"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="shed"/>
+    <tag k="ref:bag" v="363100012218856"/>
+    <tag k="source" v="BAG"/>
+    <tag k="source:date" v="2014-03-24"/>
+    <tag k="start_date" v="1998"/>
+  </way>
+  <way id="276902224">
+    <nd ref="2814611636"/>
+    <nd ref="2814611621"/>
+    <nd ref="2814611620"/>
+    <nd ref="2814611635"/>
+    <nd ref="2814611636"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="shed"/>
+    <tag k="ref:bag" v="363100012187468"/>
+    <tag k="source" v="BAG"/>
+    <tag k="source:date" v="2014-03-24"/>
+    <tag k="start_date" v="1998"/>
+  </way>
+  <way id="276902231">
+    <nd ref="2814611564"/>
+    <nd ref="2814611544"/>
+    <nd ref="2814611543"/>
+    <nd ref="2814611563"/>
+    <nd ref="2814611564"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="shed"/>
+    <tag k="ref:bag" v="363100012218955"/>
+    <tag k="source" v="BAG"/>
+    <tag k="source:date" v="2014-03-24"/>
+    <tag k="start_date" v="1998"/>
+  </way>
+  <way id="276902235">
+    <nd ref="2814611560"/>
+    <nd ref="2814611540"/>
+    <nd ref="2814611539"/>
+    <nd ref="2814611559"/>
+    <nd ref="2814611560"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="shed"/>
+    <tag k="ref:bag" v="363100012187466"/>
+    <tag k="source" v="BAG"/>
+    <tag k="source:date" v="2014-03-24"/>
+    <tag k="start_date" v="1998"/>
+  </way>
+  <way id="276902243">
+    <nd ref="2814611624"/>
+    <nd ref="2814611615"/>
+    <nd ref="2814611614"/>
+    <nd ref="2814611622"/>
+    <nd ref="2814611623"/>
+    <nd ref="2814611624"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="shed"/>
+    <tag k="ref:bag" v="363100012218954"/>
+    <tag k="source" v="BAG"/>
+    <tag k="source:date" v="2014-03-24"/>
+    <tag k="start_date" v="1998"/>
+  </way>
+  <way id="277321029">
+    <nd ref="2818608169"/>
+    <nd ref="2818608162"/>
+    <nd ref="2818608161"/>
+    <nd ref="2818608157"/>
+    <nd ref="2818608156"/>
+    <nd ref="2818608154"/>
+    <nd ref="2818608142"/>
+    <nd ref="2818608149"/>
+    <nd ref="2818608143"/>
+    <nd ref="2818608148"/>
+    <nd ref="2818608152"/>
+    <nd ref="2818608166"/>
+    <nd ref="2818608169"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="ref:bag" v="363100012067135"/>
+    <tag k="source" v="BAG"/>
+    <tag k="source:date" v="2014-03-24"/>
+    <tag k="start_date" v="1995"/>
+  </way>
+  <way id="280660553">
+    <nd ref="2847317377"/>
+    <nd ref="2847316997"/>
+    <nd ref="2847317057"/>
+    <nd ref="2847317413"/>
+    <nd ref="2847317379"/>
+    <nd ref="2847317377"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="building" v="yes"/>
+    <tag k="ref:bag" v="363100012221920"/>
+    <tag k="source" v="BAG"/>
+    <tag k="source:date" v="2014-05-07"/>
+    <tag k="start_date" v="1973"/>
+  </way>
+  <way id="291989024">
+    <nd ref="2955012136"/>
+    <nd ref="2955012137"/>
+    <nd ref="2955012138"/>
+    <nd ref="2955012139"/>
+    <nd ref="2955012136"/>
+    <tag k="access" v="private"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="shed"/>
+    <tag k="covered" v="yes"/>
+  </way>
+  <way id="307861957">
+    <nd ref="3130944344"/>
+    <nd ref="3130944345"/>
+    <nd ref="3130944346"/>
+    <nd ref="3130944347"/>
+    <nd ref="3130944344"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="Free"/>
+    <tag k="capacity" v="50"/>
+  </way>
+  <way id="307863331">
+    <nd ref="3130947864"/>
+    <nd ref="3130947865"/>
+    <nd ref="3130947866"/>
+    <nd ref="3130947867"/>
+    <nd ref="3130947864"/>
+    <tag k="access" v="permissive"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="Unofficial"/>
+    <tag k="capacity" v="100"/>
+  </way>
+  <way id="316207707">
+    <nd ref="3223184313"/>
+    <nd ref="3223184307"/>
+    <nd ref="3223184302"/>
+    <nd ref="3223184309"/>
+    <nd ref="3223184303"/>
+    <nd ref="3223184308"/>
+    <nd ref="3223184305"/>
+    <nd ref="3223184310"/>
+    <nd ref="3223184313"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="source" v="Gemeente Haarlemmerliede en Spaarnwoude"/>
+  </way>
+  <way id="328983411">
+    <nd ref="3358016088"/>
+    <nd ref="3358016089"/>
+    <nd ref="3358016090"/>
+    <nd ref="3358016091"/>
+    <nd ref="3358016088"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+  </way>
+  <way id="330361072">
+    <nd ref="3373237649"/>
+    <nd ref="3373237650"/>
+    <nd ref="3373237647"/>
+    <nd ref="3373237646"/>
+    <nd ref="3373237649"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+  </way>
+  <way id="342267697">
+    <nd ref="3492905303"/>
+    <nd ref="3492905309"/>
+    <nd ref="3492905332"/>
+    <nd ref="3492905328"/>
+    <nd ref="3492905303"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="364380123">
+    <nd ref="3684128280"/>
+    <nd ref="3684128282"/>
+    <nd ref="3684128287"/>
+    <nd ref="3684128288"/>
+    <nd ref="3684128280"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="364391698">
+    <nd ref="3684285938"/>
+    <nd ref="3684285939"/>
+    <nd ref="3684285945"/>
+    <nd ref="3684285943"/>
+    <nd ref="3684285938"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="building" v="yes"/>
+    <tag k="ref:bag" v="363100012244332"/>
+    <tag k="source" v="BAG"/>
+    <tag k="source:date" v="2015-08-06"/>
+    <tag k="start_date" v="2015"/>
+  </way>
+  <way id="364391699">
+    <nd ref="3684285925"/>
+    <nd ref="3684285927"/>
+    <nd ref="3684285929"/>
+    <nd ref="3684285926"/>
+    <nd ref="3684285925"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="building" v="yes"/>
+    <tag k="ref:bag" v="363100012244329"/>
+    <tag k="source" v="BAG"/>
+    <tag k="source:date" v="2015-08-06"/>
+    <tag k="start_date" v="2015"/>
+  </way>
+  <way id="364391700">
+    <nd ref="3684285944"/>
+    <nd ref="3684285946"/>
+    <nd ref="3684285951"/>
+    <nd ref="3684285950"/>
+    <nd ref="3684285944"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="building" v="yes"/>
+    <tag k="ref:bag" v="363100012244335"/>
+    <tag k="source" v="BAG"/>
+    <tag k="source:date" v="2015-08-06"/>
+    <tag k="start_date" v="2015"/>
+  </way>
+  <way id="364391701">
+    <nd ref="3684285940"/>
+    <nd ref="3684285942"/>
+    <nd ref="3684285948"/>
+    <nd ref="3684285947"/>
+    <nd ref="3684285940"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="building" v="yes"/>
+    <tag k="ref:bag" v="363100012244333"/>
+    <tag k="source" v="BAG"/>
+    <tag k="source:date" v="2015-08-06"/>
+    <tag k="start_date" v="2015"/>
+  </way>
+  <way id="364391706">
+    <nd ref="3684285956"/>
+    <nd ref="3684285959"/>
+    <nd ref="3684285962"/>
+    <nd ref="3684285958"/>
+    <nd ref="3684285956"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="building" v="yes"/>
+    <tag k="ref:bag" v="363100012244337"/>
+    <tag k="source" v="BAG"/>
+    <tag k="source:date" v="2015-08-06"/>
+    <tag k="start_date" v="2015"/>
+  </way>
+  <way id="364590652">
+    <nd ref="4732235697"/>
+    <nd ref="3686283679"/>
+    <nd ref="3686283673"/>
+    <nd ref="3686283669"/>
+    <nd ref="4732235693"/>
+    <nd ref="4732235699"/>
+    <nd ref="4732235697"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="364590656">
+    <nd ref="3686283691"/>
+    <nd ref="3686283683"/>
+    <nd ref="3686283685"/>
+    <nd ref="3686283694"/>
+    <nd ref="3686283696"/>
+    <nd ref="3686283691"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="365245570">
+    <nd ref="3692827299"/>
+    <nd ref="3692827300"/>
+    <nd ref="3692827301"/>
+    <nd ref="3692827302"/>
+    <nd ref="3692827299"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="no"/>
+  </way>
+  <way id="373939921">
+    <nd ref="3773661677"/>
+    <nd ref="3773661678"/>
+    <nd ref="3773661679"/>
+    <nd ref="3773661680"/>
+    <nd ref="3773661677"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="373953856">
+    <nd ref="3773765571"/>
+    <nd ref="3773765572"/>
+    <nd ref="3773765573"/>
+    <nd ref="3773765574"/>
+    <nd ref="3773765571"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="building"/>
+    <tag k="building" v="yes"/>
+  </way>
+  <way id="374073230">
+    <nd ref="3774807574"/>
+    <nd ref="3774807575"/>
+    <nd ref="3774807576"/>
+    <nd ref="3774814357"/>
+    <nd ref="3774807574"/>
+    <tag k="access" v="private"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="yes"/>
+  </way>
+  <way id="374946798">
+    <nd ref="3783290662"/>
+    <nd ref="3783290663"/>
+    <nd ref="3783290664"/>
+    <nd ref="3783290665"/>
+    <nd ref="3783290662"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="rack"/>
+  </way>
+  <way id="374996083">
+    <nd ref="3783793285"/>
+    <nd ref="3783793283"/>
+    <nd ref="3783793287"/>
+    <nd ref="3783793286"/>
+    <nd ref="3783793282"/>
+    <nd ref="3783793288"/>
+    <nd ref="3783793285"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="boat"/>
+    <tag k="building" v="boat"/>
+    <tag k="capacity" v="100"/>
+    <tag k="covered" v="no"/>
+    <tag k="name" v="Fietsenstalling Singel"/>
+  </way>
+  <way id="375077983">
+    <nd ref="3784672824"/>
+    <nd ref="3784672825"/>
+    <nd ref="3784672826"/>
+    <nd ref="3784672827"/>
+    <nd ref="3784672824"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="yes"/>
+  </way>
+  <way id="376762657">
+    <nd ref="4489495336"/>
+    <nd ref="4489495352"/>
+    <nd ref="3808339581"/>
+    <nd ref="3808339582"/>
+    <nd ref="3808339583"/>
+    <nd ref="3808339584"/>
+    <nd ref="4489495340"/>
+    <nd ref="4489495353"/>
+    <nd ref="4489495357"/>
+    <nd ref="4489495351"/>
+    <nd ref="4489495336"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </way>
+  <way id="376982204">
+    <nd ref="2853601830"/>
+    <nd ref="3803531915"/>
+    <nd ref="3803531916"/>
+    <nd ref="3803531917"/>
+    <nd ref="3803531918"/>
+    <nd ref="3803531919"/>
+    <nd ref="3803531920"/>
+    <nd ref="2853601827"/>
+    <nd ref="2853601829"/>
+    <nd ref="2853601830"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="376991426">
+    <nd ref="3803622370"/>
+    <nd ref="4888232713"/>
+    <nd ref="3803622371"/>
+    <nd ref="3803622372"/>
+    <nd ref="3803622373"/>
+    <nd ref="3803622370"/>
+    <tag k="access" v="private"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="yes"/>
+  </way>
+  <way id="376991427">
+    <nd ref="3803622374"/>
+    <nd ref="3803622375"/>
+    <nd ref="3803622376"/>
+    <nd ref="3803622377"/>
+    <nd ref="3803622374"/>
+    <tag k="access" v="private"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="yes"/>
+  </way>
+  <way id="384138294">
+    <nd ref="3874280598"/>
+    <nd ref="3874280599"/>
+    <nd ref="3874280600"/>
+    <nd ref="3874280601"/>
+    <nd ref="3874280598"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="no"/>
+  </way>
+  <way id="386499101">
+    <nd ref="3898433585"/>
+    <nd ref="3898433598"/>
+    <nd ref="3898433600"/>
+    <nd ref="3898433587"/>
+    <nd ref="3898433585"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="rack"/>
+    <tag k="covered" v="no"/>
+  </way>
+  <way id="386499102">
+    <nd ref="3898433617"/>
+    <nd ref="3898433618"/>
+    <nd ref="5157211419"/>
+    <nd ref="3898433637"/>
+    <nd ref="3898433636"/>
+    <nd ref="3898433617"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="rack"/>
+    <tag k="covered" v="yes"/>
+  </way>
+  <way id="386499103">
+    <nd ref="3898433622"/>
+    <nd ref="3898433623"/>
+    <nd ref="3898433639"/>
+    <nd ref="3898433638"/>
+    <nd ref="3898433622"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="rack"/>
+    <tag k="covered" v="yes"/>
+  </way>
+  <way id="386499107">
+    <nd ref="3898433620"/>
+    <nd ref="3898433621"/>
+    <nd ref="3898433641"/>
+    <nd ref="3898433640"/>
+    <nd ref="3898433620"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="rack"/>
+    <tag k="covered" v="yes"/>
+  </way>
+  <way id="386787648">
+    <nd ref="3901345978"/>
+    <nd ref="46055840"/>
+    <nd ref="1154767278"/>
+    <nd ref="1154737983"/>
+    <nd ref="1154711944"/>
+    <nd ref="1154834309"/>
+    <nd ref="1154693983"/>
+    <nd ref="1154807201"/>
+    <nd ref="1154772543"/>
+    <nd ref="3901345976"/>
+    <nd ref="3901345977"/>
+    <nd ref="3901345978"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="wall_loops"/>
+    <tag k="capacity" v="100"/>
+    <tag k="covered" v="no"/>
+  </way>
+  <way id="386787649">
+    <nd ref="3901345974"/>
+    <nd ref="3901345975"/>
+    <nd ref="3901345976"/>
+    <nd ref="1154730765"/>
+    <nd ref="1154706219"/>
+    <nd ref="1154820328"/>
+    <nd ref="1154793203"/>
+    <nd ref="1154762610"/>
+    <nd ref="1154733320"/>
+    <nd ref="1154708832"/>
+    <nd ref="1154770053"/>
+    <nd ref="1154740996"/>
+    <nd ref="3901345974"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="wall_loops"/>
+    <tag k="capacity" v="100"/>
+    <tag k="covered" v="no"/>
+  </way>
+  <way id="386997399">
+    <nd ref="3903371086"/>
+    <nd ref="3903371087"/>
+    <nd ref="3903371085"/>
+    <nd ref="3903371084"/>
+    <nd ref="3903371086"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="394389222">
+    <nd ref="3974022118"/>
+    <nd ref="3974022114"/>
+    <nd ref="3974022113"/>
+    <nd ref="3974022112"/>
+    <nd ref="3974022118"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="408640557">
+    <nd ref="4105376416"/>
+    <nd ref="4105376417"/>
+    <nd ref="4105376418"/>
+    <nd ref="4105376419"/>
+    <nd ref="4105376416"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="yes"/>
+  </way>
+  <way id="418142319">
+    <nd ref="4185943853"/>
+    <nd ref="4185943851"/>
+    <nd ref="4185943843"/>
+    <nd ref="4185943850"/>
+    <nd ref="4185943853"/>
+    <tag k="access" v="private"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="rack"/>
+  </way>
+  <way id="431899264">
+    <nd ref="4450903769"/>
+    <nd ref="4311324292"/>
+    <nd ref="4450903760"/>
+    <nd ref="4311324293"/>
+    <nd ref="4450903757"/>
+    <nd ref="4450903764"/>
+    <nd ref="4450903770"/>
+    <nd ref="4450903769"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="431899265">
+    <nd ref="4311324333"/>
+    <nd ref="4311324334"/>
+    <nd ref="4311324335"/>
+    <nd ref="4311324336"/>
+    <nd ref="4311324333"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="431900718">
+    <nd ref="717807811"/>
+    <nd ref="4311341531"/>
+    <nd ref="4311341532"/>
+    <nd ref="4311341533"/>
+    <nd ref="2818974112"/>
+    <nd ref="2818974094"/>
+    <nd ref="717807811"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="431900719">
+    <nd ref="4311341534"/>
+    <nd ref="5844793420"/>
+    <nd ref="4311341535"/>
+    <nd ref="4311341536"/>
+    <nd ref="4311341537"/>
+    <nd ref="4311341534"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="431900721">
+    <nd ref="4311341542"/>
+    <nd ref="4311341543"/>
+    <nd ref="4311341544"/>
+    <nd ref="4311341545"/>
+    <nd ref="4311341542"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="432923352">
+    <nd ref="4318521929"/>
+    <nd ref="4318521930"/>
+    <nd ref="4318521931"/>
+    <nd ref="4318521932"/>
+    <nd ref="4318521929"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="436160675">
+    <nd ref="4340380319"/>
+    <nd ref="4340380317"/>
+    <nd ref="4340380316"/>
+    <nd ref="4340380318"/>
+    <nd ref="4340380319"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="436160676">
+    <nd ref="4340380602"/>
+    <nd ref="4340380598"/>
+    <nd ref="4340380599"/>
+    <nd ref="4340380491"/>
+    <nd ref="4340380602"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="436160677">
+    <nd ref="4340380495"/>
+    <nd ref="4340380601"/>
+    <nd ref="4340380600"/>
+    <nd ref="4340380493"/>
+    <nd ref="4340380495"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="436160678">
+    <nd ref="4340380380"/>
+    <nd ref="4340380487"/>
+    <nd ref="4340380485"/>
+    <nd ref="4340380377"/>
+    <nd ref="4340380380"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="436160679">
+    <nd ref="4340380476"/>
+    <nd ref="4340380374"/>
+    <nd ref="4340380474"/>
+    <nd ref="4340380477"/>
+    <nd ref="4340380476"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="436160680">
+    <nd ref="4340380617"/>
+    <nd ref="4340380513"/>
+    <nd ref="4340380511"/>
+    <nd ref="4340380616"/>
+    <nd ref="4340380617"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="436160681">
+    <nd ref="4340380461"/>
+    <nd ref="4340380463"/>
+    <nd ref="4340380356"/>
+    <nd ref="4340380354"/>
+    <nd ref="4340380461"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="436160682">
+    <nd ref="4340380454"/>
+    <nd ref="4340380344"/>
+    <nd ref="4340380444"/>
+    <nd ref="4340380448"/>
+    <nd ref="4340380456"/>
+    <nd ref="4340380454"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="436160683">
+    <nd ref="4340380359"/>
+    <nd ref="4340380462"/>
+    <nd ref="4340380464"/>
+    <nd ref="4340380360"/>
+    <nd ref="4340380357"/>
+    <nd ref="4340380359"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="436160684">
+    <nd ref="4340380457"/>
+    <nd ref="4340380450"/>
+    <nd ref="4340380445"/>
+    <nd ref="4340380446"/>
+    <nd ref="4340380451"/>
+    <nd ref="4340380347"/>
+    <nd ref="4340380457"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="436160685">
+    <nd ref="4340380373"/>
+    <nd ref="4340380370"/>
+    <nd ref="4340380366"/>
+    <nd ref="4340380367"/>
+    <nd ref="4340380371"/>
+    <nd ref="4340380375"/>
+    <nd ref="4340380373"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="436160686">
+    <nd ref="891997694"/>
+    <nd ref="891975812"/>
+    <nd ref="4340380324"/>
+    <nd ref="4340380326"/>
+    <nd ref="4340380325"/>
+    <nd ref="4340380323"/>
+    <nd ref="4340380322"/>
+    <nd ref="891997694"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="436160687">
+    <nd ref="4340380509"/>
+    <nd ref="4340380615"/>
+    <nd ref="4340380613"/>
+    <nd ref="4340380611"/>
+    <nd ref="4340380504"/>
+    <nd ref="4340380604"/>
+    <nd ref="4340380614"/>
+    <nd ref="4340380510"/>
+    <nd ref="4340380509"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="436160688">
+    <nd ref="4340380335"/>
+    <nd ref="4340380332"/>
+    <nd ref="4340380331"/>
+    <nd ref="4340380327"/>
+    <nd ref="4340380329"/>
+    <nd ref="4340380334"/>
+    <nd ref="4340380337"/>
+    <nd ref="4340380339"/>
+    <nd ref="4340380335"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="436160689">
+    <nd ref="4340380488"/>
+    <nd ref="4340380379"/>
+    <nd ref="4340380383"/>
+    <nd ref="4340380384"/>
+    <nd ref="4340380382"/>
+    <nd ref="4340380381"/>
+    <nd ref="4340380376"/>
+    <nd ref="4340380486"/>
+    <nd ref="4340380488"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="445169730">
+    <nd ref="4426415729"/>
+    <nd ref="4426415730"/>
+    <nd ref="4426415731"/>
+    <nd ref="4426415732"/>
+    <nd ref="4426415733"/>
+    <nd ref="4426415729"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="no"/>
+  </way>
+  <way id="449001996">
+    <nd ref="4459669419"/>
+    <nd ref="4459669417"/>
+    <nd ref="4459669416"/>
+    <nd ref="4459669418"/>
+    <nd ref="4459669419"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="449441763">
+    <nd ref="4463945397"/>
+    <nd ref="4463945398"/>
+    <nd ref="4463945399"/>
+    <nd ref="4463945400"/>
+    <nd ref="4463945397"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="racks"/>
+    <tag k="covered" v="yes"/>
+  </way>
+  <way id="456014676">
+    <nd ref="4523376986"/>
+    <nd ref="4523380719"/>
+    <nd ref="4523380720"/>
+    <nd ref="4523380721"/>
+    <nd ref="4523376986"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="no"/>
+  </way>
+  <way id="477682267">
+    <nd ref="4709891598"/>
+    <nd ref="4709891604"/>
+    <nd ref="4709891599"/>
+    <nd ref="4709891602"/>
+    <nd ref="4709891605"/>
+    <nd ref="4709891598"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="481435683">
+    <nd ref="4743709994"/>
+    <nd ref="4743709993"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="483286226">
+    <nd ref="4760428325"/>
+    <nd ref="4760428334"/>
+    <nd ref="4760428328"/>
+    <nd ref="4760428326"/>
+    <nd ref="4760428325"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="486558720">
+    <nd ref="4791525500"/>
+    <nd ref="4791525499"/>
+    <nd ref="4791525498"/>
+    <nd ref="4791525497"/>
+    <nd ref="4791525496"/>
+    <nd ref="4791525495"/>
+    <nd ref="4791525500"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </way>
+  <way id="486558721">
+    <nd ref="4791525504"/>
+    <nd ref="4791525503"/>
+    <nd ref="4791525502"/>
+    <nd ref="4791525501"/>
+    <nd ref="4791525504"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </way>
+  <way id="498112564">
+    <nd ref="4896009066"/>
+    <nd ref="4896009065"/>
+    <nd ref="4896009064"/>
+    <nd ref="4896009063"/>
+    <nd ref="4896009062"/>
+    <nd ref="4896009066"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </way>
+  <way id="499276932">
+    <nd ref="4905726898"/>
+    <nd ref="4905726899"/>
+    <nd ref="5160333966"/>
+    <nd ref="4905726900"/>
+    <nd ref="4905726901"/>
+    <nd ref="4905726898"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="3000"/>
+    <tag k="covered" v="yes"/>
+    <tag k="level" v="-1"/>
+    <tag k="location" v="underground"/>
+    <tag k="name" v="Fietsenstalling Mahlerplein"/>
+    <tag k="operator" v="Gemeente Amsterdam"/>
+  </way>
+  <way id="503532325">
+    <nd ref="4938195556"/>
+    <nd ref="4938195555"/>
+    <nd ref="4938195552"/>
+    <nd ref="4938195551"/>
+    <nd ref="4938195554"/>
+    <nd ref="4938195553"/>
+    <nd ref="4938195556"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="yes"/>
+  </way>
+  <way id="503533697">
+    <nd ref="4938206539"/>
+    <nd ref="4938206538"/>
+    <nd ref="4938206537"/>
+    <nd ref="4938206536"/>
+    <nd ref="4938206539"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="shed"/>
+    <tag k="covered" v="yes"/>
+  </way>
+  <way id="504816526">
+    <nd ref="4949258069"/>
+    <nd ref="4949258070"/>
+    <nd ref="4949258071"/>
+    <nd ref="4949258072"/>
+    <nd ref="4949258069"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="504849130">
+    <nd ref="4949522112"/>
+    <nd ref="4949522113"/>
+    <nd ref="4949522114"/>
+    <nd ref="4949522115"/>
+    <nd ref="4949522112"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="518589562">
+    <nd ref="5058391509"/>
+    <nd ref="5058391510"/>
+    <nd ref="5058391511"/>
+    <nd ref="5058391512"/>
+    <nd ref="5058391509"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="522784399">
+    <nd ref="5090973050"/>
+    <nd ref="5090973051"/>
+    <nd ref="5090973052"/>
+    <nd ref="5090973053"/>
+    <nd ref="5090973050"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="526583706">
+    <nd ref="5120507507"/>
+    <nd ref="5120507508"/>
+    <nd ref="5120507509"/>
+    <nd ref="5120507510"/>
+    <nd ref="5120507507"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="544499561">
+    <nd ref="5263433491"/>
+    <nd ref="5263433492"/>
+    <nd ref="5263433493"/>
+    <nd ref="5263433494"/>
+    <nd ref="5263433495"/>
+    <nd ref="5263433491"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="6"/>
+    <tag k="covered" v="no"/>
+  </way>
+  <way id="544499562">
+    <nd ref="5263433496"/>
+    <nd ref="5263433497"/>
+    <nd ref="5263433498"/>
+    <nd ref="5263433499"/>
+    <nd ref="5263433496"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="4"/>
+    <tag k="covered" v="no"/>
+  </way>
+  <way id="544499563">
+    <nd ref="5263433500"/>
+    <nd ref="5263433501"/>
+    <nd ref="5263433502"/>
+    <nd ref="5263433503"/>
+    <nd ref="5263433500"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="549571565">
+    <nd ref="5308570347"/>
+    <nd ref="5308570348"/>
+    <nd ref="5308570349"/>
+    <nd ref="5308570350"/>
+    <nd ref="5308570347"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="20"/>
+    <tag k="covered" v="no"/>
+  </way>
+  <way id="549571566">
+    <nd ref="5308570351"/>
+    <nd ref="5308570352"/>
+    <nd ref="5308570353"/>
+    <nd ref="5308570354"/>
+    <nd ref="5308570351"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="6"/>
+    <tag k="covered" v="no"/>
+  </way>
+  <way id="554910181">
+    <nd ref="5354783819"/>
+    <nd ref="5354783820"/>
+    <nd ref="5354784621"/>
+    <nd ref="5354784622"/>
+    <nd ref="5354783819"/>
+    <tag k="access" v="yes"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="no"/>
+  </way>
+  <way id="554910184">
+    <nd ref="5354784623"/>
+    <nd ref="5354784624"/>
+    <nd ref="5354784625"/>
+    <nd ref="5354784626"/>
+    <nd ref="5354784623"/>
+    <tag k="access" v="yes"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="no"/>
+  </way>
+  <way id="568726835">
+    <nd ref="5471158311"/>
+    <nd ref="5471158314"/>
+    <nd ref="5471158313"/>
+    <nd ref="5471158312"/>
+    <nd ref="5471158311"/>
+    <tag k="access" v="yes"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="capacity" v="10"/>
+    <tag k="fee" v="no"/>
+    <tag k="lit" v="yes"/>
+    <tag k="smoothness" v="good"/>
+    <tag k="supervised" v="no"/>
+    <tag k="surface" v="concrete"/>
+  </way>
+  <way id="568730679">
+    <nd ref="5471192578"/>
+    <nd ref="5471192577"/>
+    <nd ref="5471192576"/>
+    <nd ref="5471192575"/>
+    <nd ref="5471192578"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="568730685">
+    <nd ref="5471192594"/>
+    <nd ref="5471192593"/>
+    <nd ref="5471192592"/>
+    <nd ref="5471192591"/>
+    <nd ref="5471192594"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="577160527">
+    <nd ref="5533629681"/>
+    <nd ref="5533629680"/>
+    <nd ref="891975661"/>
+    <nd ref="891996154"/>
+    <nd ref="5533629681"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="lit" v="yes"/>
+  </way>
+  <way id="577440722">
+    <nd ref="5535652240"/>
+    <nd ref="5535652241"/>
+    <nd ref="5535652242"/>
+    <nd ref="5535652243"/>
+    <nd ref="5535652240"/>
+    <tag k="access" v="yes"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="no"/>
+  </way>
+  <way id="583437292">
+    <nd ref="5577913197"/>
+    <nd ref="5577913196"/>
+    <nd ref="5577913195"/>
+    <nd ref="5577913194"/>
+    <nd ref="5577913197"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="12"/>
+  </way>
+  <way id="584370210">
+    <nd ref="5585965467"/>
+    <nd ref="5585965466"/>
+    <nd ref="5585965465"/>
+    <nd ref="5585965464"/>
+    <nd ref="5585965467"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="14"/>
+    <tag k="lit" v="yes"/>
+  </way>
+  <way id="584370211">
+    <nd ref="5585965471"/>
+    <nd ref="5585965470"/>
+    <nd ref="5585965469"/>
+    <nd ref="5585965468"/>
+    <nd ref="5585965471"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="7"/>
+    <tag k="lit" v="yes"/>
+  </way>
+  <way id="584371843">
+    <nd ref="5585995721"/>
+    <nd ref="5585995720"/>
+    <nd ref="5585995719"/>
+    <nd ref="5585995718"/>
+    <nd ref="5585995721"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="6"/>
+    <tag k="lit" v="yes"/>
+  </way>
+  <way id="584375451">
+    <nd ref="5586030821"/>
+    <nd ref="5586030820"/>
+    <nd ref="5586030819"/>
+    <nd ref="5586030818"/>
+    <nd ref="5586030821"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="8"/>
+    <tag k="lit" v="yes"/>
+  </way>
+  <way id="590142654">
+    <nd ref="5634847959"/>
+    <nd ref="5634847960"/>
+    <nd ref="5634847961"/>
+    <nd ref="5634847962"/>
+    <nd ref="5634847959"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </way>
+  <way id="590142655">
+    <nd ref="5634847963"/>
+    <nd ref="5634847964"/>
+    <nd ref="5634847965"/>
+    <nd ref="5634847966"/>
+    <nd ref="5634847963"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </way>
+  <way id="590142656">
+    <nd ref="5634847970"/>
+    <nd ref="5634847971"/>
+    <nd ref="5634847972"/>
+    <nd ref="5634847973"/>
+    <nd ref="5634847970"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </way>
+  <way id="590142657">
+    <nd ref="5634847974"/>
+    <nd ref="5634847975"/>
+    <nd ref="5634847976"/>
+    <nd ref="5634847977"/>
+    <nd ref="5634847974"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="590142663">
+    <nd ref="5634848010"/>
+    <nd ref="5634848011"/>
+    <nd ref="5634848012"/>
+    <nd ref="5634848013"/>
+    <nd ref="5634848010"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </way>
+  <way id="590142672">
+    <nd ref="5634848044"/>
+    <nd ref="5634848045"/>
+    <nd ref="5634848046"/>
+    <nd ref="5634848047"/>
+    <nd ref="5634848044"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </way>
+  <way id="591850483">
+    <nd ref="5649808734"/>
+    <nd ref="5649808731"/>
+    <nd ref="5649808733"/>
+    <nd ref="5649808727"/>
+    <nd ref="5649808734"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="capacity" v="120"/>
+    <tag k="covered" v="no"/>
+    <tag k="fee" v="no"/>
+  </way>
+  <way id="594310288">
+    <nd ref="5667429650"/>
+    <nd ref="5667429651"/>
+    <nd ref="5667429652"/>
+    <nd ref="5667429653"/>
+    <nd ref="5667429654"/>
+    <nd ref="5667429655"/>
+    <nd ref="5667429656"/>
+    <nd ref="5667429657"/>
+    <nd ref="5667429658"/>
+    <nd ref="5667429650"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="covered" v="no"/>
+  </way>
+  <way id="594310289">
+    <nd ref="5667429659"/>
+    <nd ref="5667429660"/>
+    <nd ref="5667429661"/>
+    <nd ref="5667429662"/>
+    <nd ref="5667429659"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="wall_loops"/>
+    <tag k="covered" v="yes"/>
+  </way>
+  <way id="594310290">
+    <nd ref="5667429663"/>
+    <nd ref="5667429664"/>
+    <nd ref="5667429665"/>
+    <nd ref="5667429666"/>
+    <nd ref="5667429663"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="yes"/>
+  </way>
+  <way id="594310291">
+    <nd ref="5667429667"/>
+    <nd ref="5667429668"/>
+    <nd ref="5667429669"/>
+    <nd ref="5667429670"/>
+    <nd ref="5667429667"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+    <tag k="covered" v="no"/>
+  </way>
+  <way id="601380619">
+    <nd ref="5715916359"/>
+    <nd ref="5715916360"/>
+    <nd ref="5715916361"/>
+    <nd ref="5715916362"/>
+    <nd ref="5715916359"/>
+    <tag k="access" v="yes"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="bicycle_parking" v="stands"/>
+  </way>
+  <way id="603772692">
+    <nd ref="5730694505"/>
+    <nd ref="5730694503"/>
+    <nd ref="5730694504"/>
+    <nd ref="5730694506"/>
+    <nd ref="5730694505"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="604765187">
+    <nd ref="5737703286"/>
+    <nd ref="5737703287"/>
+    <nd ref="5737703288"/>
+    <nd ref="5737703289"/>
+    <nd ref="5737703286"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="616153014">
+    <nd ref="5825714207"/>
+    <nd ref="5825714206"/>
+    <nd ref="5825714205"/>
+    <nd ref="5825714204"/>
+    <nd ref="5825714207"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="616153015">
+    <nd ref="5825714211"/>
+    <nd ref="5825714210"/>
+    <nd ref="5825714209"/>
+    <nd ref="5825714208"/>
+    <nd ref="5825714211"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="616153016">
+    <nd ref="5825714215"/>
+    <nd ref="5825714214"/>
+    <nd ref="5825714213"/>
+    <nd ref="5825714212"/>
+    <nd ref="5825714215"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="616153017">
+    <nd ref="5825714219"/>
+    <nd ref="5825714218"/>
+    <nd ref="5825714217"/>
+    <nd ref="5825714216"/>
+    <nd ref="5825714219"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="616153018">
+    <nd ref="5825714223"/>
+    <nd ref="5825714222"/>
+    <nd ref="5825714221"/>
+    <nd ref="5825714220"/>
+    <nd ref="5825714223"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="616153019">
+    <nd ref="5825714227"/>
+    <nd ref="5825714226"/>
+    <nd ref="5825714225"/>
+    <nd ref="5825714224"/>
+    <nd ref="5825714227"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="616153020">
+    <nd ref="5825714231"/>
+    <nd ref="5825714230"/>
+    <nd ref="5825714229"/>
+    <nd ref="5825714228"/>
+    <nd ref="5825714231"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="616153021">
+    <nd ref="5825714235"/>
+    <nd ref="5825714236"/>
+    <nd ref="5825714233"/>
+    <nd ref="5825714232"/>
+    <nd ref="5825714235"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="616153023">
+    <nd ref="5825714241"/>
+    <nd ref="5825714240"/>
+    <nd ref="5825714239"/>
+    <nd ref="5825714238"/>
+    <nd ref="5825714241"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="616153024">
+    <nd ref="5825714245"/>
+    <nd ref="5825714244"/>
+    <nd ref="5825714243"/>
+    <nd ref="5825714242"/>
+    <nd ref="5825714245"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="619801706">
+    <nd ref="5856758375"/>
+    <nd ref="5856758374"/>
+    <nd ref="5856758373"/>
+    <nd ref="5856758372"/>
+    <nd ref="5856758375"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="619801708">
+    <nd ref="5856758379"/>
+    <nd ref="5856758378"/>
+    <nd ref="5856758377"/>
+    <nd ref="5856758376"/>
+    <nd ref="5856758379"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="623069556">
+    <nd ref="5884578008"/>
+    <nd ref="5884578007"/>
+    <nd ref="5884578006"/>
+    <nd ref="5884578005"/>
+    <nd ref="5884578008"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="623069557">
+    <nd ref="5884578012"/>
+    <nd ref="5884578011"/>
+    <nd ref="5884578010"/>
+    <nd ref="5884578009"/>
+    <nd ref="5884578012"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="623957809">
+    <nd ref="568328062"/>
+    <nd ref="3773765563"/>
+    <nd ref="3773763556"/>
+    <nd ref="3773765557"/>
+    <nd ref="3773765562"/>
+    <nd ref="568328094"/>
+    <nd ref="568328091"/>
+    <nd ref="568328087"/>
+    <nd ref="568328068"/>
+    <nd ref="568328065"/>
+    <nd ref="568328062"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="624472033">
+    <nd ref="5897038263"/>
+    <nd ref="5897038269"/>
+    <nd ref="5897038262"/>
+    <nd ref="5897038261"/>
+    <nd ref="5897038263"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="624472050">
+    <nd ref="5897039175"/>
+    <nd ref="5897039226"/>
+    <nd ref="5897039170"/>
+    <nd ref="5897039169"/>
+    <nd ref="5897039174"/>
+    <nd ref="5897039222"/>
+    <nd ref="5897039221"/>
+    <nd ref="5897039223"/>
+    <nd ref="5897039175"/>
+    <tag k="amenity" v="bicycle_parking"/>
+    <tag k="smoothness" v="intermediate"/>
+    <tag k="surface" v="paving_stones"/>
+  </way>
+  <way id="624477405">
+    <nd ref="5897108283"/>
+    <nd ref="5897108282"/>
+    <nd ref="5897108281"/>
+    <nd ref="5897108280"/>
+    <nd ref="5897108283"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="624477406">
+    <nd ref="5897108986"/>
+    <nd ref="5897108284"/>
+    <nd ref="5897108985"/>
+    <nd ref="5897108989"/>
+    <nd ref="5897108988"/>
+    <nd ref="5897108987"/>
+    <nd ref="5897108986"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="624481434">
+    <nd ref="5897144805"/>
+    <nd ref="5897144806"/>
+    <nd ref="5897144804"/>
+    <nd ref="5897144803"/>
+    <nd ref="5897144805"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="624481435">
+    <nd ref="5897144809"/>
+    <nd ref="5897144810"/>
+    <nd ref="5897144808"/>
+    <nd ref="5897144807"/>
+    <nd ref="5897144809"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="624481436">
+    <nd ref="5897144814"/>
+    <nd ref="5897144813"/>
+    <nd ref="5897144812"/>
+    <nd ref="5897144811"/>
+    <nd ref="5897144814"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="624481437">
+    <nd ref="5897144822"/>
+    <nd ref="5897144821"/>
+    <nd ref="5897144816"/>
+    <nd ref="5897144815"/>
+    <nd ref="5897144822"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="624481439">
+    <nd ref="5897144825"/>
+    <nd ref="5897144826"/>
+    <nd ref="5897144824"/>
+    <nd ref="5897144823"/>
+    <nd ref="5897144825"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="624481440">
+    <nd ref="5897144827"/>
+    <nd ref="5897144830"/>
+    <nd ref="5897144829"/>
+    <nd ref="5897144828"/>
+    <nd ref="5897144827"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="624481446">
+    <nd ref="5897144990"/>
+    <nd ref="5897144989"/>
+    <nd ref="5897144988"/>
+    <nd ref="5897144987"/>
+    <nd ref="5897144990"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="624754647">
+    <nd ref="5899631530"/>
+    <nd ref="5899631529"/>
+    <nd ref="5899631528"/>
+    <nd ref="5899631527"/>
+    <nd ref="5899631530"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="624754648">
+    <nd ref="5899631534"/>
+    <nd ref="5899631533"/>
+    <nd ref="5899631532"/>
+    <nd ref="5899631531"/>
+    <nd ref="5899631534"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="624754649">
+    <nd ref="5899631538"/>
+    <nd ref="5899631537"/>
+    <nd ref="5899631536"/>
+    <nd ref="5899631535"/>
+    <nd ref="5899631538"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+  <way id="624754661">
+    <nd ref="5899631806"/>
+    <nd ref="5899631805"/>
+    <nd ref="5899631804"/>
+    <nd ref="5899631803"/>
+    <nd ref="5899631806"/>
+    <tag k="amenity" v="bicycle_parking"/>
+  </way>
+</osm>

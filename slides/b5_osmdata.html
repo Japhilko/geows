@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Nutzung von Geodaten in den Sozialwissenschaften</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Jan-Philipp Kolb" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="..\workshop.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Nutzung von Geodaten in den Sozialwissenschaften
+## Das <code>osmdata</code> Paket
+### Jan-Philipp Kolb
+### 09 April, 2020
+
+---
+
+
+
+
+
+## Themen dieses Abschnitts
+
+- Das R-Paket `osmdata` mit dem man OSM-Daten herunterladen kann und das auf der [**Overpass API**](https://wiki.openstreetmap.org/wiki/Overpass_API) beruht. 
+
+- Das Paket `osmplotr`
+
+---
+
+
+## [Das `osmdata` Paket](https://github.com/ropensci/osmdata)
+
+![](figure/osmdatatitle.png)
+
+&gt; Mark Padgham - Import 'OpenStreetMap' Data as Simple Features or Spatial
+        Objects
+
+---
+
+## Das `osmdata` Paket
+
+- Mit dem Paket kann man Daten von OpenStreetMap importieren
+- Die OSM Daten sind unter [**ODbL licence**](https://www.openstreetmap.org/copyright) zu haben 
+
+
+```r
+install.packages("osmdata")
+```
+
+
+```r
+library(osmdata)
+```
+
+
+```r
+citation("osmdata")
+```
+
+---
+
+## Das Paket `osmplotr`
+
+
+```r
+library("osmplotr")
+library("osmdata")
+```
+
+---
+
+## Beispiel Kindergärten in Mannheim
+
+
+```r
+bbox &lt;- getbb("Mannheim")
+dat_osm &lt;- extract_osm_objects(key='building', 
+                              value="kindergarten",
+                              bbox=bbox)
+```
+
+
+
+
+
+---
+
+## Einen Rahmen definieren um Daten zu bekommen
+
+- Der Rahmen kann entweder erstellt werden, indem die Koordinaten angegeben werden:
+
+
+```r
+q &lt;- opq(bbox = c(52.3, 4.7, 52.4, 5.1))
+```
+
+- oder indem man den Befehl `getbb` verwendet:
+
+
+```r
+bb &lt;- getbb('Ladenburg')
+```
+
+- In `bb` sind nun vier Werte gespeichert, die den Rahmen definieren
+
+- Befehl `opq` - eine Overpass Anfrage erstellen
+
+
+```r
+q &lt;- opq(bbox = bb)
+```
+
+&lt;!--
+- Als Ergebnis bekommt man aber noch keine Daten
+--&gt;
+
+---
+
+## Die Grenze von Mannheim 
+
+- Erst mit dem Argument `format_out=polygon` Befehl `getbb` erhält man das Polygon:
+
+
+```r
+bb_poly &lt;- getbb(place_name = "Ladenburg", 
+                 format_out = "polygon")
+```
+
+- Das Ergebnis ist sind zwei Vektoren mit den Longitude und Latitude Koordinaten.
+
+
+```
+##          [,1]     [,2]
+## [1,] 8.569720 49.49107
+## [2,] 8.569858 49.49101
+## [3,] 8.569999 49.49096
+## [4,] 8.570342 49.49085
+```
+
+---
+
+## Das Paket für simple feature (`sf`) 
+
+&gt; Simple Features for R
+
+- Das Paket `sf` ist ein Paket um geometrische Operationen durchzuführen. 
+
+
+```r
+library(sf)
+```
+
+- [**Vignette für das Paket `sf`**](https://cran.r-project.org/web/packages/sf/vignettes/sf3.html)
+
+![](figure/rsimplefeatures.png)
+
+---
+
+## Die Funktion `st_linestring`
+
+&gt; Create simple feature from a numeric vector, matrix or list
+
+
+```r
+library(sf)
+ls &lt;- st_linestring(bb_poly)
+sfc &lt;- st_sfc(ls)
+```
+
+
+
+
+
+
+
+---
+
+## Den `linestring` plotten
+
+
+
+```r
+library(tmap)
+qtm(sfc)
+```
+
+![](b5_osmdata_files/figure-html/unnamed-chunk-16-1.png)&lt;!-- --&gt;
+
+---
+
+## Einrichtungen (amenity)
+
+
+### [**OSM map features**](https://wiki.openstreetmap.org/wiki/Map_Features)
+
+- Alle benannten Objekte findet man, wenn man OSM map features in eine Suchmaschine eingibt. 
+
+- Achtung, wenn man bspw. alle Objekte mit dem Schlüssel `amenity` für eine Stadt heraussucht, bekommt man einen recht großen Datensatz
+
+
+```r
+q &lt;- add_osm_feature (q, key = 'amenity')
+osmdata_xml(q, '../data/Ladenburg_amenity.osm')
+```
+
+---
+
+## Was dahinter steckt
+
+
+```r
+dat &lt;- sf::st_read ('../data/Ladenburg_amenity.osm', 
+                    layer = 'points', 
+                    quiet = TRUE)
+```
+
+
+
+```r
+nrow(dat)
+?osmdata_sf
+```
+
+---
+
+## Die Funktion `osmdata_sf`
+
+- Die Funktion `osmdata_sf` gibt ein `osmdata` ObjeKt im `sf` Format.
+
+
+
+```r
+library(magrittr)
+dat1 &lt;- opq(bbox = 'Ladenburg') %&gt;%
+    add_osm_feature(key = 'shop', value = 'bakery') %&gt;%
+    osmdata_sf ()
+```
+
+
+```r
+unlist(lapply(dat1,nrow))
+```
+
+```
+##   osm_points osm_polygons 
+##           16            0
+```
+
+&lt;!--
+## Alles in eine Karte plotten
+
+### [**Der Start mit dem Paket `tmap`](https://cran.r-project.org/web/packages/tmap/vignettes/tmap-getstarted.html)
+
+
+```r
+library(tmap)
+tm_shape(sfc) 
+tm_bubbles(dat, size=2)
+```
+--&gt;
+
+
+---
+
+## Beispiel Fahrradparkplätze
+
+- [**OSM map features**](https://wiki.openstreetmap.org/wiki/Map_Features#Highway)
+
+
+```r
+q &lt;- add_osm_feature (q, key = 'amenity',value = "bicycle_parking")
+osmdata_xml(q, '../data/Amsterdam_amenity_bicycle_parking.osm')
+```
+
+
+```r
+dat &lt;- sf::st_read ('../data/Amsterdam_amenity_bicycle_parking.osm', 
+                    layer = 'points', 
+                    quiet = TRUE)
+```
+
+---
+
+## Die Daten plotten
+
+
+```r
+library(tmap)
+qtm(dat)
+```
+
+![](b5_osmdata_files/figure-html/unnamed-chunk-24-1.png)&lt;!-- --&gt;
+
+---
+
+## Sehen was dahinter steckt
+
+
+```r
+dat &lt;- sf::st_read ('../data/Amsterdam_amenity.osm', 
+                    layer = 'points', 
+                    quiet = TRUE)
+```
+
+
+```r
+nrow(dat)
+names(dat)
+```
+
+---
+
+## Bar`s in Mannheim
+
+
+```r
+?add_osm_feature
+```
+
+
+```r
+q &lt;- opq (bbox = 'Mannheim')
+q &lt;- add_osm_feature (q, key ="amenity",value = 'bar') 
+osmdata_xml (q, 'data/Mannheim_bar.osm')
+```
+
+
+```r
+dat_bar &lt;- sf::st_read ('../data/Mannheim_bar.osm', 
+                        layer = 'points', quiet = TRUE)
+```
+
+---
+
+## Bus stations in Amsterdam
+
+
+```r
+q &lt;- opq (bbox = 'Amsterdam')
+q &lt;- add_osm_feature (q, key ="amenity",
+                      value = 'bus_station') 
+osmdata_xml (q, 'data/Amsterdam_bus_station.osm')
+```
+
+
+```r
+dat_bus &lt;- sf::st_read ('../data/Amsterdam_bus_station.osm', 
+                        layer = 'points', quiet = TRUE)
+nrow(dat_bus)
+```
+
+
+```r
+?sf::st_read
+```
+
+---
+
+## An alternative
+
+- [Main vignette `osmdata`](https://github.com/ropensci/osmdata/blob/master/vignettes/osmdata.Rmd)
+- [OpenStreetMap Data Structure](https://cran.r-project.org/web/packages/osmdata/vignettes/osm-sf-translation.html)
+
+
+```r
+q &lt;- opq (bbox = 'Amsterdam')
+q &lt;- add_osm_feature (q, key ="public_transport",
+                      value = 'station') 
+osmdata_xml (q, '../data/Amsterdam_bus_pubtrans.osm')
+```
+
+
+```r
+dat_bus &lt;- sf::st_read ('../data/Amsterdam_bus_pubtrans.osm', 
+                        layer = 'points', quiet = TRUE)
+nrow(dat_bus)
+```
+
+&lt;!--
+als layer getestet: area, polygon
+--&gt;
+
+---
+
+## Further information about public transport
+
+### Stop area
+
+
+
+
+
+
+
+&lt;!--
+dat_stoparea &lt;- sf::st_read('data/Amsterdam_pubtrans_stoparea.osm', layer = 'points', quiet = TRUE)
+--&gt;
+
+
+
+```r
+dat3 &lt;- opq(bbox = 'Amsterdam') %&gt;%
+    add_osm_feature(key = 'railway', 
+                    value = 'tram_stop') %&gt;%
+    osmdata_sf ()
+```
+
+
+
+
+
+
+
+
+
+```r
+dat3$osm_points$geometry
+```
+
+---
+
+## Das Ergebnis graphisch darstellen
+
+
+
+
+
+
+```r
+# install.packages("osmplotr")
+library("osmplotr")
+bbox &lt;- getbb("Amsterdam")
+dat_pa &lt;- extract_osm_objects(key='highway', 
+                              value="primary",
+                              bbox=bbox)
+dat_sa &lt;- extract_osm_objects(key='highway', 
+                              value="secondary",
+                              bbox=bbox)
+dat_ta &lt;- extract_osm_objects(key='highway', 
+                              value="tertiary",
+                              bbox=bbox)
+```
+
+
+
+
+
+
+
+
+---
+
+## Die Graphik erzeugen
+
+
+```r
+map &lt;- osm_basemap(bbox = bbox, bg = c("#F5F5DC"))
+map &lt;- add_osm_objects(map, dat_pa, col = c("#00008B"))
+map &lt;- add_osm_objects(map, dat_sa, col = "green")
+map &lt;- add_osm_objects(map, dat_ta, col = "lightblue")
+map &lt;- add_osm_objects(map, dat3$osm_points, col = c("red"))
+print_osm_map(map)
+```
+
+&lt;!--
+![](figure/tramhighway_amsterdam.pdf)
+--&gt;
+
+---
+
+## Get an overview of the available features
+
+
+```r
+features &lt;- available_features()
+head(features,n=20)
+```
+
+```
+##  [1] "4wd only"                "abandoned"              
+##  [3] "abutters"                "access"                 
+##  [5] "addr"                    "addr:city"              
+##  [7] "addr:conscriptionnumber" "addr:country"           
+##  [9] "addr:district"           "addr:flats"             
+## [11] "addr:full"               "addr:hamlet"            
+## [13] "addr:housename"          "addr:housenumber"       
+## [15] "addr:inclusion"          "addr:interpolation"     
+## [17] "addr:place"              "addr:postcode"          
+## [19] "addr:province"           "addr:state"
+```
+
+---
+
+
+## [Changing the API](https://github.com/ropensci/osmdata/issues/126)
+
+
+
+```r
+api_list &lt;- c('http://overpass-api.de/api/interpreter',
+              'https://lz4.overpass-api.de/api/interpreter',
+              'https://z.overpass-api.de/api/interpreter',
+              'https://overpass.kumi.systems/api/interpreter')
+
+api_to_use &lt;- sample(1:length(api_list), 1)
+
+set_overpass_url(api_list[api_to_use]) 
+```
+
+
+
+
+---
+
+## Die wichtigsten Funktionen im Paket `osmdata`
+
+
+
+```r
+# https://rdrr.io/cran/osmdata/man/osmdata_sp.html
+?osmdata_sp
+```
+
+
+
+
+
+
+---
+
+
+## Links
+
+
+- [**Github Ordner für das `osmdata` Paket**](https://github.com/ropensci/osmdata)
+- [**Vignette für das Paket `osmdata`**](https://cran.r-project.org/web/packages/osmdata/vignettes/osmdata.html) auf [**github**](https://github.com/ropensci/osmdata/blob/master/vignettes/osmdata.Rmd)
+- [**osmdata Homepage**](https://ropensci.github.io/osmdata/)
+- [**Overpass API - query form**](http://overpass-api.de/query_form.html)
+- [**Overpass API/Language Guide**](https://wiki.openstreetmap.org/wiki/DE:Overpass_API/Language_Guide)
+- [**Overpass Turbo**](https://wiki.openstreetmap.org/wiki/DE:Overpass_turbo)
+&lt;!--
+https://cran.r-project.org/web/packages/osmdata/osmdata.pdf
+--&gt;
+
+
+
+- [**`osmplotr` tutorial**](https://ropensci.org/tutorials/osmplotr_tutorial/)
+
+- [**Geocomputation with R**](https://bookdown.org/robinlovelace/geocompr/)
+
+- [**osmar - JOS**](https://www.theoj.org/joss-papers/joss.00305/10.21105.joss.00305.pdf)
+
+
+
+&lt;!--
+https://www.r-bloggers.com/how-to-quickly-enrich-a-map-with-natural-and-anthropic-details/
+https://www.maths.lancs.ac.uk/~rowlings/Teaching/UseR2012/introduction2Talk.html
+https://geostat-course.org/aggregator/sources/3?page=1
+https://gis.stackexchange.com/questions/115911/converting-osm-file-to-shapefile-or-data-frame-in-r
+https://forum.osm.org/viewtopic.php?id=53336
+https://hub.docker.com/r/robinlovelace/geocompr/
+
+https://gis.stackexchange.com/questions/264380/getting-buildings-that-house-specific-amenities-using-r
+--&gt;
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
